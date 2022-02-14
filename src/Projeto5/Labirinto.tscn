@@ -60,7 +60,7 @@ script = ExtResource( 31 )
 scale = Vector2( 0.15, 0.15 )
 frames = SubResource( 1 )
 animation = "Run"
-frame = 13
+frame = 5
 playing = true
 centered = false
 
