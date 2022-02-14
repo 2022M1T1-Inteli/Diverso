@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="Projeto5"
-config/icon="res://icon.png"
+run/main_scene="res://Labirinto.tscn"
 
 [physics]
 
