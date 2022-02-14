@@ -23,6 +23,5 @@ func _physics_process(delta):
 		motion.x = 0
 		motion.y = 0
 		$AnimatedSprite.play("Idle")
-	Input
-
+	
 	motion = move_and_slide(motion)
