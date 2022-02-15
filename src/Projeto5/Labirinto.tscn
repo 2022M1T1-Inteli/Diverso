@@ -1,4 +1,4 @@
-[gd_scene load_steps=34 format=2]
+[gd_scene load_steps=38 format=2]
 
 [ext_resource path="res://Imagens/Run (13).png" type="Texture" id=1]
 [ext_resource path="res://Imagens/Run (14).png" type="Texture" id=2]
@@ -31,6 +31,10 @@
 [ext_resource path="res://Imagens/Idle (2).png" type="Texture" id=29]
 [ext_resource path="res://Imagens/Idle (6).png" type="Texture" id=30]
 [ext_resource path="res://Jogador.gd" type="Script" id=31]
+[ext_resource path="res://fundo preto.jpg" type="Texture" id=32]
+[ext_resource path="res://parede.tres" type="TileSet" id=33]
+[ext_resource path="res://parede1.tres" type="TileSet" id=34]
+[ext_resource path="res://parede2.tres" type="TileSet" id=35]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -50,20 +54,68 @@ radius = 17.0
 height = 32.0
 
 [node name="Labirinto" type="Node2D"]
+__meta__ = {
+"_edit_horizontal_guides_": [ -182.0 ]
+}
 
 [node name="Jogador" type="KinematicBody2D" parent="."]
+position = Vector2( 0, -9 )
 script = ExtResource( 31 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Camera2D" type="Camera2D" parent="Jogador"]
+current = true
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Jogador"]
 scale = Vector2( 0.15, 0.15 )
 frames = SubResource( 1 )
 animation = "Run"
-frame = 5
-playing = true
 centered = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Jogador"]
 position = Vector2( 27, 41 )
 shape = SubResource( 2 )
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2( 3.13, 2.63 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( -856, -448 )
+scale = Vector2( 3.12683, 2.63171 )
+texture = ExtResource( 32 )
+centered = false
+
+[node name="parede cima" type="TileMap" parent="."]
+z_index = -1
+z_as_relative = false
+tile_set = ExtResource( 33 )
+cell_size = Vector2( 32, 32 )
+show_collision = true
+format = 1
+tile_data = PoolIntArray( -65536, 0, 0, -65535, 0, 0, -65534, 0, 0, -65533, 0, 0, -65532, 0, 0, -65531, 0, 0, -65530, 0, 0, -65529, 0, 0, -65528, 0, 0, -65527, 0, 0, -65526, 0, 0, -65525, 0, 0, -65524, 0, 0, -65523, 0, 0, -65522, 0, 0, -65521, 0, 0, -65520, 0, 0, -65519, 0, 0, -65518, 0, 0, -65517, 0, 0, -65516, 0, 0, -65515, 0, 0, -65514, 0, 0, -65513, 0, 0, -65512, 0, 0, -65511, 0, 0, 196625, 1, 0, 196626, 1, 0, 196627, 1, 0, 196628, 1, 0 )
+
+[node name="parede baixo" type="TileMap" parent="."]
+tile_set = ExtResource( 33 )
+cell_size = Vector2( 32, 32 )
+show_collision = true
+format = 1
+tile_data = PoolIntArray( 196608, 1, 0, 196609, 1, 0, 196610, 1, 0, 196611, 1, 0, 196612, 1, 0, 196613, 1, 0, 196614, 1, 0, 196615, 1, 0, 196616, 1, 0, 196617, 1, 0, 196618, 1, 0, 196619, 1, 0, 196620, 1, 0, 196621, 1, 0, 196622, 1, 0, 196623, 1, 0, 196624, 1, 0, 196625, 1, 0, 196626, 1, 0, 196627, 1, 0, 196628, 1, 0, 196629, 1, 0, 196630, 1, 0 )
+
+[node name="parede lado" type="TileMap" parent="."]
+rotation = -1.5708
+tile_set = ExtResource( 34 )
+cell_size = Vector2( 31, 32 )
+format = 1
+tile_data = PoolIntArray( -6, 0, 0, -5, 0, 0, -4, 0, 0, -3, 0, 0, -2, 0, 0, -1, 0, 0 )
+
+[node name="parede lado oposto" type="TileMap" parent="."]
+rotation = -1.5708
+tile_set = ExtResource( 35 )
+cell_size = Vector2( 32, 32 )
+show_collision = true
+format = 1
+tile_data = PoolIntArray( -1572856, 0, 0, -1572855, 0, 0, -1572854, 0, 0, -1572853, 0, 0, -1572852, 0, 0, -1572851, 0, 0, -1572850, 0, 0, -1572849, 0, 0, 1572851, 0, 0, 1572852, 0, 0, 1572853, 0, 0, 1572854, 0, 0, 1572855, 0, 0, 1572856, 0, 0, 1572857, 0, 0 )
