@@ -81,11 +81,11 @@ shape = SubResource( 2 )
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
-motion_mirroring = Vector2( 3.13, 2.63 )
+motion_mirroring = Vector2( 914, 615 )
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( -856, -448 )
-scale = Vector2( 3.12683, 2.63171 )
+position = Vector2( -914, -615 )
+scale = Vector2( 4.30406, 3.44634 )
 texture = ExtResource( 32 )
 centered = false
 
@@ -118,4 +118,4 @@ tile_set = ExtResource( 35 )
 cell_size = Vector2( 32, 32 )
 show_collision = true
 format = 1
-tile_data = PoolIntArray( -1572856, 0, 0, -1572855, 0, 0, -1572854, 0, 0, -1572853, 0, 0, -1572852, 0, 0, -1572851, 0, 0, -1572850, 0, 0, -1572849, 0, 0, 1572851, 0, 0, 1572852, 0, 0, 1572853, 0, 0, 1572854, 0, 0, 1572855, 0, 0, 1572856, 0, 0, 1572857, 0, 0 )
+tile_data = PoolIntArray( 1572851, 0, 0, 1572852, 0, 0, 1572853, 0, 0, 1572854, 0, 0, 1572855, 0, 0, 1572856, 0, 0, 1572857, 0, 0 )
