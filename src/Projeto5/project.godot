@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="Projeto5"
-run/main_scene="res://Labirinto.tscn"
+run/main_scene="res://Main Menu.tscn"
 
 [physics]
 

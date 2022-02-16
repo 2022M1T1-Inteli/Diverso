@@ -1,0 +1,60 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Imagens/bgtest.jpg" type="Texture" id=1]
+[ext_resource path="res://Main Menu.gd" type="Script" id=2]
+
+[node name="Main Menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -600.0
+margin_top = -315.0
+margin_right = 600.0
+margin_bottom = 315.0
+texture = ExtResource( 1 )
+stretch_mode = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -100.0
+margin_top = -22.0
+margin_right = 100.0
+margin_bottom = 22.0
+rect_clip_content = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="comecarbutton" type="Button" parent="VBoxContainer"]
+margin_right = 200.0
+margin_bottom = 20.0
+text = "Começar"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ajustesbutton" type="Button" parent="VBoxContainer"]
+margin_top = 24.0
+margin_right = 200.0
+margin_bottom = 44.0
+text = "Ajustes"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="VBoxContainer/comecarbutton" to="." method="_on_comecarbutton_pressed"]
