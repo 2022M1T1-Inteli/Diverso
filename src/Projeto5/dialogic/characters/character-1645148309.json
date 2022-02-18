@@ -1,0 +1,20 @@
+{
+	"color": "#ff0004ff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1645148309.json",
+	"mirror_portraits": false,
+	"name": "NOME DO JOGADOR",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100
+}

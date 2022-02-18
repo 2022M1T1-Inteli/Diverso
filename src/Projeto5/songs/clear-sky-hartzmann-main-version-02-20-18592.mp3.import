@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/clear-sky-hartzmann-main-version-02-20-18592.mp3-c187f5e3d640a04a91aafdb953f46900.mp3str"
+
+[deps]
+
+source_file="res://songs/clear-sky-hartzmann-main-version-02-20-18592.mp3"
+dest_files=[ "res://.import/clear-sky-hartzmann-main-version-02-20-18592.mp3-c187f5e3d640a04a91aafdb953f46900.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
