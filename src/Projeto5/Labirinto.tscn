@@ -33,7 +33,7 @@
 [ext_resource path="res://Jogador.gd" type="Script" id=31]
 [ext_resource path="res://fundo preto.jpg" type="Texture" id=32]
 [ext_resource path="res://paredebaixotry.tres" type="TileSet" id=33]
-[ext_resource path="res://paredeladotry.tres" type="TileSet" id=34]
+[ext_resource path="res://PAREDE LADOI.tres" type="TileSet" id=34]
 [ext_resource path="res://chaojutry.tres" type="TileSet" id=36]
 [ext_resource path="res://NPC/Idle (1).png" type="Texture" id=37]
 [ext_resource path="res://NPC/Idle (2).png" type="Texture" id=38]
@@ -157,7 +157,7 @@ position = Vector2( -58, -47 )
 scale = Vector2( 0.149477, 0.147627 )
 frames = SubResource( 3 )
 animation = "Idle"
-frame = 9
+frame = 5
 playing = true
 centered = false
 __meta__ = {
