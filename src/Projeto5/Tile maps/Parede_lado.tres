@@ -3,7 +3,6 @@
 [ext_resource path="res://Imagens random/ParedeladoI.png" type="Texture" id=1]
 [ext_resource path="res://Imagens random/paredeladofinalI.png" type="Texture" id=2]
 
-
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 16, 16 )
 
