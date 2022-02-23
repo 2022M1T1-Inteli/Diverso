@@ -12,21 +12,15 @@
 
 ## Descrição
 
-📜 Descrição curta sobre o que seu projeto faz.
-<br><br>
-Meu projeto é um exemplo de como utilizar o github.
+📜 Nosso projeto tem a premissa de tornar o aprendizado sobre Diversidade e Inclusão dinâmico.
 <br><br>
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+<img src="https://user-images.githubusercontent.com/99190423/155331567-9624d5e4-2cad-4633-a980-c5e86e533802.png" alt="DiverSo" border="0">
+  Game by Zé Developers</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>
 </p>
 
 
-💡 De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-<br><br>
-Meu projeto ajuda estudantes inteli a configurarem seus githubs.
-<br><br>
-May the force be with you!
+💡 Nós desenvolvemos um jogo para o curso de D&I da empresa AMBEV, de forma que os jogadores se sintam engajados a aprender e se desenvolverem de nossa criação.
 <br><br>
 
 ## 🛠 Estrutura de pastas
@@ -132,8 +126,9 @@ A cada atualização os detalhes devem ser lançados aqui.
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+1. 
+2. <https://github.com/iuricode/readme-template>
+3. <https://github.com/gabrieldejesus/readme-model>
+4. <https://creativecommons.org/share-your-work/>
+5. <https://freesound.org/>
+6. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
