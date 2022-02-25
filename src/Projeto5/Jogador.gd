@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-const SPEED = 300
+const SPEED = 200
 var motion = Vector2()
 
 func _physics_process(delta):
@@ -15,10 +15,10 @@ func _physics_process(delta):
 		$AnimatedSprite.flip_h = true
 	elif Input.is_action_pressed("ui_up"):
 		motion.y = -SPEED
-		$AnimatedSprite.play("Run")
+		$AnimatedSprite.play("Up")
 	elif Input.is_action_pressed("ui_down"):
 		motion.y = SPEED
-		$AnimatedSprite.play("Run")
+		$AnimatedSprite.play("Down")
 	else:
 		motion.x = 0
 		motion.y = 0
