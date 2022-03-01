@@ -4,43 +4,78 @@
 			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Oi, chefe. Que ótimo lhe ver por aqui :)"
+			"text": "- Olá, você deve ser o novo funcionário"
 		},
 		{
 			"character": "character-1645148309.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Apenas estou dando uma passada nas salas para saber se está tudo bem."
+			"text": "- Sim. Mandaram que eu viesse aqui para receber informações"
 		},
 		{
 			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Comigo está tudo ótimo!!! Mas... "
+			"text": "- Perfeito. Eu preencherei suas informações. Pode me passar seus documentos?"
 		},
 		{
 			"character": "character-1645148309.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Mas...?"
+			"text": "- Certo"
 		},
 		{
 			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Seria bom se você fosse na sala da Larissa..."
+			"text": "- ... "
+		},
+		{
+			"character": "character-1645147809.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- ...."
+		},
+		{
+			"character": "character-1645147809.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- ...."
 		},
 		{
 			"character": "character-1645148309.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Por quê? Aconteceu algo?"
+			"text": "- Algum problema?"
 		},
 		{
 			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Veja você mesmo."
+			"text": "- Você é mulher, certo?"
+		},
+		{
+			"character": "character-1645148309.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Pode definir como neutro?"
+		},
+		{
+			"character": "character-1645147809.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Desculpe... Mas não temos essa opção... "
+		},
+		{
+			"character": "character-1645147809.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Vá para a sala 2. Talvez lá eles arrumem seu problema."
+		},
+		{
+			"custom_slot": "",
+			"event_id": "dialogic_026",
+			"use_default_slot": true
 		},
 		{
 			"character": "",
@@ -50,7 +85,7 @@
 		},
 		{
 			"event_id": "dialogic_022",
-			"transition_duration": 2
+			"transition_duration": 1
 		}
 	],
 	"metadata": {

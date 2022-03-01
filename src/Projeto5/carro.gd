@@ -12,14 +12,14 @@ func _ready():
 func _process(delta):
 	if(posicao_inicial <= posicao_final and flip):
 		$".".position.y += 2
-		position.x=-130
+		position.x=-120
 		$Sprite.flip_v = false
 		if ($".".position.y >= posicao_final):
 			flip = false
 
 	if($".".position.y >= posicao_inicial and !flip):
 		$".".position.y -= 2
-		position.x=-200
+		position.x=-190
 		$Sprite.flip_v = true
 		if ($".".position.y <= posicao_inicial):
 			flip = true
