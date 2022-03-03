@@ -128,15 +128,15 @@ length = 0.001
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
-"loop": false,
-"name": "Fechar",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
 "loop": false,
 "name": "Abrir",
 "speed": 30.0
+}, {
+"frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
+"loop": false,
+"name": "Fechar",
+"speed": 20.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=11]
@@ -223,7 +223,7 @@ position = Vector2( -58, -47 )
 scale = Vector2( 0.149477, 0.147627 )
 frames = SubResource( 3 )
 animation = "Idle"
-frame = 5
+frame = 3
 playing = true
 centered = false
 
@@ -519,4 +519,25 @@ texture = ExtResource( 70 )
 region_enabled = true
 region_rect = Rect2( -0.703896, 64.1815, 16.9229, 48.7182 )
 
-[node name="Sprite" type="Sprite" parent="Cenário"]
+[node name="Quadros" type="Node2D" parent="Cenário"]
+
+[node name="gráfico" type="Sprite" parent="Cenário/Quadros"]
+position = Vector2( 740, -469 )
+scale = Vector2( 0.690476, 0.648936 )
+texture = ExtResource( 70 )
+region_enabled = true
+region_rect = Rect2( 303.964, 16.3094, 63.9866, 47.4366 )
+
+[node name="retrato" type="Sprite" parent="Cenário/Quadros"]
+position = Vector2( 775, -472 )
+scale = Vector2( 1.1875, 1.16667 )
+texture = ExtResource( 70 )
+region_enabled = true
+region_rect = Rect2( 383.475, -0.231703, 16.6826, 15.491 )
+
+[node name="jornais" type="Sprite" parent="Cenário/Quadros"]
+position = Vector2( 814, -468 )
+scale = Vector2( 0.849206, 0.833333 )
+texture = ExtResource( 70 )
+region_enabled = true
+region_rect = Rect2( 368.571, 17.1854, 63.4278, 45.8839 )
