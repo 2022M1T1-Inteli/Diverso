@@ -12,12 +12,13 @@ func _ready():
 func _process(delta):
 	if(posicao_inicial <= posicao_final and flip):
 		$".".position.y += 2
-		position.x=-120
+		position.x=-105
 		$Sprite.flip_v = false
 		if ($".".position.y >= posicao_final):
 			flip = false
 
 	if($".".position.y >= posicao_inicial and !flip):
+		get_node("AnimationPlayer").play("cor")
 		$".".position.y -= 2
 		position.x=-190
 		$Sprite.flip_v = true
