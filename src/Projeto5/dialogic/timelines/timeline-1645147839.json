@@ -4,7 +4,7 @@
 			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Olá, você deve ser o novo funcionário"
+			"text": "- Olá, você deve ser a nova funcionária"
 		},
 		{
 			"character": "character-1645148309.json",
@@ -16,7 +16,7 @@
 			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Perfeito. Eu preencherei suas informações. Pode me passar seus documentos?"
+			"text": "- Perfeito. Eu preencherei sua ficha. Pode me passar seus documentos?"
 		},
 		{
 			"character": "character-1645148309.json",
@@ -52,25 +52,31 @@
 			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Você é mulher, certo?"
+			"text": "- Você é mulher?"
 		},
 		{
 			"character": "character-1645148309.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Pode definir como neutro?"
+			"text": "- Sim, uma mulher trans."
 		},
 		{
 			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Desculpe... Mas não temos essa opção... "
+			"text": "- Entendo... Mas nós precisamos do seu nome anterior."
+		},
+		{
+			"character": "character-1645148309.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Ele não me representa mais. Meu nome é Glória."
 		},
 		{
 			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Vá para a sala 2. Talvez lá eles arrumem seu problema."
+			"text": "- Isso pode ser um problema... Na sala 2 eles podem conversar melhor com você."
 		},
 		{
 			"custom_slot": "",
