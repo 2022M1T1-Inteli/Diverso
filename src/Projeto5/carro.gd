@@ -18,7 +18,6 @@ func _process(delta):
 			flip = false
 
 	if($".".position.y >= posicao_inicial and !flip):
-		get_node("AnimationPlayer").play("cor")
 		$".".position.y -= 2
 		position.x=-190
 		$Sprite.flip_v = true

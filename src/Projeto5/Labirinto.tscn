@@ -487,8 +487,6 @@ position = Vector2( -12.5, -16 )
 shape = SubResource( 23 )
 
 [node name="Sprite" type="Sprite" parent="Cenário/carro"]
-modulate = Color( 0.0313726, 0.0117647, 0.145098, 1 )
-self_modulate = Color( 0.52549, 0.647059, 0.866667, 1 )
 position = Vector2( -44, -78 )
 scale = Vector2( 0.253846, 0.266667 )
 texture = ExtResource( 69 )
@@ -552,25 +550,25 @@ position = Vector2( 176.5, 188.25 )
 scale = Vector2( 1.10417, 1.14444 )
 texture = ExtResource( 70 )
 region_enabled = true
-region_rect = Rect2( 367.97, 65.922, 144.457, 45.3611 )
+region_rect = Rect2( 368.505, 65.922, 144.442, 45.3611 )
 
 [node name="Sprite2" type="Sprite" parent="Cenário/Sofá"]
 position = Vector2( 336, 189 )
 scale = Vector2( 1.10417, 1.14444 )
 texture = ExtResource( 70 )
 region_enabled = true
-region_rect = Rect2( 367.97, 65.922, 144.457, 45.3611 )
+region_rect = Rect2( 368.505, 65.922, 143.922, 45.3611 )
 
 [node name="Sprite3" type="Sprite" parent="Cenário/Sofá"]
 position = Vector2( 495, 189 )
 scale = Vector2( 1.10417, 1.14444 )
 texture = ExtResource( 70 )
 region_enabled = true
-region_rect = Rect2( 367.97, 65.922, 144.457, 45.3611 )
+region_rect = Rect2( 368.505, 65.922, 143.922, 45.3611 )
 
 [node name="Sprite4" type="Sprite" parent="Cenário/Sofá"]
 position = Vector2( 655, 189 )
 scale = Vector2( 1.10417, 1.14444 )
 texture = ExtResource( 70 )
 region_enabled = true
-region_rect = Rect2( 367.97, 65.922, 144.457, 45.3611 )
+region_rect = Rect2( 368.115, 65.922, 144.312, 45.3611 )
