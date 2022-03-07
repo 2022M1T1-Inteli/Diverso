@@ -571,3 +571,27 @@ scale = Vector2( 1.10417, 1.14444 )
 texture = ExtResource( 70 )
 region_enabled = true
 region_rect = Rect2( 368.115, 65.922, 144.312, 45.3611 )
+
+[node name="Sofá2" type="Node2D" parent="Cenário/Sofá"]
+position = Vector2( 961, 2 )
+
+[node name="Sprite" type="Sprite" parent="Cenário/Sofá/Sofá2"]
+position = Vector2( 178.75, 188 )
+scale = Vector2( 1.12847, 1.14444 )
+texture = ExtResource( 70 )
+region_enabled = true
+region_rect = Rect2( 368.505, 65.922, 144.442, 45.3611 )
+
+[node name="Sprite2" type="Sprite" parent="Cenário/Sofá/Sofá2"]
+position = Vector2( 346.526, 188 )
+scale = Vector2( 1.22341, 1.14444 )
+texture = ExtResource( 70 )
+region_enabled = true
+region_rect = Rect2( 368.505, 65.922, 143.922, 45.3611 )
+
+[node name="Sprite3" type="Sprite" parent="Cenário/Sofá/Sofá2"]
+position = Vector2( 490, 189 )
+scale = Vector2( 1.1875, 1.14444 )
+texture = ExtResource( 70 )
+region_enabled = true
+region_rect = Rect2( 368.505, 65.922, 96.745, 45.3611 )
