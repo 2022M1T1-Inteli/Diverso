@@ -1,4 +1,4 @@
-[gd_scene load_steps=94 format=2]
+[gd_scene load_steps=84 format=2]
 
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-5.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-6.png" type="Texture" id=2]
@@ -36,16 +36,7 @@
 [ext_resource path="res://Tile maps/Parede_lado.tres" type="TileSet" id=34]
 [ext_resource path="res://Tile maps/Parede_cima.tres" type="TileSet" id=35]
 [ext_resource path="res://Tile maps/Chão_1.tres" type="TileSet" id=36]
-[ext_resource path="res://NPC/Idle (1).png" type="Texture" id=37]
-[ext_resource path="res://NPC/Idle (2).png" type="Texture" id=38]
-[ext_resource path="res://NPC/Idle (8).png" type="Texture" id=39]
-[ext_resource path="res://NPC/Idle (3).png" type="Texture" id=40]
-[ext_resource path="res://NPC/Idle (5).png" type="Texture" id=41]
-[ext_resource path="res://NPC/Idle (9).png" type="Texture" id=42]
-[ext_resource path="res://NPC/Idle (4).png" type="Texture" id=43]
-[ext_resource path="res://NPC/Idle (6).png" type="Texture" id=44]
-[ext_resource path="res://NPC/Idle (10).png" type="Texture" id=45]
-[ext_resource path="res://NPC/Idle (7).png" type="Texture" id=46]
+[ext_resource path="res://npc 3.png" type="Texture" id=37]
 [ext_resource path="res://NPC.gd" type="Script" id=47]
 [ext_resource path="res://Imagens random/—Pngtree—hand painted red exclamation mark_3127414.png" type="Texture" id=48]
 [ext_resource path="res://Portas/porta.pixel-7.png" type="Texture" id=49]
@@ -85,31 +76,23 @@ animations = [ {
 "name": "Run",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
-"loop": true,
-"name": "Down",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 6 ) ],
 "loop": true,
 "name": "Idle",
 "speed": 12.0
+}, {
+"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
+"loop": true,
+"name": "Down",
+"speed": 20.0
 } ]
 
 [sub_resource type="CapsuleShape2D" id=2]
 radius = 17.0
 height = 22.0
 
-[sub_resource type="SpriteFrames" id=3]
-animations = [ {
-"frames": [ ExtResource( 37 ), ExtResource( 38 ), ExtResource( 40 ), ExtResource( 43 ), ExtResource( 41 ), ExtResource( 44 ), ExtResource( 46 ), ExtResource( 39 ), ExtResource( 42 ), ExtResource( 45 ) ],
-"loop": true,
-"name": "Idle",
-"speed": 20.0
-} ]
-
 [sub_resource type="CircleShape2D" id=4]
-radius = 192.0
+radius = 129.0
 
 [sub_resource type="CapsuleShape2D" id=6]
 radius = 15.0
@@ -130,15 +113,15 @@ length = 0.001
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
-"loop": false,
-"name": "Fechar",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
 "loop": false,
 "name": "Abrir",
 "speed": 30.0
+}, {
+"frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
+"loop": false,
+"name": "Fechar",
+"speed": 20.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=11]
@@ -220,17 +203,8 @@ centered = false
 position = Vector2( 789, -353 )
 script = ExtResource( 47 )
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="NPC"]
-position = Vector2( -58, -47 )
-scale = Vector2( 0.149477, 0.147627 )
-frames = SubResource( 3 )
-animation = "Idle"
-frame = 5
-playing = true
-centered = false
-
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC"]
-position = Vector2( 64, 0 )
+position = Vector2( 8, 1 )
 shape = SubResource( 4 )
 
 [node name="Point" type="Sprite" parent="NPC"]
@@ -246,6 +220,11 @@ region_rect = Rect2( 388.718, 201.424, 381.33, 797.767 )
 [node name="colisao" type="CollisionShape2D" parent="NPC/StaticBody2D"]
 position = Vector2( 1, -3 )
 shape = SubResource( 6 )
+
+[node name="Sprite" type="Sprite" parent="NPC"]
+position = Vector2( 2, 2 )
+scale = Vector2( 0.96875, 0.9375 )
+texture = ExtResource( 37 )
 
 [node name="Figurante" type="Node2D" parent="."]
 position = Vector2( -6, 211 )
