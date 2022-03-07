@@ -1,4 +1,4 @@
-[gd_scene load_steps=92 format=2]
+[gd_scene load_steps=94 format=2]
 
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-5.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-6.png" type="Texture" id=2]
@@ -70,6 +70,8 @@
 [ext_resource path="res://carro.gd" type="Script" id=68]
 [ext_resource path="res://carro-removebg-preview.png" type="Texture" id=69]
 [ext_resource path="res://cenário escritório.png" type="Texture" id=70]
+[ext_resource path="res://carro2.gd" type="Script" id=71]
+[ext_resource path="res://carro_azul.png" type="Texture" id=72]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -128,15 +130,15 @@ length = 0.001
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
-"loop": false,
-"name": "Abrir",
-"speed": 30.0
-}, {
 "frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
 "loop": false,
 "name": "Fechar",
 "speed": 20.0
+}, {
+"frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
+"loop": false,
+"name": "Abrir",
+"speed": 30.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=11]
@@ -223,7 +225,7 @@ position = Vector2( -58, -47 )
 scale = Vector2( 0.149477, 0.147627 )
 frames = SubResource( 3 )
 animation = "Idle"
-frame = 4
+frame = 5
 playing = true
 centered = false
 
@@ -490,6 +492,24 @@ shape = SubResource( 23 )
 position = Vector2( -44, -78 )
 scale = Vector2( 0.253846, 0.266667 )
 texture = ExtResource( 69 )
+centered = false
+
+[node name="carro2" type="StaticBody2D" parent="Cenário"]
+position = Vector2( -185, 336 )
+z_index = 2
+script = ExtResource( 71 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cenário/carro2"]
+position = Vector2( -12.5, -16 )
+shape = SubResource( 23 )
+
+[node name="Sprite" type="Sprite" parent="Cenário/carro2"]
+position = Vector2( -44, -78 )
+scale = Vector2( 0.253846, 0.266667 )
+texture = ExtResource( 72 )
 centered = false
 
 [node name="Planta" type="Node2D" parent="Cenário"]
