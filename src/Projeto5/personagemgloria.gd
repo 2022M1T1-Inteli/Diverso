@@ -16,5 +16,9 @@ func _ready() -> void:
 #	pass
 
 
-func _on_Gloria_pressed() -> void:
-	get_tree().change_scene("res://personagemgloria.tscn") # Replace with function body.
+func _on_voltar_pressed() -> void:
+	get_tree().change_scene("res://SelecaoPersonagem.tscn") # Replace with function body.
+
+
+func _on_continuar_pressed() -> void:
+	get_tree().change_scene("res://Labirinto.tscn") # Replace with function body.

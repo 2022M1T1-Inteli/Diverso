@@ -1,19 +1,22 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Imagens random/branco.jpg" type="Texture" id=1]
+[ext_resource path="res://personagemgloria.gd" type="Script" id=2]
+[ext_resource path="res://Imagens random/gloriapersonagem.jpg" type="Texture" id=3]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+script = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="TextureRect" type="TextureRect" parent="."]
-margin_left = -40.0
-margin_top = -29.0
-margin_right = 1079.0
-margin_bottom = 656.0
+margin_left = -53.0
+margin_top = -28.0
+margin_right = 1066.0
+margin_bottom = 657.0
 texture = ExtResource( 1 )
 expand = true
 __meta__ = {
@@ -23,8 +26,8 @@ __meta__ = {
 [node name="Label" type="Label" parent="TextureRect"]
 margin_left = 384.0
 margin_top = 46.0
-margin_right = 691.0
-margin_bottom = 81.0
+margin_right = 705.0
+margin_bottom = 98.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "Gloria"
 align = 1
@@ -49,3 +52,17 @@ text = "Voltar"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+margin_left = 132.0
+margin_top = 139.0
+margin_right = 348.0
+margin_bottom = 372.0
+texture = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="continuar" to="." method="_on_continuar_pressed"]
+[connection signal="pressed" from="voltar" to="." method="_on_voltar_pressed"]

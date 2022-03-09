@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Imagens random/branco.jpg" type="Texture" id=1]
 [ext_resource path="res://SelecaoPersonagem.gd" type="Script" id=2]
+[ext_resource path="res://Imagens random/botaogloria.png" type="Texture" id=3]
 
 [node name="SelecaoPersonagem" type="Control"]
 anchor_right = 1.0
@@ -32,10 +33,12 @@ __meta__ = {
 }
 
 [node name="Gloria" type="Button" parent="."]
-margin_left = 25.0
-margin_top = 122.0
-margin_right = 508.0
-margin_bottom = 259.0
+margin_left = 86.0
+margin_top = 119.0
+margin_right = 426.0
+margin_bottom = 269.0
+icon = ExtResource( 3 )
+expand_icon = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
