@@ -17,4 +17,4 @@ func _ready() -> void:
 
 
 func _on_comecarbutton_pressed() -> void:
-	get_tree().change_scene("res://SelecaoPersonagem.tscn") # Replace with function body.
+	get_tree().change_scene("res://SelecaoPersonagem.tscn") #leva à tela de seleção de personagem

@@ -4,19 +4,20 @@ const SPEED = 200
 var motion = Vector2()
 
 func _physics_process(delta):
-
-	if Input.is_action_pressed("ui_right"):
+ #movimentação do personagem principal pelos eixos x e y 
+ #o personagem pode se movimentar em diagonal
+	if Input.is_action_pressed("ui_right"): #movimento do personagem para direita
 		motion.x = SPEED
 		$AnimatedSprite.play("Run")
 		$AnimatedSprite.flip_h = false
-	elif Input.is_action_pressed("ui_left"):
+	elif Input.is_action_pressed("ui_left"): #moviemento do personagem para esquerda
 		motion.x = -SPEED
 		$AnimatedSprite.play("Run")
 		$AnimatedSprite.flip_h = true
-	elif Input.is_action_pressed("ui_up"):
+	elif Input.is_action_pressed("ui_up"): #movimento do personagem para cima
 		motion.y = -SPEED
 		$AnimatedSprite.play("Up")
-	elif Input.is_action_pressed("ui_down"):
+	elif Input.is_action_pressed("ui_down"): #movimento do personagem para baixo
 		motion.y = SPEED
 		$AnimatedSprite.play("Down")
 	else:

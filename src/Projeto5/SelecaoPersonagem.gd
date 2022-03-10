@@ -17,4 +17,4 @@ func _ready() -> void:
 
 
 func _on_Gloria_pressed() -> void:
-	get_tree().change_scene("res://personagemgloria.tscn") # Replace with function body.
+	get_tree().change_scene("res://personagemgloria.tscn") #leva para a tela do jogo (labirinto)
