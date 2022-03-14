@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Chão de madeira.png-cf1db2ba0a4c1a9a963fa11d23a5f2f5.stex"
+path="res://.import/chao madeira clara.png-c74f96d83ac285acc6469dead918a9f0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Chão de madeira.png"
-dest_files=[ "res://.import/Chão de madeira.png-cf1db2ba0a4c1a9a963fa11d23a5f2f5.stex" ]
+source_file="res://chao madeira clara.png"
+dest_files=[ "res://.import/chao madeira clara.png-c74f96d83ac285acc6469dead918a9f0.stex" ]
 
 [params]
 
