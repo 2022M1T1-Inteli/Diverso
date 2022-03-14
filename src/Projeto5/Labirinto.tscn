@@ -44,7 +44,7 @@
 [ext_resource path="res://NPC2.gd" type="Script" id=42]
 [ext_resource path="res://image-removebg-preview.png" type="Texture" id=43]
 [ext_resource path="res://plaquinha5-removebg-preview.png" type="Texture" id=44]
-[ext_resource path="res://PLAQUINHA-removebg-preview.png" type="Texture" id=45]
+[ext_resource path="res://image-removebg-preview (1).png" type="Texture" id=45]
 [ext_resource path="res://lucas_andando_costas (1) (1).png" type="Texture" id=46]
 [ext_resource path="res://NPC.gd" type="Script" id=47]
 [ext_resource path="res://Imagens random/—Pngtree—hand painted red exclamation mark_3127414.png" type="Texture" id=48]
@@ -79,6 +79,11 @@ animations = [ {
 "name": "Down",
 "speed": 20.0
 }, {
+"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
+"loop": true,
+"name": "Up",
+"speed": 20.0
+}, {
 "frames": [ ExtResource( 6 ) ],
 "loop": true,
 "name": "Idle",
@@ -87,11 +92,6 @@ animations = [ {
 "frames": [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 10 ), ExtResource( 8 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 9 ), ExtResource( 4 ) ],
 "loop": true,
 "name": "Run",
-"speed": 20.0
-}, {
-"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
-"loop": true,
-"name": "Up",
 "speed": 20.0
 } ]
 
@@ -124,15 +124,15 @@ length = 0.001
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
-"loop": false,
-"name": "Abrir",
-"speed": 30.0
-}, {
 "frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
 "loop": false,
 "name": "Fechar",
 "speed": 20.0
+}, {
+"frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
+"loop": false,
+"name": "Abrir",
+"speed": 30.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=11]
@@ -711,7 +711,7 @@ position = Vector2( 1318, 16 )
 scale = Vector2( 0.201282, 0.201282 )
 texture = ExtResource( 44 )
 
-[node name="Plaquinha-removebg-preview" type="Sprite" parent="seta"]
-position = Vector2( 1060, 1038 )
-scale = Vector2( 0.235916, 0.235916 )
+[node name="Image-removebg-preview(1)" type="Sprite" parent="seta"]
+position = Vector2( 1056.76, 1041.3 )
+scale = Vector2( 0.211459, 0.211459 )
 texture = ExtResource( 45 )

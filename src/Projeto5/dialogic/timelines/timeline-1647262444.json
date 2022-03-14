@@ -62,7 +62,25 @@
 			"character": "character-1647262996.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Nunca tivemos um trans em nossa empresa, eu não sei o que fazer."
+			"text": "- Nunca tivemos uma mulher trans em nossa empresa, eu não sei o que fazer."
+		},
+		{
+			"character": "character-1647262996.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Enquanto eu resolvo, pode ir conhecendo a nossa empresa."
+		},
+		{
+			"character": "character-1645148309.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Eu estava precisando ir ao banheiro mesmo, com licença."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vá ao banheiro."
 		},
 		{
 			"event_id": "dialogic_022",
