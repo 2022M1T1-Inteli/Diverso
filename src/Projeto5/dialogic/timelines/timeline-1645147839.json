@@ -76,7 +76,7 @@
 			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Isso pode ser um problema... Na sala 2 eles podem conversar melhor com você."
+			"text": "- Isso pode ser um problema... Na sala do RH eles podem conversar melhor com você."
 		},
 		{
 			"custom_slot": "",
@@ -87,7 +87,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Vá para a sala 2"
+			"text": "Vá para o RH"
 		},
 		{
 			"event_id": "dialogic_022",
