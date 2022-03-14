@@ -1,0 +1,83 @@
+{
+	"events": [
+		{
+			"character": "character-1647262996.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Olá, funcionária nova?"
+		},
+		{
+			"action": "join",
+			"character": "character-1645148309.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1645148309.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Sim. Pedro pediu para que eu viesse aqui porque sou uma mulher trans e ele queria saber meu primeiro nome."
+		},
+		{
+			"character": "character-1647262996.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Tá, mas qual seu primeiro nome?"
+		},
+		{
+			"character": "character-1645148309.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Esse é o problema. Eu não me sinto confortável para falar."
+		},
+		{
+			"character": "character-1647262996.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Entendi.... Só um momento."
+		},
+		{
+			"action": "join",
+			"character": "character-1645147809.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1645147809.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Conseguiu resolver?"
+		},
+		{
+			"character": "character-1647262996.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Nunca tivemos um trans em nossa empresa, eu não sei o que fazer."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647262444.json",
+		"name": "timeline2"
+	}
+}
