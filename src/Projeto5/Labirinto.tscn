@@ -1,4 +1,4 @@
-[gd_scene load_steps=86 format=2]
+[gd_scene load_steps=87 format=2]
 
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-5.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-6.png" type="Texture" id=2]
@@ -39,6 +39,7 @@
 [ext_resource path="res://npc 3.png" type="Texture" id=37]
 [ext_resource path="res://grama.tres" type="TileSet" id=38]
 [ext_resource path="res://parede_fora.tres" type="TileSet" id=39]
+[ext_resource path="res://chao madeira.tres" type="TileSet" id=40]
 [ext_resource path="res://NPC.gd" type="Script" id=47]
 [ext_resource path="res://Imagens random/—Pngtree—hand painted red exclamation mark_3127414.png" type="Texture" id=48]
 [ext_resource path="res://Portas/porta.pixel-7.png" type="Texture" id=49]
@@ -68,16 +69,6 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
-"loop": true,
-"name": "Up",
-"speed": 20.0
-}, {
-"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
-"loop": true,
-"name": "Down",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 10 ), ExtResource( 8 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 9 ), ExtResource( 4 ) ],
 "loop": true,
 "name": "Run",
@@ -87,6 +78,16 @@ animations = [ {
 "loop": true,
 "name": "Idle",
 "speed": 12.0
+}, {
+"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
+"loop": true,
+"name": "Down",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
+"loop": true,
+"name": "Up",
+"speed": 20.0
 } ]
 
 [sub_resource type="CapsuleShape2D" id=2]
@@ -115,15 +116,15 @@ length = 0.001
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
-"loop": false,
-"name": "Fechar",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
 "loop": false,
 "name": "Abrir",
 "speed": 30.0
+}, {
+"frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
+"loop": false,
+"name": "Fechar",
+"speed": 20.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=11]
@@ -321,6 +322,10 @@ tile_set = ExtResource( 39 )
 cell_size = Vector2( 32, 32 )
 format = 1
 tile_data = PoolIntArray( 262144, 0, 0, 262145, 0, 0, 2752517, 0, 0, 2752518, 0, 0, 2752519, 0, 0, 2752520, 0, 0, 2752521, 0, 0, 2752522, 0, 0, 2752523, 0, 0, 2752524, 0, 0, 2752525, 0, 0, 2752526, 0, 0, 2752527, 0, 0, 2752528, 0, 0, 2752529, 0, 0, 2752530, 0, 0, 2752531, 0, 0, 2752532, 0, 0, 2752533, 0, 0, 2752534, 0, 0, 4980800, 0, 0, 4980801, 0, 0, 5111875, 0, 0, 5111876, 0, 0, 5111877, 0, 0, 5111878, 0, 0, 5111879, 0, 0, 5111880, 0, 0, 5111881, 0, 0, 5111882, 0, 0, 5111883, 0, 0, 5111884, 0, 0, 5111885, 0, 0, 5111886, 0, 0, 5111887, 0, 0, 5111895, 0, 0, 5111896, 0, 0, 5111897, 0, 0, 5111898, 0, 0, 5111899, 0, 0, 5111900, 0, 0, 5111901, 0, 0, 5111902, 0, 0, 5111903, 0, 0, 5111904, 0, 0, 5111905, 0, 0, 5832704, 0, 0, 5832705, 0, 0, 5832706, 0, 0, 5832707, 0, 0, 5832708, 0, 0, 5832709, 0, 0, 5832710, 0, 0, 5832711, 0, 0, 5832712, 0, 0, 5832713, 0, 0, 5832714, 0, 0, 5832715, 0, 0, 5832716, 0, 0, 5832717, 0, 0, 5832719, 0, 0, 5832720, 0, 0, 5832721, 0, 0, 5832722, 0, 0, 5832723, 0, 0, 5832724, 0, 0, 5832725, 0, 0, 5832726, 0, 0, 5832727, 0, 0, 5832728, 0, 0, 5832729, 0, 0, 5832730, 0, 0, 5832731, 0, 0, 5832732, 0, 0, 5832733, 0, 0, 5832734, 0, 0, 5832735, 0, 0, 5832736, 0, 0, 5832737, 0, 0, 5832738, 0, 0, 5832739, 0, 0, 5832741, 0, 0, 5832742, 0, 0, 5832743, 0, 0, 5832744, 0, 0, 5832745, 0, 0, 5832746, 0, 0, 5832747, 0, 0, 5832748, 0, 0, 5832749, 0, 0, 5832750, 0, 0, 5832751, 0, 0, 5832752, 0, 0, 5832753, 0, 0, 5832754, 0, 0, 5832755, 0, 0, 5832756, 0, 0, 5832757, 0, 0, 5832758, 0, 0, 5832759, 0, 0, 5832760, 0, 0, 5832761, 0, 0, 5832762, 0, 0, 5832763, 0, 0, 5832764, 0, 0, 5832765, 0, 0, 5832766, 0, 0, 5898316, 0, 0, 5898317, 0, 0, 5898318, 0, 0, 5898319, 0, 0, 5898320, 0, 0, 5898321, 0, 0, 5898322, 0, 0, 5898323, 0, 0, 5898324, 0, 0, 5898325, 0, 0, 5898326, 0, 0, 5898327, 0, 0, 5898328, 0, 0, 5898329, 0, 0, 5898330, 0, 0 )
+
+[node name="chao madeira" type="TileMap" parent="Parede"]
+tile_set = ExtResource( 40 )
+format = 1
 
 [node name="rua" type="Sprite" parent="Parede"]
 position = Vector2( -160, 160 )
