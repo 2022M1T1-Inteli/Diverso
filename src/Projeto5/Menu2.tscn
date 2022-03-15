@@ -2,18 +2,18 @@
 
 [ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Menu2.gd" type="Script" id=2]
-[ext_resource path="res://Imagens random/l0_sprite_city2.png" type="Texture" id=3]
-[ext_resource path="res://Imagens random/l0_sprite_city6.png" type="Texture" id=4]
+[ext_resource path="res://Imagens random/l0_sprite_city6.png" type="Texture" id=3]
+[ext_resource path="res://Imagens random/l0_sprite_city7.png" type="Texture" id=4]
 [ext_resource path="res://Imagens random/l0_sprite_city1.png" type="Texture" id=5]
-[ext_resource path="res://Imagens random/l0_sprite_city4.png" type="Texture" id=6]
-[ext_resource path="res://Imagens random/l0_sprite_city5.png" type="Texture" id=7]
-[ext_resource path="res://Imagens random/l0_sprite_city7.png" type="Texture" id=8]
-[ext_resource path="res://Imagens random/l0_sprite_city3.png" type="Texture" id=9]
+[ext_resource path="res://Imagens random/l0_sprite_city2.png" type="Texture" id=6]
+[ext_resource path="res://Imagens random/l0_sprite_city3.png" type="Texture" id=7]
+[ext_resource path="res://Imagens random/l0_sprite_city4.png" type="Texture" id=8]
+[ext_resource path="res://Imagens random/l0_sprite_city5.png" type="Texture" id=9]
 [ext_resource path="res://diverso-removebg-preview (1).png" type="Texture" id=10]
 
 [sub_resource type="SpriteFrames" id=14]
 animations = [ {
-"frames": [ ExtResource( 5 ), ExtResource( 3 ), ExtResource( 9 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 8 ) ],
+"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 3 ), ExtResource( 4 ) ],
 "loop": true,
 "name": "New Anim",
 "speed": 5.0
@@ -51,18 +51,18 @@ font_data = ExtResource( 1 )
 [sub_resource type="StyleBoxEmpty" id=13]
 
 [node name="Menu" type="Control"]
-anchor_left = 1.0
+anchor_left = 0.5
 anchor_top = 0.5
-anchor_right = 1.0
+anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -1025.0
-margin_top = -301.0
-margin_right = -1.0
-margin_bottom = 299.0
+margin_left = -512.0
+margin_top = -300.0
+margin_right = 512.0
+margin_bottom = 300.0
 rect_pivot_offset = Vector2( 620, 300 )
 script = ExtResource( 2 )
 __meta__ = {
-"_edit_use_anchors_": true
+"_edit_use_anchors_": false
 }
 scene_to_go = "res://SelecaoPersonagem.tscn"
 
@@ -80,8 +80,8 @@ __meta__ = {
 }
 
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="CenterContainer"]
-position = Vector2( 517, 282 )
-scale = Vector2( 1.19792, 0.868056 )
+position = Vector2( 522.056, 319 )
+scale = Vector2( 1.19894, 0.818381 )
 frames = SubResource( 14 )
 animation = "New Anim"
 frame = 6
@@ -93,9 +93,10 @@ margin_left = 459.0
 margin_top = 282.0
 margin_right = 564.0
 margin_bottom = 317.0
+alignment = 2
 
 [node name="Sprite" type="Sprite" parent="CenterContainer/VBoxContainer"]
-position = Vector2( 36, -100 )
+position = Vector2( 43, -127 )
 texture = ExtResource( 10 )
 offset = Vector2( 16, -3 )
 
