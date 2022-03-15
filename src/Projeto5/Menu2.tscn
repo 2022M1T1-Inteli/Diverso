@@ -9,6 +9,7 @@
 [ext_resource path="res://Imagens random/l0_sprite_city5.png" type="Texture" id=7]
 [ext_resource path="res://Imagens random/l0_sprite_city7.png" type="Texture" id=8]
 [ext_resource path="res://Imagens random/l0_sprite_city3.png" type="Texture" id=9]
+[ext_resource path="res://diverso-removebg-preview (1).png" type="Texture" id=10]
 
 [sub_resource type="SpriteFrames" id=14]
 animations = [ {
@@ -17,12 +18,6 @@ animations = [ {
 "name": "New Anim",
 "speed": 5.0
 } ]
-
-[sub_resource type="DynamicFont" id=1]
-size = 38
-outline_size = 8
-outline_color = Color( 0.113725, 0.160784, 0.388235, 0.780392 )
-font_data = ExtResource( 1 )
 
 [sub_resource type="DynamicFont" id=2]
 size = 15
@@ -89,30 +84,24 @@ position = Vector2( 517, 282 )
 scale = Vector2( 1.19792, 0.868056 )
 frames = SubResource( 14 )
 animation = "New Anim"
-frame = 5
+frame = 6
 speed_scale = 0.5
 playing = true
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
-margin_left = 379.0
-margin_top = 261.0
-margin_right = 645.0
-margin_bottom = 338.0
+margin_left = 459.0
+margin_top = 282.0
+margin_right = 564.0
+margin_bottom = 317.0
 
-[node name="Title" type="Label" parent="CenterContainer/VBoxContainer"]
-margin_right = 266.0
-margin_bottom = 38.0
-rect_pivot_offset = Vector2( 130, 21 )
-custom_fonts/font = SubResource( 1 )
-text = "Diverso"
-align = 1
-valign = 1
+[node name="Sprite" type="Sprite" parent="CenterContainer/VBoxContainer"]
+position = Vector2( 36, -100 )
+texture = ExtResource( 10 )
+offset = Vector2( 16, -3 )
 
 [node name="Start" type="Button" parent="CenterContainer/VBoxContainer"]
-margin_left = 80.0
-margin_top = 42.0
-margin_right = 185.0
-margin_bottom = 57.0
+margin_right = 105.0
+margin_bottom = 15.0
 size_flags_horizontal = 4
 size_flags_vertical = 4
 custom_colors/font_color_disabled = Color( 0.258824, 0.25098, 0.25098, 1 )
@@ -128,10 +117,10 @@ custom_styles/normal = SubResource( 7 )
 text = "Iniciar"
 
 [node name="Quit" type="Button" parent="CenterContainer/VBoxContainer"]
-margin_left = 101.0
-margin_top = 61.0
-margin_right = 165.0
-margin_bottom = 77.0
+margin_left = 20.0
+margin_top = 19.0
+margin_right = 84.0
+margin_bottom = 35.0
 size_flags_horizontal = 4
 size_flags_vertical = 4
 custom_colors/font_color_disabled = Color( 0.258824, 0.25098, 0.25098, 1 )
