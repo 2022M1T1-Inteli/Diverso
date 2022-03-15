@@ -53,6 +53,10 @@ _global_script_class_icons={
 config/name="Projeto5"
 run/main_scene="res://Main Menu.tscn"
 
+[autoload]
+
+Transition="*res://Transition.tscn"
+
 [editor_plugins]
 
 enabled=PoolStringArray( "res://addons/dialogic/plugin.cfg" )
