@@ -84,7 +84,7 @@ position = Vector2( 522.056, 319 )
 scale = Vector2( 1.19894, 0.818381 )
 frames = SubResource( 14 )
 animation = "New Anim"
-frame = 6
+frame = 1
 speed_scale = 0.5
 playing = true
 
@@ -135,8 +135,6 @@ custom_styles/focus = SubResource( 11 )
 custom_styles/disabled = SubResource( 12 )
 custom_styles/normal = SubResource( 13 )
 text = "Sair"
-
-[node name="AnimatedSprite" type="AnimatedSprite" parent="CenterContainer"]
 
 [connection signal="pressed" from="CenterContainer/VBoxContainer/Start" to="." method="_on_Start_pressed"]
 [connection signal="pressed" from="CenterContainer/VBoxContainer/Quit" to="." method="_on_Quit_pressed"]
