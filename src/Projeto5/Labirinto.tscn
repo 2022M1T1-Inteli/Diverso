@@ -123,15 +123,15 @@ length = 0.001
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
-"loop": false,
-"name": "Abrir",
-"speed": 30.0
-}, {
 "frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
 "loop": false,
 "name": "Fechar",
 "speed": 20.0
+}, {
+"frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
+"loop": false,
+"name": "Abrir",
+"speed": 30.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=11]
