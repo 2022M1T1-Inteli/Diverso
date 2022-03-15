@@ -12,10 +12,10 @@
 
 [sub_resource type="SpriteFrames" id=14]
 animations = [ {
-"frames": [ ExtResource( 3 ), ExtResource( 9 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 8 ), ExtResource( 5 ) ],
+"frames": [ ExtResource( 5 ), ExtResource( 3 ), ExtResource( 9 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 8 ) ],
 "loop": true,
-"name": "default",
-"speed": 4.0
+"name": "New Anim",
+"speed": 5.0
 } ]
 
 [sub_resource type="DynamicFont" id=1]
@@ -88,7 +88,9 @@ __meta__ = {
 position = Vector2( 517, 282 )
 scale = Vector2( 1.19792, 0.868056 )
 frames = SubResource( 14 )
-frame = 3
+animation = "New Anim"
+frame = 5
+speed_scale = 0.5
 playing = true
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
