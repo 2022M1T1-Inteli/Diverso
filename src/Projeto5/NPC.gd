@@ -24,8 +24,8 @@ func _input(event):
 
 func unpause(timeline_timeline1):
 	get_tree().paused = false
-
-
+	#direcionando o jogador para o quiz
+	get_tree().change_scene("res://Scene/Quizz1.tscn")
 
 func _on_NPC_body_exited(body):
 	if body.name == "Jogador":

@@ -134,14 +134,14 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
-"loop": true,
-"name": "Down",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
 "loop": true,
 "name": "Up",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
+"loop": true,
+"name": "Down",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 6 ) ],
@@ -366,7 +366,7 @@ shape = SubResource( 4 )
 [node name="Point" type="Sprite" parent="NPC\'s/NPC"]
 position = Vector2( -19, -97 )
 scale = Vector2( 0.0839896, 0.0803011 )
-z_index = 1
+z_index = 5
 texture = ExtResource( 48 )
 centered = false
 region_enabled = true
@@ -381,7 +381,7 @@ shape = SubResource( 6 )
 [node name="Sprite" type="Sprite" parent="NPC\'s/NPC"]
 position = Vector2( 2, 2 )
 scale = Vector2( 0.96875, 0.9375 )
-z_index = 1
+z_index = 5
 texture = ExtResource( 37 )
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="NPC\'s/NPC"]
@@ -413,7 +413,7 @@ shape = SubResource( 4 )
 [node name="Point" type="Sprite" parent="NPC\'s/NPC2"]
 position = Vector2( -19, -97 )
 scale = Vector2( 0.0839896, 0.0803011 )
-z_index = 1
+z_index = 3
 texture = ExtResource( 48 )
 centered = false
 region_enabled = true
@@ -428,7 +428,7 @@ shape = SubResource( 6 )
 [node name="Sprite" type="Sprite" parent="NPC\'s/NPC2"]
 position = Vector2( -4, 3 )
 scale = Vector2( 0.96875, 0.9375 )
-z_index = 1
+z_index = 3
 texture = ExtResource( 41 )
 
 [node name="Lager" type="Node2D" parent="."]
@@ -439,7 +439,7 @@ position = Vector2( 2768, 2850 )
 z_index = 2
 frames = SubResource( 27 )
 animation = "Assexual"
-frame = 3
+frame = 7
 playing = true
 
 [node name="GeneroFluido" type="AnimatedSprite" parent="Lager"]
@@ -447,6 +447,7 @@ position = Vector2( 2768, 2762 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
+frame = 4
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -454,7 +455,7 @@ position = Vector2( 2952, 2762 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 6
+frame = 1
 playing = true
 flip_h = true
 
@@ -463,7 +464,7 @@ position = Vector2( 3016, 2802 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 1
+frame = 5
 playing = true
 flip_h = true
 
@@ -472,6 +473,7 @@ position = Vector2( 2976, 2858 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
+frame = 4
 playing = true
 flip_h = true
 
@@ -482,7 +484,7 @@ position = Vector2( 2863, 2733 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 3
+frame = 7
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]
@@ -492,31 +494,37 @@ z_index = 1
 [node name="Sprite" type="Sprite" parent="Figurante"]
 position = Vector2( -44, 122 )
 scale = Vector2( 1.375, 1.28125 )
+z_index = 4
 texture = ExtResource( 46 )
 
 [node name="Sprite2" type="Sprite" parent="Figurante"]
 position = Vector2( 20, 122 )
 scale = Vector2( 1.35938, 1.26563 )
+z_index = 4
 texture = ExtResource( 50 )
 
 [node name="Sprite3" type="Sprite" parent="Figurante"]
 position = Vector2( 208, 122 )
 scale = Vector2( 1.375, 1.28125 )
+z_index = 4
 texture = ExtResource( 46 )
 
 [node name="Sprite4" type="Sprite" parent="Figurante"]
 position = Vector2( 273.5, 121.5 )
 scale = Vector2( 1.35938, 1.26563 )
+z_index = 4
 texture = ExtResource( 50 )
 
 [node name="Sprite5" type="Sprite" parent="Figurante"]
 position = Vector2( 83, 122 )
 scale = Vector2( 1.35938, 1.26563 )
+z_index = 4
 texture = ExtResource( 50 )
 
 [node name="Sprite6" type="Sprite" parent="Figurante"]
 position = Vector2( 146, 122 )
 scale = Vector2( 1.35938, 1.26563 )
+z_index = 4
 texture = ExtResource( 50 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Figurante"]
@@ -713,7 +721,7 @@ anims/RESET = SubResource( 9 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Portas/Porta"]
 position = Vector2( 0, -32 )
-z_index = -1
+z_index = 4
 frames = SubResource( 10 )
 animation = "Abrir"
 centered = false
@@ -841,7 +849,7 @@ format = 1
 [node name="Sprite" type="Sprite" parent="Cenário/Planta"]
 position = Vector2( 768, 160 )
 scale = Vector2( 1.9375, 1.61538 )
-z_index = 1
+z_index = 6
 texture = ExtResource( 70 )
 centered = false
 region_enabled = true
@@ -850,7 +858,7 @@ region_rect = Rect2( 272.153, 23.9732, 16.7073, 39.4121 )
 [node name="Sprite2" type="Sprite" parent="Cenário/Planta"]
 position = Vector2( 993, 158 )
 scale = Vector2( 1.9375, 1.61538 )
-z_index = 1
+z_index = 6
 texture = ExtResource( 70 )
 centered = false
 region_enabled = true
@@ -862,6 +870,7 @@ z_index = 1
 [node name="Sprite" type="Sprite" parent="Cenário/Bebedouro"]
 position = Vector2( 1296, -205 )
 scale = Vector2( 1.93751, 1.54167 )
+z_index = 6
 texture = ExtResource( 70 )
 region_enabled = true
 region_rect = Rect2( -0.703896, 64.1815, 16.9229, 48.7182 )
@@ -895,7 +904,7 @@ region_rect = Rect2( 368.571, 17.1854, 63.4278, 45.8839 )
 [node name="Sprite" type="Sprite" parent="Cenário/Sofá"]
 position = Vector2( 176.5, 188.25 )
 scale = Vector2( 1.10417, 1.14444 )
-z_index = 1
+z_index = 6
 texture = ExtResource( 70 )
 region_enabled = true
 region_rect = Rect2( 368.505, 65.922, 144.442, 45.3611 )
@@ -903,7 +912,7 @@ region_rect = Rect2( 368.505, 65.922, 144.442, 45.3611 )
 [node name="Sprite2" type="Sprite" parent="Cenário/Sofá"]
 position = Vector2( 336, 189 )
 scale = Vector2( 1.10417, 1.14444 )
-z_index = 1
+z_index = 6
 texture = ExtResource( 70 )
 region_enabled = true
 region_rect = Rect2( 368.505, 65.922, 143.922, 45.3611 )
@@ -911,7 +920,7 @@ region_rect = Rect2( 368.505, 65.922, 143.922, 45.3611 )
 [node name="Sprite3" type="Sprite" parent="Cenário/Sofá"]
 position = Vector2( 495, 189 )
 scale = Vector2( 1.10417, 1.14444 )
-z_index = 1
+z_index = 6
 texture = ExtResource( 70 )
 region_enabled = true
 region_rect = Rect2( 368.505, 65.922, 143.922, 45.3611 )
@@ -919,7 +928,7 @@ region_rect = Rect2( 368.505, 65.922, 143.922, 45.3611 )
 [node name="Sprite4" type="Sprite" parent="Cenário/Sofá"]
 position = Vector2( 655, 189 )
 scale = Vector2( 1.10417, 1.14444 )
-z_index = 1
+z_index = 6
 texture = ExtResource( 70 )
 region_enabled = true
 region_rect = Rect2( 368.115, 65.922, 144.312, 45.3611 )
@@ -975,10 +984,6 @@ position = Vector2( 2790, 605 )
 scale = Vector2( 0.124761, 0.124762 )
 z_index = 3
 texture = ExtResource( 131 )
-
-[node name="CabineBanheiro" type="Sprite" parent="PrivadaNormal"]
-position = Vector2( 622.113, 726.965 )
-texture = ExtResource( 130 )
 
 [node name="PrivadaNormal" type="Sprite" parent="PrivadaNormal"]
 position = Vector2( 585.117, 16.0303 )
