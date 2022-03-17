@@ -1,10 +1,36 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://resources/bd/Bd_Quizz2.tres" type="Resource" id=1]
 [ext_resource path="res://scripts/levels/levels.gd" type="Script" id=2]
 [ext_resource path="res://Imagens random/opcao1-fundoQUIZ.png" type="Texture" id=3]
+[ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=4]
 
 [sub_resource type="Theme" id=1]
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.301961, 0.396078, 0.592157, 1 )
+
+[sub_resource type="DynamicFont" id=4]
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.301961, 0.396078, 0.592157, 1 )
+
+[sub_resource type="DynamicFont" id=6]
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxFlat" id=7]
+bg_color = Color( 0.301961, 0.396078, 0.592157, 1 )
+
+[sub_resource type="DynamicFont" id=8]
+size = 12
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 0.301961, 0.396078, 0.592157, 1 )
 
 [node name="Quizz1" type="Control"]
 anchor_right = 1.0
@@ -20,8 +46,15 @@ color_wrong = Color( 1, 0, 0, 1 )
 [node name="TextureRect" type="TextureRect" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_left = -1.0
+margin_top = -3.0
+margin_right = -1.0
+margin_bottom = -3.0
 texture = ExtResource( 3 )
 stretch_mode = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="question_hud" type="VBoxContainer" parent="."]
 margin_left = 2.0
@@ -88,21 +121,33 @@ margin_right = 1024.0
 margin_bottom = 70.0
 size_flags_vertical = 3
 theme = SubResource( 1 )
+custom_fonts/font = SubResource( 2 )
+custom_styles/normal = SubResource( 3 )
+align = 0
 
 [node name="Button2" type="Button" parent="question_holder"]
 margin_top = 85.0
 margin_right = 1024.0
 margin_bottom = 156.0
 size_flags_vertical = 3
+custom_fonts/font = SubResource( 4 )
+custom_styles/normal = SubResource( 5 )
+align = 0
 
 [node name="Button3" type="Button" parent="question_holder"]
 margin_top = 171.0
 margin_right = 1024.0
 margin_bottom = 242.0
 size_flags_vertical = 3
+custom_fonts/font = SubResource( 6 )
+custom_styles/normal = SubResource( 7 )
+align = 0
 
 [node name="Button4" type="Button" parent="question_holder"]
 margin_top = 257.0
 margin_right = 1024.0
 margin_bottom = 328.0
 size_flags_vertical = 3
+custom_fonts/font = SubResource( 8 )
+custom_styles/normal = SubResource( 9 )
+align = 0

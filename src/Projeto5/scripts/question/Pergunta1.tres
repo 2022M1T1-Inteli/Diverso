@@ -5,8 +5,8 @@
 
 [resource]
 script = ExtResource( 1 )
-question_hud = "Qual a cor do ceu"
+question_hud = ""
 type = 1
 question_image = ExtResource( 2 )
-options = [ "branca ", "azul", "amarelo ", "verde" ]
-correct = "azul"
+options = [ "É a primeira coisa que identifica uma pessoa, quem ela é.", "Não tem importância relevante.", "O nome social e nome civil são a mesma coisa. ", "Nome social é um apelido." ]
+correct = "É a primeira coisa que identifica uma pessoa, quem ela é."

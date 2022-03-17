@@ -1,10 +1,12 @@
-[gd_resource type="Resource" load_steps=2 format=2]
+[gd_resource type="Resource" load_steps=3 format=2]
 
 [ext_resource path="res://scripts/recursos/res_question.gd" type="Script" id=1]
+[ext_resource path="res://scripts/question/Imagens(perguntas e respostas)/quiz2-C-removebg-preview.png" type="Texture" id=2]
 
 [resource]
 script = ExtResource( 1 )
-question_hud = "adosjdandiadnia"
+question_hud = ""
 type = 1
-options = [ "1", "2", "3", "4" ]
-correct = "4"
+question_image = ExtResource( 2 )
+options = [ "Garantir a segurança das pessoas.", "Não tem utilidade nenhuma.", "Fazer com que homens e mulheres interajam mais.", "Assegurar que transexuais tenham um local confortável para suas necessidades." ]
+correct = "Assegurar que transexuais tenham um local confortável para suas necessidades."
