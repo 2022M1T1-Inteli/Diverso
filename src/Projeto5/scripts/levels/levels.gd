@@ -24,6 +24,7 @@ func _ready() -> void:
 func load_quiz() -> void:
 	if index >= bd_quiz.bd.size():
 		print("acabaram as perguntas")
+		get_tree().change_scene("res://Labirinto.tscn")
 		return
 		
 	question_text.text = str(bd_quiz.bd[index].question_hud)
