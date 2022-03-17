@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource( 1 )
 question_hud = "adosjdandiadnia"
-type = 0
+type = 1
 options = [ "1", "2", "3", "4" ]
 correct = "4"

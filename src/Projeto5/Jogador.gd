@@ -3,6 +3,9 @@ extends KinematicBody2D
 const SPEED = 1000
 var motion = Vector2()
 
+func _ready():
+	set_position(Globalpos.Position)
+
 func _physics_process(delta):
  #movimentação do personagem principal pelos eixos x e y 
  #o personagem pode se movimentar em diagonal
@@ -24,5 +27,6 @@ func _physics_process(delta):
 		motion.x = 0
 		motion.y = 0
 		$AnimatedSprite.play("Idle")
-	
+	var actualPosition = get_position()
+	Globalpos.Position = Vector2(actualPosition)
 	motion = move_and_slide(motion)

@@ -1,2 +1,3 @@
 extends Node
-var a = "Teste"
+var Position = Vector2(32, 32)
+
