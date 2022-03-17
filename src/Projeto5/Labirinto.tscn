@@ -134,20 +134,20 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
+"frames": [ ExtResource( 6 ) ],
 "loop": true,
-"name": "Down",
-"speed": 20.0
+"name": "Idle",
+"speed": 12.0
 }, {
 "frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
 "loop": true,
 "name": "Up",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 6 ) ],
+"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
 "loop": true,
-"name": "Idle",
-"speed": 12.0
+"name": "Down",
+"speed": 20.0
 }, {
 "frames": [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 10 ), ExtResource( 8 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 9 ), ExtResource( 4 ) ],
 "loop": true,
@@ -263,15 +263,15 @@ length = 0.001
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
-"loop": false,
-"name": "Abrir",
-"speed": 30.0
-}, {
 "frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
 "loop": false,
 "name": "Fechar",
 "speed": 20.0
+}, {
+"frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
+"loop": false,
+"name": "Abrir",
+"speed": 30.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=11]
@@ -439,7 +439,7 @@ position = Vector2( 2768, 2850 )
 z_index = 2
 frames = SubResource( 27 )
 animation = "Assexual"
-frame = 6
+frame = 8
 playing = true
 
 [node name="GeneroFluido" type="AnimatedSprite" parent="Lager"]
@@ -447,7 +447,7 @@ position = Vector2( 2768, 2762 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 3
+frame = 5
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -455,6 +455,7 @@ position = Vector2( 2952, 2762 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
+frame = 2
 playing = true
 flip_h = true
 
@@ -463,7 +464,7 @@ position = Vector2( 3016, 2802 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 4
+frame = 6
 playing = true
 flip_h = true
 
@@ -472,7 +473,7 @@ position = Vector2( 2976, 2858 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 3
+frame = 5
 playing = true
 flip_h = true
 
@@ -483,7 +484,7 @@ position = Vector2( 2863, 2733 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 6
+frame = 8
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]
@@ -1026,3 +1027,15 @@ position = Vector2( 3196, 594 )
 scale = Vector2( 0.331522, 0.331521 )
 z_index = 3
 texture = ExtResource( 127 )
+
+[node name="Sprite0" type="Sprite" parent="."]
+position = Vector2( 412, 2111 )
+texture = ExtResource( 40 )
+
+[node name="Sprite1" type="Sprite" parent="."]
+position = Vector2( 350, 2170 )
+texture = ExtResource( 40 )
+
+[node name="Sprite2" type="Sprite" parent="."]
+position = Vector2( 201, 2089 )
+texture = ExtResource( 40 )
