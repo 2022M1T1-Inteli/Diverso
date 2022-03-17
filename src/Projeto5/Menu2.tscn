@@ -1,21 +1,22 @@
-[gd_scene load_steps=24 format=2]
+[gd_scene load_steps=25 format=2]
 
 [ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Menu2.gd" type="Script" id=2]
-[ext_resource path="res://Imagens random/l0_sprite_city6.png" type="Texture" id=3]
-[ext_resource path="res://Imagens random/l0_sprite_city7.png" type="Texture" id=4]
-[ext_resource path="res://Imagens random/l0_sprite_city1.png" type="Texture" id=5]
-[ext_resource path="res://Imagens random/l0_sprite_city2.png" type="Texture" id=6]
-[ext_resource path="res://Imagens random/l0_sprite_city3.png" type="Texture" id=7]
-[ext_resource path="res://Imagens random/l0_sprite_city4.png" type="Texture" id=8]
-[ext_resource path="res://Imagens random/l0_sprite_city5.png" type="Texture" id=9]
+[ext_resource path="res://Imagens random/l0_sprite_sky2.png" type="Texture" id=3]
+[ext_resource path="res://Imagens random/l0_sprite_sky8.png" type="Texture" id=4]
+[ext_resource path="res://Imagens random/l0_sprite_sky5.png" type="Texture" id=5]
+[ext_resource path="res://Imagens random/l0_sprite_sky1.png" type="Texture" id=6]
+[ext_resource path="res://Imagens random/l0_sprite_sky3.png" type="Texture" id=7]
+[ext_resource path="res://Imagens random/l0_sprite_sky6.png" type="Texture" id=8]
+[ext_resource path="res://Imagens random/l0_sprite_sky4.png" type="Texture" id=9]
 [ext_resource path="res://diverso-removebg-preview (1).png" type="Texture" id=10]
+[ext_resource path="res://Imagens random/l0_sprite_sky7.png" type="Texture" id=11]
 
 [sub_resource type="SpriteFrames" id=14]
 animations = [ {
-"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 3 ), ExtResource( 4 ) ],
+"frames": [ ExtResource( 6 ), ExtResource( 3 ), ExtResource( 7 ), ExtResource( 9 ), ExtResource( 5 ), ExtResource( 8 ), ExtResource( 11 ), ExtResource( 4 ) ],
 "loop": true,
-"name": "New Anim",
+"name": "céu nuvens ",
 "speed": 5.0
 } ]
 
@@ -83,8 +84,8 @@ __meta__ = {
 position = Vector2( 522.056, 319 )
 scale = Vector2( 1.19894, 0.818381 )
 frames = SubResource( 14 )
-animation = "New Anim"
-frame = 2
+animation = "céu nuvens "
+frame = 3
 speed_scale = 0.5
 playing = true
 
