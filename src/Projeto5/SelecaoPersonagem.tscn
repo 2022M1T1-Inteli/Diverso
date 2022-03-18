@@ -143,6 +143,9 @@ custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 9 )
 text = "ANTÔNIO
 "
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Button4" type="Button" parent="."]
 margin_left = 496.0
@@ -215,6 +218,7 @@ position = Vector2( -27, -17 )
 scale = Vector2( 1.25, 1.25 )
 z_index = -1
 frames = SubResource( 2 )
+frame = 8
 playing = true
 centered = false
 
@@ -237,4 +241,3 @@ __meta__ = {
 }
 
 [connection signal="pressed" from="Gloria" to="." method="_on_Gloria_pressed"]
-[connection signal="pressed" from="Button2" to="." method="_on_Gloria_pressed"]
