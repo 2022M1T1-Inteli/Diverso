@@ -10,7 +10,7 @@ func _on_Quit_pressed():
 
 
 func _on_Start_pressed():
-	Transition.fade_into("res://SelecaoPersonagem.tscn")
+	Transition.fade_into("res://SelecaoPersonagem.tscn") #transição de fade entre cenas
 	
 	
 

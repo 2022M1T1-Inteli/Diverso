@@ -19,4 +19,4 @@ func _ready() -> void:
 
 func _on_Gloria_pressed() -> void:
 	Transition.fade_into("res://personagemgloria.tscn")
-#	get_tree().change_scene("res://personagemgloria.tscn") #leva para a tela do jogo (labirinto)
+#	get_tree().change_scene("res://personagemgloria.tscn") # esse código era o usado anteriormente resolvemos deixar apenas inativo
