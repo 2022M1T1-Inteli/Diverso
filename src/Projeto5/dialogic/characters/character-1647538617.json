@@ -8,13 +8,13 @@
 	"name": "MARIA",
 	"nickname": "",
 	"nickname_bool": false,
-	"offset_x": 0,
-	"offset_y": 0,
+	"offset_x": 3,
+	"offset_y": 3,
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://npc banheiro.png"
 		}
 	],
-	"scale": 100
+	"scale": 200
 }

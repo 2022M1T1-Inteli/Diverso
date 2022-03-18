@@ -13,7 +13,7 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://joao asset1.png"
+			"path": ""
 		}
 	],
 	"scale": 100

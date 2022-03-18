@@ -8,13 +8,13 @@
 	"name": "PEDRO",
 	"nickname": "",
 	"nickname_bool": false,
-	"offset_x": 0,
-	"offset_y": 0,
+	"offset_x": 3,
+	"offset_y": -10,
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://npc 3.png"
 		}
 	],
-	"scale": 100
+	"scale": 200
 }

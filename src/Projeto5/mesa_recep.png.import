@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/armário copa.png-4325a25d2d5d58981d33d1a624d9ea62.stex"
+path="res://.import/mesa_recep.png-eda739dfaa2e3d1e17d87f89378e3755.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://armário copa.png"
-dest_files=[ "res://.import/armário copa.png-4325a25d2d5d58981d33d1a624d9ea62.stex" ]
+source_file="res://mesa_recep.png"
+dest_files=[ "res://.import/mesa_recep.png-eda739dfaa2e3d1e17d87f89378e3755.stex" ]
 
 [params]
 

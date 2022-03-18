@@ -1,10 +1,28 @@
 {
 	"events": [
 		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647262576.cfg"
+		},
+		{
 			"character": "character-1645148309.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Boa tarde, sou a Glória, vim finalizar minha ficha."
+		},
+		{
+			"action": "join",
+			"character": "character-1645147809.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
 		},
 		{
 			"character": "character-1645147809.json",

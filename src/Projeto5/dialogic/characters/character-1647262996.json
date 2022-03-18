@@ -8,13 +8,13 @@
 	"name": "JULIA",
 	"nickname": "",
 	"nickname_bool": false,
-	"offset_x": 0,
-	"offset_y": 0,
+	"offset_x": 3,
+	"offset_y": 3,
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://npc 2 (1).png"
+			"path": "res://npc 2.png"
 		}
 	],
-	"scale": 100
+	"scale": 200
 }
