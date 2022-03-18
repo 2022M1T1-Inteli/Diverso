@@ -98,6 +98,7 @@ margin_left = 80.0
 margin_top = 606.667
 margin_right = 380.0
 margin_bottom = 683.667
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 7 )
 text = "GLÓRIA"
 
@@ -118,6 +119,7 @@ margin_left = 24.4444
 margin_top = 203.333
 margin_right = 124.444
 margin_bottom = 231.333
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 8 )
 text = "LUCAS"
 
@@ -137,6 +139,7 @@ margin_left = 56.6667
 margin_top = 610.0
 margin_right = 406.667
 margin_bottom = 713.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 9 )
 text = "ANTÔNIO
 "
@@ -157,6 +160,7 @@ margin_left = 69.697
 margin_top = 560.606
 margin_right = 419.697
 margin_bottom = 633.606
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 10 )
 text = "ISABELA"
 
@@ -176,6 +180,7 @@ margin_left = 103.333
 margin_top = 648.276
 margin_right = 316.333
 margin_bottom = 724.276
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 11 )
 text = "JOÃO"
 __meta__ = {
@@ -198,15 +203,18 @@ margin_left = 136.111
 margin_top = 548.571
 margin_right = 308.111
 margin_bottom = 608.571
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 12 )
 text = "ANA"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( -27, -17 )
 scale = Vector2( 1.25, 1.25 )
 z_index = -1
 frames = SubResource( 2 )
-frame = 2
 playing = true
 centered = false
 

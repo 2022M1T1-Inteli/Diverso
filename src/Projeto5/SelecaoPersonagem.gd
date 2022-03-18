@@ -14,7 +14,9 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta: float) -> void:
 #	pass
-
+#func _on_Start_pressed():
+#	Transition.fade_into("res://personagemgloria.tscn")
 
 func _on_Gloria_pressed() -> void:
-	get_tree().change_scene("res://personagemgloria.tscn") #leva para a tela do jogo (labirinto)
+	Transition.fade_into("res://personagemgloria.tscn")
+#	get_tree().change_scene("res://personagemgloria.tscn") #leva para a tela do jogo (labirinto)

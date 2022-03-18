@@ -21,4 +21,5 @@ func _on_voltar_pressed() -> void:
 
 
 func _on_continuar_pressed() -> void:
-	get_tree().change_scene("res://Labirinto.tscn") # Replace with function body.
+	Transition.fade_into("res://Labirinto.tscn")
+#	get_tree().change_scene("res://Labirinto.tscn") # Replace with function body.

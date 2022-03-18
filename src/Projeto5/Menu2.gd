@@ -7,7 +7,7 @@ func _on_Quit_pressed():
 
 
 func _on_Start_pressed():
-	Transition.fade_into(scene_to_go)
+	Transition.fade_into("res://SelecaoPersonagem.tscn")
 	
 	
 
