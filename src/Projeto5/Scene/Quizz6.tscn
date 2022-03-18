@@ -34,14 +34,12 @@ bg_color = Color( 0.301961, 0.396078, 0.592157, 1 )
 [node name="Quizz1" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_top = 1.0
-margin_bottom = 1.0
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 bd_quiz = ExtResource( 1 )
-color_right = Color( 0, 1, 0.227451, 1 )
+color_right = Color( 0, 1, 0.0627451, 1 )
 color_wrong = Color( 1, 0, 0, 1 )
 
 [node name="TextureRect" type="TextureRect" parent="."]
