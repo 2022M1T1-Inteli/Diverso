@@ -147,9 +147,9 @@ animations = [ {
 "name": "Up",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 10 ), ExtResource( 8 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 9 ), ExtResource( 4 ) ],
+"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
 "loop": true,
-"name": "Run",
+"name": "Down",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 6 ) ],
@@ -157,9 +157,9 @@ animations = [ {
 "name": "Idle",
 "speed": 12.0
 }, {
-"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
+"frames": [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 10 ), ExtResource( 8 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 9 ), ExtResource( 4 ) ],
 "loop": true,
-"name": "Down",
+"name": "Run",
 "speed": 20.0
 } ]
 
@@ -175,7 +175,7 @@ radius = 12.0
 height = 0.0
 
 [sub_resource type="RectangleShape2D" id=25]
-extents = Vector2( 32.9167, 12.7869 )
+extents = Vector2( 32.9167, 22.1639 )
 
 [sub_resource type="SpriteFrames" id=28]
 animations = [ {
@@ -391,7 +391,8 @@ region_enabled = true
 region_rect = Rect2( 9.95958, 1.53343, 70.9794, 52.4054 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC/StaticBody2D4"]
-position = Vector2( -0.416626, -13.6393 )
+position = Vector2( -0.416565, -4.26231 )
+scale = Vector2( 1, 1 )
 shape = SubResource( 25 )
 
 [node name="StaticBody2D5" type="StaticBody2D" parent="NPC\'s/NPC"]
@@ -541,6 +542,7 @@ position = Vector2( 2856, 2858 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
+frame = 3
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -548,7 +550,6 @@ position = Vector2( 2954, 2737 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 6
 playing = true
 flip_h = true
 
@@ -557,7 +558,7 @@ position = Vector2( 2807, 2795 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 1
+frame = 4
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -565,6 +566,7 @@ position = Vector2( 2954, 2855 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
+frame = 3
 playing = true
 flip_h = true
 
@@ -575,7 +577,7 @@ position = Vector2( 2855, 2734 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 3
+frame = 6
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]
