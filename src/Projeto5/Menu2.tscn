@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=2]
+[gd_scene load_steps=26 format=2]
 
 [ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Menu2.gd" type="Script" id=2]
@@ -11,6 +11,7 @@
 [ext_resource path="res://Imagens random/l0_sprite_sky4.png" type="Texture" id=9]
 [ext_resource path="res://diverso-removebg-preview (1).png" type="Texture" id=10]
 [ext_resource path="res://Imagens random/l0_sprite_sky7.png" type="Texture" id=11]
+[ext_resource path="res://songs/clear-sky-hartzmann-main-version-02-20-18592.mp3" type="AudioStream" id=12]
 
 [sub_resource type="SpriteFrames" id=14]
 animations = [ {
@@ -85,7 +86,6 @@ position = Vector2( 515, 319 )
 scale = Vector2( 1.19894, 0.818381 )
 frames = SubResource( 14 )
 animation = "céu nuvens "
-frame = 3
 speed_scale = 0.5
 playing = true
 
@@ -136,6 +136,9 @@ custom_styles/focus = SubResource( 11 )
 custom_styles/disabled = SubResource( 12 )
 custom_styles/normal = SubResource( 13 )
 text = "Sair"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 12 )
 
 [connection signal="pressed" from="CenterContainer/VBoxContainer/Start" to="." method="_on_Start_pressed"]
 [connection signal="pressed" from="CenterContainer/VBoxContainer/Quit" to="." method="_on_Quit_pressed"]

@@ -2,6 +2,9 @@ extends Control
 
 export var scene_to_go = ""
 
+func _ready():
+	$AudioStreamPlayer2D.play()
+
 func _on_Quit_pressed():
 	get_tree().quit()
 
