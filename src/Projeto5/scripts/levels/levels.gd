@@ -22,9 +22,9 @@ func _ready() -> void:
 
 	
 func load_quiz() -> void:
-	if index >= bd_quiz.bd.size():
+	if index >= bd_quiz.bd.size(): #Condição para quando acabarem as perguntas do banco de dados do quizz
 		print("acabaram as perguntas")
-		get_tree().change_scene("res://Labirinto.tscn")
+		get_tree().change_scene("res://Labirinto.tscn") # Trocar para a cena do labirinto
 		return
 		
 	question_text.text = str(bd_quiz.bd[index].question_hud)
@@ -51,7 +51,7 @@ func load_quiz() -> void:
 			
 			
 			
-func buttons_answer(button) -> void:
+func buttons_answer(button) -> void:     #Função para quando o usuário apertar o quizz aparecer as cores de certo e errado.
 	if bd_quiz.bd[index].correct == button.text:
 		button.modulate = color_right
 	else:
@@ -65,10 +65,10 @@ func buttons_answer(button) -> void:
 		bt.modulate = Color.white
 		bt.disconnect("pressed", self, "buttons_answer")
 			
-	question_audio.stream = null
-	question_video.stream = null
+	question_audio.stream = null    #Parar o áudio da pergunta
+	question_video.stream = null    #Parar o vídeo da pergunta
 			
-	if bd_quiz.bd[index].correct == button.text:
+	if bd_quiz.bd[index].correct == button.text:   #Quando uma pergunta do banco de dados é respondida corretamente ele movimenta para a próxima pergunta
 		index += 1
 	load_quiz()
 		

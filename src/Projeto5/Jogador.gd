@@ -27,6 +27,6 @@ func _physics_process(delta):
 		motion.x = 0
 		motion.y = 0
 		$AnimatedSprite.play("Idle")
-	var actualPosition = get_position()
-	Globalpos.Position = Vector2(actualPosition)
+	var actualPosition = get_position() #Pegar a posição do personagem e salvar
+	Globalpos.Position = Vector2(actualPosition) #Utilizar a variável global para salvar pegar a posição em outros scripts
 	motion = move_and_slide(motion)

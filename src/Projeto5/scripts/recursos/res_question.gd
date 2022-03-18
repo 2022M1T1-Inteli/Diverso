@@ -8,5 +8,5 @@ export(AudioStream) var question_audio
 export(VideoStream) var question_video
 export(Array, String) var options
 export(String) var correct
-  
+#Exportar materiais para o recurso de perguntas do quizz  
 
