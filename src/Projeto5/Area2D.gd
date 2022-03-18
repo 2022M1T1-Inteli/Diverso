@@ -33,11 +33,9 @@ func saiu(event):
 
 func abrir():
 	$AnimatedSprite.play("Abrir")
-	$AnimationPlayer.play("Abrir")
 	aberta = true
 
 
 func fechar():
 	$AnimatedSprite.play("Fechar")
-	$AnimationPlayer.play("Fechar")
 	aberta = false
