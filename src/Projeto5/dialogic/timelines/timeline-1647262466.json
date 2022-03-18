@@ -47,6 +47,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": " Sinto muito, mas eu vou usar esse banheiro, é meu direito. "
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {

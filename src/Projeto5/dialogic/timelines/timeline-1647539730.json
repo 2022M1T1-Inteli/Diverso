@@ -41,6 +41,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Agora você não está mais sozinha, sempre que precisar é só vir aqui no LAGER que resolveremos! Assim construímos um ambiente cada vez mais entendido de inclusão e que todos podem ser eles mesmos, criando iniciativas na AMBEV."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {

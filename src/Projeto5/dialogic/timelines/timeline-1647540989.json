@@ -41,6 +41,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Sem problemas, é conversando e escutando os outros que se aprende. Só não repetir esse mesmo erro a partir de agora."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {
