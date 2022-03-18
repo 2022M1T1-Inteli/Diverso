@@ -8,5 +8,5 @@ script = ExtResource( 1 )
 question_hud = ""
 type = 1
 question_image = ExtResource( 2 )
-options = [ "Não", "Sim, porque não deixa ninguém se sentir sozinho.", "Sim, porque cria um ambiente representativo na comunidade e que luta a favor de seus direitos.", "Sim, porque limita as minorias a um espaço da empresa." ]
+options = [ "Não.", "Sim, porque não deixa ninguém se sentir sozinho.", "Sim, porque cria um ambiente representativo na comunidade e que luta a favor de seus direitos.", "Sim, porque limita as minorias a um espaço da empresa." ]
 correct = "Sim, porque cria um ambiente representativo na comunidade e que luta a favor de seus direitos."

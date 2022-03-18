@@ -8,5 +8,5 @@ script = ExtResource( 1 )
 question_hud = ""
 type = 1
 question_image = ExtResource( 2 )
-options = [ "Porque a forma correta de tratamento é como a pessoa quiser", "Porque “traveco” diminui os transexuais e travestis, é pejorativo", "Não tem problema usar esse termo", "Porque \"traveco'' se refere apenas a travestis e não a transexuais." ]
-correct = "Porque “traveco” diminui os transexuais e travestis, é pejorativo"
+options = [ "Porque a forma correta de tratamento é como a pessoa quiser.", "Porque “traveco” diminui os transexuais e travestis, é pejorativo.", "Não tem problema usar esse termo.", "Porque \"traveco'' se refere apenas a travestis e não a transexuais." ]
+correct = "Porque “traveco” diminui os transexuais e travestis, é pejorativo."

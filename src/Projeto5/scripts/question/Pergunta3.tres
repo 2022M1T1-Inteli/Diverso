@@ -8,5 +8,5 @@ script = ExtResource( 1 )
 question_hud = ""
 type = 1
 question_image = ExtResource( 2 )
-options = [ "Ele é transexual e homossexual", "Ele é transexual e hétero", "Ele é travesti e homossexual", "Ele é travesti e hétero" ]
-correct = "Ele é transexual e hétero"
+options = [ "Ele é transexual e homossexual.", "Ele é transexual e hétero.", "Ele é travesti e homossexual.", "Ele é travesti e hétero." ]
+correct = "Ele é transexual e hétero."
