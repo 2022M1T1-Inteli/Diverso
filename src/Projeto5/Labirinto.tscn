@@ -1,4 +1,4 @@
-[gd_scene load_steps=159 format=2]
+[gd_scene load_steps=158 format=2]
 
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-5.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-6.png" type="Texture" id=2]
@@ -135,7 +135,6 @@
 [ext_resource path="res://armario.png" type="Texture" id=137]
 [ext_resource path="res://microondas.png" type="Texture" id=138]
 [ext_resource path="res://geladeira.png" type="Texture" id=139]
-[ext_resource path="res://armário copa.png" type="Texture" id=140]
 [ext_resource path="res://NPC3.gd" type="Script" id=141]
 [ext_resource path="res://NPC COPA.png" type="Texture" id=142]
 [ext_resource path="res://NPC4.gd" type="Script" id=143]
@@ -143,25 +142,25 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
-"loop": true,
-"name": "Up",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
 "loop": true,
 "name": "Down",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 10 ), ExtResource( 8 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 9 ), ExtResource( 4 ) ],
+"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
 "loop": true,
-"name": "Run",
+"name": "Up",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 6 ) ],
 "loop": true,
 "name": "Idle",
 "speed": 12.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 10 ), ExtResource( 8 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 9 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "Run",
+"speed": 20.0
 } ]
 
 [sub_resource type="CapsuleShape2D" id=2]
@@ -393,7 +392,6 @@ region_rect = Rect2( 9.95958, 1.53343, 70.9794, 52.4054 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC/StaticBody2D4"]
 position = Vector2( -0.416626, -13.6393 )
-scale = Vector2( 1, 1 )
 shape = SubResource( 25 )
 
 [node name="StaticBody2D5" type="StaticBody2D" parent="NPC\'s/NPC"]
@@ -543,7 +541,7 @@ position = Vector2( 2856, 2858 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 2
+frame = 8
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -551,7 +549,7 @@ position = Vector2( 2954, 2737 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 8
+frame = 5
 playing = true
 flip_h = true
 
@@ -560,7 +558,6 @@ position = Vector2( 2807, 2795 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 3
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -568,7 +565,7 @@ position = Vector2( 2954, 2855 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 2
+frame = 8
 playing = true
 flip_h = true
 
@@ -579,7 +576,7 @@ position = Vector2( 2855, 2734 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 5
+frame = 2
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]
@@ -759,14 +756,6 @@ show_collision = true
 format = 1
 tile_data = PoolIntArray( 5439565, 0, 0, 5439566, 0, 0, 5439567, 0, 0, 5439568, 0, 0, 5439569, 0, 0, 5439574, 0, 0, 5439575, 0, 0, 5439576, 0, 0, 5439577, 0, 0, 5439578, 0, 0, 5439579, 0, 0, 5439580, 0, 0, 5439581, 0, 0, 5439582, 0, 0, 5439583, 0, 0, 5439584, 0, 0, 5439585, 0, 0 )
 
-[node name="ArmárioCopa" type="Sprite" parent="Parede/parede lager"]
-position = Vector2( 210, 2077 )
-texture = ExtResource( 140 )
-
-[node name="ArmárioCopa2" type="Sprite" parent="Parede/parede lager"]
-position = Vector2( 265, 2120 )
-texture = ExtResource( 140 )
-
 [node name="rua" type="Sprite" parent="Parede"]
 position = Vector2( -160, 160 )
 scale = Vector2( 0.256934, 0.290625 )
@@ -841,10 +830,6 @@ tile_set = ExtResource( 38 )
 cell_size = Vector2( 32, 32 )
 format = 1
 tile_data = PoolIntArray( -917507, 0, 0, -983037, 0, 0, 1769570, 0, 0, 1769580, 0, 0, 1769582, 0, 0, 1900643, 0, 0, 1900653, 0, 0, 1900654, 0, 0, 1966179, 0, 0, 1966189, 0, 0, 1966190, 0, 0, 2031715, 0, 0, 2097251, 0, 0, 2162787, 0, 0, 2228323, 0, 0, 2293859, 0, 0, 2359395, 0, 0, 2424931, 0, 0, 2490467, 0, 0, 2556003, 0, 0, 2621539, 0, 0, 2621549, 0, 0, 2621550, 0, 0, 2687075, 0, 0, 2687076, 0, 0, 2752612, 0, 0, 2883574, 0, 0, 2883576, 0, 0, 2883578, 0, 0, 2883579, 0, 0, 2818048, 0, 0, 2818049, 0, 0, 2818052, 0, 0, 2818053, 0, 0, 2818056, 0, 0, 2818057, 0, 0, 2818058, 0, 0, 2818062, 0, 0, 2818148, 0, 0, 2949110, 0, 0, 2949112, 0, 0, 2949113, 0, 0, 2949114, 0, 0, 2949115, 0, 0, 2949116, 0, 0, 2883584, 0, 0, 2883588, 0, 0, 2883589, 0, 0, 2883591, 0, 0, 2883592, 0, 0, 2883598, 0, 0, 2883684, 0, 0, 3014646, 0, 0, 3014648, 0, 0, 3014649, 0, 0, 3014652, 0, 0, 2949120, 0, 0, 2949124, 0, 0, 2949125, 0, 0, 2949127, 0, 0, 2949134, 0, 0, 2949220, 0, 0, 3080182, 0, 0, 3080184, 0, 0, 3080185, 0, 0, 3080188, 0, 0, 3014656, 0, 0, 3014660, 0, 0, 3014661, 0, 0, 3014663, 0, 0, 3014670, 0, 0, 3014756, 0, 0, 3145718, 0, 0, 3145720, 0, 0, 3145721, 0, 0, 3145724, 0, 0, 3145727, 0, 0, 3080195, 0, 0, 3080196, 0, 0, 3080197, 0, 0, 3080199, 0, 0, 3080206, 0, 0, 3080292, 0, 0, 3211254, 0, 0, 3211256, 0, 0, 3211257, 0, 0, 3211260, 0, 0, 3211263, 0, 0, 3145731, 0, 0, 3145733, 0, 0, 3145735, 0, 0, 3145736, 0, 0, 3145742, 0, 0, 3145828, 0, 0, 3276790, 0, 0, 3276792, 0, 0, 3276793, 0, 0, 3276794, 0, 0, 3276796, 0, 0, 3276797, 0, 0, 3276798, 0, 0, 3276799, 0, 0, 3211264, 0, 0, 3211267, 0, 0, 3211269, 0, 0, 3211270, 0, 0, 3211272, 0, 0, 3211278, 0, 0, 3211364, 0, 0, 3342326, 0, 0, 3342328, 0, 0, 3342329, 0, 0, 3342330, 0, 0, 3342335, 0, 0, 3276800, 0, 0, 3276803, 0, 0, 3276806, 0, 0, 3276807, 0, 0, 3276808, 0, 0, 3276814, 0, 0, 3276900, 0, 0, 3276910, 0, 0, 3407862, 0, 0, 3342435, 0, 0, 3342436, 0, 0, 3473398, 0, 0, 3407971, 0, 0, 3407972, 0, 0, 3473507, 0, 0, 3473508, 0, 0, 3539043, 0, 0, 3539044, 0, 0, 3604579, 0, 0, 3604580, 0, 0, 3670115, 0, 0, 3670116, 0, 0, 3735651, 0, 0, 3735652, 0, 0, 3801187, 0, 0, 3866723, 0, 0, 3997686, 0, 0, 3997691, 0, 0, 3932259, 0, 0, 3932270, 0, 0, 4063222, 0, 0, 3997795, 0, 0, 4128758, 0, 0, 4063331, 0, 0, 4194294, 0, 0, 4128867, 0, 0, 4259830, 0, 0, 4259835, 0, 0, 4194403, 0, 0, 4325366, 0, 0, 4259939, 0, 0, 4390902, 0, 0, 4325475, 0, 0, 4325485, 0, 0, 4456438, 0, 0, 4391011, 0, 0, 4521974, 0, 0, 4456547, 0, 0, 4587510, 0, 0, 4522083, 0, 0, 4522094, 0, 0, 4653046, 0, 0, 4587619, 0, 0, 4718582, 0, 0, 4653155, 0, 0, 4784118, 0, 0, 4718691, 0, 0, 4849654, 0, 0, 4849659, 0, 0, 4784227, 0, 0, 4915190, 0, 0, 4849763, 0, 0, 4980726, 0, 0, 4915299, 0, 0, 4915310, 0, 0, 5046262, 0, 0, 4980835, 0, 0, 4980836, 0, 0, 5111798, 0, 0, 5046372, 0, 0, 5177334, 0, 0, 5111908, 0, 0, 5177444, 0, 0, 5177447, 0, 0, 5177448, 0, 0, 5242944, 0, 0, 5242946, 0, 0, 5242980, 0, 0, 5242981, 0, 0, 5242983, 0, 0, 5242984, 0, 0, 5373942, 0, 0, 5308517, 0, 0, 5308518, 0, 0, 5308519, 0, 0, 5439478, 0, 0, 5374016, 0, 0, 5374018, 0, 0, 5374051, 0, 0, 5374052, 0, 0, 5374053, 0, 0, 5374054, 0, 0, 5374062, 0, 0, 5505014, 0, 0, 5505019, 0, 0, 5439588, 0, 0, 5439589, 0, 0, 5570555, 0, 0, 5505125, 0, 0, 5570660, 0, 0, 5570661, 0, 0, 5636196, 0, 0, 5636197, 0, 0, 5701733, 0, 0, 5767278, 0, 0, 5963776, 0, 0, 5963786, 0, 0, 5963796, 0, 0, 5963806, 0, 0, 5963816, 0, 0, 5963826, 0, 0, 5963836, 0, 0, 6029382, 0, 0, 6029383, 0, 0, 6029384, 0, 0, 6029385, 0, 0, 6029386, 0, 0, 6029387, 0, 0, 6029388, 0, 0, 6029389, 0, 0, 6029390, 0, 0, 6029391, 0, 0, 6029392, 0, 0, 6029393, 0, 0, 6029394, 0, 0, 6029395, 0, 0, 6029396, 0, 0, 6029397, 0, 0, 6029398, 0, 0, 6029399, 0, 0, 6029402, 0, 0, 6029403, 0, 0, 6029404, 0, 0, 6029405, 0, 0, 6029406, 0, 0, 6160374, 0, 0, 6094848, 0, 0, 6094849, 0, 0, 6094850, 0, 0, 6094851, 0, 0, 6094852, 0, 0, 6094853, 0, 0, 6094854, 0, 0, 6094855, 0, 0, 6094856, 0, 0, 6094864, 0, 0, 6094865, 0, 0, 6094866, 0, 0, 6094867, 0, 0, 6094868, 0, 0, 6094876, 0, 0, 6094886, 0, 0, 6094896, 0, 0, 6094906, 0, 0, 6094914, 0, 0, 6094922, 0, 0, 6094927, 0, 0, 6094935, 0, 0, 6094936, 0, 0, 6094937, 0, 0, 6094938, 0, 0, 6094942, 0, 0, 6094950, 0, 0, 6094952, 0, 0, 6094958, 0, 0 )
-
-[node name="ArmárioCopa" type="Sprite" parent="Parede/Grama"]
-position = Vector2( 352, 2128 )
-texture = ExtResource( 140 )
 
 [node name="parede banheiro" type="TileMap" parent="Parede"]
 z_index = 2
@@ -1208,21 +1193,6 @@ scale = Vector2( 0.231944, 0.2125 )
 position = Vector2( 4.31128, 2.35352 )
 scale = Vector2( 0.999999, 1 )
 shape = SubResource( 36 )
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
-position = Vector2( -1181.32, 489.412 )
-build_mode = 1
-polygon = PoolVector2Array( -25.8685, 18.8232, -181.078, 117.646, -185.39, 14.1172, -137.964, -18.8242, -17.2457, -89.4121, 176.767, 14.1172, 288.863, 103.529, 172.455, 131.765, 38.8024, 61.1758, -56.0482, 61.1758 )
-
-[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="StaticBody2D"]
-position = Vector2( -978.685, 710.588 )
-build_mode = 1
-polygon = PoolVector2Array( -25.8685, 18.8232, -181.078, 117.646, -258.683, 56.4707, -8.62292, -61.1768, 172.456, 0, 254.372, 37.6475, 172.455, 131.765, 38.8024, 61.1758, -56.0482, 61.1758 )
-
-[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="StaticBody2D"]
-position = Vector2( -594.971, 743.529 )
-build_mode = 1
-polygon = PoolVector2Array( -51.7367, 61.1768, -194.012, 112.941, -271.617, 80, 21.5569, -89.4111, 176.767, 9.41211, 301.797, 94.1182, 172.455, 131.765, 38.8024, 61.1758, -56.0482, 61.1758 )
 
 [node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="StaticBody2D"]
 position = Vector2( 194.012, -207.059 )
