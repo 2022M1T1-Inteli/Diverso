@@ -29,6 +29,7 @@ func _input(event):
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
+				Globalpos.npc7 = true
 
 func unpause(timeline_timeline1):
 	get_tree().paused = false

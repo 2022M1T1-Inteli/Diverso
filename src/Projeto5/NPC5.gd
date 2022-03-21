@@ -7,7 +7,7 @@ func _ready():
 	connect("body_exited", self, '_on_NPC_body_exited')
 
 func _on_NPC_body_entered(body):
-	if body.name == "Jogador":
+	if body.name == "Jogador" and Globalpos.npc7:
 		active = true
 
 func _process(delta):
