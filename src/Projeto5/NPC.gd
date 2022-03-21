@@ -16,17 +16,27 @@ func _process(delta):
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("ui_accept") and active:
-			get_tree().paused = true
-			var dialog = Dialogic.start('timeline1')
-			dialog.pause_mode = Node.PAUSE_MODE_PROCESS
-			dialog.connect('timeline_end', self, 'unpause')
-			add_child(dialog)
-			Globalpos.npc2 = true
+			if Globalpos.npc6 == false:
+				get_tree().paused = true
+				var dialog = Dialogic.start('timeline1')
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
+				Globalpos.npc2 = true
+			if Globalpos.npc6:
+				get_tree().paused = true
+				var dialog = Dialogic.start('timeline7')
+				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+				dialog.connect('timeline_end', self, 'unpause')
+				add_child(dialog)
 
 func unpause(timeline_timeline1):
 	get_tree().paused = false
 	#direcionando o jogador para o quiz
-	get_tree().change_scene("res://Scene/Quizz1.tscn")
+	if Globalpos.npc6 == false:
+		get_tree().change_scene("res://Scene/Quizz1.tscn")
+	if Globalpos.npc6:
+		get_tree().change_scene("res://Scene/Quizz4.tscn")
 
 func _on_NPC_body_exited(body):
 	if body.name == "Jogador":

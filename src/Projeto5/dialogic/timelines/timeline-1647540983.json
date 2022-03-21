@@ -22,13 +22,19 @@
 			"character": "character-1647262996.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Boa tarde, conseguimos resolver seu problema com sua ficha. Você só precisa finalizar na recepção agora."
+			"text": "- Boa tarde, conseguimos resolver seu problema com sua ficha. Você só precisa finalizar na recepção agora."
 		},
 		{
 			"character": "character-1645148309.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Obrigada pela ajuda com meu nome."
+			"text": "- Obrigada pela ajuda com meu nome."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vá para a recepção"
 		},
 		{
 			"event_id": "dialogic_022",

@@ -8,7 +8,7 @@
 			"character": "character-1645148309.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Boa tarde, sou a Glória, vim finalizar minha ficha."
+			"text": "- Boa tarde, sou a Glória, vim finalizar minha ficha."
 		},
 		{
 			"action": "join",
@@ -28,37 +28,37 @@
 			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Ah claro, você é o traveco que estava com o nome errado no sistema."
+			"text": "- Ah claro, você é o traveco que estava com o nome errado no sistema."
 		},
 		{
 			"character": "character-1645148309.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Transsexual, não traveco."
+			"text": "- Transsexual, não traveco."
 		},
 		{
 			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Mas não é isso que você é? "
+			"text": "- Mas não é isso que você é? "
 		},
 		{
 			"character": "character-1645148309.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Sou transsexual. Traveco é uma forma ofensiva! É como xingar alguém, entendeu?"
+			"text": "- Sou transsexual. Traveco é uma forma ofensiva! É como xingar alguém, entendeu?"
 		},
 		{
 			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Mil desculpas! Eu não fazia ideia de que era um xingamento…"
+			"text": "- Mil desculpas! Eu não fazia ideia de que era um xingamento…"
 		},
 		{
 			"character": "character-1645148309.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Sem problemas, é conversando e escutando os outros que se aprende. Só não repetir esse mesmo erro a partir de agora."
+			"text": "- Sem problemas, é conversando e escutando os outros que se aprende. Só não repetir esse mesmo erro a partir de agora."
 		},
 		{
 			"event_id": "dialogic_022",
