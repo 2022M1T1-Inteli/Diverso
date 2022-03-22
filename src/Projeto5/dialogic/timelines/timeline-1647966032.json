@@ -6,7 +6,7 @@
 		},
 		{
 			"action": "join",
-			"character": "character-1647538617.json",
+			"character": "character-1647966059.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
 			"portrait": "",
@@ -19,58 +19,46 @@
 			}
 		},
 		{
-			"character": "character-1647538617.json",
+			"character": "character-1647966059.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Com licença, acho que você entrou no lugar errado."
+			"text": "- Você é a Glória?"
 		},
 		{
 			"character": "character-1645148309.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Aqui não é o banheiro?"
+			"text": "- Sim, sou eu mesma."
 		},
 		{
-			"character": "character-1647538617.json",
+			"character": "character-1647966059.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Sim, o banheiro feminino."
-		},
-		{
-			"character": "character-1645148309.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "- Então eu estou certa."
-		},
-		{
-			"character": "character-1647538617.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "- Mas você não é mulher…"
+			"text": "- Perfeito. Recentemente houve uma revisão no sistema e parece que encontraram problema no seu perfil."
 		},
 		{
 			"character": "character-1645148309.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Eu sou uma mulher trans."
+			"text": "- Nossa, e o que eu posso fazer?"
 		},
 		{
-			"character": "character-1647538617.json",
+			"character": "character-1647966059.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Mas você não nasceu mulher, portanto você não é mulher. Peço que você se retire. "
+			"text": "- A ordem é se dirigir a recepção."
 		},
 		{
 			"character": "character-1645148309.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": " - Sinto muito, mas eu vou usar esse banheiro, é meu direito. "
+			"text": "- Certo, obrigada."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Vá para a Copa."
+			"text": "Vá para a recepção."
 		},
 		{
 			"event_id": "dialogic_022",
@@ -79,7 +67,7 @@
 	],
 	"metadata": {
 		"dialogic-version": "1.3",
-		"file": "timeline-1647262466.json",
-		"name": "timeline3"
+		"file": "timeline-1647966032.json",
+		"name": "timeline01"
 	}
 }

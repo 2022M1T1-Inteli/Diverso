@@ -1,0 +1,20 @@
+{
+	"color": "#ff000000",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1647966059.json",
+	"mirror_portraits": false,
+	"name": "DOUGLAS",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 3,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Segurança NPC.png"
+		}
+	],
+	"scale": 35
+}

@@ -10,7 +10,8 @@
 				"character-1647262996.json",
 				"character-1647538617.json",
 				"character-1647539097.json",
-				"character-1647540127.json"
+				"character-1647540127.json",
+				"character-1647966059.json"
 			],
 			"folders": {
 
@@ -35,9 +36,7 @@
 		"Themes": {
 			"files": [
 				"default-theme.cfg",
-				"theme-1647262576.cfg",
-				"theme-1647262579.cfg",
-				"theme-1647262580.cfg"
+				"theme-1647262576.cfg"
 			],
 			"folders": {
 
@@ -55,7 +54,8 @@
 				"timeline-1647539068.json",
 				"timeline-1647539730.json",
 				"timeline-1647540983.json",
-				"timeline-1647540989.json"
+				"timeline-1647540989.json",
+				"timeline-1647966032.json"
 			],
 			"folders": {
 
