@@ -1,5 +1,5 @@
 extends Node
-var Position = Vector2(32, 32)
+var Position = Vector2(26, 33)
 #Criar variável global para pegar a posição do personagem em outros scripts
 var npc2=false
 var npc3=false

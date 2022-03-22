@@ -58,6 +58,7 @@ func _physics_process(delta):
 	var actualPosition = get_position() #Pegar a posição do personagem e salvar
 	Globalpos.Position = Vector2(actualPosition) #Utilizar a variável global para salvar pegar a posição em outros scripts
 	move_and_slide(velocity)
+	
 
 
 

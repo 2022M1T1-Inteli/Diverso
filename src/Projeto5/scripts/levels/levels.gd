@@ -24,7 +24,7 @@ func _ready() -> void:
 func load_quiz() -> void:
 	if index >= bd_quiz.bd.size(): #Condição para quando acabarem as perguntas do banco de dados do quizz
 		print("acabaram as perguntas")
-		get_tree().change_scene("res://Labirinto.tscn") # Trocar para a cena do labirinto
+		get_tree().change_scene("res://LabirintoGlória.tscn") # Trocar para a cena do labirinto
 		return
 		
 	question_text.text = str(bd_quiz.bd[index].question_hud)
