@@ -7,3 +7,4 @@ var npc4=false
 var npc5=false
 var npc6=false
 var npc7=false
+var a = false

@@ -144,10 +144,10 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 6 ) ],
+"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
 "loop": true,
-"name": "Idle",
-"speed": 12.0
+"name": "Up",
+"speed": 20.0
 }, {
 "frames": [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 10 ), ExtResource( 8 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 9 ), ExtResource( 4 ) ],
 "loop": true,
@@ -159,10 +159,10 @@ animations = [ {
 "name": "Down",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
+"frames": [ ExtResource( 6 ) ],
 "loop": true,
-"name": "Up",
-"speed": 20.0
+"name": "Idle",
+"speed": 12.0
 } ]
 
 [sub_resource type="Animation" id=37]
@@ -227,6 +227,30 @@ tracks/4/keys = {
 "transitions": PoolRealArray( 1, 1, 1 ),
 "update": 1,
 "values": [ 512, 512, 1 ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("AnimatedSprite:animation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "Run" ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("AnimatedSprite:playing")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, true ]
 }
 
 [sub_resource type="Animation" id=38]
@@ -302,6 +326,30 @@ tracks/5/keys = {
 "transitions": PoolRealArray( 1 ),
 "update": 0,
 "values": [ 1 ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("AnimatedSprite:animation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ "Run" ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("AnimatedSprite:playing")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
 }
 
 [sub_resource type="CapsuleShape2D" id=2]
@@ -447,6 +495,7 @@ centered = false
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Jogador/AnimatedSprite"]
 root_node = NodePath("../..")
+autoplay = "Chegada"
 playback_process_mode = 0
 anims/Chegada = SubResource( 37 )
 anims/RESET = SubResource( 38 )
@@ -720,7 +769,7 @@ position = Vector2( 2856, 2858 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 3
+frame = 6
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -728,6 +777,7 @@ position = Vector2( 2954, 2737 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
+frame = 3
 playing = true
 flip_h = true
 
@@ -736,7 +786,7 @@ position = Vector2( 2807, 2795 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 4
+frame = 7
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -744,7 +794,7 @@ position = Vector2( 2954, 2855 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 3
+frame = 6
 playing = true
 flip_h = true
 
@@ -755,7 +805,6 @@ position = Vector2( 2855, 2734 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 6
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]
@@ -1488,3 +1537,5 @@ position = Vector2( 1.46667, 259.59 )
 scale = Vector2( 1.06, 1.1 )
 z_index = -1
 texture = ExtResource( 133 )
+
+[connection signal="animation_finished" from="Jogador/AnimatedSprite/AnimationPlayer" to="Jogador" method="_on_AnimationPlayer_animation_finished"]
