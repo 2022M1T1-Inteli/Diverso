@@ -1,9 +1,12 @@
 extends KinematicBody2D
 var SPEED = 300
 var velocity = Vector2.ZERO
+var animacao = true
 
 func _ready():
 	set_position(Globalpos.Position)
+	$AnimatedSprite/AnimationPlayer.play("Chegada")
+	
 
 func _physics_process(delta):
 	
@@ -54,3 +57,4 @@ func _physics_process(delta):
 	var actualPosition = get_position() #Pegar a posição do personagem e salvar
 	Globalpos.Position = Vector2(actualPosition) #Utilizar a variável global para salvar pegar a posição em outros scripts
 	move_and_slide(velocity)
+

@@ -1,4 +1,4 @@
-[gd_scene load_steps=160 format=2]
+[gd_scene load_steps=162 format=2]
 
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-5.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-6.png" type="Texture" id=2]
@@ -154,16 +154,155 @@ animations = [ {
 "name": "Idle",
 "speed": 12.0
 }, {
-"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
-"loop": true,
-"name": "Down",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 10 ), ExtResource( 8 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 9 ), ExtResource( 4 ) ],
 "loop": true,
 "name": "Run",
 "speed": 20.0
+}, {
+"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
+"loop": true,
+"name": "Down",
+"speed": 20.0
 } ]
+
+[sub_resource type="Animation" id=37]
+resource_name = "Chegada"
+length = 5.2
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:z_index")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ -8, 4 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1.2, 1.8, 5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -151, -139 ), Vector2( -119, 33 ), Vector2( -104, 33 ), Vector2( 26, 33 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("../Cenário/carro:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 1.2, 1.6, 4.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -110, -118 ), Vector2( -111, 78 ), Vector2( -111, 78 ), Vector2( -111, 360 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath(".:collision_layer")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 5, 5.1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ 512, 512, 1 ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath(".:collision_mask")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 5, 5.1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ 512, 512, 1 ]
+}
+
+[sub_resource type="Animation" id=38]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:z_index")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ -8 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( -100, 24 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("../Cenário/carro:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( -110, -118 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("AnimatedSprite/AnimationPlayer:playback_process_mode")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0 ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath(".:collision_layer")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 4 ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath(".:collision_mask")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 1 ]
+}
 
 [sub_resource type="CapsuleShape2D" id=2]
 radius = 17.0
@@ -260,15 +399,15 @@ height = 0.0
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
-"loop": false,
-"name": "Abrir",
-"speed": 30.0
-}, {
 "frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
 "loop": false,
 "name": "Fechar",
 "speed": 20.0
+}, {
+"frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
+"loop": false,
+"name": "Abrir",
+"speed": 30.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=11]
@@ -286,8 +425,9 @@ __meta__ = {
 }
 
 [node name="Jogador" type="KinematicBody2D" parent="."]
-position = Vector2( 32, 32 )
-z_index = 4
+position = Vector2( -100, 24 )
+z_index = -8
+collision_layer = 4
 script = ExtResource( 31 )
 __meta__ = {
 "_edit_group_": true
@@ -302,8 +442,14 @@ zoom = Vector2( 0.5, 0.5 )
 position = Vector2( -18, -5 )
 scale = Vector2( 0.927083, 0.927083 )
 frames = SubResource( 1 )
-animation = "Up"
+animation = "Run"
 centered = false
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Jogador/AnimatedSprite"]
+root_node = NodePath("../..")
+playback_process_mode = 0
+anims/Chegada = SubResource( 37 )
+anims/RESET = SubResource( 38 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Jogador"]
 position = Vector2( 27, 36 )
@@ -574,7 +720,6 @@ position = Vector2( 2856, 2858 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 5
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -582,7 +727,7 @@ position = Vector2( 2954, 2737 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 2
+frame = 6
 playing = true
 flip_h = true
 
@@ -591,7 +736,7 @@ position = Vector2( 2807, 2795 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 6
+frame = 1
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -599,7 +744,6 @@ position = Vector2( 2954, 2855 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 5
 playing = true
 flip_h = true
 
@@ -610,7 +754,7 @@ position = Vector2( 2855, 2734 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 8
+frame = 3
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]
@@ -859,11 +1003,11 @@ region_enabled = true
 region_rect = Rect2( 0, 0, 195.461, 317.866 )
 
 [node name="grama mike" type="TileMap" parent="Parede/Grama"]
-z_index = 1
+z_index = -2
 tile_set = ExtResource( 38 )
 cell_size = Vector2( 32, 32 )
 format = 1
-tile_data = PoolIntArray( -917507, 0, 0, -983037, 0, 0, 458804, 0, 0, 458814, 0, 0, 458824, 0, 0, 655403, 0, 0, 983082, 0, 0, 983109, 0, 0, 1376349, 0, 0, 1769570, 0, 0, 1769580, 0, 0, 1769582, 0, 0, 1900643, 0, 0, 1900653, 0, 0, 1900654, 0, 0, 1966179, 0, 0, 1966189, 0, 0, 1966190, 0, 0, 2031715, 0, 0, 2097251, 0, 0, 2162787, 0, 0, 2228323, 0, 0, 2293859, 0, 0, 2359395, 0, 0, 2424931, 0, 0, 2490467, 0, 0, 2556003, 0, 0, 2621539, 0, 0, 2621549, 0, 0, 2621550, 0, 0, 2687075, 0, 0, 2687076, 0, 0, 2752612, 0, 0, 2883574, 0, 0, 2883576, 0, 0, 2883578, 0, 0, 2883579, 0, 0, 2818048, 0, 0, 2818049, 0, 0, 2818052, 0, 0, 2818053, 0, 0, 2818056, 0, 0, 2818057, 0, 0, 2818058, 0, 0, 2818062, 0, 0, 2818148, 0, 0, 2949110, 0, 0, 2949112, 0, 0, 2949113, 0, 0, 2949114, 0, 0, 2949115, 0, 0, 2949116, 0, 0, 2883584, 0, 0, 2883588, 0, 0, 2883589, 0, 0, 2883591, 0, 0, 2883592, 0, 0, 2883598, 0, 0, 2883684, 0, 0, 3014646, 0, 0, 3014648, 0, 0, 3014649, 0, 0, 3014652, 0, 0, 2949120, 0, 0, 2949124, 0, 0, 2949125, 0, 0, 2949127, 0, 0, 2949134, 0, 0, 2949220, 0, 0, 3080182, 0, 0, 3080184, 0, 0, 3080185, 0, 0, 3080188, 0, 0, 3014656, 0, 0, 3014660, 0, 0, 3014661, 0, 0, 3014663, 0, 0, 3014670, 0, 0, 3014756, 0, 0, 3145718, 0, 0, 3145720, 0, 0, 3145721, 0, 0, 3145724, 0, 0, 3145727, 0, 0, 3080195, 0, 0, 3080196, 0, 0, 3080197, 0, 0, 3080199, 0, 0, 3080206, 0, 0, 3080292, 0, 0, 3211254, 0, 0, 3211256, 0, 0, 3211257, 0, 0, 3211260, 0, 0, 3211263, 0, 0, 3145731, 0, 0, 3145733, 0, 0, 3145735, 0, 0, 3145736, 0, 0, 3145742, 0, 0, 3145828, 0, 0, 3276790, 0, 0, 3276792, 0, 0, 3276793, 0, 0, 3276794, 0, 0, 3276796, 0, 0, 3276797, 0, 0, 3276798, 0, 0, 3276799, 0, 0, 3211264, 0, 0, 3211267, 0, 0, 3211269, 0, 0, 3211270, 0, 0, 3211272, 0, 0, 3211278, 0, 0, 3211364, 0, 0, 3342326, 0, 0, 3342328, 0, 0, 3342329, 0, 0, 3342330, 0, 0, 3342335, 0, 0, 3276800, 0, 0, 3276803, 0, 0, 3276806, 0, 0, 3276807, 0, 0, 3276808, 0, 0, 3276814, 0, 0, 3276900, 0, 0, 3276910, 0, 0, 3407862, 0, 0, 3342435, 0, 0, 3342436, 0, 0, 3473398, 0, 0, 3407971, 0, 0, 3407972, 0, 0, 3473507, 0, 0, 3473508, 0, 0, 3539043, 0, 0, 3539044, 0, 0, 3604579, 0, 0, 3604580, 0, 0, 3670115, 0, 0, 3670116, 0, 0, 3735651, 0, 0, 3735652, 0, 0, 3801187, 0, 0, 3866723, 0, 0, 3997686, 0, 0, 3997691, 0, 0, 3932259, 0, 0, 3932270, 0, 0, 4063222, 0, 0, 3997795, 0, 0, 4128758, 0, 0, 4063331, 0, 0, 4194294, 0, 0, 4128867, 0, 0, 4259830, 0, 0, 4259835, 0, 0, 4194403, 0, 0, 4325366, 0, 0, 4259939, 0, 0, 4390902, 0, 0, 4325475, 0, 0, 4325485, 0, 0, 4456438, 0, 0, 4391011, 0, 0, 4521974, 0, 0, 4456547, 0, 0, 4587510, 0, 0, 4522083, 0, 0, 4522094, 0, 0, 4653046, 0, 0, 4587619, 0, 0, 4718582, 0, 0, 4653155, 0, 0, 4784118, 0, 0, 4718691, 0, 0, 4849654, 0, 0, 4849659, 0, 0, 4784227, 0, 0, 4915190, 0, 0, 4849763, 0, 0, 4980726, 0, 0, 4915299, 0, 0, 4915310, 0, 0, 5046262, 0, 0, 4980835, 0, 0, 4980836, 0, 0, 5111798, 0, 0, 5046372, 0, 0, 5177334, 0, 0, 5111908, 0, 0, 5177444, 0, 0, 5177447, 0, 0, 5177448, 0, 0, 5242944, 0, 0, 5242946, 0, 0, 5242980, 0, 0, 5242981, 0, 0, 5242983, 0, 0, 5242984, 0, 0, 5373942, 0, 0, 5308517, 0, 0, 5308518, 0, 0, 5308519, 0, 0, 5439478, 0, 0, 5374016, 0, 0, 5374018, 0, 0, 5374051, 0, 0, 5374052, 0, 0, 5374053, 0, 0, 5374054, 0, 0, 5374062, 0, 0, 5505014, 0, 0, 5505019, 0, 0, 5439588, 0, 0, 5439589, 0, 0, 5570555, 0, 0, 5505125, 0, 0, 5570660, 0, 0, 5570661, 0, 0, 5636196, 0, 0, 5636197, 0, 0, 5701733, 0, 0, 5767278, 0, 0, 5963776, 0, 0, 5963786, 0, 0, 5963796, 0, 0, 5963806, 0, 0, 5963816, 0, 0, 5963826, 0, 0, 5963836, 0, 0, 6029382, 0, 0, 6029383, 0, 0, 6029384, 0, 0, 6029385, 0, 0, 6029386, 0, 0, 6029387, 0, 0, 6029388, 0, 0, 6029389, 0, 0, 6029390, 0, 0, 6029391, 0, 0, 6029392, 0, 0, 6029393, 0, 0, 6029394, 0, 0, 6029395, 0, 0, 6029396, 0, 0, 6029397, 0, 0, 6029398, 0, 0, 6029399, 0, 0, 6029402, 0, 0, 6029403, 0, 0, 6029404, 0, 0, 6029405, 0, 0, 6029406, 0, 0, 6160374, 0, 0, 6094848, 0, 0, 6094849, 0, 0, 6094850, 0, 0, 6094851, 0, 0, 6094852, 0, 0, 6094853, 0, 0, 6094854, 0, 0, 6094855, 0, 0, 6094856, 0, 0, 6094864, 0, 0, 6094865, 0, 0, 6094866, 0, 0, 6094867, 0, 0, 6094868, 0, 0, 6094876, 0, 0, 6094886, 0, 0, 6094896, 0, 0, 6094906, 0, 0, 6094914, 0, 0, 6094922, 0, 0, 6094927, 0, 0, 6094935, 0, 0, 6094936, 0, 0, 6094937, 0, 0, 6094938, 0, 0, 6094942, 0, 0, 6094950, 0, 0, 6094952, 0, 0, 6094958, 0, 0 )
+tile_data = PoolIntArray( -917507, 0, 0, -983037, 0, 0, -786449, 0, 0, -327697, 0, 0, 327663, 0, 0, 458804, 0, 0, 458814, 0, 0, 458824, 0, 0, 655403, 0, 0, 917487, 0, 0, 983082, 0, 0, 983109, 0, 0, 1376349, 0, 0, 1769570, 0, 0, 1769580, 0, 0, 1769582, 0, 0, 1900643, 0, 0, 1900653, 0, 0, 1900654, 0, 0, 1966179, 0, 0, 1966189, 0, 0, 1966190, 0, 0, 2031715, 0, 0, 2097251, 0, 0, 2162787, 0, 0, 2228323, 0, 0, 2293859, 0, 0, 2359395, 0, 0, 2424931, 0, 0, 2490467, 0, 0, 2556003, 0, 0, 2621539, 0, 0, 2621549, 0, 0, 2621550, 0, 0, 2687075, 0, 0, 2687076, 0, 0, 2752612, 0, 0, 2883574, 0, 0, 2883576, 0, 0, 2883578, 0, 0, 2883579, 0, 0, 2818048, 0, 0, 2818049, 0, 0, 2818052, 0, 0, 2818053, 0, 0, 2818056, 0, 0, 2818057, 0, 0, 2818058, 0, 0, 2818062, 0, 0, 2818148, 0, 0, 2949110, 0, 0, 2949112, 0, 0, 2949113, 0, 0, 2949114, 0, 0, 2949115, 0, 0, 2949116, 0, 0, 2883584, 0, 0, 2883588, 0, 0, 2883589, 0, 0, 2883591, 0, 0, 2883592, 0, 0, 2883598, 0, 0, 2883684, 0, 0, 3014646, 0, 0, 3014648, 0, 0, 3014649, 0, 0, 3014652, 0, 0, 2949120, 0, 0, 2949124, 0, 0, 2949125, 0, 0, 2949127, 0, 0, 2949134, 0, 0, 2949220, 0, 0, 3080182, 0, 0, 3080184, 0, 0, 3080185, 0, 0, 3080188, 0, 0, 3014656, 0, 0, 3014660, 0, 0, 3014661, 0, 0, 3014663, 0, 0, 3014670, 0, 0, 3014756, 0, 0, 3145718, 0, 0, 3145720, 0, 0, 3145721, 0, 0, 3145724, 0, 0, 3145727, 0, 0, 3080195, 0, 0, 3080196, 0, 0, 3080197, 0, 0, 3080199, 0, 0, 3080206, 0, 0, 3080292, 0, 0, 3211254, 0, 0, 3211256, 0, 0, 3211257, 0, 0, 3211260, 0, 0, 3211263, 0, 0, 3145731, 0, 0, 3145733, 0, 0, 3145735, 0, 0, 3145736, 0, 0, 3145742, 0, 0, 3145828, 0, 0, 3276790, 0, 0, 3276792, 0, 0, 3276793, 0, 0, 3276794, 0, 0, 3276796, 0, 0, 3276797, 0, 0, 3276798, 0, 0, 3276799, 0, 0, 3211264, 0, 0, 3211267, 0, 0, 3211269, 0, 0, 3211270, 0, 0, 3211272, 0, 0, 3211278, 0, 0, 3211364, 0, 0, 3342326, 0, 0, 3342328, 0, 0, 3342329, 0, 0, 3342330, 0, 0, 3342335, 0, 0, 3276800, 0, 0, 3276803, 0, 0, 3276806, 0, 0, 3276807, 0, 0, 3276808, 0, 0, 3276814, 0, 0, 3276900, 0, 0, 3276910, 0, 0, 3407862, 0, 0, 3342435, 0, 0, 3342436, 0, 0, 3473398, 0, 0, 3407971, 0, 0, 3407972, 0, 0, 3473507, 0, 0, 3473508, 0, 0, 3539043, 0, 0, 3539044, 0, 0, 3604579, 0, 0, 3604580, 0, 0, 3670115, 0, 0, 3670116, 0, 0, 3735651, 0, 0, 3735652, 0, 0, 3801187, 0, 0, 3866723, 0, 0, 3997686, 0, 0, 3997691, 0, 0, 3932259, 0, 0, 3932270, 0, 0, 4063222, 0, 0, 3997795, 0, 0, 4128758, 0, 0, 4063331, 0, 0, 4194294, 0, 0, 4128867, 0, 0, 4259830, 0, 0, 4259835, 0, 0, 4194403, 0, 0, 4325366, 0, 0, 4259939, 0, 0, 4390902, 0, 0, 4325475, 0, 0, 4325485, 0, 0, 4456438, 0, 0, 4391011, 0, 0, 4521974, 0, 0, 4456547, 0, 0, 4587510, 0, 0, 4522083, 0, 0, 4522094, 0, 0, 4653046, 0, 0, 4587619, 0, 0, 4718582, 0, 0, 4653155, 0, 0, 4784118, 0, 0, 4718691, 0, 0, 4849654, 0, 0, 4849659, 0, 0, 4784227, 0, 0, 4915190, 0, 0, 4849763, 0, 0, 4980726, 0, 0, 4915299, 0, 0, 4915310, 0, 0, 5046262, 0, 0, 4980835, 0, 0, 4980836, 0, 0, 5111798, 0, 0, 5046372, 0, 0, 5177334, 0, 0, 5111908, 0, 0, 5177444, 0, 0, 5177447, 0, 0, 5177448, 0, 0, 5242944, 0, 0, 5242946, 0, 0, 5242980, 0, 0, 5242981, 0, 0, 5242983, 0, 0, 5242984, 0, 0, 5373942, 0, 0, 5308517, 0, 0, 5308518, 0, 0, 5308519, 0, 0, 5439478, 0, 0, 5374016, 0, 0, 5374018, 0, 0, 5374051, 0, 0, 5374052, 0, 0, 5374053, 0, 0, 5374054, 0, 0, 5374062, 0, 0, 5505014, 0, 0, 5505019, 0, 0, 5439588, 0, 0, 5439589, 0, 0, 5570555, 0, 0, 5505125, 0, 0, 5570660, 0, 0, 5570661, 0, 0, 5636196, 0, 0, 5636197, 0, 0, 5701733, 0, 0, 5767278, 0, 0, 5963776, 0, 0, 5963786, 0, 0, 5963796, 0, 0, 5963806, 0, 0, 5963816, 0, 0, 5963826, 0, 0, 5963836, 0, 0, 6029382, 0, 0, 6029383, 0, 0, 6029384, 0, 0, 6029385, 0, 0, 6029386, 0, 0, 6029387, 0, 0, 6029388, 0, 0, 6029389, 0, 0, 6029390, 0, 0, 6029391, 0, 0, 6029392, 0, 0, 6029393, 0, 0, 6029394, 0, 0, 6029395, 0, 0, 6029396, 0, 0, 6029397, 0, 0, 6029398, 0, 0, 6029399, 0, 0, 6029402, 0, 0, 6029403, 0, 0, 6029404, 0, 0, 6029405, 0, 0, 6029406, 0, 0, 6160374, 0, 0, 6094848, 0, 0, 6094849, 0, 0, 6094850, 0, 0, 6094851, 0, 0, 6094852, 0, 0, 6094853, 0, 0, 6094854, 0, 0, 6094855, 0, 0, 6094856, 0, 0, 6094864, 0, 0, 6094865, 0, 0, 6094866, 0, 0, 6094867, 0, 0, 6094868, 0, 0, 6094876, 0, 0, 6094886, 0, 0, 6094896, 0, 0, 6094906, 0, 0, 6094914, 0, 0, 6094922, 0, 0, 6094927, 0, 0, 6094935, 0, 0, 6094936, 0, 0, 6094937, 0, 0, 6094938, 0, 0, 6094942, 0, 0, 6094950, 0, 0, 6094952, 0, 0, 6094958, 0, 0 )
 
 [node name="parede banheiro" type="TileMap" parent="Parede"]
 z_index = 2
@@ -968,7 +1112,7 @@ shape = SubResource( 11 )
 [node name="Cenário" type="Node" parent="."]
 
 [node name="carro" type="StaticBody2D" parent="Cenário"]
-position = Vector2( -111, 6 )
+position = Vector2( -110, -118 )
 z_index = 2
 script = ExtResource( 68 )
 __meta__ = {
