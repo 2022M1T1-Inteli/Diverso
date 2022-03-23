@@ -5,7 +5,7 @@ var velocity = Vector2.ZERO
 func _ready():
 		set_position(Globalpos.Position)
 		if Globalpos.a==false:
-			$AnimatedSprite/AnimationPlayer.play("Chegada")
+			$AnimationPlayer.play("Chegada")
 
 func _physics_process(delta):
 	if Globalpos.a == true:
@@ -13,7 +13,6 @@ func _physics_process(delta):
 		motion.x = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left")
 		motion.y = Input.get_action_strength("ui_down") - Input.get_action_strength("ui_up")
 		motion = motion.normalized()
-		
 		
 		if Input.is_action_pressed("ui_right"):
 			$AnimatedSprite.play("Run")
