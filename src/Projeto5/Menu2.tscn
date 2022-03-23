@@ -86,7 +86,7 @@ position = Vector2( 515, 319 )
 scale = Vector2( 1.19894, 0.818381 )
 frames = SubResource( 14 )
 animation = "céu nuvens "
-frame = 6
+frame = 3
 speed_scale = 0.5
 playing = true
 

@@ -36,5 +36,7 @@ func _physics_process(delta):
 		Globalpos.Position = Vector2(actualPosition) #Utilizar a variável global para salvar pegar a posição em outros scripts
 		move_and_slide(velocity)
 
+
+
 func _on_AnimationPlayer_animation_finished(anim_name):
-	Globalpos.a = true
+	Globalpos.a=true
