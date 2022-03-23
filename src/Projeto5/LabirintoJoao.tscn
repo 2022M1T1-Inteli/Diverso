@@ -1,7 +1,8 @@
-[gd_scene load_steps=161 format=2]
+[gd_scene load_steps=156 format=2]
 
 [ext_resource path="res://Imagens personagem/João/fa69623c94d34071d0493f489e8c244dNkPpvMCJNLzCY2ao-1.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/João/fa69623c94d34071d0493f489e8c244dNkPpvMCJNLzCY2ao-0.png" type="Texture" id=2]
+[ext_resource path="res://NPC1J.gd" type="Script" id=3]
 [ext_resource path="res://Imagens personagem/João/fa69623c94d34071d0493f489e8c244dNkPpvMCJNLzCY2ao-4.png" type="Texture" id=4]
 [ext_resource path="res://Tile maps/chão_fora.tres" type="TileSet" id=5]
 [ext_resource path="res://Imagens personagem/João/fa69623c94d34071d0493f489e8c244dNkPpvMCJNLzCY2ao-2.png" type="Texture" id=6]
@@ -27,7 +28,6 @@
 [ext_resource path="res://Imagens personagem/Glória/Glória andando costas-1.png" type="Texture" id=26]
 [ext_resource path="res://Imagens random/npc queer/l0_sprite_7.png" type="Texture" id=27]
 [ext_resource path="res://Jogador2.gd" type="Script" id=28]
-[ext_resource path="res://NPC.gd" type="Script" id=29]
 [ext_resource path="res://paredeforaI.png" type="Texture" id=30]
 [ext_resource path="res://l0_sprite_1.png" type="Texture" id=31]
 [ext_resource path="res://Imagens random/npc queer/l0_sprite_5.png" type="Texture" id=32]
@@ -38,7 +38,6 @@
 [ext_resource path="res://copa-.png" type="Texture" id=37]
 [ext_resource path="res://mesa_recep.png" type="Texture" id=38]
 [ext_resource path="res://Segurança NPC.png" type="Texture" id=39]
-[ext_resource path="res://Segurança.gd" type="Script" id=40]
 [ext_resource path="res://Imagens random/npc gênero fluido/l0_sprite_2.png" type="Texture" id=41]
 [ext_resource path="res://Imagens random/npc gênero fluido/l0_sprite_3.png" type="Texture" id=42]
 [ext_resource path="res://Imagens random/npc gênero fluido/l0_sprite_1.png" type="Texture" id=43]
@@ -123,7 +122,6 @@
 [ext_resource path="res://parede_fora.tres" type="TileSet" id=122]
 [ext_resource path="res://npc 2.png" type="Texture" id=123]
 [ext_resource path="res://banheiro-.png" type="Texture" id=124]
-[ext_resource path="res://NPC2.gd" type="Script" id=125]
 [ext_resource path="res://privada.png" type="Texture" id=126]
 [ext_resource path="res://privada  banheiro.tres" type="TileSet" id=127]
 [ext_resource path="res://sala.png" type="Texture" id=128]
@@ -136,10 +134,7 @@
 [ext_resource path="res://chao novo.tres" type="TileSet" id=135]
 [ext_resource path="res://chao banheiro.tres" type="TileSet" id=136]
 [ext_resource path="res://Portas/porta.pixel-10.png" type="Texture" id=137]
-[ext_resource path="res://NPC3.gd" type="Script" id=138]
 [ext_resource path="res://NPC COPA.png" type="Texture" id=139]
-[ext_resource path="res://NPC4.gd" type="Script" id=140]
-[ext_resource path="res://NPC5.gd" type="Script" id=141]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -513,7 +508,6 @@ motion_mirroring = Vector2( 914, 615 )
 
 [node name="NPC" type="Area2D" parent="NPC\'s"]
 position = Vector2( 64, 832 )
-script = ExtResource( 29 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC"]
 position = Vector2( 3, -6 )
@@ -606,7 +600,6 @@ shape = SubResource( 25 )
 
 [node name="NPC2" type="Area2D" parent="NPC\'s"]
 position = Vector2( 126, 568 )
-script = ExtResource( 125 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -638,7 +631,6 @@ texture = ExtResource( 123 )
 
 [node name="NPC3" type="Area2D" parent="NPC\'s"]
 position = Vector2( 2060, 647 )
-script = ExtResource( 138 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -671,7 +663,6 @@ flip_h = true
 
 [node name="NPC4" type="Area2D" parent="NPC\'s"]
 position = Vector2( 330, 2040 )
-script = ExtResource( 140 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC4"]
 position = Vector2( 8, 1 )
@@ -700,7 +691,6 @@ texture = ExtResource( 139 )
 
 [node name="NPC5" type="Area2D" parent="NPC\'s"]
 position = Vector2( 3017, 2786 )
-script = ExtResource( 141 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC5"]
 position = Vector2( -3, 1 )
@@ -730,7 +720,7 @@ flip_h = true
 
 [node name="Segurança" type="Area2D" parent="NPC\'s"]
 position = Vector2( 164, 21 )
-script = ExtResource( 40 )
+script = ExtResource( 3 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/Segurança"]
 position = Vector2( -3, 1 )
@@ -766,7 +756,6 @@ position = Vector2( 2856, 2858 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 7
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -774,7 +763,7 @@ position = Vector2( 2954, 2737 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 4
+frame = 6
 playing = true
 flip_h = true
 
@@ -783,7 +772,7 @@ position = Vector2( 2807, 2795 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 8
+frame = 1
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -791,7 +780,6 @@ position = Vector2( 2954, 2855 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 7
 playing = true
 flip_h = true
 
@@ -802,7 +790,7 @@ position = Vector2( 2855, 2734 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 1
+frame = 3
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]

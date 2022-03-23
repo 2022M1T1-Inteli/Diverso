@@ -794,7 +794,7 @@ position = Vector2( 2856, 2858 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 5
+frame = 8
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -802,7 +802,7 @@ position = Vector2( 2954, 2737 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 2
+frame = 5
 playing = true
 flip_h = true
 
@@ -811,7 +811,6 @@ position = Vector2( 2807, 2795 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 6
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -819,7 +818,7 @@ position = Vector2( 2954, 2855 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 5
+frame = 8
 playing = true
 flip_h = true
 
@@ -830,7 +829,7 @@ position = Vector2( 2855, 2734 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 8
+frame = 2
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]

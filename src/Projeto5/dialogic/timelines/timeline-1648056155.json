@@ -1,0 +1,79 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647966059.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647966059.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Olá, você deve ser o faxineiro."
+		},
+		{
+			"character": "character-1648056573.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Quem? Eu?"
+		},
+		{
+			"character": "character-1647966059.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Sim, essa sala está toda suja."
+		},
+		{
+			"character": "character-1648056573.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Como assim? Eu sou o novo diretor financeiro da empresa."
+		},
+		{
+			"character": "character-1647966059.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Desculpa, mas é que o novo diretor se chama João."
+		},
+		{
+			"character": "character-1648056573.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Eu sei, eu sou o João."
+		},
+		{
+			"character": "character-1647966059.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Ah... Perdão, Sr João, preciso que vá até a recepção e avise que chegou para lhe mostrarem sua sala. "
+		},
+		{
+			"character": "character-1648056573.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Certo, obrigado."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1648056155.json",
+		"name": "Joao1"
+	}
+}
