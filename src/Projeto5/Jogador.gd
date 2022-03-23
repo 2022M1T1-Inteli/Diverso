@@ -1,13 +1,11 @@
 extends KinematicBody2D
 var SPEED = 300
 var velocity = Vector2.ZERO
-var animacao = false
 
 func _ready():
-	if animacao == false:
 		set_position(Globalpos.Position)
-		$AnimatedSprite/AnimationPlayer.play("Chegada")
-		animacao=true
+		if Globalpos.a==false:
+			$AnimatedSprite/AnimationPlayer.play("Chegada")
 
 func _physics_process(delta):
 	if Globalpos.a == true:
