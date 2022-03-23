@@ -1,0 +1,53 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		},
+		{
+			"character": "character-1645147809.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Boa tarde, como posso ajudar?"
+		},
+		{
+			"character": "character-1648056573.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Eu sou o novo diretor financeiro, e me mandaram aqui para validar meus documentos e me mostrarem onde é minha sala."
+		},
+		{
+			"character": "character-1645147809.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Ok, um minutinho."
+		},
+		{
+			"character": "character-1645147809.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- …."
+		},
+		{
+			"character": "character-1645147809.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Tudo certo senhor, a sua sala é a segunda a direita."
+		},
+		{
+			"character": "character-1648056573.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Muito obrigado!"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1648061025.json",
+		"name": "Joao2"
+	}
+}
