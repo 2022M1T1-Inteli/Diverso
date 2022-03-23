@@ -154,15 +154,15 @@ animations = [ {
 "name": "Run",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 6 ) ],
-"loop": true,
-"name": "Idle",
-"speed": 12.0
-}, {
 "frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
 "loop": true,
 "name": "Down",
 "speed": 20.0
+}, {
+"frames": [ ExtResource( 6 ) ],
+"loop": true,
+"name": "Idle",
+"speed": 12.0
 } ]
 
 [sub_resource type="Animation" id=37]
@@ -447,15 +447,15 @@ height = 0.0
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
-"loop": false,
-"name": "Abrir",
-"speed": 30.0
-}, {
 "frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
 "loop": false,
 "name": "Fechar",
 "speed": 20.0
+}, {
+"frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
+"loop": false,
+"name": "Abrir",
+"speed": 30.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=11]
@@ -491,7 +491,7 @@ position = Vector2( -18, -5 )
 scale = Vector2( 0.927083, 0.927083 )
 frames = SubResource( 1 )
 animation = "Run"
-frame = 6
+frame = 2
 centered = false
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Jogador/AnimatedSprite"]
@@ -769,7 +769,6 @@ position = Vector2( 2856, 2858 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 1
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -777,7 +776,7 @@ position = Vector2( 2954, 2737 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 7
+frame = 6
 playing = true
 flip_h = true
 
@@ -786,7 +785,7 @@ position = Vector2( 2807, 2795 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 2
+frame = 1
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -794,7 +793,6 @@ position = Vector2( 2954, 2855 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 1
 playing = true
 flip_h = true
 
@@ -805,7 +803,7 @@ position = Vector2( 2855, 2734 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 4
+frame = 3
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]
