@@ -149,14 +149,14 @@ animations = [ {
 "name": "Up",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 112 ), ExtResource( 24 ), ExtResource( 109 ), ExtResource( 108 ), ExtResource( 111 ), ExtResource( 113 ), ExtResource( 23 ), ExtResource( 110 ) ],
-"loop": true,
-"name": "Down",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 3 ), ExtResource( 2 ), ExtResource( 4 ), ExtResource( 8 ), ExtResource( 6 ), ExtResource( 88 ), ExtResource( 104 ), ExtResource( 105 ), ExtResource( 7 ), ExtResource( 1 ) ],
 "loop": true,
 "name": "Run",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 112 ), ExtResource( 24 ), ExtResource( 109 ), ExtResource( 108 ), ExtResource( 111 ), ExtResource( 113 ), ExtResource( 23 ), ExtResource( 110 ) ],
+"loop": true,
+"name": "Down",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 3 ) ],
@@ -165,68 +165,96 @@ animations = [ {
 "speed": 12.0
 } ]
 
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 17.0
+height = 22.0
+
 [sub_resource type="Animation" id=37]
 resource_name = "Chegada"
 length = 5.2
 tracks/0/type = "value"
-tracks/0/path = NodePath(".:z_index")
+tracks/0/path = NodePath("../Cenário/carro:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 1.2 ),
-"transitions": PoolRealArray( 1, 1 ),
-"update": 1,
-"values": [ -8, 4 ]
+"times": PoolRealArray( 0, 1.2, 1.9, 4.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -110, -118 ), Vector2( -111, 78 ), Vector2( -111, 78 ), Vector2( -111, 360 ) ]
 }
 tracks/1/type = "value"
-tracks/1/path = NodePath(".:position")
+tracks/1/path = NodePath(".:collision_layer")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/keys = {
-"times": PoolRealArray( 0, 1.2, 1.8, 5 ),
-"transitions": PoolRealArray( 1, 1, 1, 1 ),
-"update": 0,
-"values": [ Vector2( -151, -139 ), Vector2( -119, 33 ), Vector2( -104, 33 ), Vector2( 26, 33 ) ]
+"times": PoolRealArray( 0, 5, 5.1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ 512, 512, 1 ]
 }
 tracks/2/type = "value"
-tracks/2/path = NodePath("../Cenário/carro:position")
+tracks/2/path = NodePath(".:collision_mask")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/imported = false
 tracks/2/enabled = true
 tracks/2/keys = {
-"times": PoolRealArray( 0, 1.2, 1.6, 4.6 ),
-"transitions": PoolRealArray( 1, 1, 1, 1 ),
-"update": 0,
-"values": [ Vector2( -110, -118 ), Vector2( -111, 78 ), Vector2( -111, 78 ), Vector2( -111, 360 ) ]
+"times": PoolRealArray( 0, 5, 5.1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ 512, 512, 1 ]
 }
 tracks/3/type = "value"
-tracks/3/path = NodePath(".:collision_layer")
+tracks/3/path = NodePath(".:position")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/imported = false
 tracks/3/enabled = true
 tracks/3/keys = {
-"times": PoolRealArray( 0, 5, 5.1 ),
-"transitions": PoolRealArray( 1, 1, 1 ),
-"update": 1,
-"values": [ 512, 512, 1 ]
+"times": PoolRealArray( 0, 1.2, 1.5, 5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -147, -168 ), Vector2( -147, 36 ), Vector2( -147, 36 ), Vector2( 26, 36 ) ]
 }
 tracks/4/type = "value"
-tracks/4/path = NodePath(".:collision_mask")
+tracks/4/path = NodePath(".:visible")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/imported = false
 tracks/4/enabled = true
 tracks/4/keys = {
-"times": PoolRealArray( 0, 5, 5.1 ),
-"transitions": PoolRealArray( 1, 1, 1 ),
+"times": PoolRealArray( 0, 1.5 ),
+"transitions": PoolRealArray( 1, 1 ),
 "update": 1,
-"values": [ 512, 512, 1 ]
+"values": [ false, true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("AnimatedSprite:animation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "Run" ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("AnimatedSprite:playing")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
 }
 
 [sub_resource type="Animation" id=38]
@@ -303,10 +331,30 @@ tracks/5/keys = {
 "update": 0,
 "values": [ 1 ]
 }
-
-[sub_resource type="CapsuleShape2D" id=2]
-radius = 17.0
-height = 22.0
+tracks/6/type = "value"
+tracks/6/path = NodePath(".:visible")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("AnimatedSprite:playing")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
 
 [sub_resource type="CircleShape2D" id=4]
 radius = 84.006
@@ -399,15 +447,15 @@ height = 0.0
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 91 ), ExtResource( 92 ), ExtResource( 93 ), ExtResource( 90 ), ExtResource( 94 ), ExtResource( 95 ), ExtResource( 96 ), ExtResource( 131 ), ExtResource( 134 ), ExtResource( 133 ), ExtResource( 137 ), ExtResource( 89 ), ExtResource( 99 ), ExtResource( 98 ), ExtResource( 97 ) ],
-"loop": false,
-"name": "Abrir",
-"speed": 30.0
-}, {
 "frames": [ ExtResource( 97 ), ExtResource( 98 ), ExtResource( 99 ), ExtResource( 89 ), ExtResource( 137 ), ExtResource( 133 ), ExtResource( 134 ), ExtResource( 131 ), ExtResource( 96 ), ExtResource( 95 ), ExtResource( 94 ), ExtResource( 90 ), ExtResource( 93 ), ExtResource( 92 ), ExtResource( 91 ) ],
 "loop": false,
 "name": "Fechar",
 "speed": 20.0
+}, {
+"frames": [ ExtResource( 91 ), ExtResource( 92 ), ExtResource( 93 ), ExtResource( 90 ), ExtResource( 94 ), ExtResource( 95 ), ExtResource( 96 ), ExtResource( 131 ), ExtResource( 134 ), ExtResource( 133 ), ExtResource( 137 ), ExtResource( 89 ), ExtResource( 99 ), ExtResource( 98 ), ExtResource( 97 ) ],
+"loop": false,
+"name": "Abrir",
+"speed": 30.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=11]
@@ -441,19 +489,19 @@ zoom = Vector2( 0.5, 0.5 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Jogador"]
 position = Vector2( -18, -5 )
 scale = Vector2( 0.927083, 0.927083 )
+z_index = 4
 frames = SubResource( 1 )
 animation = "Run"
 centered = false
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Jogador/AnimatedSprite"]
-root_node = NodePath("../..")
-playback_process_mode = 0
-anims/Chegada = SubResource( 37 )
-anims/RESET = SubResource( 38 )
-
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Jogador"]
 position = Vector2( 27, 36 )
 shape = SubResource( 2 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Jogador"]
+playback_process_mode = 0
+anims/Chegada = SubResource( 37 )
+anims/RESET = SubResource( 38 )
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
@@ -717,6 +765,7 @@ position = Vector2( 2856, 2858 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
+frame = 6
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -724,7 +773,7 @@ position = Vector2( 2954, 2737 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 6
+frame = 3
 playing = true
 flip_h = true
 
@@ -733,7 +782,7 @@ position = Vector2( 2807, 2795 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 1
+frame = 7
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -741,6 +790,7 @@ position = Vector2( 2954, 2855 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
+frame = 6
 playing = true
 flip_h = true
 
@@ -751,7 +801,6 @@ position = Vector2( 2855, 2734 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 3
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]

@@ -179,7 +179,7 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 1.2, 1.6, 4.6 ),
+"times": PoolRealArray( 0, 1.2, 1.9, 4.6 ),
 "transitions": PoolRealArray( 1, 1, 1, 1 ),
 "update": 0,
 "values": [ Vector2( -110, -118 ), Vector2( -111, 78 ), Vector2( -111, 78 ), Vector2( -111, 360 ) ]
@@ -239,10 +239,10 @@ tracks/5/loop_wrap = true
 tracks/5/imported = false
 tracks/5/enabled = true
 tracks/5/keys = {
-"times": PoolRealArray( 0, 1.5, 5 ),
-"transitions": PoolRealArray( 1, 1, 1 ),
+"times": PoolRealArray( 0, 1.4, 1.8, 5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
 "update": 0,
-"values": [ Vector2( -148, -165 ), Vector2( -128, 30 ), Vector2( 25, 35 ) ]
+"values": [ Vector2( -148, -165 ), Vector2( -128, 30 ), Vector2( -128, 30 ), Vector2( 25, 35 ) ]
 }
 tracks/6/type = "value"
 tracks/6/path = NodePath(".:visible")
@@ -251,7 +251,7 @@ tracks/6/loop_wrap = true
 tracks/6/imported = false
 tracks/6/enabled = true
 tracks/6/keys = {
-"times": PoolRealArray( 0, 1.5 ),
+"times": PoolRealArray( 0, 1.8 ),
 "transitions": PoolRealArray( 1, 1 ),
 "update": 1,
 "values": [ false, true ]
@@ -517,6 +517,7 @@ z_index = 4
 z_as_relative = false
 frames = SubResource( 1 )
 animation = "Run"
+frame = 7
 centered = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Jogador"]
@@ -793,7 +794,7 @@ position = Vector2( 2856, 2858 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 3
+frame = 4
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -801,6 +802,7 @@ position = Vector2( 2954, 2737 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
+frame = 1
 playing = true
 flip_h = true
 
@@ -809,7 +811,7 @@ position = Vector2( 2807, 2795 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 4
+frame = 5
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -817,7 +819,7 @@ position = Vector2( 2954, 2855 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 3
+frame = 4
 playing = true
 flip_h = true
 
@@ -828,7 +830,7 @@ position = Vector2( 2855, 2734 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 6
+frame = 7
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]

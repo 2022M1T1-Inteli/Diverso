@@ -39,6 +39,7 @@ func _physics_process(delta):
 func _on_AnimationPlayer_animation_finished(anim_name):
 	Globalpos.a = true
 
+
  #movimentação do personagem principal pelos eixos x e y 
  #o personagem pode se movimentar em diagonal
 #	if Input.is_action_pressed("ui_right"): #movimento do personagem para direita
