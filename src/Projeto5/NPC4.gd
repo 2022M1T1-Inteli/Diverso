@@ -25,7 +25,7 @@ func _input(event):
 
 func unpause(timeline_timeline1):
 	get_tree().paused = false
-	get_tree().change_scene("res://Scene/Quizz3.tscn")
+	Transition.fade_into("res://Scene/Quizz3.tscn")
 
 
 func _on_NPC_body_exited(body):
