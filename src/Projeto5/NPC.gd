@@ -35,7 +35,7 @@ func unpause(timeline_timeline1):
 	get_tree().paused = false
 	#direcionando o jogador para o quiz
 	if Globalpos.npc6 == false:
-		get_tree().change_scene("res://Scene/Quizz1.tscn")
+		Transition.fade_into("res://Scene/Quizz1.tscn")
 	if Globalpos.npc6:
 		get_tree().change_scene("res://Scene/Quizz4.tscn")
 
