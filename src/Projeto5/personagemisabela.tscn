@@ -4,7 +4,7 @@
 [ext_resource path="res://selecionar personagem/isabela asset1.png" type="Texture" id=2]
 [ext_resource path="res://New Piskel (9).png" type="Texture" id=3]
 [ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=4]
-[ext_resource path="res://jornada.png" type="Texture" id=5]
+[ext_resource path="res://descricao isabela.png" type="Texture" id=5]
 
 [sub_resource type="DynamicFont" id=1]
 size = 19
@@ -64,10 +64,10 @@ __meta__ = {
 }
 
 [node name="TextureRect2" type="TextureRect" parent="."]
-margin_left = 132.0
-margin_top = 139.0
-margin_right = 348.0
-margin_bottom = 372.0
+margin_left = 202.0
+margin_top = 161.0
+margin_right = 440.0
+margin_bottom = 408.0
 texture = ExtResource( 2 )
 expand = true
 __meta__ = {
@@ -79,6 +79,10 @@ margin_left = 533.0
 margin_top = 94.0
 margin_right = 927.0
 margin_bottom = 494.0
+
+[node name="DescricaoIsabela" type="Sprite" parent="TextureRect3"]
+position = Vector2( 167, 196 )
+scale = Vector2( 0.42037, 0.42037 )
 texture = ExtResource( 5 )
 
 [connection signal="pressed" from="continuar" to="." method="_on_continuar_pressed"]
