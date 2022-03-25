@@ -20,3 +20,27 @@ func _ready() -> void:
 func _on_Gloria_pressed() -> void:
 	Transition.fade_into("res://personagemgloria.tscn")
 #	get_tree().change_scene("res://personagemgloria.tscn") # esse código era o usado anteriormente resolvemos deixar apenas inativo
+
+
+func _on_Button5_pressed() -> void:
+	Transition.fade_into("res://personagemjoao.tscn")
+	
+	
+
+
+func _on_Button4_pressed() -> void:
+	Transition.fade_into("res://personagemisabela.tscn")
+	
+
+
+func _on_Button2_pressed() -> void:
+	Transition.fade_into("res://personagemlucas.tscn")
+	
+
+
+func _on_Button6_pressed() -> void:
+	Transition.fade_into("res://personagemana.tscn")
+
+
+func _on_Button3_pressed() -> void:
+	Transition.fade_into("res://personagemantonio.tscn")

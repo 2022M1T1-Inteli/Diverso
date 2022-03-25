@@ -218,7 +218,7 @@ position = Vector2( -27, -17 )
 scale = Vector2( 1.25, 1.25 )
 z_index = -1
 frames = SubResource( 2 )
-frame = 8
+frame = 1
 playing = true
 centered = false
 
@@ -241,3 +241,8 @@ __meta__ = {
 }
 
 [connection signal="pressed" from="Gloria" to="." method="_on_Gloria_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_Button2_pressed"]
+[connection signal="pressed" from="Button3" to="." method="_on_Button3_pressed"]
+[connection signal="pressed" from="Button4" to="." method="_on_Button4_pressed"]
+[connection signal="pressed" from="Button5" to="." method="_on_Button5_pressed"]
+[connection signal="pressed" from="Button6" to="." method="_on_Button6_pressed"]
