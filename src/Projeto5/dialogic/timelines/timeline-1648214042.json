@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"character": "character-1648214213.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " Como você já chegou assumindo um cargo de liderança na empresa?"
+		},
+		{
+			"character": "character-1648056573.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Por que eu sou capacitado para o cargo."
+		},
+		{
+			"character": "character-1648214213.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " Isso é injusto com os funcionários que estão na empresa a mais tempo."
+		},
+		{
+			"character": "character-1648056573.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "ustiça é tratar as pessoas com equidade."
+		},
+		{
+			"character": "character-1648056573.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nem todas as pessoas tiveram as mesmas oportunidades, não há como ter competição mercadológica justa nesses casos."
+		},
+		{
+			"character": "character-1648214213.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Faz sentido… "
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1648214042.json",
+		"name": "Joao 3"
+	}
+}

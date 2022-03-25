@@ -1,0 +1,67 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vim realizar uma denúncia de homofobia."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Claro. Irei te entregar uma ficha, mas antes preciso saber quem foi o autor do caso."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "O diretor de vendas? Você tem certeza?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sim, ele ofendeu as roupas que eu usava."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " Você sabe que denúncias à pessoas com cargos altos pode gerar consequências negativas à você. Ainda mais por fazer parte da comunidade LGBTQIA+..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eu vou seguir com a denúncia. Não posso aceitar que um abuso desses aconteça com outras pessoas."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Concordo completamente. Iniciarei sua denúncia. Por enquanto você pode ir à sala LAGER."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ok, obrigado."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1648214657.json",
+		"name": "Lucas 4"
+	}
+}
