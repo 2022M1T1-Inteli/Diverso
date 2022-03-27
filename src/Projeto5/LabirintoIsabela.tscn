@@ -143,14 +143,14 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
-"loop": true,
-"name": "Up",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
 "loop": true,
 "name": "Down",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
+"loop": true,
+"name": "Up",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 6 ) ],
@@ -648,7 +648,7 @@ position = Vector2( -0.416687, -13.6393 )
 shape = SubResource( 25 )
 
 [node name="NPC2" type="Area2D" parent="NPC\'s"]
-position = Vector2( 81, 888 )
+position = Vector2( 1747, 778 )
 script = ExtResource( 47 )
 __meta__ = {
 "_edit_group_": true
@@ -680,7 +680,7 @@ z_index = 3
 texture = ExtResource( 41 )
 
 [node name="NPC3" type="Area2D" parent="NPC\'s"]
-position = Vector2( 1980.25, -346.905 )
+position = Vector2( 2240, 2690 )
 script = ExtResource( 94 )
 __meta__ = {
 "_edit_group_": true
@@ -807,7 +807,7 @@ position = Vector2( 2621, 1583 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 4
+frame = 8
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -815,7 +815,7 @@ position = Vector2( 2681, 2000 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 1
+frame = 5
 playing = true
 flip_h = true
 
@@ -824,7 +824,6 @@ position = Vector2( 2701, 1810 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 5
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -832,7 +831,7 @@ position = Vector2( 2548, 1788 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 4
+frame = 8
 playing = true
 flip_h = true
 
@@ -843,7 +842,7 @@ position = Vector2( 2582, 1997 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 7
+frame = 2
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]

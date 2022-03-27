@@ -143,14 +143,14 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
-"loop": true,
-"name": "Up",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
 "loop": true,
 "name": "Down",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
+"loop": true,
+"name": "Up",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 6 ) ],
@@ -536,7 +536,7 @@ motion_mirroring = Vector2( 914, 615 )
 [node name="NPC\'s" type="Node2D" parent="."]
 
 [node name="NPC" type="Area2D" parent="NPC\'s"]
-position = Vector2( 1090, -397 )
+position = Vector2( 1581, -441 )
 script = ExtResource( 47 )
 __meta__ = {
 "_edit_group_": true
@@ -632,7 +632,7 @@ position = Vector2( -0.416687, -13.6393 )
 shape = SubResource( 25 )
 
 [node name="NPC2" type="Area2D" parent="NPC\'s"]
-position = Vector2( 1207, 1450 )
+position = Vector2( 1293, -348.5 )
 script = ExtResource( 95 )
 __meta__ = {
 "_edit_group_": true
@@ -660,11 +660,11 @@ shape = SubResource( 6 )
 [node name="Sprite" type="Sprite" parent="NPC\'s/NPC2"]
 position = Vector2( -4, 3 )
 scale = Vector2( 0.96875, 0.9375 )
-z_index = 3
+z_index = 4
 texture = ExtResource( 41 )
 
 [node name="NPC3" type="Area2D" parent="NPC\'s"]
-position = Vector2( 2060, 647 )
+position = Vector2( 333, 2219 )
 script = ExtResource( 94 )
 __meta__ = {
 "_edit_group_": true
@@ -697,7 +697,7 @@ texture = ExtResource( 32 )
 flip_h = true
 
 [node name="NPC4" type="Area2D" parent="NPC\'s"]
-position = Vector2( 330, 2040 )
+position = Vector2( 1841, 710 )
 script = ExtResource( 97 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC4"]
@@ -841,6 +841,7 @@ scale = Vector2( 1.375, 1.28125 )
 texture = ExtResource( 46 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Figurante/Sprite"]
+position = Vector2( 62.5455, -1403.71 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Figurante/Sprite/StaticBody2D"]
 position = Vector2( 119.364, -15.6097 )
@@ -862,7 +863,7 @@ scale = Vector2( 1.35938, 1.26563 )
 texture = ExtResource( 50 )
 
 [node name="Sprite5" type="Sprite" parent="Figurante"]
-position = Vector2( 1163, 724 )
+position = Vector2( 1758, -794 )
 scale = Vector2( 1.35938, 1.26563 )
 texture = ExtResource( 50 )
 
