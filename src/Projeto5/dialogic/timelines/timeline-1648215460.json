@@ -7,7 +7,7 @@
 			"text": "Você é a nova gerente de gestão daqui?"
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Sim, pode me mostrar onde é minha mesa?"
@@ -19,7 +19,7 @@
 			"text": "Fica ali."
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Você pode me levar até lá, por favor?"
@@ -31,7 +31,7 @@
 			"text": "Você é cega?"
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": " Sou deficiente visual, sim."
@@ -43,7 +43,7 @@
 			"text": " E vai trabalhar como gerente? Como contrataram alguém que não consegue nem enxergar?"
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Não consigo enxergar completamente, mas sei realizar perfeitamente o meu trabalho. "
@@ -55,13 +55,13 @@
 			"text": "Eu duvido que consiga trabalhar bem se mal enxerga."
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Não é minha culpa se a acessibilidade é reduzida para pessoas deficientes. "
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "E minhas capacidades para realizar o meu trabalho, que são gerenciar as operações da empresa e as pessoas, não têm relação alguma com o quanto enxergo. "
@@ -74,6 +74,6 @@
 	"metadata": {
 		"dialogic-version": "1.3",
 		"file": "timeline-1648215460.json",
-		"name": "Ana 3"
+		"name": "Ana3"
 	}
 }

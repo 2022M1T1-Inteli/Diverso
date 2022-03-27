@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"character": "",
+			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Você já conheceu o novo diretor da nossa área?"
@@ -13,7 +13,7 @@
 			"text": "Ainda não, mas disseram que ele é bem rígido."
 		},
 		{
-			"character": "",
+			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Rígido? Ele me proibiu de usar minha camiseta porque acha “militante”."
@@ -25,7 +25,7 @@
 			"text": "Mas essa camiseta é de bicha, não é muito adequado um gerente de vendas usar."
 		},
 		{
-			"character": "",
+			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Primeiramente, ela não fere o código de vestimenta da empresa. Em segundo lugar, é extremamente ofensivo você me chamar de “bicha”"
@@ -44,6 +44,6 @@
 	"metadata": {
 		"dialogic-version": "1.3",
 		"file": "timeline-1648214655.json",
-		"name": "Lucas 3"
+		"name": "Lucas3"
 	}
 }

@@ -7,7 +7,7 @@
 			"text": "Com licença, o Sr. precisa de ajuda?"
 		},
 		{
-			"character": "",
+			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Não, por que?"
@@ -19,7 +19,7 @@
 			"text": "Parece perdido… Para onde precisa ir?"
 		},
 		{
-			"character": "",
+			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Estou indo para a minha sala."
@@ -31,7 +31,7 @@
 			"text": "Sua sala?"
 		},
 		{
-			"character": "",
+			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Sim, trabalho aqui."
@@ -43,7 +43,7 @@
 			"text": "Trabalha? Desculpe pelo mal entendido…"
 		},
 		{
-			"character": "",
+			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Não é porque já sou idoso que não sou capacitado!"
@@ -56,6 +56,6 @@
 	"metadata": {
 		"dialogic-version": "1.3",
 		"file": "timeline-1648216018.json",
-		"name": "Antonio 3"
+		"name": "Antonio3"
 	}
 }

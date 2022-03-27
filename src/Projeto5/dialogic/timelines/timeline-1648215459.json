@@ -7,7 +7,7 @@
 			"text": "Bem-vinda nova funcionária! Animada para o seu primeiro dia de trabalho?"
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Muito! Mal posso esperar para começar logo"
@@ -19,13 +19,13 @@
 			"text": "Que bom! Só preciso que assine esses papéis e já está liberada para sua sala."
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "..."
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": " Os papéis não têm braille?"
@@ -37,7 +37,7 @@
 			"text": "Não..."
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "E como vou saber onde devo assinar? Sou deficiente visual."
@@ -49,7 +49,7 @@
 			"text": "Mil desculpas! Nunca tivemos deficientes visuais na empresa. Vou tentar resolver o seu problema. Por enquanto pode se acomodar na sua mesa."
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Pode me passar as direções? Não tem sinalização tátil no chão…"
@@ -61,7 +61,7 @@
 			"text": ""
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Obrigada."
@@ -74,6 +74,6 @@
 	"metadata": {
 		"dialogic-version": "1.3",
 		"file": "timeline-1648215459.json",
-		"name": "Ana 2"
+		"name": "Ana2"
 	}
 }

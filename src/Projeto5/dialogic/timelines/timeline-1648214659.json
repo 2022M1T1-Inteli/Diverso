@@ -7,7 +7,7 @@
 			"text": "Boa tarde e bem-vindo a LAGER. Você já trabalha na empresa há algum tempo, certo?"
 		},
 		{
-			"character": "",
+			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "im, trabalho, mas nunca vim aqui antes…"
@@ -19,7 +19,7 @@
 			"text": "Agora você tem um espaço para te acolher, qualquer situação estaremos aqui como um grupo de apoio e de empatia."
 		},
 		{
-			"character": "",
+			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": " Hoje aconteceram coisas que não quero que se repitam com nenhum outro colaborador daqui…"
@@ -38,6 +38,6 @@
 	"metadata": {
 		"dialogic-version": "1.3",
 		"file": "timeline-1648214659.json",
-		"name": "Lucas 5"
+		"name": "Lucas5"
 	}
 }

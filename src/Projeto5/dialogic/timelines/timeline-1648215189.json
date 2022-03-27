@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"character": "",
+			"character": "character-1648412164.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Olá, fiquei sabendo do ocorrido e sinto muito pelo o que aconteceu… Se você quiser posso te ajudar."
@@ -13,7 +13,7 @@
 			"text": "Me sinto tão inútil, incapaz de me defender, com medo de relatar o assédio, desrespeitada no meu local de trabalho…"
 		},
 		{
-			"character": "",
+			"character": "character-1648412164.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Entendo tudo o que aconteceu com você! Sua dor é a minha dor. Mas é muito importante que você denuncie o que aconteceu para que proteja outras mulheres aqui na empresa."
@@ -25,7 +25,7 @@
 			"text": "Acho que ninguém vai acreditar em mim, porque o assediador é meu superior…"
 		},
 		{
-			"character": "",
+			"character": "character-1648412164.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Irei marcar uma reunião com os outros diretores para tomarmos a medida certa."
@@ -38,6 +38,6 @@
 	"metadata": {
 		"dialogic-version": "1.3",
 		"file": "timeline-1648215189.json",
-		"name": "Isabela 2"
+		"name": "Isabela2"
 	}
 }

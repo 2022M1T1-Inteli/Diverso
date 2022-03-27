@@ -7,7 +7,7 @@
 			"text": "Bem vinda à sala IPA! Fiquei sabendo que teve algumas dificuldades no seu primeiro dia… "
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Tive que me locomover e ler os documentos, além do capacitismo que diariamente sofremos…"
@@ -19,7 +19,7 @@
 			"text": "Sinto muito por tudo o que você passou! Mas saiba que o IPA está aqui para te acolher, escutar, conscientizar outras pessoas e lutar pela maior acessibilidade."
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Que bom saber que existe um grupo de apoio e luta pela nossa minoria. Muitas vezes somos excluídos, porque pensam que temos limitações…"
@@ -38,6 +38,6 @@
 	"metadata": {
 		"dialogic-version": "1.3",
 		"file": "timeline-1648215462.json",
-		"name": "Ana 5"
+		"name": "Ana5"
 	}
 }

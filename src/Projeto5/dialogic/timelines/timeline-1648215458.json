@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Bom dia, tudo bem? É meu primeiro dia de trabalho, sabe onde vou primeiro?"
@@ -13,7 +13,7 @@
 			"text": "Claro, é só ir seguindo pelas placas até a recepção e lá vão te informar melhor."
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Pode me passar as direções para lá? Não consigo ler."
@@ -25,7 +25,7 @@
 			"text": "Você é cega?"
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Cega não, tenho 70% da visão comprometida. Pessoas cegas têm a visão total comprometida."
@@ -37,7 +37,7 @@
 			"text": ""
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Obrigada."
@@ -50,6 +50,6 @@
 	"metadata": {
 		"dialogic-version": "1.3",
 		"file": "timeline-1648215458.json",
-		"name": "Ana 1"
+		"name": "Ana1"
 	}
 }

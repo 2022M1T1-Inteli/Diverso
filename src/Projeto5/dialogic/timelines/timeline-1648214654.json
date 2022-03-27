@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"character": "",
+			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Bom dia! O senhor é o novo diretor de vendas da empresa? Prazer, sou o Lucas, gerente das lojas físicas."
@@ -13,7 +13,7 @@
 			"text": "Lucas? Ouvi falar de você…"
 		},
 		{
-			"character": "",
+			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Espero que apenas coisas boas!"
@@ -25,7 +25,7 @@
 			"text": "Bom, acho que teremos problemas com relação às roupas dos funcionários."
 		},
 		{
-			"character": "",
+			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Qual o problema senhor?"
@@ -37,7 +37,7 @@
 			"text": "A sua roupa não é adequada para o ambiente de trabalho?"
 		},
 		{
-			"character": "",
+			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Mas qual o problema?É uma camisa comum."
@@ -49,7 +49,7 @@
 			"text": "Não quero esse tipo de roupa na minha empresa"
 		},
 		{
-			"character": "",
+			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Mas é apenas uma camisa com o apoio a bandeira da minha comunidade"
@@ -61,7 +61,7 @@
 			"text": "Não quero essa militância na minha empresa, esse é um local de trabalho."
 		},
 		{
-			"character": "",
+			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Não é ativismo, é a minha identidade."
@@ -73,7 +73,7 @@
 			"text": "Pouco me importa, não quero meu escritório relacionado a esse tipo de gente!"
 		},
 		{
-			"character": "",
+			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Mas isso é errado!"
@@ -92,6 +92,6 @@
 	"metadata": {
 		"dialogic-version": "1.3",
 		"file": "timeline-1648214654.json",
-		"name": "Lucas 2"
+		"name": "Lucas2"
 	}
 }

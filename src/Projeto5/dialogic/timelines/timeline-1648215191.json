@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"character": "",
+			"character": "character-1648412164.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Bom dia a todos. Marquei essa reunião para discutirmos a situação de uma funcionária minha, (nome), que foi assediada pelo seu superior."
@@ -13,7 +13,7 @@
 			"text": "Você reuniu todos os diretores da empresa para discutir algo tão inútil? "
 		},
 		{
-			"character": "",
+			"character": "character-1648412164.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": " Não é inútil se fere a segurança dela e de outras mulheres da área de engenharia da empresa."
@@ -25,7 +25,7 @@
 			"text": "É inútil, todos sabemos que isso não aconteceu, você está criando uma tempestade em copo d’água, devem ser os hormônios da gravidez interferindo no seu pensamento."
 		},
 		{
-			"character": "",
+			"character": "character-1648412164.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Pois meça bem suas palavras, caso contrário você será denunciado também ao RH por assédio moral. Não se esqueça que minha posição na empresa é tão importante quanto a sua."
@@ -44,6 +44,6 @@
 	"metadata": {
 		"dialogic-version": "1.3",
 		"file": "timeline-1648215191.json",
-		"name": "Isabela 3"
+		"name": "Isabela3"
 	}
 }

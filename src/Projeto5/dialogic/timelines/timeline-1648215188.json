@@ -7,7 +7,7 @@
 			"text": " Bom dia Dra. Isabela, como anda a sua gravidez?"
 		},
 		{
-			"character": "",
+			"character": "character-1648412164.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Bom dia! Já está no segundo trimestre, cada dia mais ansiosa."
@@ -19,7 +19,7 @@
 			"text": "Que ótimo! Mas infelizmente tenho um assunto sério a ser tratado. Como a Sra é a única diretora mulher, acho melhor ser conversado com você."
 		},
 		{
-			"character": "",
+			"character": "character-1648412164.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": " Claro, qual o problema?"
@@ -31,7 +31,7 @@
 			"text": "Uma funcionária da sua área alega ter sido assediada e está com medo de relatar ao RH. Como você comanda a WEISS, pode ajudá-la."
 		},
 		{
-			"character": "",
+			"character": "character-1648412164.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Meu deus! Vou ajudá-la imediatamente"
@@ -44,6 +44,6 @@
 	"metadata": {
 		"dialogic-version": "1.3",
 		"file": "timeline-1648215188.json",
-		"name": "Isabela 1"
+		"name": "Isabela1"
 	}
 }

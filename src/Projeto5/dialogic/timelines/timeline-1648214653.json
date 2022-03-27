@@ -7,7 +7,7 @@
 			"text": "Bom dia Lucas!"
 		},
 		{
-			"character": "",
+			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Bom dia!"
@@ -19,7 +19,7 @@
 			"text": "Você ficou sabendo do Novo diretor que chegou na empresa?"
 		},
 		{
-			"character": "",
+			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Fiquei sim, ele já está no prédio?"
@@ -31,7 +31,7 @@
 			"text": "Sim, acabou de chegar."
 		},
 		{
-			"character": "",
+			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Ele parece ser legal?"
@@ -43,7 +43,7 @@
 			"text": "Bom… Acho bom você conhecer ele."
 		},
 		{
-			"character": "",
+			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Sabe onde ele está?"
@@ -55,7 +55,7 @@
 			"text": "Na sala dele, diretoria de vendas."
 		},
 		{
-			"character": "",
+			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Obrigado!"
@@ -68,6 +68,6 @@
 	"metadata": {
 		"dialogic-version": "1.3",
 		"file": "timeline-1648214653.json",
-		"name": "Lucas 1"
+		"name": "Lucas1"
 	}
 }

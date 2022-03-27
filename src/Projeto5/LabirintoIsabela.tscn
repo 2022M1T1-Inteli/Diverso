@@ -1,4 +1,4 @@
-[gd_scene load_steps=158 format=2]
+[gd_scene load_steps=162 format=2]
 
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-5.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-6.png" type="Texture" id=2]
@@ -46,6 +46,7 @@
 [ext_resource path="res://banheiro-.png" type="Texture" id=44]
 [ext_resource path="res://sala.png" type="Texture" id=45]
 [ext_resource path="res://lucas_andando_costas (1) (1).png" type="Texture" id=46]
+[ext_resource path="res://NPC2isabela.gd" type="Script" id=47]
 [ext_resource path="res://Imagens random/—Pngtree—hand painted red exclamation mark_3127414.png" type="Texture" id=48]
 [ext_resource path="res://Portas/porta.pixel-7.png" type="Texture" id=49]
 [ext_resource path="res://mesinha-loiro.png" type="Texture" id=50]
@@ -92,7 +93,10 @@
 [ext_resource path="res://copa-.png" type="Texture" id=91]
 [ext_resource path="res://mesa_recep.png" type="Texture" id=92]
 [ext_resource path="res://Segurança NPC.png" type="Texture" id=93]
+[ext_resource path="res://NPC3isabela.gd" type="Script" id=94]
+[ext_resource path="res://NPC4isabela.gd" type="Script" id=95]
 [ext_resource path="res://Imagens random/npc gênero fluido/l0_sprite_2.png" type="Texture" id=96]
+[ext_resource path="res://NPC1isabela.gd" type="Script" id=97]
 [ext_resource path="res://Imagens random/npc gênero fluido/l0_sprite_3.png" type="Texture" id=98]
 [ext_resource path="res://Imagens random/npc gênero fluido/l0_sprite_1.png" type="Texture" id=99]
 [ext_resource path="res://Imagens random/npc queer/l0_sprite_2.png" type="Texture" id=100]
@@ -549,6 +553,7 @@ motion_mirroring = Vector2( 914, 615 )
 
 [node name="NPC" type="Area2D" parent="NPC\'s"]
 position = Vector2( 1058, -386 )
+script = ExtResource( 97 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -644,6 +649,7 @@ shape = SubResource( 25 )
 
 [node name="NPC2" type="Area2D" parent="NPC\'s"]
 position = Vector2( 81, 888 )
+script = ExtResource( 47 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -675,6 +681,7 @@ texture = ExtResource( 41 )
 
 [node name="NPC3" type="Area2D" parent="NPC\'s"]
 position = Vector2( 1980.25, -346.905 )
+script = ExtResource( 94 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -707,6 +714,7 @@ flip_h = true
 
 [node name="NPC4" type="Area2D" parent="NPC\'s"]
 position = Vector2( 330, 2040 )
+script = ExtResource( 95 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC4"]
 position = Vector2( 8, 1 )
@@ -799,7 +807,7 @@ position = Vector2( 2621, 1583 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 5
+frame = 4
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -807,7 +815,7 @@ position = Vector2( 2681, 2000 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 2
+frame = 1
 playing = true
 flip_h = true
 
@@ -816,7 +824,7 @@ position = Vector2( 2701, 1810 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 6
+frame = 5
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -824,7 +832,7 @@ position = Vector2( 2548, 1788 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 5
+frame = 4
 playing = true
 flip_h = true
 
@@ -835,7 +843,7 @@ position = Vector2( 2582, 1997 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 8
+frame = 7
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]

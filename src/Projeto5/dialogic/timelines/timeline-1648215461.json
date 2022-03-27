@@ -7,7 +7,7 @@
 			"text": "Você está perdida?"
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Eu tenho muita dificuldade de me locomover nessa empresa."
@@ -19,7 +19,7 @@
 			"text": "Mas você não utiliza sua bengala para te ajudar?"
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Sim, mas a bengala é uma ferramenta para me ajudar a me locomover, mas é necessário ter um relevo no solo para minha orientação."
@@ -31,7 +31,7 @@
 			"text": "Nossa, não sabia. Como eu posso ajudar uma pessoa que possui baixa visão?"
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Com o piso tátil. O principal é deixar o piso livre para a pessoa conseguir se locomover sem obstáculos. Caso não tenha essa sinalização, a melhor forma é orientá-lo colocando sua mão no seu ombro, dessa forma você consegue guiá-la."
@@ -43,7 +43,7 @@
 			"text": "E se a pessoa precisar sentar-se ou desviar de algo no caminho."
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Para sentar, coloque a mão da pessoa no encosto do banco a pessoa saberá se sentar, e com o obstáculo no caminho, basta avisar onde está o obstáculo e como a pessoa consegue transpor ele. "
@@ -55,7 +55,7 @@
 			"text": "Bom saber. Você precisa de ajuda?"
 		},
 		{
-			"character": "",
+			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Não, estou conseguindo. Mas muito obrigada por perguntar!"
@@ -68,6 +68,6 @@
 	"metadata": {
 		"dialogic-version": "1.3",
 		"file": "timeline-1648215461.json",
-		"name": "Ana 4"
+		"name": "Ana4"
 	}
 }
