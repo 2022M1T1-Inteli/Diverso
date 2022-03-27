@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/parede lager.png-48858f5b2d29fb5811e59de6a3bfbc95.stex"
+path="res://.import/tela final gloria (2).png-26cdb5bff40f2b61aaba68f9456663e8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://parede lager.png"
-dest_files=[ "res://.import/parede lager.png-48858f5b2d29fb5811e59de6a3bfbc95.stex" ]
+source_file="res://tela final gloria (2).png"
+dest_files=[ "res://.import/tela final gloria (2).png-26cdb5bff40f2b61aaba68f9456663e8.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

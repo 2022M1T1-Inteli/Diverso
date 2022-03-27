@@ -1,4 +1,4 @@
-[gd_scene load_steps=156 format=2]
+[gd_scene load_steps=158 format=2]
 
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-5.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-6.png" type="Texture" id=2]
@@ -41,6 +41,7 @@
 [ext_resource path="res://parede_fora.tres" type="TileSet" id=39]
 [ext_resource path="res://sprite_0.png" type="Texture" id=40]
 [ext_resource path="res://npc 2.png" type="Texture" id=41]
+[ext_resource path="res://parede ipa.png" type="Texture" id=42]
 [ext_resource path="res://privada  banheiro.tres" type="TileSet" id=43]
 [ext_resource path="res://banheiro-.png" type="Texture" id=44]
 [ext_resource path="res://sala.png" type="Texture" id=45]
@@ -138,14 +139,14 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
-"loop": true,
-"name": "Down",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
 "loop": true,
 "name": "Up",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
+"loop": true,
+"name": "Down",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 6 ) ],
@@ -453,6 +454,22 @@ height = 0.0
 0/tex_offset = Vector2( 0, 0 )
 0/modulate = Color( 1, 1, 1, 1 )
 0/region = Rect2( 0, 1, 33, 63 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0
+
+[sub_resource type="TileSet" id=39]
+0/name = "parede ipa.png 0"
+0/texture = ExtResource( 42 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( -1, 0, 34, 64 )
 0/tile_mode = 0
 0/occluder_offset = Vector2( 0, 0 )
 0/navigation_offset = Vector2( 0, 0 )
@@ -782,7 +799,7 @@ position = Vector2( 2856, 2858 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 1
+frame = 3
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -790,7 +807,6 @@ position = Vector2( 2954, 2737 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 7
 playing = true
 flip_h = true
 
@@ -799,7 +815,7 @@ position = Vector2( 2807, 2795 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 2
+frame = 4
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -807,7 +823,7 @@ position = Vector2( 2954, 2855 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 1
+frame = 3
 playing = true
 flip_h = true
 
@@ -818,7 +834,7 @@ position = Vector2( 2855, 2734 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 4
+frame = 6
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]
@@ -826,7 +842,7 @@ position = Vector2( 104, 640 )
 z_index = 1
 
 [node name="Sprite" type="Sprite" parent="Figurante"]
-position = Vector2( -44, 122 )
+position = Vector2( -26, -146 )
 scale = Vector2( 1.375, 1.28125 )
 texture = ExtResource( 46 )
 
@@ -837,27 +853,27 @@ position = Vector2( 119.364, -15.6097 )
 shape = SubResource( 35 )
 
 [node name="Sprite2" type="Sprite" parent="Figurante"]
-position = Vector2( 20, 122 )
+position = Vector2( 32, -61 )
 scale = Vector2( 1.35938, 1.26563 )
 texture = ExtResource( 50 )
 
 [node name="Sprite3" type="Sprite" parent="Figurante"]
-position = Vector2( 208, 122 )
+position = Vector2( 311, -144 )
 scale = Vector2( 1.375, 1.28125 )
 texture = ExtResource( 46 )
 
 [node name="Sprite4" type="Sprite" parent="Figurante"]
-position = Vector2( 273.5, 121.5 )
+position = Vector2( 380, -182 )
 scale = Vector2( 1.35938, 1.26563 )
 texture = ExtResource( 50 )
 
 [node name="Sprite5" type="Sprite" parent="Figurante"]
-position = Vector2( 83, 122 )
+position = Vector2( 94, -56 )
 scale = Vector2( 1.35938, 1.26563 )
 texture = ExtResource( 50 )
 
 [node name="Sprite6" type="Sprite" parent="Figurante"]
-position = Vector2( 146, 122 )
+position = Vector2( 190, -257 )
 scale = Vector2( 1.35938, 1.26563 )
 texture = ExtResource( 50 )
 
@@ -1092,6 +1108,12 @@ texture = ExtResource( 127 )
 [node name="Privada" type="Sprite" parent="Parede/parede banheiro/Privada/Privada"]
 position = Vector2( -167.838, 0 )
 texture = ExtResource( 127 )
+
+[node name="parede ipa" type="TileMap" parent="Parede"]
+tile_set = SubResource( 39 )
+cell_size = Vector2( 32, 32 )
+format = 1
+tile_data = PoolIntArray( 1441793, 0, 0, 1441794, 0, 0, 1441795, 0, 0, 1441796, 0, 0, 1441797, 0, 0, 1441798, 0, 0, 1441799, 0, 0, 1441800, 0, 0, 1441801, 0, 0, 1441802, 0, 0, 1441803, 0, 0, 1441804, 0, 0 )
 
 [node name="Portas" type="Node2D" parent="."]
 z_index = 2

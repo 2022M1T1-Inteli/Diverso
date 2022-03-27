@@ -1,6 +1,6 @@
 [gd_scene load_steps=16 format=2]
 
-[ext_resource path="res://scripts/question/Imagens(perguntas e respostas)/tela final gloria.png" type="Texture" id=1]
+[ext_resource path="res://tela final gloria (2).png" type="Texture" id=1]
 [ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Tela Final.gd" type="Script" id=3]
 
