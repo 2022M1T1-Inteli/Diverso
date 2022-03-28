@@ -1,7 +1,7 @@
 [gd_resource type="Resource" load_steps=3 format=2]
 
-[ext_resource path="res://scripts/recursos/bd_quizt.gd" type="Script" id=1]
-[ext_resource path="res://scripts/question/Pergunta1.tres" type="Resource" id=2]
+[ext_resource path="res://scripts/question/recursos/bd_quizt.gd" type="Script" id=1]
+[ext_resource path="res://scripts/question/Perguntajoao5.tres" type="Resource" id=2]
 
 [resource]
 script = ExtResource( 1 )

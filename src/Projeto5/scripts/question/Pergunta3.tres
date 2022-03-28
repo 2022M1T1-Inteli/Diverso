@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=3 format=2]
 
-[ext_resource path="res://scripts/recursos/res_question.gd" type="Script" id=1]
+[ext_resource path="res://scripts/question/recursos/res_question.gd" type="Script" id=1]
 [ext_resource path="res://scripts/question/Imagens(perguntas e respostas)/quiz3-C-removebg-preview.png" type="Texture" id=2]
 
 [resource]
