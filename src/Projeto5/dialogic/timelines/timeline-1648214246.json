@@ -1,46 +1,56 @@
 {
 	"events": [
 		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Com licença, a entrada nesta sala só é permitida para pessoas autorizadas."
+			"text": "- Com licença, a entrada nesta sala só é permitida para pessoas autorizadas."
 		},
 		{
 			"character": "character-1648056573.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Mas a secretária já me autorizou"
+			"text": "- Mas a secretária já me autorizou"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "É porque essa sala já está reservada para alguém importante. Você não me parece um funcionário importante."
+			"text": "- É porque essa sala já está reservada para alguém importante. Você não me parece um funcionário importante."
 		},
 		{
 			"character": "character-1648056573.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Você está me estereotipando por conta da minha cor."
+			"text": "- Você está me estereotipando por conta da minha cor."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "onge disso  senhor, eu não sou preconceituoso."
+			"text": "- Longe disso  senhor, eu não sou preconceituoso."
 		},
 		{
 			"character": "character-1648056573.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Mas estereótipo e preconceito são coisas diferentes. Não quero causar nenhuma situação indelicada, só peço que libere a minha entrada. "
+			"text": "- Mas estereótipo e preconceito são coisas diferentes. Não quero causar nenhuma situação indelicada, só peço que libere a minha entrada. "
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Perdão sr, não vou poder liberá-lo."
+			"text": "- Perdão sr, não vou poder liberá-lo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Encontre outro jeito de entrar"
 		},
 		{
 			"event_id": "dialogic_022",

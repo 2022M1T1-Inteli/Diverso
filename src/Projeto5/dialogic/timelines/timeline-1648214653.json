@@ -4,65 +4,71 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Bom dia Lucas!"
+			"text": "- Bom dia, Lucas!"
 		},
 		{
 			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Bom dia!"
+			"text": "- Bom dia!"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Você ficou sabendo do Novo diretor que chegou na empresa?"
+			"text": "- Você ficou sabendo do novo diretor que chegou na empresa?"
 		},
 		{
 			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Fiquei sim, ele já está no prédio?"
+			"text": "- Fiquei sim, ele já está no prédio?"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Sim, acabou de chegar."
+			"text": "- Sim, acabou de chegar."
 		},
 		{
 			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Ele parece ser legal?"
+			"text": "- Ele parece ser legal?"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Bom… Acho bom você conhecer ele."
+			"text": "- Bom… Acho bom você conhecer ele."
 		},
 		{
 			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Sabe onde ele está?"
+			"text": "- Sabe onde ele está?"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Na sala dele, diretoria de vendas."
+			"text": "- Na sala dele, diretoria de vendas."
 		},
 		{
 			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Obrigado!"
+			"text": "- Obrigado!"
 		},
 		{
 			"event_id": "dialogic_022",
 			"transition_duration": 1
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vá até o novo diretor."
 		}
 	],
 	"metadata": {

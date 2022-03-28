@@ -4,49 +4,55 @@
 			"character": "character-1648056573.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Nossa, finalmente achei outra pessoa preta."
+			"text": "- Nossa, finalmente achei outra pessoa preta."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Você é o novo contratado?"
+			"text": "- Você é o novo contratado?"
 		},
 		{
 			"character": "character-1648056573.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": " Sim, sou o novo diretor financeiro."
+			"text": " - Sim, sou o novo diretor financeiro."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Nossa, que demais! Muito bom ter pessoas pretas em cargos de destaque."
+			"text": "- Nossa, que demais! Muito bom ter pessoas pretas em cargos de destaque."
 		},
 		{
 			"character": "character-1648056573.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Sim, porém desde que cheguei venho sofrendo discriminação."
+			"text": "- Sim, porém desde que cheguei venho sofrendo discriminação."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Ah, nós temos um grupo para causas raciais aqui na empresa, eles podem te ajudar em relação a isso."
+			"text": "- Ah, nós temos um grupo para causas raciais aqui na empresa, eles podem te ajudar em relação a isso."
 		},
 		{
 			"character": "character-1648056573.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Ah, que legal!! Onde posso encontrá-los?"
+			"text": "- Ah, que legal!! Onde posso encontrá-los?"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Eles ficam na sala Bock."
+			"text": "- Eles ficam na sala Bock."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Encontre a sala Bock."
 		},
 		{
 			"event_id": "dialogic_022",

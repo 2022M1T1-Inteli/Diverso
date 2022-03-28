@@ -4,55 +4,55 @@
 			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Bom dia! É meu primeiro dia no trabalho, me disseram para vir aqui primeiro."
+			"text": "- Bom dia! É meu primeiro dia no trabalho, me disseram para vir aqui primeiro."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Primeiro dia? O Sr. tem certeza? "
+			"text": "- Primeiro dia? O Sr. tem certeza? "
 		},
 		{
 			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Sim, fui contratado há dois dias."
+			"text": "- Sim, fui contratado há dois dias."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Nunca vi nenhum novo contratado com mais de 60 anos."
+			"text": "- Nunca vi nenhum novo contratado com mais de 60 anos."
 		},
 		{
 			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Nunca foi e não será agora que minha idade será um empecilho na minha capacidade."
+			"text": "- Nunca foi e não será agora que minha idade será um empecilho na minha capacidade."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Desculpa Sr. Antônio, mas nos dias de hoje só temos novos empregados com 20/25 anos,  pois eles aprendem de maneira mais fácil"
+			"text": "- Desculpa Sr. Antônio, mas nos dias de hoje só temos novos empregados com 20/25 anos,  pois eles aprendem de maneira mais fácil"
 		},
 		{
 			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": " E a senhorita está muito errada, idade não define quem aprende ou deixa de aprender. Inclusive quem precisa aprender sobre respeito com as pessoas mais velhas…"
+			"text": " - E a senhorita está muito errada, idade não define quem aprende ou deixa de aprender. Inclusive, alguém precisa aprender sobre respeito com as pessoas mais velhas…"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Me desculpe, não foi minha intenção"
+			"text": "- Me desculpe, não foi minha intenção."
 		},
 		{
 			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Sei que não foi, mas preste mais atenção com o que fala. Com licença, agora irei até minha sala."
+			"text": "- Sei que não foi, mas preste mais atenção com o que fala. Com licença, agora irei até minha sala."
 		},
 		{
 			"event_id": "dialogic_022",

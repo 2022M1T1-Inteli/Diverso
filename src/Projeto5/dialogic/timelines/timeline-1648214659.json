@@ -4,31 +4,31 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Boa tarde e bem-vindo a LAGER. Você já trabalha na empresa há algum tempo, certo?"
+			"text": "- Boa tarde e bem-vindo a LAGER. Você já trabalha na empresa há algum tempo, certo?"
 		},
 		{
 			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "im, trabalho, mas nunca vim aqui antes…"
+			"text": "- Sim, trabalho. Mas nunca vim aqui antes…"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Agora você tem um espaço para te acolher, qualquer situação estaremos aqui como um grupo de apoio e de empatia."
+			"text": "- Agora você tem um espaço para te acolher, qualquer situação estaremos aqui como um grupo de apoio e de empatia."
 		},
 		{
 			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": " Hoje aconteceram coisas que não quero que se repitam com nenhum outro colaborador daqui…"
+			"text": "-  Hoje aconteceram coisas que não quero que se repitam com nenhum outro colaborador daqui…"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": " Então você está no lugar certo! Juntos temos mais voz na empresa e iremos nos mobilizar contra qualquer ofensa à comunidade LGBTQIA"
+			"text": " - Então você está no lugar certo! Juntos temos mais voz na empresa e iremos nos mobilizar contra qualquer ofensa à comunidade LGBTQIA+"
 		},
 		{
 			"event_id": "dialogic_022",

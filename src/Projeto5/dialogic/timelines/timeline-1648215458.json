@@ -4,43 +4,49 @@
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Bom dia, tudo bem? É meu primeiro dia de trabalho, sabe onde vou primeiro?"
+			"text": "- Bom dia, tudo bem? É meu primeiro dia de trabalho, sabe onde vou primeiro?"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Claro, é só ir seguindo pelas placas até a recepção e lá vão te informar melhor."
+			"text": "- Claro, é só ir seguindo pelas placas até a recepção e lá vão te informar melhor."
 		},
 		{
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Pode me passar as direções para lá? Não consigo ler."
+			"text": "- Pode me passar as direções para lá? Não consigo ler."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Você é cega?"
+			"text": "- Você é cega?"
 		},
 		{
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Cega não, tenho 70% da visão comprometida. Pessoas cegas têm a visão total comprometida."
+			"text": "- Cega não, tenho 70% da visão comprometida. Pessoas cegas têm a visão total comprometida."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": ""
+			"text": "- Entendi... Não sei se ajuda mas é a primeira a esquerda."
 		},
 		{
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Obrigada."
+			"text": "- Obrigada."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Chegue na recepção."
 		},
 		{
 			"event_id": "dialogic_022",

@@ -4,37 +4,43 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Bom dia! O senhor deve ser o novo funcionário?"
+			"text": "- Bom dia! O senhor deve ser o novo funcionário?"
 		},
 		{
 			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Bom dia! Sou sim o novo funcionário da empresa."
+			"text": "- Bom dia! Sou sim o novo funcionário da empresa."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "É… o senhor já conheceu a empresa?"
+			"text": "- É… o senhor já conheceu a empresa?"
 		},
 		{
 			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Ainda não, primeiro dia no trabalho…"
+			"text": "- Ainda não, primeiro dia no trabalho…"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Então o Sr. pode se dirigir à recepção, lá irão de auxiliar."
+			"text": "- Então o Sr. pode se dirigir à recepção, lá irão de auxiliar."
 		},
 		{
 			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Muito obrigado!"
+			"text": "- Muito obrigado!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Dirija-se a recepção."
 		},
 		{
 			"event_id": "dialogic_022",

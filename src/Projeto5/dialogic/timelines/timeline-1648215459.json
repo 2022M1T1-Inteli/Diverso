@@ -4,67 +4,79 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Bem-vinda nova funcionária! Animada para o seu primeiro dia de trabalho?"
+			"text": "- Bem-vinda nova funcionária! Animada para o seu primeiro dia de trabalho?"
 		},
 		{
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Muito! Mal posso esperar para começar logo"
+			"text": "- Muito! Mal posso esperar para começar logo."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Que bom! Só preciso que assine esses papéis e já está liberada para sua sala."
+			"text": "- Que bom! Só preciso que assine esses papéis e já está liberada para sua sala."
 		},
 		{
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "..."
-		},
-		{
-			"character": "character-1648412180.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": " Os papéis não têm braille?"
+			"text": "-..."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Não..."
+			"text": "- Algum problema?"
 		},
 		{
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "E como vou saber onde devo assinar? Sou deficiente visual."
+			"text": " - Os papéis não têm braille?"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Mil desculpas! Nunca tivemos deficientes visuais na empresa. Vou tentar resolver o seu problema. Por enquanto pode se acomodar na sua mesa."
+			"text": "- Não..."
 		},
 		{
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Pode me passar as direções? Não tem sinalização tátil no chão…"
+			"text": "- E como vou saber onde devo assinar? Sou deficiente visual."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": ""
+			"text": "- Mil desculpas! Nunca tivemos deficientes visuais na empresa. Vou tentar resolver o seu problema. Por enquanto pode se acomodar na sua mesa."
+		},
+		{
+			"character": "character-1648412180.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Pode me passar as direções? Não tem sinalização tátil no chão…"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Ok... Vá para a "
 		},
 		{
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Obrigada."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Encontre sua sala."
 		},
 		{
 			"event_id": "dialogic_022",

@@ -4,67 +4,67 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Você é a nova gerente de gestão daqui?"
+			"text": "- Você é a nova gerente de gestão daqui?"
 		},
 		{
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Sim, pode me mostrar onde é minha mesa?"
+			"text": "- Sim, pode me mostrar onde é minha mesa?"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Fica ali."
+			"text": "- Fica ali."
 		},
 		{
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Você pode me levar até lá, por favor?"
+			"text": "- Você pode me levar até lá, por favor?"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Você é cega?"
+			"text": "- Você é cega?"
 		},
 		{
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": " Sou deficiente visual, sim."
+			"text": "- Sou deficiente visual, sim."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": " E vai trabalhar como gerente? Como contrataram alguém que não consegue nem enxergar?"
+			"text": "- E vai trabalhar como gerente? Como contrataram alguém que não consegue nem enxergar?"
 		},
 		{
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Não consigo enxergar completamente, mas sei realizar perfeitamente o meu trabalho. "
+			"text": "- Não consigo enxergar completamente, mas sei realizar perfeitamente o meu trabalho. "
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Eu duvido que consiga trabalhar bem se mal enxerga."
+			"text": "- Eu duvido que consiga trabalhar bem se mal enxerga."
 		},
 		{
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Não é minha culpa se a acessibilidade é reduzida para pessoas deficientes. "
+			"text": "- Não é minha culpa se a acessibilidade é reduzida para pessoas deficientes. "
 		},
 		{
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "E minhas capacidades para realizar o meu trabalho, que são gerenciar as operações da empresa e as pessoas, não têm relação alguma com o quanto enxergo. "
+			"text": "- E minhas capacidades para realizar o meu trabalho, que são gerenciar as operações da empresa e as pessoas, não têm relação alguma com o quanto enxergo. "
 		},
 		{
 			"event_id": "dialogic_022",

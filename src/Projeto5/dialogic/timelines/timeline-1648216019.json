@@ -4,37 +4,37 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "O Sr. viu por aí o novo funcionário do setor administrativo? Fiquei encarregado de auxiliá-lo hoje no primeiro dia"
+			"text": "- O Sr. viu por aí o novo funcionário do setor administrativo? Fiquei encarregado de auxiliá-lo hoje no primeiro dia"
 		},
 		{
 			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Eu sou o funcionário novo."
+			"text": "- Eu sou o funcionário novo."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Novo? Nessa idade o senhor ainda trabalha? "
+			"text": "- Novo? Nessa idade o senhor ainda trabalha? "
 		},
 		{
 			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "E por que eu não trabalharia?"
+			"text": "- E por que eu não trabalharia?"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Está roubando as vagas de pessoas que realmente tem potencial para trabalhar. Na sua idade você não tem tanta energia como eu tenho."
+			"text": "- Está roubando as vagas de pessoas que realmente tem potencial para trabalhar. Na sua idade você não tem tanta energia como eu tenho."
 		},
 		{
 			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Energia não é tudo. Tenho vários atributos importantes para a empresa, caso contrário não teria sido contratado."
+			"text": "- Energia não é tudo. Tenho vários atributos importantes para a empresa, caso contrário não teria sido contratado."
 		},
 		{
 			"event_id": "dialogic_022",

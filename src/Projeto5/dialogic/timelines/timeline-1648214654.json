@@ -4,85 +4,91 @@
 			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Bom dia! O senhor é o novo diretor de vendas da empresa? Prazer, sou o Lucas, gerente das lojas físicas."
+			"text": "- Bom dia! O senhor é o novo diretor de vendas da empresa? Prazer, sou o Lucas, gerente das lojas físicas."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Lucas? Ouvi falar de você…"
+			"text": "- Lucas? Ouvi falar de você…"
 		},
 		{
 			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Espero que apenas coisas boas!"
+			"text": "- Espero que apenas coisas boas!"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Bom, acho que teremos problemas com relação às roupas dos funcionários."
+			"text": "- Bom, acho que teremos problemas com relação às roupas dos funcionários."
 		},
 		{
 			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Qual o problema senhor?"
+			"text": "- Qual o problema senhor?"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "A sua roupa não é adequada para o ambiente de trabalho?"
+			"text": "- A sua roupa não é adequada para o ambiente de trabalho."
 		},
 		{
 			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Mas qual o problema?É uma camisa comum."
+			"text": "- Mas qual o problema? É uma camisa comum."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Não quero esse tipo de roupa na minha empresa"
+			"text": "- Não quero esse tipo de roupa na minha empresa."
 		},
 		{
 			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Mas é apenas uma camisa com o apoio a bandeira da minha comunidade"
+			"text": "- Mas é apenas uma camisa com o apoio a bandeira da minha comunidade."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Não quero essa militância na minha empresa, esse é um local de trabalho."
+			"text": "- Não quero essa militância na minha empresa, esse é um local de trabalho."
 		},
 		{
 			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Não é ativismo, é a minha identidade."
+			"text": "- Não é ativismo, é a minha identidade."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Pouco me importa, não quero meu escritório relacionado a esse tipo de gente!"
+			"text": "- Pouco me importa, não quero meu escritório relacionado a esse tipo de gente!"
 		},
 		{
 			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Mas isso é errado!"
+			"text": "- Mas isso é errado!"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Eu sou seu chefe, não venha mais com esse tipo de roupa para a empresa! Agora vá fazer o que seu trabalho manda."
+			"text": "- Eu sou seu chefe, não venha mais com esse tipo de roupa para a empresa! Agora vá fazer o que seu trabalho manda."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Volte ao seu escritório."
 		},
 		{
 			"event_id": "dialogic_022",

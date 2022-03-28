@@ -4,61 +4,61 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Você está perdida?"
+			"text": "- Você está perdida?"
 		},
 		{
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Eu tenho muita dificuldade de me locomover nessa empresa."
+			"text": "- Eu tenho muita dificuldade de me locomover nessa empresa."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Mas você não utiliza sua bengala para te ajudar?"
+			"text": "- Mas você não utiliza sua bengala para te ajudar?"
 		},
 		{
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Sim, mas a bengala é uma ferramenta para me ajudar a me locomover, mas é necessário ter um relevo no solo para minha orientação."
+			"text": "- Sim, mas a bengala é uma ferramenta para me ajudar a me locomover, mas é necessário ter um relevo no solo para minha orientação."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Nossa, não sabia. Como eu posso ajudar uma pessoa que possui baixa visão?"
+			"text": "- Nossa, não sabia. Como eu posso ajudar uma pessoa que possui baixa visão?"
 		},
 		{
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Com o piso tátil. O principal é deixar o piso livre para a pessoa conseguir se locomover sem obstáculos. Caso não tenha essa sinalização, a melhor forma é orientá-lo colocando sua mão no seu ombro, dessa forma você consegue guiá-la."
+			"text": "- Com o piso tátil. O principal é deixar o piso livre para a pessoa conseguir se locomover sem obstáculos. Caso não tenha essa sinalização, a melhor forma é orientá-lo colocando sua mão no seu ombro, dessa forma você consegue guiá-la."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "E se a pessoa precisar sentar-se ou desviar de algo no caminho."
+			"text": "- E se a pessoa precisar sentar-se ou desviar de algo no caminho."
 		},
 		{
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Para sentar, coloque a mão da pessoa no encosto do banco a pessoa saberá se sentar, e com o obstáculo no caminho, basta avisar onde está o obstáculo e como a pessoa consegue transpor ele. "
+			"text": "- Para sentar, coloque a mão da pessoa no encosto do banco a pessoa saberá se sentar, e com o obstáculo no caminho, basta avisar onde está o obstáculo e como a pessoa consegue transpor ele. "
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Bom saber. Você precisa de ajuda?"
+			"text": "- Bom saber. Você precisa de ajuda?"
 		},
 		{
 			"character": "character-1648412180.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Não, estou conseguindo. Mas muito obrigada por perguntar!"
+			"text": "- Não, estou conseguindo. Mas muito obrigada por perguntar!"
 		},
 		{
 			"event_id": "dialogic_022",

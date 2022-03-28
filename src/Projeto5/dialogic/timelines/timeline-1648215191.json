@@ -4,37 +4,43 @@
 			"character": "character-1648412164.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Bom dia a todos. Marquei essa reunião para discutirmos a situação de uma funcionária minha, (nome), que foi assediada pelo seu superior."
+			"text": "- Bom dia a todos. Marquei essa reunião para discutirmos a situação de uma funcionária que foi assediada pelo seu superior."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Você reuniu todos os diretores da empresa para discutir algo tão inútil? "
+			"text": "- Você reuniu todos os diretores da empresa para discutir algo tão inútil? "
 		},
 		{
 			"character": "character-1648412164.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": " Não é inútil se fere a segurança dela e de outras mulheres da área de engenharia da empresa."
+			"text": "- Não é inútil se fere a segurança dela e de outras mulheres da área de engenharia da empresa."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "É inútil, todos sabemos que isso não aconteceu, você está criando uma tempestade em copo d’água, devem ser os hormônios da gravidez interferindo no seu pensamento."
+			"text": "- É inútil. Todos sabemos que isso não aconteceu, você está criando uma tempestade em copo d’água, devem ser os hormônios da gravidez interferindo no seu pensamento."
 		},
 		{
 			"character": "character-1648412164.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Pois meça bem suas palavras, caso contrário você será denunciado também ao RH por assédio moral. Não se esqueça que minha posição na empresa é tão importante quanto a sua."
+			"text": "- Pois meça bem suas palavras, caso contrário você será denunciado também ao RH por assédio moral. Não se esqueça que minha posição na empresa é tão importante quanto a sua."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Até agora você não percebeu que ninguém vai te escutar? Você pode até ser uma mulher em cargo alto, mas não merece estar aqui, só ganhou o cargo por ter que completar a cota da empresa."
+			"text": "- Até agora você não percebeu que ninguém vai te escutar? Você pode até ser uma mulher em cargo alto, mas não merece estar aqui, só ganhou o cargo por ter que completar a cota da empresa."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Discussão encerrada. Volte ao trabalho."
 		},
 		{
 			"event_id": "dialogic_022",

@@ -4,25 +4,25 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Conseguiu alguma resposta para o meu problema?"
+			"text": "- Conseguiu alguma resposta para o meu problema?"
 		},
 		{
 			"character": "character-1648412164.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Infelizmente nenhum dos diretores me escutou e reduziram o seu problema a inexistente. "
+			"text": "- Infelizmente nenhum dos diretores me escutou e reduziram o seu problema a inexistente. "
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Então é melhor deixarmos de lado, não vai adiantar de nada e no fim sou eu quem sairá prejudicada."
+			"text": "- Então é melhor deixarmos de lado, não vai adiantar de nada e no fim sou eu quem sairá prejudicada."
 		},
 		{
 			"character": "character-1648412164.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "De forma alguma! Por isso existe a Weiss na Ambev. Se eles não querem nos escutar, iremos juntar mais mulheres e faremos com que nos escutem! Nunca estaremos sozinhas, nossa união é mais forte que qualquer machismo."
+			"text": "- De forma alguma! Por isso existe a Weiss na Ambev. Se eles não querem nos escutar, iremos juntar mais mulheres e faremos com que nos escutem! Nunca estaremos sozinhas, nossa união é mais forte que qualquer machismo."
 		},
 		{
 			"event_id": "dialogic_022",

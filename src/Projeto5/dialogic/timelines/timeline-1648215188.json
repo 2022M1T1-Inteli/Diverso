@@ -4,37 +4,43 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": " Bom dia Dra. Isabela, como anda a sua gravidez?"
+			"text": "- Bom dia Dra. Isabela, como anda a sua gravidez?"
 		},
 		{
 			"character": "character-1648412164.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Bom dia! Já está no segundo trimestre, cada dia mais ansiosa."
+			"text": "- Bom dia! Já está no segundo trimestre, cada dia mais ansiosa."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Que ótimo! Mas infelizmente tenho um assunto sério a ser tratado. Como a Sra é a única diretora mulher, acho melhor ser conversado com você."
+			"text": "- Que ótimo! Mas infelizmente tenho um assunto sério a ser tratado. Como a Sra é a única diretora mulher, acho melhor ser conversado com você."
 		},
 		{
 			"character": "character-1648412164.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": " Claro, qual o problema?"
+			"text": "- Claro, qual o problema?"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Uma funcionária da sua área alega ter sido assediada e está com medo de relatar ao RH. Como você comanda a WEISS, pode ajudá-la."
+			"text": "- Uma funcionária da sua área alega ter sido assediada e está com medo de relatar ao RH. Como você comanda a WEISS, pode ajudá-la."
 		},
 		{
 			"character": "character-1648412164.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Meu deus! Vou ajudá-la imediatamente"
+			"text": "- Meu Deus! Vou ajudá-la imediatamente."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Encontre essa mulher."
 		},
 		{
 			"event_id": "dialogic_022",

@@ -4,49 +4,49 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Com licença, o Sr. precisa de ajuda?"
+			"text": "- Com licença, o Sr. precisa de ajuda?"
 		},
 		{
 			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Não, por que?"
+			"text": "- Não, por que?"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Parece perdido… Para onde precisa ir?"
+			"text": "- Parece perdido… Para onde precisa ir?"
 		},
 		{
 			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Estou indo para a minha sala."
+			"text": "- Estou indo para a minha sala."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Sua sala?"
+			"text": "- Sua sala?"
 		},
 		{
 			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Sim, trabalho aqui."
+			"text": "- Sim, trabalho aqui."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Trabalha? Desculpe pelo mal entendido…"
+			"text": "- Trabalha? Desculpe pelo mal entendido…"
 		},
 		{
 			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Não é porque já sou idoso que não sou capacitado!"
+			"text": "- Não é porque já sou idoso que não sou capacitado!"
 		},
 		{
 			"event_id": "dialogic_022",
