@@ -1,4 +1,4 @@
-[gd_scene load_steps=163 format=2]
+[gd_scene load_steps=162 format=2]
 
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-5.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-6.png" type="Texture" id=2]
@@ -94,7 +94,6 @@
 [ext_resource path="res://mesa_recep.png" type="Texture" id=92]
 [ext_resource path="res://Segurança NPC.png" type="Texture" id=93]
 [ext_resource path="res://Segurança.gd" type="Script" id=94]
-[ext_resource path="res://pause.tscn" type="PackedScene" id=95]
 [ext_resource path="res://Imagens random/npc gênero fluido/l0_sprite_2.png" type="Texture" id=96]
 [ext_resource path="res://Imagens random/npc gênero fluido/l0_sprite_3.png" type="Texture" id=98]
 [ext_resource path="res://Imagens random/npc gênero fluido/l0_sprite_1.png" type="Texture" id=99]
@@ -145,24 +144,24 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 6 ) ],
-"loop": true,
-"name": "Idle",
-"speed": 12.0
-}, {
 "frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
 "loop": true,
 "name": "Down",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 10 ), ExtResource( 8 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 9 ), ExtResource( 4 ) ],
-"loop": true,
-"name": "Run",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
 "loop": true,
 "name": "Up",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 6 ) ],
+"loop": true,
+"name": "Idle",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 10 ), ExtResource( 8 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 9 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "Run",
 "speed": 20.0
 } ]
 
@@ -472,15 +471,15 @@ height = 0.0
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
-"loop": false,
-"name": "Fechar",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
 "loop": false,
 "name": "Abrir",
 "speed": 30.0
+}, {
+"frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
+"loop": false,
+"name": "Fechar",
+"speed": 20.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=11]
@@ -496,8 +495,6 @@ extents = Vector2( 629.463, 68.2357 )
 __meta__ = {
 "_edit_horizontal_guides_": [ -182.0 ]
 }
-
-[node name="CanvasLayer" parent="." instance=ExtResource( 95 )]
 
 [node name="Jogador" type="KinematicBody2D" parent="."]
 position = Vector2( -100, 24 )
@@ -797,7 +794,7 @@ position = Vector2( 2856, 2858 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 4
+frame = 7
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -805,7 +802,7 @@ position = Vector2( 2954, 2737 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 1
+frame = 4
 playing = true
 flip_h = true
 
@@ -814,7 +811,7 @@ position = Vector2( 2807, 2795 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 5
+frame = 8
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -822,7 +819,7 @@ position = Vector2( 2954, 2855 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 4
+frame = 7
 playing = true
 flip_h = true
 
@@ -833,7 +830,7 @@ position = Vector2( 2855, 2734 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 7
+frame = 1
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]

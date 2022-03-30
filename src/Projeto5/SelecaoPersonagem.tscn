@@ -218,6 +218,7 @@ position = Vector2( -27, -17 )
 scale = Vector2( 1.25, 1.25 )
 z_index = -1
 frames = SubResource( 2 )
+frame = 5
 playing = true
 centered = false
 
