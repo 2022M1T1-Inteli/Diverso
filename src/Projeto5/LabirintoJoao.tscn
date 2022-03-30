@@ -10,9 +10,9 @@
 [ext_resource path="res://Imagens personagem/João/fa69623c94d34071d0493f489e8c244dNkPpvMCJNLzCY2ao-7.png" type="Texture" id=8]
 [ext_resource path="res://rua.jpg" type="Texture" id=9]
 [ext_resource path="res://carro.gd" type="Script" id=10]
-[ext_resource path="res://Imagens personagem/Glória/Glória andando costas-5.png" type="Texture" id=11]
+[ext_resource path="res://Imagens personagem/João/João_baixo (7).png" type="Texture" id=11]
 [ext_resource path="res://grama_chao.png" type="Texture" id=12]
-[ext_resource path="res://Imagens personagem/Glória/Glória andando costas-4.png" type="Texture" id=13]
+[ext_resource path="res://Imagens personagem/João/João_baixo (6).png" type="Texture" id=13]
 [ext_resource path="res://Imagens random/npc assexual/l0_sprite_1.png" type="Texture" id=14]
 [ext_resource path="res://rh (2).png" type="Texture" id=15]
 [ext_resource path="res://recepcao.png" type="Texture" id=16]
@@ -20,12 +20,12 @@
 [ext_resource path="res://mesa escritorio.png" type="Texture" id=18]
 [ext_resource path="res://microondas.png" type="Texture" id=19]
 [ext_resource path="res://geladeira.png" type="Texture" id=20]
-[ext_resource path="res://Imagens personagem/Glória/Glória andando costas-6.png" type="Texture" id=21]
-[ext_resource path="res://Imagens personagem/Glória/Glória andando costas-7.png" type="Texture" id=22]
-[ext_resource path="res://Imagens personagem/Glória/Glória andando frente-6.png" type="Texture" id=23]
-[ext_resource path="res://Imagens personagem/Glória/Glória andando frente-1.png" type="Texture" id=24]
-[ext_resource path="res://Imagens personagem/Glória/Glória andando costas-0.png" type="Texture" id=25]
-[ext_resource path="res://Imagens personagem/Glória/Glória andando costas-1.png" type="Texture" id=26]
+[ext_resource path="res://Imagens personagem/João/João_cima (1).png" type="Texture" id=21]
+[ext_resource path="res://Imagens personagem/João/João_cima (3).png" type="Texture" id=22]
+[ext_resource path="res://Imagens personagem/João/João_cima (4).png" type="Texture" id=23]
+[ext_resource path="res://Imagens personagem/João/João_baixo (1).png" type="Texture" id=24]
+[ext_resource path="res://Imagens personagem/João/João_cima (2).png" type="Texture" id=25]
+[ext_resource path="res://Imagens personagem/João/João_baixo (5).png" type="Texture" id=26]
 [ext_resource path="res://Imagens random/npc queer/l0_sprite_7.png" type="Texture" id=27]
 [ext_resource path="res://Jogador2.gd" type="Script" id=28]
 [ext_resource path="res://npc ruivo.png" type="Texture" id=29]
@@ -105,14 +105,14 @@
 [ext_resource path="res://carro_azul.png" type="Texture" id=103]
 [ext_resource path="res://Imagens personagem/João/fa69623c94d34071d0493f489e8c244dNkPpvMCJNLzCY2ao-5.png" type="Texture" id=104]
 [ext_resource path="res://Imagens personagem/João/fa69623c94d34071d0493f489e8c244dNkPpvMCJNLzCY2ao-8.png" type="Texture" id=105]
-[ext_resource path="res://Imagens personagem/Glória/Glória andando costas-2.png" type="Texture" id=106]
-[ext_resource path="res://Imagens personagem/Glória/Glória andando costas-3.png" type="Texture" id=107]
-[ext_resource path="res://Imagens personagem/Glória/Glória andando frente-3.png" type="Texture" id=108]
-[ext_resource path="res://Imagens personagem/Glória/Glória andando frente-2.png" type="Texture" id=109]
-[ext_resource path="res://Imagens personagem/Glória/Glória andando frente-7.png" type="Texture" id=110]
-[ext_resource path="res://Imagens personagem/Glória/Glória andando frente-4.png" type="Texture" id=111]
-[ext_resource path="res://Imagens personagem/Glória/Glória andando frente-0.png" type="Texture" id=112]
-[ext_resource path="res://Imagens personagem/Glória/Glória andando frente-5.png" type="Texture" id=113]
+[ext_resource path="res://Imagens personagem/João/João_baixo (4).png" type="Texture" id=106]
+[ext_resource path="res://Imagens personagem/João/João_baixo (8).png" type="Texture" id=107]
+[ext_resource path="res://Imagens personagem/João/João_cima (6).png" type="Texture" id=108]
+[ext_resource path="res://Imagens personagem/João/João_cima (7).png" type="Texture" id=109]
+[ext_resource path="res://Imagens personagem/João/João_cima (8).png" type="Texture" id=110]
+[ext_resource path="res://Imagens personagem/João/João_baixo (2).png" type="Texture" id=111]
+[ext_resource path="res://Imagens personagem/João/João_baixo (3).png" type="Texture" id=112]
+[ext_resource path="res://Imagens personagem/João/João_cima (5).png" type="Texture" id=113]
 [ext_resource path="res://parede bock.png" type="Texture" id=114]
 [ext_resource path="res://Tile maps/Parede_baixo.tres" type="TileSet" id=115]
 [ext_resource path="res://CHAO CORREDOR.tres" type="TileSet" id=116]
@@ -153,25 +153,25 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 112 ), ExtResource( 24 ), ExtResource( 109 ), ExtResource( 108 ), ExtResource( 111 ), ExtResource( 113 ), ExtResource( 23 ), ExtResource( 110 ) ],
+"frames": [ ExtResource( 21 ), ExtResource( 25 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 113 ), ExtResource( 108 ), ExtResource( 109 ), ExtResource( 110 ) ],
+"loop": true,
+"name": "Up",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 24 ), ExtResource( 111 ), ExtResource( 112 ), ExtResource( 106 ), ExtResource( 26 ), ExtResource( 13 ), ExtResource( 11 ), ExtResource( 107 ) ],
 "loop": true,
 "name": "Down",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 25 ), ExtResource( 26 ), ExtResource( 106 ), ExtResource( 107 ), ExtResource( 13 ), ExtResource( 11 ), ExtResource( 21 ), ExtResource( 22 ) ],
+"frames": [ ExtResource( 2 ), ExtResource( 1 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 104 ), ExtResource( 88 ), ExtResource( 8 ), ExtResource( 105 ) ],
 "loop": true,
-"name": "Up",
+"name": "Run",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 2 ) ],
 "loop": true,
 "name": "Idle",
 "speed": 12.0
-}, {
-"frames": [ ExtResource( 2 ), ExtResource( 1 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 104 ), ExtResource( 88 ), ExtResource( 8 ), ExtResource( 105 ) ],
-"loop": true,
-"name": "Run",
-"speed": 20.0
 } ]
 
 [sub_resource type="CapsuleShape2D" id=2]
@@ -242,28 +242,28 @@ tracks/4/keys = {
 "values": [ false, true ]
 }
 tracks/5/type = "value"
-tracks/5/path = NodePath("AnimatedSprite:animation")
+tracks/5/path = NodePath("AnimatedSprite:playing")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/imported = false
 tracks/5/enabled = true
 tracks/5/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 1,
-"values": [ "Run" ]
+"times": PoolRealArray( 0, 5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ true, false ]
 }
 tracks/6/type = "value"
-tracks/6/path = NodePath("AnimatedSprite:playing")
+tracks/6/path = NodePath("AnimatedSprite:animation")
 tracks/6/interp = 1
 tracks/6/loop_wrap = true
 tracks/6/imported = false
 tracks/6/enabled = true
 tracks/6/keys = {
-"times": PoolRealArray( 0, 5 ),
-"transitions": PoolRealArray( 1, 1 ),
-"update": 1,
-"values": [ true, false ]
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ "Run" ]
 }
 
 [sub_resource type="Animation" id=38]
@@ -633,6 +633,7 @@ z_index = 4
 z_as_relative = false
 frames = SubResource( 1 )
 animation = "Run"
+frame = 6
 centered = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Jogador"]
@@ -1248,6 +1249,7 @@ position = Vector2( -167.838, 0 )
 texture = ExtResource( 126 )
 
 [node name="parede bock" type="TileMap" parent="Parede"]
+z_index = -2
 tile_set = SubResource( 39 )
 cell_size = Vector2( 32, 32 )
 format = 1
@@ -1739,20 +1741,23 @@ texture = ExtResource( 18 )
 
 [node name="ParedeBock(1)(1)" type="Sprite" parent="."]
 position = Vector2( 1264, -474 )
+z_index = -5
 texture = ExtResource( 149 )
 
 [node name="ParedeBock(1)(1)2" type="Sprite" parent="."]
 position = Vector2( 1276, -477 )
+z_index = -5
 texture = ExtResource( 149 )
 
 [node name="ParedeBock(1)(1)3" type="Sprite" parent="."]
 position = Vector2( 1329, -431 )
+z_index = -1
 texture = ExtResource( 149 )
 
 [node name="ParedeBock(1)(1)4" type="Sprite" parent="."]
 position = Vector2( 1253, -512 )
 scale = Vector2( 4.34375, 4.34375 )
-z_index = 10
+z_index = -1
 texture = ExtResource( 149 )
 
 [connection signal="animation_finished" from="Jogador/AnimationPlayer" to="Jogador" method="_on_AnimationPlayer_animation_finished"]
