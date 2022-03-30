@@ -1,7 +1,7 @@
 [gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://resources/bd/Bd_QuizzAna3.tres" type="Resource" id=1]
-[ext_resource path="res://Scene/Quizzlucas1.gd" type="Script" id=2]
+[ext_resource path="res://Scene/QuizzAna1.gd" type="Script" id=2]
 [ext_resource path="res://Imagens random/opcao1-fundoQUIZ.png" type="Texture" id=3]
 [ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=4]
 
@@ -43,7 +43,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 bd_quiz = ExtResource( 1 )
-color_right = Color( 0, 1, 0.133333, 1 )
+color_right = Color( 0.054902, 1, 0, 1 )
 color_wrong = Color( 1, 0, 0, 1 )
 
 [node name="TextureRect" type="TextureRect" parent="."]

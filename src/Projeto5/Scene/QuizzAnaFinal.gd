@@ -24,7 +24,7 @@ func _ready() -> void:
 func load_quiz() -> void:
 	if index >= bd_quiz.bd.size(): #Condição para quando acabarem as perguntas do banco de dados do quizz
 		print("acabaram as perguntas")
-		Transition.fade_into("res://Tela FinalJoao.tscn") # Trocar para a cena do labirinto
+		Transition.fade_into("res://Tela FinalAna.tscn") # Trocar para a cena do labirinto
 		return
 		
 	question_text.text = str(bd_quiz.bd[index].question_hud)
