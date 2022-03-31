@@ -1,8 +1,19 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=20 format=2]
 
-[ext_resource path="res://tela final gloria (2).png" type="Texture" id=1]
+[ext_resource path="res://scripts/question/imagens tela final gloria/sprite_1.png" type="Texture" id=1]
 [ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Tela Final.gd" type="Script" id=3]
+[ext_resource path="res://scripts/question/imagens tela final gloria/sprite_2.png" type="Texture" id=4]
+[ext_resource path="res://scripts/question/imagens tela final gloria/sprite_0.png" type="Texture" id=5]
+[ext_resource path="res://scripts/question/imagens tela final gloria/sprite_3.png" type="Texture" id=6]
+
+[sub_resource type="SpriteFrames" id=13]
+animations = [ {
+"frames": [ ExtResource( 5 ), ExtResource( 1 ), ExtResource( 4 ), ExtResource( 6 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
 
 [sub_resource type="DynamicFont" id=1]
 size = 18
@@ -40,24 +51,22 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="TextureRect" type="TextureRect" parent="."]
-anchor_right = 1.0
-anchor_bottom = 1.0
-texture = ExtResource( 1 )
-expand = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 511.375, 302 )
+scale = Vector2( 1.00464, 0.778646 )
+frames = SubResource( 13 )
+playing = true
 
 [node name="Quit" type="Button" parent="."]
-anchor_left = 0.5
+anchor_left = 1.0
 anchor_top = 1.0
-anchor_right = 0.5
+anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = -132.0
-margin_top = -90.0
-margin_right = 132.0
-margin_bottom = -40.0
+margin_left = -259.0
+margin_top = -162.0
+margin_right = 5.0
+margin_bottom = -112.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 1 )
 custom_styles/hover = SubResource( 2 )
 custom_styles/pressed = SubResource( 3 )
@@ -70,14 +79,13 @@ __meta__ = {
 }
 
 [node name="SelecionarPersonagem" type="Button" parent="."]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -189.0
-margin_top = 160.0
-margin_right = 189.0
-margin_bottom = 210.0
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_left = 11.0
+margin_top = -153.0
+margin_right = 390.0
+margin_bottom = -112.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 7 )
 custom_styles/hover = SubResource( 8 )
 custom_styles/pressed = SubResource( 9 )
@@ -85,6 +93,7 @@ custom_styles/focus = SubResource( 10 )
 custom_styles/disabled = SubResource( 11 )
 custom_styles/normal = SubResource( 12 )
 text = "Seleção de personagem"
+clip_text = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
