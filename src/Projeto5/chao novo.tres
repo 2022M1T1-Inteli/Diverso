@@ -1,7 +1,6 @@
 [gd_resource type="TileSet" load_steps=2 format=2]
 
 [sub_resource type="StreamTexture" id=1]
-load_path = "res://.import/chao madeira clara.png-c74f96d83ac285acc6469dead918a9f0.stex"
 
 [resource]
 0/name = "ChaoMadeiraClara"
