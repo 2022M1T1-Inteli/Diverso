@@ -14,7 +14,3 @@ func _on_Start_pressed():
 	
 	
 
-
-
-func _on_Tutorial_pressed():
-	Transition.fade_into("res://tutorial.tscn")

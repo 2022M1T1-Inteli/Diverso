@@ -61,30 +61,6 @@
 			"text": "- Sem problemas, é conversando e escutando os outros que se aprende. Só não repetir esse mesmo erro a partir de agora."
 		},
 		{
-			"character": "character-1645147809.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "- Eu deveria conversar mais com as pessoas do grupo LAGER, para cada vez mais aprender sobre o tema."
-		},
-		{
-			"character": "character-1645148309.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "- Grupo LAGER???"
-		},
-		{
-			"character": "character-1645147809.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "- Sim, eu não sei explicar muito bem sobre eles, mas eles tem uma sala aqui no escritório, lá eles podem te explicar melhor sobre."
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Vá para sala LAGER"
-		},
-		{
 			"event_id": "dialogic_022",
 			"transition_duration": 1
 		}
