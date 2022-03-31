@@ -925,6 +925,7 @@ flip_h = true
 
 [node name="Segurança" type="Area2D" parent="NPC\'s"]
 position = Vector2( 164, 21 )
+z_index = 6
 script = ExtResource( 3 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/Segurança"]
@@ -961,7 +962,7 @@ position = Vector2( 1126, -275 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 7
+frame = 2
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -969,7 +970,7 @@ position = Vector2( 1249, -401 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 4
+frame = 8
 playing = true
 flip_h = true
 
@@ -978,7 +979,7 @@ position = Vector2( 1119, -381 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 8
+frame = 3
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -986,7 +987,7 @@ position = Vector2( 1211, -300 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 7
+frame = 2
 playing = true
 flip_h = true
 
@@ -997,7 +998,7 @@ position = Vector2( 1177, -408 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 1
+frame = 5
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]
