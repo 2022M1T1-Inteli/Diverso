@@ -73,6 +73,12 @@
 			"text": "- Nossa agora sim entendi! Muito obrigado pela sua disposição em me ensinar, nunca tinha parado pra pensar assim antes!"
 		},
 		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Seu problema foi resolvido, volte para o RH."
+		},
+		{
 			"event_id": "dialogic_022",
 			"transition_duration": 1
 		}
