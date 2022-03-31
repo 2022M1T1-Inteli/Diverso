@@ -1,4 +1,4 @@
-[gd_scene load_steps=186 format=2]
+[gd_scene load_steps=183 format=2]
 
 [ext_resource path="res://Imagens personagem/João/fa69623c94d34071d0493f489e8c244dNkPpvMCJNLzCY2ao-1.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/João/fa69623c94d34071d0493f489e8c244dNkPpvMCJNLzCY2ao-0.png" type="Texture" id=2]
@@ -13,7 +13,7 @@
 [ext_resource path="res://Imagens personagem/João/João_baixo (7).png" type="Texture" id=11]
 [ext_resource path="res://grama_chao.png" type="Texture" id=12]
 [ext_resource path="res://Imagens personagem/João/João_baixo (6).png" type="Texture" id=13]
-[ext_resource path="res://Imagens random/npc assexual/l0_sprite_1.png" type="Texture" id=14]
+[ext_resource path="res://npc x (1).png" type="Texture" id=14]
 [ext_resource path="res://rh (2).png" type="Texture" id=15]
 [ext_resource path="res://recepcao.png" type="Texture" id=16]
 [ext_resource path="res://armario copa.png" type="Texture" id=17]
@@ -28,7 +28,7 @@
 [ext_resource path="res://Imagens personagem/João/João_baixo (5).png" type="Texture" id=26]
 [ext_resource path="res://Imagens random/npc queer/l0_sprite_7.png" type="Texture" id=27]
 [ext_resource path="res://Jogador2.gd" type="Script" id=28]
-[ext_resource path="res://npc ruivo.png" type="Texture" id=29]
+[ext_resource path="res://npc loira (1).png" type="Texture" id=29]
 [ext_resource path="res://paredeforaI.png" type="Texture" id=30]
 [ext_resource path="res://l0_sprite_1.png" type="Texture" id=31]
 [ext_resource path="res://Imagens random/npc queer/l0_sprite_5.png" type="Texture" id=32]
@@ -39,7 +39,7 @@
 [ext_resource path="res://copa-.png" type="Texture" id=37]
 [ext_resource path="res://mesa_recep.png" type="Texture" id=38]
 [ext_resource path="res://Segurança NPC.png" type="Texture" id=39]
-[ext_resource path="res://npc loira.png" type="Texture" id=40]
+[ext_resource path="res://npc castanho (1).png" type="Texture" id=40]
 [ext_resource path="res://Imagens random/npc gênero fluido/l0_sprite_2.png" type="Texture" id=41]
 [ext_resource path="res://Imagens random/npc gênero fluido/l0_sprite_3.png" type="Texture" id=42]
 [ext_resource path="res://Imagens random/npc gênero fluido/l0_sprite_1.png" type="Texture" id=43]
@@ -81,8 +81,7 @@
 [ext_resource path="res://Imagens random/sprite_2.png" type="Texture" id=79]
 [ext_resource path="res://Imagens random/parede banheiro.png" type="Texture" id=80]
 [ext_resource path="res://Placa banh fem.png" type="Texture" id=81]
-[ext_resource path="res://cabine_banheiro.png" type="Texture" id=82]
-[ext_resource path="res://privada normal.png" type="Texture" id=83]
+[ext_resource path="res://slenderman_npc.png" type="Texture" id=82]
 [ext_resource path="res://parede lager.png" type="Texture" id=84]
 [ext_resource path="res://mesa copa.png" type="Texture" id=85]
 [ext_resource path="res://chao porcelana.png" type="Texture" id=86]
@@ -122,10 +121,8 @@
 [ext_resource path="res://grama.tres" type="TileSet" id=120]
 [ext_resource path="res://sprite_0.png" type="Texture" id=121]
 [ext_resource path="res://parede_fora.tres" type="TileSet" id=122]
-[ext_resource path="res://npc 2.png" type="Texture" id=123]
 [ext_resource path="res://banheiro-.png" type="Texture" id=124]
 [ext_resource path="res://parede weiss.png" type="Texture" id=125]
-[ext_resource path="res://privada.png" type="Texture" id=126]
 [ext_resource path="res://privada  banheiro.tres" type="TileSet" id=127]
 [ext_resource path="res://sala.png" type="Texture" id=128]
 [ext_resource path="res://lucas_andando_costas (1) (1).png" type="Texture" id=129]
@@ -730,7 +727,7 @@ shape = SubResource( 6 )
 position = Vector2( 10.5, -1 )
 scale = Vector2( 0.96875, 0.9375 )
 z_index = 5
-texture = ExtResource( 118 )
+texture = ExtResource( 14 )
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="NPC\'s/NPC"]
 position = Vector2( 13, 26 )
@@ -828,7 +825,7 @@ shape = SubResource( 6 )
 position = Vector2( -4, 3 )
 scale = Vector2( 0.96875, 0.9375 )
 z_index = 3
-texture = ExtResource( 123 )
+texture = ExtResource( 29 )
 
 [node name="NPC3" type="Area2D" parent="NPC\'s"]
 position = Vector2( 1649, 1492 )
@@ -860,7 +857,7 @@ shape = SubResource( 6 )
 position = Vector2( -4, 3 )
 scale = Vector2( 0.96875, 0.9375 )
 z_index = 3
-texture = ExtResource( 40 )
+texture = ExtResource( 118 )
 flip_h = true
 
 [node name="NPC4" type="Area2D" parent="NPC\'s"]
@@ -890,7 +887,7 @@ shape = SubResource( 6 )
 position = Vector2( -1153.47, 1210 )
 scale = Vector2( 0.330078, 0.319431 )
 z_index = 3
-texture = ExtResource( 29 )
+texture = ExtResource( 40 )
 
 [node name="NPC5" type="Area2D" parent="NPC\'s"]
 position = Vector2( 1098, -336 )
@@ -920,7 +917,7 @@ shape = SubResource( 6 )
 position = Vector2( 335.922, -57.0002 )
 scale = Vector2( 1.04004, 1.00649 )
 z_index = 3
-texture = ExtResource( 14 )
+texture = ExtResource( 82 )
 flip_h = true
 
 [node name="Segurança" type="Area2D" parent="NPC\'s"]
@@ -962,7 +959,7 @@ position = Vector2( 1126, -275 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 2
+frame = 5
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -970,7 +967,7 @@ position = Vector2( 1249, -401 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 8
+frame = 2
 playing = true
 flip_h = true
 
@@ -979,7 +976,7 @@ position = Vector2( 1119, -381 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 3
+frame = 6
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -987,7 +984,7 @@ position = Vector2( 1211, -300 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 2
+frame = 5
 playing = true
 flip_h = true
 
@@ -998,7 +995,7 @@ position = Vector2( 1177, -408 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 5
+frame = 8
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]
@@ -1285,20 +1282,6 @@ tile_set = SubResource( 34 )
 cell_size = Vector2( 32, 61 )
 format = 1
 tile_data = PoolIntArray( 589877, 0, 0, 589878, 0, 0, 589879, 0, 0, 589880, 0, 0, 589881, 0, 0, 589882, 0, 0, 589883, 0, 0, 589884, 0, 0, 589885, 0, 0, 589886, 0, 0, 589887, 0, 0, 589888, 0, 0, 589889, 0, 0, 589890, 0, 0, 589891, 0, 0 )
-
-[node name="Privada" type="Sprite" parent="Parede/parede banheiro"]
-position = Vector2( 2065.12, 760.905 )
-scale = Vector2( 0.321739, 0.321739 )
-texture = ExtResource( 126 )
-offset = Vector2( 267.297, -525.27 )
-
-[node name="Privada" type="Sprite" parent="Parede/parede banheiro/Privada"]
-position = Vector2( 93.2441, -525.27 )
-texture = ExtResource( 126 )
-
-[node name="Privada" type="Sprite" parent="Parede/parede banheiro/Privada/Privada"]
-position = Vector2( -167.838, 0 )
-texture = ExtResource( 126 )
 
 [node name="parede bock" type="TileMap" parent="Parede"]
 z_index = -2
@@ -1662,51 +1645,6 @@ texture = ExtResource( 124 )
 position = Vector2( 1680, 1037 )
 scale = Vector2( 0.0978276, 0.0978276 )
 texture = ExtResource( 81 )
-
-[node name="PrivadaNormal" type="Sprite" parent="."]
-position = Vector2( 1717, 599 )
-scale = Vector2( 0.124761, 0.124762 )
-z_index = 3
-texture = ExtResource( 83 )
-
-[node name="PrivadaNormal" type="Sprite" parent="PrivadaNormal"]
-position = Vector2( 577.104, 6.10352e-05 )
-texture = ExtResource( 83 )
-
-[node name="PrivadaNormal" type="Sprite" parent="PrivadaNormal/PrivadaNormal"]
-position = Vector2( 585.12, -0.000488281 )
-texture = ExtResource( 83 )
-
-[node name="CabineBanheiro" type="Sprite" parent="."]
-position = Vector2( 1723, 598 )
-scale = Vector2( 1.11429, 1.04286 )
-z_index = 3
-texture = ExtResource( 82 )
-
-[node name="CabineBanheiro2" type="Sprite" parent="."]
-position = Vector2( 1795, 597.905 )
-z_index = 3
-texture = ExtResource( 82 )
-
-[node name="CabineBanheiro" type="Sprite" parent="CabineBanheiro2"]
-position = Vector2( 75, 0 )
-texture = ExtResource( 82 )
-
-[node name="CabineBanheiro" type="Sprite" parent="CabineBanheiro2/CabineBanheiro"]
-position = Vector2( 68, 0 )
-texture = ExtResource( 82 )
-
-[node name="PrivadaNormal2" type="Sprite" parent="."]
-position = Vector2( 1932, 600.905 )
-scale = Vector2( 0.132603, 0.132603 )
-z_index = 3
-texture = ExtResource( 83 )
-
-[node name="Privada" type="Sprite" parent="."]
-position = Vector2( 1991.12, 590.905 )
-scale = Vector2( 0.331522, 0.331521 )
-z_index = 3
-texture = ExtResource( 126 )
 
 [node name="MesaCopa2" type="Sprite" parent="."]
 position = Vector2( 495, 2207 )

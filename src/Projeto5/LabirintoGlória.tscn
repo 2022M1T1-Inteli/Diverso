@@ -1,4 +1,4 @@
-[gd_scene load_steps=177 format=2]
+[gd_scene load_steps=182 format=2]
 
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-5.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-6.png" type="Texture" id=2]
@@ -149,17 +149,22 @@
 [ext_resource path="res://logo lager.png" type="Texture" id=147]
 [ext_resource path="res://chao madeira 1.png" type="Texture" id=148]
 [ext_resource path="res://chao madeira 2.png" type="Texture" id=149]
+[ext_resource path="res://PLACA_RECEPÇAO-removebg-preview.png" type="Texture" id=150]
+[ext_resource path="res://RH-removebg-preview.png" type="Texture" id=151]
+[ext_resource path="res://PLACA_BANHEIRO-removebg-preview.png" type="Texture" id=152]
+[ext_resource path="res://PLACA_COPA_E-removebg-preview.png" type="Texture" id=153]
+[ext_resource path="res://PLACA_LAGER-removebg-preview.png" type="Texture" id=154]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
-"loop": true,
-"name": "Down",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
 "loop": true,
 "name": "Up",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
+"loop": true,
+"name": "Down",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 6 ) ],
@@ -914,6 +919,7 @@ position = Vector2( 2856, 2858 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
+frame = 6
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -921,7 +927,7 @@ position = Vector2( 2954, 2737 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 6
+frame = 3
 playing = true
 flip_h = true
 
@@ -930,7 +936,7 @@ position = Vector2( 2807, 2795 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 1
+frame = 7
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -938,6 +944,7 @@ position = Vector2( 2954, 2855 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
+frame = 6
 playing = true
 flip_h = true
 
@@ -948,7 +955,6 @@ position = Vector2( 2855, 2734 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 3
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]
@@ -958,6 +964,7 @@ z_index = 1
 [node name="Sprite" type="Sprite" parent="Figurante"]
 position = Vector2( -44, 122 )
 scale = Vector2( 1.375, 1.28125 )
+z_index = 2
 texture = ExtResource( 46 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Figurante/Sprite"]
@@ -969,26 +976,31 @@ shape = SubResource( 35 )
 [node name="Sprite2" type="Sprite" parent="Figurante"]
 position = Vector2( 20, 122 )
 scale = Vector2( 1.35938, 1.26563 )
+z_index = 2
 texture = ExtResource( 50 )
 
 [node name="Sprite3" type="Sprite" parent="Figurante"]
 position = Vector2( 208, 122 )
 scale = Vector2( 1.375, 1.28125 )
+z_index = 2
 texture = ExtResource( 46 )
 
 [node name="Sprite4" type="Sprite" parent="Figurante"]
 position = Vector2( 273.5, 121.5 )
 scale = Vector2( 1.35938, 1.26563 )
+z_index = 2
 texture = ExtResource( 50 )
 
 [node name="Sprite5" type="Sprite" parent="Figurante"]
 position = Vector2( 83, 122 )
 scale = Vector2( 1.35938, 1.26563 )
+z_index = 2
 texture = ExtResource( 50 )
 
 [node name="Sprite6" type="Sprite" parent="Figurante"]
 position = Vector2( 146, 122 )
 scale = Vector2( 1.35938, 1.26563 )
+z_index = 2
 texture = ExtResource( 50 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Figurante"]
@@ -1728,5 +1740,54 @@ texture = ExtResource( 133 )
 position = Vector2( 2542, 2735 )
 scale = Vector2( 2.4375, 2.4375 )
 texture = ExtResource( 147 )
+
+[node name="PlacaRecepçAo-removebg-preview" type="Sprite" parent="."]
+position = Vector2( 740, -103 )
+texture = ExtResource( 150 )
+
+[node name="PlacaRecepçAo-removebg-preview2" type="Sprite" parent="."]
+position = Vector2( 820, 17 )
+scale = Vector2( 0.339333, 0.339333 )
+z_index = 3
+texture = ExtResource( 150 )
+
+[node name="PlacaBanheiro-removebg-preview" type="Sprite" parent="PlacaRecepçAo-removebg-preview2"]
+position = Vector2( 807.466, 3029.47 )
+scale = Vector2( 1.03659, 1.03659 )
+z_index = 3
+texture = ExtResource( 152 )
+
+[node name="Rh-removebg-preview" type="Sprite" parent="PlacaRecepçAo-removebg-preview2/PlacaBanheiro-removebg-preview"]
+position = Vector2( -1108.74, -2.84277 )
+z_index = 3
+texture = ExtResource( 151 )
+
+[node name="PlacaCopaE-removebg-preview" type="Sprite" parent="."]
+position = Vector2( 415, 2706 )
+scale = Vector2( 0.364333, 0.364333 )
+z_index = 3
+texture = ExtResource( 153 )
+
+[node name="PlacaCopaE-removebg-preview" type="Sprite" parent="PlacaCopaE-removebg-preview"]
+position = Vector2( 4117.11, -1229.64 )
+texture = ExtResource( 153 )
+
+[node name="PlacaLager-removebg-preview" type="Sprite" parent="."]
+position = Vector2( 2116, 2259 )
+scale = Vector2( 0.357167, 0.357167 )
+z_index = 3
+texture = ExtResource( 154 )
+
+[node name="PlacaCopaE-removebg-preview" type="Sprite" parent="PlacaLager-removebg-preview"]
+position = Vector2( 2046.66, 179.187 )
+texture = ExtResource( 153 )
+
+[node name="PlacaLager-removebg-preview" type="Sprite" parent="PlacaLager-removebg-preview/PlacaCopaE-removebg-preview"]
+position = Vector2( -2491.83, -3575.36 )
+texture = ExtResource( 154 )
+
+[node name="PlacaLager-removebg-preview" type="Sprite" parent="PlacaLager-removebg-preview/PlacaCopaE-removebg-preview/PlacaLager-removebg-preview"]
+position = Vector2( -621.558, 4653.29 )
+texture = ExtResource( 154 )
 
 [connection signal="animation_finished" from="Jogador/AnimationPlayer" to="Jogador" method="_on_AnimationPlayer_animation_finished"]
