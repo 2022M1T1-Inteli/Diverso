@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/armario copa.png-33fba3083fa92d17d36c8e702cbddafd.stex"
+path="res://.import/banco-lado.png-1beb55fd93245f4b94f4d0af90f04556.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://armario copa.png"
-dest_files=[ "res://.import/armario copa.png-33fba3083fa92d17d36c8e702cbddafd.stex" ]
+source_file="res://banco-lado.png"
+dest_files=[ "res://.import/banco-lado.png-1beb55fd93245f4b94f4d0af90f04556.stex" ]
 
 [params]
 

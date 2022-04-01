@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/armario copa.png-33fba3083fa92d17d36c8e702cbddafd.stex"
+path="res://.import/plantinha.png-1efb3fa26381989703320023ab7ece7c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://armario copa.png"
-dest_files=[ "res://.import/armario copa.png-33fba3083fa92d17d36c8e702cbddafd.stex" ]
+source_file="res://plantinha.png"
+dest_files=[ "res://.import/plantinha.png-1efb3fa26381989703320023ab7ece7c.stex" ]
 
 [params]
 
