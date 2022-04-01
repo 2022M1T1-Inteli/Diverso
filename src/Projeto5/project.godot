@@ -64,6 +64,7 @@ _global_script_class_icons={
 
 config/name="Projeto5"
 run/main_scene="res://Menu2.tscn"
+boot_splash/image="res://Cervejaria ambev.png"
 
 [autoload]
 
