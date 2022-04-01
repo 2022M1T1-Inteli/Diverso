@@ -114,14 +114,14 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 25 ), ExtResource( 10 ), ExtResource( 5 ), ExtResource( 15 ), ExtResource( 22 ), ExtResource( 19 ), ExtResource( 30 ), ExtResource( 1 ) ],
-"loop": true,
-"name": "Down",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 24 ), ExtResource( 28 ), ExtResource( 27 ), ExtResource( 4 ), ExtResource( 7 ), ExtResource( 17 ), ExtResource( 29 ), ExtResource( 18 ) ],
 "loop": true,
 "name": "Up",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 25 ), ExtResource( 10 ), ExtResource( 5 ), ExtResource( 15 ), ExtResource( 22 ), ExtResource( 19 ), ExtResource( 30 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "Down",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 16 ) ],
@@ -902,7 +902,7 @@ shape = SubResource( 31 )
 [node name="Parede" type="Node" parent="."]
 
 [node name="parede cima" type="TileMap" parent="Parede"]
-z_index = 10
+z_index = 2
 z_as_relative = false
 tile_set = ExtResource( 33 )
 cell_size = Vector2( 32, 32 )

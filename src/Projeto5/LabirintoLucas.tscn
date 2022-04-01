@@ -155,14 +155,14 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 2 ), ExtResource( 4 ), ExtResource( 3 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 10 ), ExtResource( 15 ), ExtResource( 17 ) ],
-"loop": true,
-"name": "Down",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 7 ), ExtResource( 16 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 23 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 22 ) ],
 "loop": true,
 "name": "Up",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 2 ), ExtResource( 4 ), ExtResource( 3 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 10 ), ExtResource( 15 ), ExtResource( 17 ) ],
+"loop": true,
+"name": "Down",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 21 ) ],
@@ -864,6 +864,7 @@ position = Vector2( 2853, 2733 )
 z_index = 5
 frames = SubResource( 28 )
 animation = "Genero Flúido"
+frame = 1
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -871,7 +872,7 @@ position = Vector2( 2953, 2734 )
 z_index = 5
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 6
+frame = 7
 playing = true
 flip_h = true
 
@@ -880,7 +881,7 @@ position = Vector2( 2578, 2845 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 1
+frame = 2
 playing = true
 flip_h = true
 
@@ -889,6 +890,7 @@ position = Vector2( 2616, 2748 )
 z_index = 5
 frames = SubResource( 26 )
 animation = "Bissexual"
+frame = 1
 playing = true
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Lager"]
@@ -898,7 +900,7 @@ position = Vector2( 2491, 2849 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 3
+frame = 4
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]
@@ -1044,7 +1046,6 @@ z_index = 2
 tile_set = ExtResource( 11 )
 cell_size = Vector2( 32, 32 )
 format = 1
-tile_data = PoolIntArray( -65535, 0, 0 )
 
 [node name="parede_fora" type="TileMap" parent="Parede"]
 z_index = 5
