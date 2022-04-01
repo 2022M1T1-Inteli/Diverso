@@ -7,13 +7,13 @@
 			"text": "- Bom dia! É meu primeiro dia no trabalho, me disseram para vir aqui primeiro."
 		},
 		{
-			"character": "",
+			"character": "character-1647539097.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Primeiro dia? O Sr. tem certeza? "
 		},
 		{
-			"character": "character-1648412186.json",
+			"character": "character-1647539097.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Sim, fui contratado há dois dias."
@@ -31,7 +31,7 @@
 			"text": "- Nunca foi e não será agora que minha idade será um empecilho na minha capacidade."
 		},
 		{
-			"character": "",
+			"character": "character-1647539097.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Desculpa Sr. Antônio, mas nos dias de hoje só temos novos empregados com 20/25 anos,  pois eles aprendem de maneira mais fácil"
@@ -43,7 +43,7 @@
 			"text": " - E a senhorita está muito errada, idade não define quem aprende ou deixa de aprender. Inclusive, alguém precisa aprender sobre respeito com as pessoas mais velhas…"
 		},
 		{
-			"character": "",
+			"character": "character-1647539097.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Me desculpe, não foi minha intenção."

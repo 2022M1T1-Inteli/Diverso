@@ -1,0 +1,31 @@
+{
+	"events": [
+		{
+			"character": "character-1647966059.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bom dia Dr. Isabela! Te chamaram para comparecer à Recepção agora."
+		},
+		{
+			"character": "character-1648412164.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bom dia! Muito obrigada"
+		},
+		{
+			"character": "character-1647966059.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vá à Recepção."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1648818672.json",
+		"name": "Isabela6"
+	}
+}

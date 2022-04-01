@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"character": "",
+			"character": "character-1647262996.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Você é a nova gerente de gestão daqui?"
@@ -13,7 +13,7 @@
 			"text": "- Sim, pode me mostrar onde é minha mesa?"
 		},
 		{
-			"character": "",
+			"character": "character-1647262996.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Fica ali."
@@ -25,7 +25,7 @@
 			"text": "- Você pode me levar até lá, por favor?"
 		},
 		{
-			"character": "",
+			"character": "character-1647262996.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Você é cega?"
@@ -37,7 +37,7 @@
 			"text": "- Sou deficiente visual, sim."
 		},
 		{
-			"character": "",
+			"character": "character-1647262996.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- E vai trabalhar como gerente? Como contrataram alguém que não consegue nem enxergar?"
@@ -49,7 +49,7 @@
 			"text": "- Não consigo enxergar completamente, mas sei realizar perfeitamente o meu trabalho. "
 		},
 		{
-			"character": "",
+			"character": "character-1647262996.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Eu duvido que consiga trabalhar bem se mal enxerga."

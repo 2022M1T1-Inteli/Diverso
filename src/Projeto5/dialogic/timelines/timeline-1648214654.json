@@ -7,7 +7,7 @@
 			"text": "- Bom dia! O senhor é o novo diretor de vendas da empresa? Prazer, sou o Lucas, gerente das lojas físicas."
 		},
 		{
-			"character": "",
+			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Lucas? Ouvi falar de você…"
@@ -19,7 +19,7 @@
 			"text": "- Espero que apenas coisas boas!"
 		},
 		{
-			"character": "",
+			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Bom, acho que teremos problemas com relação às roupas dos funcionários."
@@ -31,7 +31,7 @@
 			"text": "- Qual o problema senhor?"
 		},
 		{
-			"character": "",
+			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- A sua roupa não é adequada para o ambiente de trabalho."
@@ -43,7 +43,7 @@
 			"text": "- Mas qual o problema? É uma camisa comum."
 		},
 		{
-			"character": "",
+			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Não quero esse tipo de roupa na minha empresa."
@@ -55,7 +55,7 @@
 			"text": "- Mas é apenas uma camisa com o apoio a bandeira da minha comunidade."
 		},
 		{
-			"character": "",
+			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Não quero essa militância na minha empresa, esse é um local de trabalho."
@@ -67,7 +67,7 @@
 			"text": "- Não é ativismo, é a minha identidade."
 		},
 		{
-			"character": "",
+			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Pouco me importa, não quero meu escritório relacionado a esse tipo de gente!"
@@ -79,7 +79,7 @@
 			"text": "- Mas isso é errado!"
 		},
 		{
-			"character": "",
+			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Eu sou seu chefe, não venha mais com esse tipo de roupa para a empresa! Agora vá fazer o que seu trabalho manda."
@@ -88,7 +88,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Volte ao seu escritório."
+			"text": "Horário de almoço. Vá à Copa."
 		},
 		{
 			"event_id": "dialogic_022",

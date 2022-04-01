@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"character": "",
+			"character": "character-1647538617.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- O Sr. viu por aí o novo funcionário do setor administrativo? Fiquei encarregado de auxiliá-lo hoje no primeiro dia"
@@ -13,7 +13,7 @@
 			"text": "- Eu sou o funcionário novo."
 		},
 		{
-			"character": "",
+			"character": "character-1647538617.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Novo? Nessa idade o senhor ainda trabalha? "
@@ -25,7 +25,7 @@
 			"text": "- E por que eu não trabalharia?"
 		},
 		{
-			"character": "",
+			"character": "character-1647538617.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Está roubando as vagas de pessoas que realmente tem potencial para trabalhar. Na sua idade você não tem tanta energia como eu tenho."

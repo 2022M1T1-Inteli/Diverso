@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"character": "",
+			"character": "character-1647966059.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Bom dia, Lucas!"
@@ -13,7 +13,7 @@
 			"text": "- Bom dia!"
 		},
 		{
-			"character": "",
+			"character": "character-1647966059.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Você ficou sabendo do novo diretor que chegou na empresa?"
@@ -25,7 +25,7 @@
 			"text": "- Fiquei sim, ele já está no prédio?"
 		},
 		{
-			"character": "",
+			"character": "character-1647966059.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Sim, acabou de chegar."
@@ -37,7 +37,7 @@
 			"text": "- Ele parece ser legal?"
 		},
 		{
-			"character": "",
+			"character": "character-1647966059.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Bom… Acho bom você conhecer ele."
@@ -49,7 +49,7 @@
 			"text": "- Sabe onde ele está?"
 		},
 		{
-			"character": "",
+			"character": "character-1647966059.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Na sala dele, diretoria de vendas."
@@ -61,14 +61,14 @@
 			"text": "- Obrigado!"
 		},
 		{
-			"event_id": "dialogic_022",
-			"transition_duration": 1
-		},
-		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Vá até o novo diretor."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {

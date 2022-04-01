@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"character": "",
+			"character": "character-1647262996.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Conseguiu alguma resposta para o meu problema?"
@@ -13,7 +13,7 @@
 			"text": "- Infelizmente nenhum dos diretores me escutou e reduziram o seu problema a inexistente. "
 		},
 		{
-			"character": "",
+			"character": "character-1647262996.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Então é melhor deixarmos de lado, não vai adiantar de nada e no fim sou eu quem sairá prejudicada."

@@ -7,7 +7,7 @@
 			"text": "- Olá, fiquei sabendo do ocorrido e sinto muito pelo o que aconteceu… Se você quiser posso te ajudar."
 		},
 		{
-			"character": "",
+			"character": "character-1647262996.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Me sinto tão inútil, incapaz de me defender, com medo de relatar o assédio, desrespeitada no meu local de trabalho…"
@@ -19,7 +19,7 @@
 			"text": "- Entendo tudo o que aconteceu com você! Sua dor é a minha dor. Mas é muito importante que você denuncie o que aconteceu para que proteja outras mulheres aqui na empresa."
 		},
 		{
-			"character": "",
+			"character": "character-1647262996.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Acho que ninguém vai acreditar em mim, porque o assediador é meu superior…"
@@ -31,7 +31,7 @@
 			"text": "- Irei marcar uma reunião com os outros diretores para tomarmos a medida correta."
 		},
 		{
-			"character": "",
+			"character": "character-1647262996.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Vá para a sala de reunião."

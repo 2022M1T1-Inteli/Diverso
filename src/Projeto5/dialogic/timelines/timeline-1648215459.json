@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"character": "",
+			"character": "character-1647538617.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Bem-vinda nova funcionária! Animada para o seu primeiro dia de trabalho?"
@@ -13,7 +13,7 @@
 			"text": "- Muito! Mal posso esperar para começar logo."
 		},
 		{
-			"character": "",
+			"character": "character-1647538617.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Que bom! Só preciso que assine esses papéis e já está liberada para sua sala."
@@ -25,7 +25,7 @@
 			"text": "-..."
 		},
 		{
-			"character": "",
+			"character": "character-1647538617.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Algum problema?"
@@ -37,7 +37,7 @@
 			"text": " - Os papéis não têm braille?"
 		},
 		{
-			"character": "",
+			"character": "character-1647538617.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Não..."
@@ -49,7 +49,7 @@
 			"text": "- E como vou saber onde devo assinar? Sou deficiente visual."
 		},
 		{
-			"character": "",
+			"character": "character-1647538617.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Mil desculpas! Nunca tivemos deficientes visuais na empresa. Vou tentar resolver o seu problema. Por enquanto pode se acomodar na sua mesa."
@@ -61,10 +61,10 @@
 			"text": "- Pode me passar as direções? Não tem sinalização tátil no chão…"
 		},
 		{
-			"character": "",
+			"character": "character-1647538617.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Ok... Vá para a "
+			"text": "- Ok... Desça na primeira porta à esquerda, vire à direita e depois à esquerda, é a primeira sala."
 		},
 		{
 			"character": "character-1648412180.json",
@@ -73,7 +73,7 @@
 			"text": "Obrigada."
 		},
 		{
-			"character": "",
+			"character": "character-1647538617.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Encontre sua sala."

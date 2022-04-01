@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"character": "",
+			"character": "character-1647540127.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Boa tarde e bem-vindo a LAGER. Você já trabalha na empresa há algum tempo, certo?"
@@ -13,7 +13,7 @@
 			"text": "- Sim, trabalho. Mas nunca vim aqui antes…"
 		},
 		{
-			"character": "",
+			"character": "character-1647540127.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Agora você tem um espaço para te acolher, qualquer situação estaremos aqui como um grupo de apoio e de empatia."
@@ -25,7 +25,7 @@
 			"text": "-  Hoje aconteceram coisas que não quero que se repitam com nenhum outro colaborador daqui…"
 		},
 		{
-			"character": "",
+			"character": "character-1647540127.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": " - Então você está no lugar certo! Juntos temos mais voz na empresa e iremos nos mobilizar contra qualquer ofensa à comunidade LGBTQIA+"

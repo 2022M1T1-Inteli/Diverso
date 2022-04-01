@@ -1,4 +1,4 @@
-[gd_scene load_steps=131 format=2]
+[gd_scene load_steps=132 format=2]
 
 [ext_resource path="res://Imagens personagem/Antônio/Anto_baixo (8).png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Antônio/8263b552b1c14546b770026d62b26730znTyaUhZHoSXCIre-1.png" type="Texture" id=2]
@@ -89,6 +89,7 @@
 [ext_resource path="res://plantinha.png" type="Texture" id=87]
 [ext_resource path="res://sofa 1.png" type="Texture" id=88]
 [ext_resource path="res://sofa 3.png" type="Texture" id=89]
+[ext_resource path="res://PLACA_RH-removebg-preview.png" type="Texture" id=90]
 [ext_resource path="res://copa-.png" type="Texture" id=91]
 [ext_resource path="res://mesa_recep.png" type="Texture" id=92]
 [ext_resource path="res://Segurança NPC.png" type="Texture" id=93]
@@ -114,14 +115,14 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 24 ), ExtResource( 28 ), ExtResource( 27 ), ExtResource( 4 ), ExtResource( 7 ), ExtResource( 17 ), ExtResource( 29 ), ExtResource( 18 ) ],
-"loop": true,
-"name": "Up",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 25 ), ExtResource( 10 ), ExtResource( 5 ), ExtResource( 15 ), ExtResource( 22 ), ExtResource( 19 ), ExtResource( 30 ), ExtResource( 1 ) ],
 "loop": true,
 "name": "Down",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 24 ), ExtResource( 28 ), ExtResource( 27 ), ExtResource( 4 ), ExtResource( 7 ), ExtResource( 17 ), ExtResource( 29 ), ExtResource( 18 ) ],
+"loop": true,
+"name": "Up",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 16 ) ],
@@ -364,7 +365,7 @@ extents = Vector2( 32.9167, 22.1639 )
 extents = Vector2( 138.091, 10 )
 
 [sub_resource type="CapsuleShape2D" id=31]
-radius = 6.0
+radius = 21.0
 height = 0.0
 
 [sub_resource type="TileSet" id=32]
@@ -465,15 +466,15 @@ height = 0.0
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
-"loop": false,
-"name": "Abrir",
-"speed": 30.0
-}, {
 "frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
 "loop": false,
 "name": "Fechar",
 "speed": 20.0
+}, {
+"frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
+"loop": false,
+"name": "Abrir",
+"speed": 30.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=11]
@@ -812,7 +813,7 @@ texture = ExtResource( 46 )
 [node name="StaticBody2D" type="StaticBody2D" parent="Figurante/Sprite"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Figurante/Sprite/StaticBody2D"]
-position = Vector2( 489.455, 298.927 )
+position = Vector2( 584, 290.341 )
 shape = SubResource( 35 )
 
 [node name="Sprite2" type="Sprite" parent="Figurante"]
@@ -854,7 +855,7 @@ texture = ExtResource( 50 )
 z_index = 10
 
 [node name="CollisionShape lager5" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( 2753, 2193 )
+position = Vector2( 193, 1387 )
 shape = SubResource( 31 )
 
 [node name="CollisionShape lager4" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
@@ -862,7 +863,7 @@ position = Vector2( 2847, 2192 )
 shape = SubResource( 31 )
 
 [node name="CollisionShape lager3" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( 2705, 2144 )
+position = Vector2( 497, 1380 )
 shape = SubResource( 31 )
 
 [node name="CollisionShape lager7" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
@@ -870,7 +871,7 @@ position = Vector2( 2847, 2092 )
 shape = SubResource( 31 )
 
 [node name="CollisionShape mesa2" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( 2753, 2089 )
+position = Vector2( 430, 1606 )
 shape = SubResource( 31 )
 
 [node name="CollisionShape  banehiro" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
@@ -894,11 +895,11 @@ position = Vector2( 2039.12, -49.0952 )
 shape = SubResource( 31 )
 
 [node name="CollisionShape  pia3" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( 236, 195 )
+position = Vector2( 1182, -1032 )
 shape = SubResource( 31 )
 
 [node name="CollisionShape  pia2" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( 180, 195 )
+position = Vector2( 1185, -977 )
 shape = SubResource( 31 )
 
 [node name="CollisionShape  pia" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
@@ -1171,7 +1172,7 @@ position = Vector2( 63.5, -0.5 )
 shape = SubResource( 11 )
 
 [node name="Porta2" type="Area2D" parent="Portas"]
-position = Vector2( 1344, -256 )
+position = Vector2( 1345, -253 )
 z_index = 1
 script = ExtResource( 67 )
 __meta__ = {
@@ -1401,12 +1402,6 @@ scale = Vector2( 0.270642, 0.270642 )
 z_index = 1
 texture = ExtResource( 84 )
 
-[node name="Sala" type="Sprite" parent="seta"]
-position = Vector2( 382, 2703 )
-scale = Vector2( 0.268135, 0.268135 )
-z_index = 12
-texture = ExtResource( 45 )
-
 [node name="Copa-" type="Sprite" parent="seta"]
 position = Vector2( 1735, 2702 )
 scale = Vector2( 0.264462, 0.264462 )
@@ -1529,7 +1524,7 @@ position = Vector2( -314.128, -90.3119 )
 texture = ExtResource( 89 )
 
 [node name="Sofa3" type="Sprite" parent="Sofa1/Sofa3"]
-position = Vector2( 1.96338, 109.945 )
+position = Vector2( 11.7795, 117.798 )
 texture = ExtResource( 89 )
 
 [node name="Quadro" type="Sprite" parent="Sofa1/Sofa3"]
@@ -1551,5 +1546,11 @@ position = Vector2( 1615, 1044 )
 scale = Vector2( 0.340667, 0.340667 )
 z_index = 12
 texture = ExtResource( 44 )
+
+[node name="PlacaRh-removebg-preview" type="Sprite" parent="."]
+position = Vector2( 394, 2706 )
+scale = Vector2( 0.33, 0.33 )
+z_index = 12
+texture = ExtResource( 90 )
 
 [connection signal="animation_finished" from="Jogador/AnimationPlayer" to="Jogador" method="_on_AnimationPlayer_animation_finished"]

@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"character": "",
+			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Bom dia Dra. Isabela, como anda a sua gravidez?"
@@ -13,7 +13,7 @@
 			"text": "- Bom dia! Já está no segundo trimestre, cada dia mais ansiosa."
 		},
 		{
-			"character": "",
+			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Que ótimo! Mas infelizmente tenho um assunto sério a ser tratado. Como a Sra é a única diretora mulher, acho melhor ser conversado com você."
@@ -25,7 +25,7 @@
 			"text": "- Claro, qual o problema?"
 		},
 		{
-			"character": "",
+			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Uma funcionária da sua área alega ter sido assediada e está com medo de relatar ao RH. Como você comanda a WEISS, pode ajudá-la."
@@ -37,7 +37,7 @@
 			"text": "- Meu Deus! Vou ajudá-la imediatamente."
 		},
 		{
-			"character": "",
+			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Encontre essa mulher."

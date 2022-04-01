@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"character": "",
+			"character": "character-1647538617.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Com licença, o Sr. precisa de ajuda?"
@@ -13,7 +13,7 @@
 			"text": "- Não, por que?"
 		},
 		{
-			"character": "",
+			"character": "character-1647538617.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Parece perdido… Para onde precisa ir?"
@@ -25,7 +25,7 @@
 			"text": "- Estou indo para a minha sala."
 		},
 		{
-			"character": "",
+			"character": "character-1647538617.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Sua sala?"
@@ -37,7 +37,7 @@
 			"text": "- Sim, trabalho aqui."
 		},
 		{
-			"character": "",
+			"character": "character-1647538617.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Trabalha? Desculpe pelo mal entendido…"
