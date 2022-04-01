@@ -1,4 +1,4 @@
-[gd_scene load_steps=183 format=2]
+[gd_scene load_steps=186 format=2]
 
 [ext_resource path="res://Imagens personagem/Ana/faf6371d2edf4d6afc8ead13f161cd84EIj4hrAyeART7VEL-8.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Ana/Ana_cima (7).png" type="Texture" id=2]
@@ -132,7 +132,7 @@
 [ext_resource path="res://decoração culture.png" type="Texture" id=130]
 [ext_resource path="res://decoração dream.png" type="Texture" id=131]
 [ext_resource path="res://parede lager.png" type="Texture" id=132]
-[ext_resource path="res://PLACA_RECEPÇÃO_D-removebg-preview.png" type="Texture" id=133]
+[ext_resource path="res://SegurançaAna.gd" type="Script" id=133]
 [ext_resource path="res://armario-sup.png" type="Texture" id=134]
 [ext_resource path="res://lixeira.png" type="Texture" id=135]
 [ext_resource path="res://decoração people.png" type="Texture" id=136]
@@ -157,6 +157,8 @@
 [ext_resource path="res://armário colorido.png" type="Texture" id=155]
 [ext_resource path="res://plantinha.png" type="Texture" id=156]
 [ext_resource path="res://banco-lado.png" type="Texture" id=157]
+[ext_resource path="res://sofa 1.png" type="Texture" id=158]
+[ext_resource path="res://sofa 3.png" type="Texture" id=159]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -587,6 +589,10 @@ extents = Vector2( 27.5, 60 )
 [sub_resource type="RectangleShape2D" id=36]
 extents = Vector2( 629.463, 68.2357 )
 
+[sub_resource type="StreamTexture" id=45]
+flags = 4
+load_path = "res://.import/PLACA_RECEPÇÃO_D-removebg-preview.png-b2bf5b0482f0ede356db938bda884281.stex"
+
 [node name="Labirinto" type="Node2D"]
 __meta__ = {
 "_edit_horizontal_guides_": [ -182.0 ]
@@ -821,6 +827,7 @@ flip_h = true
 
 [node name="Segurança" type="Area2D" parent="NPC\'s"]
 position = Vector2( 164, 21 )
+script = ExtResource( 133 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/Segurança"]
 position = Vector2( -3, 1 )
@@ -829,7 +836,7 @@ shape = SubResource( 4 )
 [node name="Point" type="Sprite" parent="NPC\'s/Segurança"]
 position = Vector2( -19, -97 )
 scale = Vector2( 0.0839896, 0.0803011 )
-z_index = 5
+z_index = 12
 texture = ExtResource( 48 )
 centered = false
 region_enabled = true
@@ -844,7 +851,7 @@ shape = SubResource( 6 )
 [node name="Sprite" type="Sprite" parent="NPC\'s/Segurança/StaticBody2D"]
 position = Vector2( 1.6245, -1.37278 )
 scale = Vector2( 0.121877, 0.114113 )
-z_index = 6
+z_index = 12
 texture = ExtResource( 93 )
 flip_h = true
 
@@ -856,7 +863,7 @@ position = Vector2( 2856, 2858 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 6
+frame = 7
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -864,7 +871,7 @@ position = Vector2( 2954, 2737 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 3
+frame = 4
 playing = true
 flip_h = true
 
@@ -873,7 +880,7 @@ position = Vector2( 2807, 2795 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 7
+frame = 8
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -881,7 +888,7 @@ position = Vector2( 2954, 2855 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 6
+frame = 7
 playing = true
 flip_h = true
 
@@ -892,6 +899,7 @@ position = Vector2( 2855, 2734 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
+frame = 1
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]
@@ -1737,17 +1745,17 @@ texture = ExtResource( 137 )
 
 [node name="PlacaRecepçãOD-removebg-preview" type="Sprite" parent="."]
 position = Vector2( 1056, 1137 )
-texture = ExtResource( 133 )
+texture = SubResource( 45 )
 
 [node name="PlacaRecepçãOD-removebg-preview2" type="Sprite" parent="."]
 position = Vector2( 1592, 1043 )
 scale = Vector2( 0.257667, 0.257667 )
 z_index = 6
-texture = ExtResource( 133 )
+texture = SubResource( 45 )
 
 [node name="PlacaRecepçãOD-removebg-preview" type="Sprite" parent="PlacaRecepçãOD-removebg-preview2"]
 position = Vector2( -4470.89, -3974.12 )
-texture = ExtResource( 133 )
+texture = SubResource( 45 )
 
 [node name="Entrada2" type="Sprite" parent="PlacaRecepçãOD-removebg-preview2/PlacaRecepçãOD-removebg-preview"]
 position = Vector2( 5386.8, 2266.49 )
@@ -1830,17 +1838,26 @@ texture = ExtResource( 156 )
 position = Vector2( 316, 870 )
 texture = ExtResource( 157 )
 
-[node name="Banco-lado2" type="Sprite" parent="."]
-position = Vector2( 318, 926 )
-scale = Vector2( 0.620482, 0.620482 )
-z_index = 5
-texture = ExtResource( 157 )
-flip_h = true
+[node name="Sofa1" type="Sprite" parent="."]
+position = Vector2( -30, 1141 )
+texture = ExtResource( 158 )
 
-[node name="Banco-lado" type="Sprite" parent="Banco-lado2"]
-position = Vector2( 1.61163, -146.66 )
-z_index = -1
-texture = ExtResource( 157 )
-flip_h = true
+[node name="Sofa2" type="Sprite" parent="."]
+position = Vector2( 392, 900 )
+scale = Vector2( 0.593458, 0.593458 )
+z_index = 12
+texture = ExtResource( 158 )
+
+[node name="Sofa1" type="Sprite" parent="Sofa2"]
+position = Vector2( 2960.61, -313.417 )
+texture = ExtResource( 158 )
+
+[node name="Sofa3" type="Sprite" parent="Sofa2/Sofa1"]
+position = Vector2( -716.142, -28.6459 )
+texture = ExtResource( 159 )
+
+[node name="Sofa3" type="Sprite" parent="Sofa2/Sofa1/Sofa3"]
+position = Vector2( 1.68506, 109.528 )
+texture = ExtResource( 159 )
 
 [connection signal="animation_finished" from="Jogador/AnimationPlayer" to="Jogador" method="_on_AnimationPlayer_animation_finished"]
