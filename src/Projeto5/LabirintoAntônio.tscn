@@ -119,9 +119,9 @@ animations = [ {
 "name": "Up",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 25 ), ExtResource( 10 ), ExtResource( 5 ), ExtResource( 15 ), ExtResource( 22 ), ExtResource( 19 ), ExtResource( 30 ), ExtResource( 1 ) ],
+"frames": [ ExtResource( 16 ), ExtResource( 2 ), ExtResource( 23 ), ExtResource( 8 ), ExtResource( 6 ), ExtResource( 3 ), ExtResource( 20 ), ExtResource( 9 ), ExtResource( 26 ), ExtResource( 21 ) ],
 "loop": true,
-"name": "Down",
+"name": "Run",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 16 ) ],
@@ -129,9 +129,9 @@ animations = [ {
 "name": "Idle",
 "speed": 12.0
 }, {
-"frames": [ ExtResource( 16 ), ExtResource( 2 ), ExtResource( 23 ), ExtResource( 8 ), ExtResource( 6 ), ExtResource( 3 ), ExtResource( 20 ), ExtResource( 9 ), ExtResource( 26 ), ExtResource( 21 ) ],
+"frames": [ ExtResource( 25 ), ExtResource( 10 ), ExtResource( 5 ), ExtResource( 15 ), ExtResource( 22 ), ExtResource( 19 ), ExtResource( 30 ), ExtResource( 1 ) ],
 "loop": true,
-"name": "Run",
+"name": "Down",
 "speed": 20.0
 } ]
 
@@ -538,6 +538,7 @@ __meta__ = {
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC"]
 position = Vector2( 8, 1 )
+z_index = 10
 shape = SubResource( 4 )
 
 [node name="Point" type="Sprite" parent="NPC\'s/NPC"]
@@ -634,6 +635,7 @@ __meta__ = {
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC2"]
 position = Vector2( 8, 1 )
+z_index = 10
 shape = SubResource( 4 )
 
 [node name="Point" type="Sprite" parent="NPC\'s/NPC2"]
@@ -666,6 +668,7 @@ __meta__ = {
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC3"]
 position = Vector2( 8, 1 )
+z_index = 10
 shape = SubResource( 4 )
 
 [node name="Point" type="Sprite" parent="NPC\'s/NPC3"]
@@ -696,6 +699,7 @@ script = ExtResource( 97 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC4"]
 position = Vector2( 8, 1 )
+z_index = 10
 shape = SubResource( 4 )
 
 [node name="Point" type="Sprite" parent="NPC\'s/NPC4"]
@@ -734,6 +738,7 @@ position = Vector2( 3017, 2786 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC5"]
 position = Vector2( -3, 1 )
+z_index = 10
 shape = SubResource( 4 )
 
 [node name="Point" type="Sprite" parent="NPC\'s/NPC5"]
@@ -764,6 +769,7 @@ script = ExtResource( 47 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/Segurança"]
 position = Vector2( -3, 1 )
+z_index = 10
 shape = SubResource( 4 )
 
 [node name="Point" type="Sprite" parent="NPC\'s/Segurança"]

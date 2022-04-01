@@ -161,9 +161,9 @@ animations = [ {
 "name": "Up",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 1 ), ExtResource( 6 ), ExtResource( 2 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
+"frames": [ ExtResource( 25 ), ExtResource( 3 ), ExtResource( 20 ), ExtResource( 15 ), ExtResource( 27 ), ExtResource( 4 ), ExtResource( 10 ), ExtResource( 26 ) ],
 "loop": true,
-"name": "Down",
+"name": "Run",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 25 ) ],
@@ -171,9 +171,9 @@ animations = [ {
 "name": "Idle",
 "speed": 12.0
 }, {
-"frames": [ ExtResource( 25 ), ExtResource( 3 ), ExtResource( 20 ), ExtResource( 15 ), ExtResource( 27 ), ExtResource( 4 ), ExtResource( 10 ), ExtResource( 26 ) ],
+"frames": [ ExtResource( 1 ), ExtResource( 6 ), ExtResource( 2 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
 "loop": true,
-"name": "Run",
+"name": "Down",
 "speed": 20.0
 } ]
 
@@ -618,6 +618,7 @@ __meta__ = {
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC"]
 position = Vector2( 8, 1 )
+z_index = 10
 shape = SubResource( 4 )
 
 [node name="Point" type="Sprite" parent="NPC\'s/NPC"]
@@ -714,6 +715,7 @@ __meta__ = {
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC2"]
 position = Vector2( 8, 1 )
+z_index = 10
 shape = SubResource( 4 )
 
 [node name="Point" type="Sprite" parent="NPC\'s/NPC2"]
@@ -746,6 +748,7 @@ __meta__ = {
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC3"]
 position = Vector2( 8, 1 )
+z_index = 10
 shape = SubResource( 4 )
 
 [node name="Point" type="Sprite" parent="NPC\'s/NPC3"]
@@ -776,6 +779,7 @@ script = ExtResource( 95 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC4"]
 position = Vector2( 8, 1 )
+z_index = 10
 shape = SubResource( 4 )
 
 [node name="Point" type="Sprite" parent="NPC\'s/NPC4"]
@@ -804,6 +808,7 @@ position = Vector2( 2744, 2049 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC5"]
 position = Vector2( -3, 1 )
+z_index = 10
 shape = SubResource( 4 )
 
 [node name="Point" type="Sprite" parent="NPC\'s/NPC5"]
@@ -830,6 +835,7 @@ flip_h = true
 
 [node name="Segurança" type="Area2D" parent="NPC\'s"]
 position = Vector2( 164, 21 )
+z_index = 10
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/Segurança"]
 position = Vector2( -3, 1 )
@@ -865,7 +871,7 @@ position = Vector2( 2621, 1583 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 7
+frame = 3
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -873,7 +879,6 @@ position = Vector2( 2681, 2000 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 4
 playing = true
 flip_h = true
 
@@ -882,7 +887,7 @@ position = Vector2( 2701, 1810 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 8
+frame = 4
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -890,7 +895,7 @@ position = Vector2( 2548, 1788 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 7
+frame = 3
 playing = true
 flip_h = true
 
@@ -901,7 +906,7 @@ position = Vector2( 2582, 1997 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 1
+frame = 6
 playing = true
 
 [node name="Figurante" type="Node2D" parent="."]

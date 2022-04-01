@@ -128,9 +128,9 @@ animations = [ {
 "name": "Up",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 24 ), ExtResource( 111 ), ExtResource( 112 ), ExtResource( 106 ), ExtResource( 26 ), ExtResource( 13 ), ExtResource( 11 ), ExtResource( 107 ) ],
+"frames": [ ExtResource( 2 ), ExtResource( 1 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 104 ), ExtResource( 88 ), ExtResource( 8 ), ExtResource( 105 ) ],
 "loop": true,
-"name": "Down",
+"name": "Run",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 2 ) ],
@@ -138,9 +138,9 @@ animations = [ {
 "name": "Idle",
 "speed": 12.0
 }, {
-"frames": [ ExtResource( 2 ), ExtResource( 1 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 104 ), ExtResource( 88 ), ExtResource( 8 ), ExtResource( 105 ) ],
+"frames": [ ExtResource( 24 ), ExtResource( 111 ), ExtResource( 112 ), ExtResource( 106 ), ExtResource( 26 ), ExtResource( 13 ), ExtResource( 11 ), ExtResource( 107 ) ],
 "loop": true,
-"name": "Run",
+"name": "Down",
 "speed": 20.0
 } ]
 
@@ -336,7 +336,7 @@ tracks/7/keys = {
 }
 
 [sub_resource type="CircleShape2D" id=4]
-radius = 11.4018
+radius = 89.4922
 
 [sub_resource type="CapsuleShape2D" id=6]
 radius = 12.0
@@ -620,6 +620,7 @@ script = ExtResource( 143 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC"]
 position = Vector2( 9.49988, 1 )
+z_index = 10
 shape = SubResource( 4 )
 
 [node name="Point" type="Sprite" parent="NPC\'s/NPC"]
@@ -760,7 +761,7 @@ position = Vector2( -0.416687, -13.6393 )
 shape = SubResource( 25 )
 
 [node name="NPC2" type="Area2D" parent="NPC\'s"]
-position = Vector2( 1885.5, 1690.92 )
+position = Vector2( 1884, 1691 )
 z_index = 12
 script = ExtResource( 141 )
 __meta__ = {
@@ -768,7 +769,8 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC2"]
-position = Vector2( 8, 1 )
+position = Vector2( -19, -4.99988 )
+z_index = 10
 shape = SubResource( 4 )
 
 [node name="Point" type="Sprite" parent="NPC\'s/NPC2"]
@@ -802,6 +804,7 @@ __meta__ = {
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC3"]
 position = Vector2( 8, 1 )
+z_index = 10
 shape = SubResource( 4 )
 
 [node name="Point" type="Sprite" parent="NPC\'s/NPC3"]
@@ -833,6 +836,7 @@ script = ExtResource( 139 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC4"]
 position = Vector2( -1552.97, 485.076 )
+z_index = 10
 shape = SubResource( 4 )
 
 [node name="Point" type="Sprite" parent="NPC\'s/NPC4"]
@@ -864,6 +868,7 @@ script = ExtResource( 140 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC5"]
 position = Vector2( 315, -90 )
+z_index = 10
 shape = SubResource( 4 )
 
 [node name="Point" type="Sprite" parent="NPC\'s/NPC5"]
@@ -896,6 +901,7 @@ script = ExtResource( 3 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/Segurança"]
 position = Vector2( -3, 1 )
+z_index = 10
 shape = SubResource( 4 )
 
 [node name="Point" type="Sprite" parent="NPC\'s/Segurança"]
