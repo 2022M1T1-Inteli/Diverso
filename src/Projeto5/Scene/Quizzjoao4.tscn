@@ -1,6 +1,7 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://Scene/Quizzjoao1.gd" type="Script" id=1]
+[ext_resource path="res://resources/bd/Bd_Quizzjoao4.tres" type="Resource" id=2]
 [ext_resource path="res://Imagens random/opcao1-fundoQUIZ.png" type="Texture" id=3]
 [ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=4]
 
@@ -41,6 +42,9 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+bd_quiz = ExtResource( 2 )
+color_right = Color( 0, 1, 0.0862745, 1 )
+color_wrong = Color( 1, 0, 0, 1 )
 
 [node name="TextureRect" type="TextureRect" parent="."]
 anchor_right = 1.0
