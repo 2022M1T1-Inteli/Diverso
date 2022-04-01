@@ -22,11 +22,10 @@ func _input(event):
 			dialog.connect('timeline_end', self, 'unpause')
 			add_child(dialog)
 			
-
 func unpause(timeline_timeline1):
 	get_tree().paused = false
-
-
+	Transition.fade_into("res://Scene/QuizzAntonio1.tscn")
+	
 func _on_NPC_body_exited(body):
 	if body.name == "Jogador":
 		active = false
