@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Scene/Gloria/FeedbackGloria/FeedbackGloria2.gd" type="Script" id=1]
+[ext_resource path="res://Scene/Gloria/ImagesGloria/feedbackgloria2.png" type="Texture" id=2]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -9,13 +10,6 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-
-[node name="Label" type="Label" parent="."]
-margin_left = 278.0
-margin_top = 277.0
-margin_right = 396.0
-margin_bottom = 291.0
-text = "Feedback da gloria"
 
 [node name="voltar" type="Button" parent="."]
 margin_left = 47.0
@@ -26,5 +20,10 @@ text = "Voltar"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 1037.0
+margin_bottom = 604.0
+texture = ExtResource( 2 )
 
 [connection signal="pressed" from="voltar" to="." method="_on_voltar_pressed"]

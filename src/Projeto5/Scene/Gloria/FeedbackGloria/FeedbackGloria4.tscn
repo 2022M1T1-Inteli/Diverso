@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Scene/Gloria/FeedbackGloria/FeedbackGloria4.gd" type="Script" id=1]
+[ext_resource path="res://Scene/Gloria/ImagesGloria/feedbackgloria4.png" type="Texture" id=2]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -10,18 +11,16 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Label" type="Label" parent="."]
-margin_left = 214.0
-margin_top = 207.0
-margin_right = 346.0
-margin_bottom = 221.0
-text = "Feedback pergunta 4"
-
 [node name="voltar" type="Button" parent="."]
 margin_left = 40.0
 margin_top = 410.0
 margin_right = 89.0
 margin_bottom = 430.0
 text = "Voltar"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 1035.0
+margin_bottom = 621.0
+texture = ExtResource( 2 )
 
 [connection signal="pressed" from="voltar" to="." method="_on_voltar_pressed"]
