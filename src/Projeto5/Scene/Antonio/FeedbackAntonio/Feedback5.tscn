@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scene/Antonio/FeedbackAntonio/Feedback5.gd" type="Script" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_scale = Vector2( 1.04, 1 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 984.0
+margin_bottom = 610.0
+
+[node name="voltar" type="Button" parent="."]
+margin_left = 42.3077
+margin_top = 539.0
+margin_right = 91.3077
+margin_bottom = 559.0
+text = "Voltar"
+
+[connection signal="pressed" from="voltar" to="." method="_on_voltar_pressed"]

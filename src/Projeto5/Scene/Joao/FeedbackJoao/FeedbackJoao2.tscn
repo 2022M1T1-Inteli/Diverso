@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scene/Joao/FeedbackJoao/FeedbackJoao2.gd" type="Script" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 445.0
+margin_top = 265.0
+margin_right = 574.0
+margin_bottom = 279.0
+text = "feddback pergunta 2"
+
+[node name="voltar" type="Button" parent="."]
+margin_left = 77.0
+margin_top = 509.0
+margin_right = 125.0
+margin_bottom = 529.0
+text = "voltar"
+
+[connection signal="pressed" from="voltar" to="." method="_on_voltar_pressed"]

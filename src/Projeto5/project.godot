@@ -9,11 +9,6 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "Resource",
-"class": "BDQuiz",
-"language": "GDScript",
-"path": "res://scripts/question/recursos/bd_quizt.gd"
-}, {
 "base": "Reference",
 "class": "DTS",
 "language": "GDScript",
@@ -43,21 +38,14 @@ _global_script_classes=[ {
 "class": "DialogicUtil",
 "language": "GDScript",
 "path": "res://addons/dialogic/Other/DialogicUtil.gd"
-}, {
-"base": "Resource",
-"class": "QuizQuestion",
-"language": "GDScript",
-"path": "res://scripts/question/recursos/res_question.gd"
 } ]
 _global_script_class_icons={
-"BDQuiz": "",
 "DTS": "",
 "Dialogic": "",
 "DialogicBackgroundMusic": "",
 "DialogicDefinitionsUtil": "",
 "DialogicResources": "",
-"DialogicUtil": "",
-"QuizQuestion": ""
+"DialogicUtil": ""
 }
 
 [application]

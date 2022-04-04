@@ -1,0 +1,62 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scene/Gloria/ImagesGloria/perguntagloria1.png" type="Texture" id=1]
+[ext_resource path="res://Scene/Gloria/QuizGloria/QuizGloria1.gd" type="Script" id=2]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 1027.0
+margin_bottom = 600.0
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="opcao1" type="Button" parent="."]
+margin_left = 123.0
+margin_top = 209.0
+margin_right = 500.0
+margin_bottom = 229.0
+text = "É a primeira coisa que identifica uma pessoa, quem ela é"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="opcao2" type="Button" parent="."]
+margin_left = 148.0
+margin_top = 273.0
+margin_right = 359.0
+margin_bottom = 293.0
+text = "Não tem importância relevante"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="opcao3" type="Button" parent="."]
+margin_left = 90.0
+margin_top = 336.0
+margin_right = 404.0
+margin_bottom = 356.0
+text = "O nome social e nome civil são a mesma coisa"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="opcao4" type="Button" parent="."]
+margin_left = 195.0
+margin_top = 413.0
+margin_right = 375.0
+margin_bottom = 433.0
+text = "Nome social é um apelido"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="opcao1" to="." method="_on_opcao1_pressed"]

@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scene/Gloria/FeedbackGloria/FeedbackGloria3.gd" type="Script" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 369.0
+margin_top = 233.0
+margin_right = 501.0
+margin_bottom = 247.0
+text = "Feedback pergunta 3"
+
+[node name="voltar" type="Button" parent="."]
+margin_left = 76.0
+margin_top = 549.0
+margin_right = 125.0
+margin_bottom = 569.0
+text = "Voltar"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="voltar" to="." method="_on_voltar_pressed"]

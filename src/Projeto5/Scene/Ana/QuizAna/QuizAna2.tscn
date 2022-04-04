@@ -1,0 +1,48 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scene/Ana/QuizAna/QuizAna2.gd" type="Script" id=1]
+[ext_resource path="res://Scene/Ana/ImagesAna/perguntaana2.png" type="Texture" id=2]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 1025.0
+margin_bottom = 602.0
+texture = ExtResource( 2 )
+
+[node name="opcao1" type="Button" parent="."]
+margin_left = 284.0
+margin_top = 228.0
+margin_right = 417.0
+margin_bottom = 248.0
+text = " Língua para cegos."
+
+[node name="opcao2" type="Button" parent="."]
+margin_left = 276.0
+margin_top = 295.0
+margin_right = 400.0
+margin_bottom = 315.0
+text = " Relevos na folha."
+
+[node name="opcao3" type="Button" parent="."]
+margin_left = 244.0
+margin_top = 353.0
+margin_right = 497.0
+margin_bottom = 373.0
+text = " Sistema auditivo para pessoas cegas."
+
+[node name="opcao4" type="Button" parent="."]
+margin_left = 194.0
+margin_top = 416.0
+margin_right = 618.0
+margin_bottom = 436.0
+text = "Sistema que possibilita o acesso de deficientes visuais à leitura."
+
+[connection signal="pressed" from="opcao1" to="." method="_on_opcao1_pressed"]
+[connection signal="pressed" from="opcao4" to="." method="_on_opcao4_pressed"]
