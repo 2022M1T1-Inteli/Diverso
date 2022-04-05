@@ -23,21 +23,21 @@ font_data = ExtResource( 1 )
 script = ExtResource( 3 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
-margin_right = 1024.0
+margin_right = 1035.0
 margin_bottom = 596.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Tela-tutorial" type="Sprite" parent="ColorRect"]
-position = Vector2( 514, 285 )
-scale = Vector2( 0.95, 0.95 )
+position = Vector2( 531.5, 297 )
+scale = Vector2( 0.778553, 0.89791 )
 texture = ExtResource( 2 )
 
 [node name="Button" type="Button" parent="ColorRect"]
 margin_left = 39.0
 margin_top = 533.0
-margin_right = 51.0
+margin_right = 135.0
 margin_bottom = 553.0
 size_flags_horizontal = 4
 size_flags_vertical = 4

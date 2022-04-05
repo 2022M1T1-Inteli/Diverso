@@ -1,4 +1,4 @@
-[gd_scene load_steps=148 format=2]
+[gd_scene load_steps=149 format=2]
 
 [ext_resource path="res://Imagens personagem/João/fa69623c94d34071d0493f489e8c244dNkPpvMCJNLzCY2ao-1.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/João/fa69623c94d34071d0493f489e8c244dNkPpvMCJNLzCY2ao-0.png" type="Texture" id=2]
@@ -32,6 +32,7 @@
 [ext_resource path="res://paredeforaI.png" type="Texture" id=30]
 [ext_resource path="res://npc negra.png" type="Texture" id=31]
 [ext_resource path="res://npc bock.png" type="Texture" id=32]
+[ext_resource path="res://pause.tscn" type="PackedScene" id=33]
 [ext_resource path="res://copa-.png" type="Texture" id=37]
 [ext_resource path="res://mesa_recep.png" type="Texture" id=38]
 [ext_resource path="res://Segurança NPC.png" type="Texture" id=39]
@@ -1779,5 +1780,7 @@ texture = ExtResource( 164 )
 [node name="PlacaRecepçãOD-removebg-preview" type="Sprite" parent="PlacaBock-removebg-preview/PlacaSala1-removebg-preview"]
 position = Vector2( -1284.88, 14.6338 )
 texture = ExtResource( 165 )
+
+[node name="CanvasLayer" parent="." instance=ExtResource( 33 )]
 
 [connection signal="animation_finished" from="Jogador/AnimationPlayer" to="Jogador" method="_on_AnimationPlayer_animation_finished"]

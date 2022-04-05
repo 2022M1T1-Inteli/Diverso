@@ -1,4 +1,4 @@
-[gd_scene load_steps=132 format=2]
+[gd_scene load_steps=133 format=2]
 
 [ext_resource path="res://Imagens personagem/Antônio/Anto_baixo (8).png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Antônio/8263b552b1c14546b770026d62b26730znTyaUhZHoSXCIre-1.png" type="Texture" id=2]
@@ -95,6 +95,7 @@
 [ext_resource path="res://Segurança NPC.png" type="Texture" id=93]
 [ext_resource path="res://NPC2antonio.gd" type="Script" id=94]
 [ext_resource path="res://NPC3antonio.gd" type="Script" id=95]
+[ext_resource path="res://pause.tscn" type="PackedScene" id=96]
 [ext_resource path="res://NPC4antonio.gd" type="Script" id=97]
 [ext_resource path="res://Imagens random/parede banheiro.png" type="Texture" id=128]
 [ext_resource path="res://Placa banh fem.png" type="Texture" id=129]
@@ -1552,5 +1553,7 @@ position = Vector2( 394, 2706 )
 scale = Vector2( 0.33, 0.33 )
 z_index = 12
 texture = ExtResource( 90 )
+
+[node name="CanvasLayer" parent="." instance=ExtResource( 96 )]
 
 [connection signal="animation_finished" from="Jogador/AnimationPlayer" to="Jogador" method="_on_AnimationPlayer_animation_finished"]
