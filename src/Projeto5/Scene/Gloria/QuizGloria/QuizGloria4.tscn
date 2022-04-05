@@ -1,7 +1,22 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Scene/Gloria/ImagesGloria/perguntagloria4.png" type="Texture" id=1]
 [ext_resource path="res://Scene/Gloria/QuizGloria/QuizGloria4.gd" type="Script" id=2]
+[ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 14
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 15
+font_data = ExtResource( 3 )
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -17,40 +32,48 @@ margin_bottom = 600.0
 texture = ExtResource( 1 )
 
 [node name="opcao1" type="Button" parent="."]
-margin_left = 189.0
-margin_top = 196.0
-margin_right = 598.0
-margin_bottom = 216.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -289.0
+margin_bottom = -243.0
+custom_fonts/font = SubResource( 1 )
 text = "Porque a forma correta de tratamento é como a pessoa quiser"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="opcao2" type="Button" parent="."]
-margin_left = 165.0
-margin_top = 263.0
-margin_right = 577.0
-margin_bottom = 283.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -218.0
+margin_bottom = -172.0
+custom_fonts/font = SubResource( 2 )
 text = "Porque “traveco” diminui os transexuais e travestis, é pejorativo"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="opcao3" type="Button" parent="."]
-margin_left = 283.0
-margin_top = 337.0
-margin_right = 523.0
-margin_bottom = 357.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -150.0
+margin_bottom = -106.0
+custom_fonts/font = SubResource( 3 )
 text = "Não tem problema usar esse termo"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="opcao4" type="Button" parent="."]
-margin_left = 153.0
-margin_top = 430.0
-margin_right = 584.0
-margin_bottom = 450.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -80.0
+margin_bottom = -33.0
+custom_fonts/font = SubResource( 4 )
 text = "Porque \"traveco'' se refere apenas a travestis e não a transexuais."
 __meta__ = {
 "_edit_use_anchors_": false

@@ -1,7 +1,33 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://Scene/Ana/QuizAna/QuizAna2.gd" type="Script" id=1]
 [ext_resource path="res://Scene/Ana/ImagesAna/perguntaana2.png" type="Texture" id=2]
+[ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
+
+[sub_resource type="DynamicFont" id=5]
+font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
+
+[sub_resource type="DynamicFont" id=7]
+size = 14
+font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=8]
+bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -17,32 +43,56 @@ margin_bottom = 602.0
 texture = ExtResource( 2 )
 
 [node name="opcao1" type="Button" parent="."]
-margin_left = 284.0
-margin_top = 228.0
-margin_right = 417.0
-margin_bottom = 248.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -330.0
+margin_bottom = -282.0
+custom_fonts/font = SubResource( 1 )
+custom_styles/normal = SubResource( 2 )
 text = " Língua para cegos."
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="opcao2" type="Button" parent="."]
-margin_left = 276.0
-margin_top = 295.0
-margin_right = 400.0
-margin_bottom = 315.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -250.0
+margin_bottom = -202.0
+custom_fonts/font = SubResource( 3 )
+custom_styles/normal = SubResource( 4 )
 text = " Relevos na folha."
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="opcao3" type="Button" parent="."]
-margin_left = 244.0
-margin_top = 353.0
-margin_right = 497.0
-margin_bottom = 373.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -170.0
+margin_bottom = -125.0
+custom_fonts/font = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
 text = " Sistema auditivo para pessoas cegas."
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="opcao4" type="Button" parent="."]
-margin_left = 194.0
-margin_top = 416.0
-margin_right = 618.0
-margin_bottom = 436.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -100.0
+margin_bottom = -56.0
+custom_fonts/font = SubResource( 7 )
+custom_styles/normal = SubResource( 8 )
 text = "Sistema que possibilita o acesso de deficientes visuais à leitura."
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [connection signal="pressed" from="opcao1" to="." method="_on_opcao1_pressed"]
 [connection signal="pressed" from="opcao4" to="." method="_on_opcao4_pressed"]
