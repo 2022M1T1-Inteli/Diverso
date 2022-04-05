@@ -1,7 +1,34 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://Scene/Joao/ImagesJoao/perguntajoao5.png" type="Texture" id=1]
 [ext_resource path="res://Scene/Joao/QuizJoao/QuizJoao5.gd" type="Script" id=2]
+[ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 11
+font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
+
+[sub_resource type="DynamicFont" id=5]
+font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
+
+[sub_resource type="DynamicFont" id=7]
+size = 12
+font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=8]
+bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -17,40 +44,47 @@ margin_bottom = 599.0
 texture = ExtResource( 1 )
 
 [node name="opcao1" type="Button" parent="."]
-margin_left = 32.0
-margin_top = 208.0
-margin_right = 655.0
-margin_bottom = 228.0
+margin_left = 1.0
+margin_top = 233.0
+margin_right = 1028.0
+margin_bottom = 275.0
+custom_fonts/font = SubResource( 1 )
+custom_styles/normal = SubResource( 2 )
 text = "É importante criar uma base cultural forte e um ambiente mais promissor às pessoas diversas. "
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="opcao2" type="Button" parent="."]
-margin_left = 137.0
-margin_top = 269.0
-margin_right = 554.0
-margin_bottom = 289.0
+margin_left = 4.0
+margin_top = 307.0
+margin_right = 1027.0
+margin_bottom = 349.0
+custom_fonts/font = SubResource( 3 )
+custom_styles/normal = SubResource( 4 )
 text = "Não há necessidade de haver projetos de inclusão de minorias."
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="opcao3" type="Button" parent="."]
-margin_left = 131.0
-margin_top = 326.0
-margin_right = 554.0
-margin_bottom = 346.0
+margin_top = 391.0
+margin_right = 1023.0
+margin_bottom = 437.0
+custom_fonts/font = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
 text = "A representatividade só serve para promover distinção de raças."
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="opcao4" type="Button" parent="."]
-margin_left = 125.0
-margin_top = 396.0
-margin_right = 672.0
-margin_bottom = 416.0
+margin_left = -5.0
+margin_top = 482.0
+margin_right = 1030.0
+margin_bottom = 532.0
+custom_fonts/font = SubResource( 7 )
+custom_styles/normal = SubResource( 8 )
 text = "Priorizar uma raça em detrimento da outra só faz com que haja mais discriminação."
 __meta__ = {
 "_edit_use_anchors_": false
