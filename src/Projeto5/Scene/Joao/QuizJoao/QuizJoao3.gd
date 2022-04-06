@@ -21,4 +21,5 @@ func _on_opcao3_pressed() -> void:
 
 
 func _on_opcao2_pressed() -> void:
-	Transition.fade_into("res://Scene/Joao/QuizJoao/QuizJoao4.tscn") # Replace with function body.
+	Transition.fade_into("res://LabirintoJoao.tscn") # Replace with function body.
+
