@@ -23,6 +23,7 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				Globalpos.npc3 = true
+				Globalpos.Objetivo = "Vá para o banheiro"
 			if Globalpos.npc5:
 				get_tree().paused = true
 				var dialog = Dialogic.start('timeline6')
@@ -30,10 +31,11 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				Globalpos.npc6=true
+				Globalpos.Objetivo = "Vá para a recepção"
 
 func unpause(timeline_timeline1):
 	get_tree().paused = false
-#	get_tree().change_scene("res://Scene/Quizz2.tscn")
+
 
 
 func _on_NPC_body_exited(body):

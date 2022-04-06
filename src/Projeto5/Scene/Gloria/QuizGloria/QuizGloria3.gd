@@ -21,4 +21,5 @@ func _on_opcao1_pressed() -> void:
 
 
 func _on_opcao2_pressed() -> void:
-	get_tree().change_scene("res://Scene/Gloria/") # Replace with function body.
+	Globalpos.Objetivo = "Vá para o RH"
+	get_tree().change_scene("res://LabirintoGlória.tscn") # Replace with function body.

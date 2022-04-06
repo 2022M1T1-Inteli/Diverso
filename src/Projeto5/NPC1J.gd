@@ -25,7 +25,8 @@ func _input(event):
 
 func unpause(timeline_timeline1):
 	get_tree().paused = false
-	Transition.fade_into("res://Scene/Quizzjoao1.tscn")
+	Globalpos.Objetivo = "Vá para a recepção"
+	Transition.fade_into("res://Scene/Joao/QuizJoao/QuizJoao1.tscn")
 
 func _on_NPC_body_exited(body):
 	if body.name == "Jogador":

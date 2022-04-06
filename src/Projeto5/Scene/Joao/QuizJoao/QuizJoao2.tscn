@@ -100,4 +100,5 @@ custom_styles/pressed = SubResource( 12 )
 custom_styles/normal = SubResource( 8 )
 text = "Tratar diferente as pessoas que você conhece."
 
+[connection signal="pressed" from="opcao1" to="." method="_on_opcao1_pressed"]
 [connection signal="pressed" from="opcao2" to="." method="_on_opcao2_pressed"]

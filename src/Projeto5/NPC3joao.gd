@@ -7,7 +7,7 @@ func _ready():
 	connect("body_exited", self, '_on_NPC_body_exited')
 
 func _on_NPC_body_entered(body):
-	if body.name == "Jogador" and Globalpos.npc2:
+	if body.name == "Jogador" and Globalpos.npc3:
 		active = true
 
 func _process(delta):
@@ -21,12 +21,13 @@ func _input(event):
 			dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 			dialog.connect('timeline_end', self, 'unpause')
 			add_child(dialog)
-			Globalpos.npc3=true
+			Globalpos.npc4=true
 			
 
 func unpause(timeline_timeline1):
 	get_tree().paused = false
-	Transition.fade_into("res://Scene/Quizzjoao2.tscn")
+	Globalpos.Objetivo = "Vá para a Copa"
+	Transition.fade_into("res://Scene/Joao/QuizJoao/QuizJoao2.tscn")
 
 func _on_NPC_body_exited(body):
 	if body.name == "Jogador":

@@ -21,4 +21,4 @@ func _on_opcao3_pressed() -> void:
 
 
 func _on_opcao2_pressed() -> void:
-	get_tree().change_scene("res://LabirintoJoao.tscn") # Replace with function body.
+	get_tree().change_scene("res://Scene/Joao/QuizJoao/QuizJoao4.tscn") # Replace with function body.
