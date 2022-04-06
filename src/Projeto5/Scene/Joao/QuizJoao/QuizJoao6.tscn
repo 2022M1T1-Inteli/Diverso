@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Scene/Joao/ImagesJoao/perguntajoao6.png" type="Texture" id=1]
 [ext_resource path="res://Scene/Joao/QuizJoao/QuizJoao6.gd" type="Script" id=2]
@@ -7,12 +7,18 @@
 [sub_resource type="DynamicFont" id=1]
 font_data = ExtResource( 3 )
 
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 1, 0, 0, 1 )
+
 [sub_resource type="StyleBoxFlat" id=5]
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [sub_resource type="DynamicFont" id=2]
 size = 12
 font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=10]
+bg_color = Color( 1, 0, 0, 1 )
 
 [sub_resource type="StyleBoxFlat" id=6]
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
@@ -21,12 +27,18 @@ bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 size = 11
 font_data = ExtResource( 3 )
 
+[sub_resource type="StyleBoxFlat" id=11]
+bg_color = Color( 1, 0, 0, 1 )
+
 [sub_resource type="StyleBoxFlat" id=7]
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [sub_resource type="DynamicFont" id=4]
 size = 11
 font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=12]
+bg_color = Color( 0, 1, 0.101961, 1 )
 
 [sub_resource type="StyleBoxFlat" id=8]
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
@@ -50,6 +62,7 @@ margin_top = 254.0
 margin_right = 1023.0
 margin_bottom = 304.0
 custom_fonts/font = SubResource( 1 )
+custom_styles/pressed = SubResource( 9 )
 custom_styles/normal = SubResource( 5 )
 text = "Não faz diferença nenhuma."
 __meta__ = {
@@ -62,6 +75,7 @@ margin_top = 340.0
 margin_right = 1029.0
 margin_bottom = 395.0
 custom_fonts/font = SubResource( 2 )
+custom_styles/pressed = SubResource( 10 )
 custom_styles/normal = SubResource( 6 )
 text = "Para não haver reclamações por parte dos funcionários da comunidade negra na empresa."
 __meta__ = {
@@ -73,6 +87,7 @@ margin_top = 427.0
 margin_right = 1030.0
 margin_bottom = 478.0
 custom_fonts/font = SubResource( 3 )
+custom_styles/pressed = SubResource( 11 )
 custom_styles/normal = SubResource( 7 )
 text = "Para diferenciar as pessoas de dentro da empresa com finalidade de controle de funcionários. "
 __meta__ = {
@@ -85,6 +100,7 @@ margin_top = 511.0
 margin_right = 1024.0
 margin_bottom = 565.0
 custom_fonts/font = SubResource( 4 )
+custom_styles/pressed = SubResource( 12 )
 custom_styles/normal = SubResource( 8 )
 text = "Criar um espaço empático e consciente capaz de dar oportunidades para pessoas diversas."
 __meta__ = {

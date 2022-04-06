@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Scene/Isabela/ImagesIsabela/perguntaisabela4.png" type="Texture" id=1]
 [ext_resource path="res://Scene/Isabela/QuizIsabela/QuizIsabela4.gd" type="Script" id=2]
@@ -8,12 +8,18 @@
 size = 15
 font_data = ExtResource( 3 )
 
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 1, 0, 0, 1 )
+
 [sub_resource type="StyleBoxFlat" id=2]
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [sub_resource type="DynamicFont" id=3]
 size = 14
 font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=10]
+bg_color = Color( 1, 0, 0, 1 )
 
 [sub_resource type="StyleBoxFlat" id=4]
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
@@ -22,12 +28,18 @@ bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 size = 12
 font_data = ExtResource( 3 )
 
+[sub_resource type="StyleBoxFlat" id=11]
+bg_color = Color( 0, 1, 0.0235294, 1 )
+
 [sub_resource type="StyleBoxFlat" id=6]
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [sub_resource type="DynamicFont" id=7]
 size = 13
 font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=12]
+bg_color = Color( 1, 0, 0, 1 )
 
 [sub_resource type="StyleBoxFlat" id=8]
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
@@ -50,6 +62,7 @@ margin_top = 218.0
 margin_right = 1028.0
 margin_bottom = 275.0
 custom_fonts/font = SubResource( 1 )
+custom_styles/pressed = SubResource( 9 )
 custom_styles/normal = SubResource( 2 )
 text = " A mulher deve ganhar menos porque não trabalha quando engravida."
 __meta__ = {
@@ -62,6 +75,7 @@ margin_top = 306.0
 margin_right = 1026.0
 margin_bottom = 362.0
 custom_fonts/font = SubResource( 3 )
+custom_styles/pressed = SubResource( 10 )
 custom_styles/normal = SubResource( 4 )
 text = "Os hormônios femininos interferem na qualidade de trabalho da mulher."
 __meta__ = {
@@ -74,6 +88,7 @@ margin_top = 395.0
 margin_right = 1023.0
 margin_bottom = 452.0
 custom_fonts/font = SubResource( 5 )
+custom_styles/pressed = SubResource( 11 )
 custom_styles/normal = SubResource( 6 )
 text = "A mulher é igualmente capacitada para qualquer trabalho que os homens realizam."
 __meta__ = {
@@ -86,6 +101,7 @@ margin_top = 489.0
 margin_right = 1025.0
 margin_bottom = 549.0
 custom_fonts/font = SubResource( 7 )
+custom_styles/pressed = SubResource( 12 )
 custom_styles/normal = SubResource( 8 )
 text = "  Quando a mulher consegue um cargo maior é porque está saindo com o chefe."
 __meta__ = {

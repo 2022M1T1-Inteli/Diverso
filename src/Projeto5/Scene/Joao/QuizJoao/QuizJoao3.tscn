@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Scene/Joao/ImagesJoao/perguntajoao3.png" type="Texture" id=1]
 [ext_resource path="res://Scene/Joao/QuizJoao/QuizJoao3.gd" type="Script" id=2]
@@ -8,11 +8,17 @@
 size = 15
 font_data = ExtResource( 3 )
 
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 1, 0, 0, 1 )
+
 [sub_resource type="StyleBoxFlat" id=2]
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [sub_resource type="DynamicFont" id=3]
 font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=10]
+bg_color = Color( 0, 1, 0, 1 )
 
 [sub_resource type="StyleBoxFlat" id=4]
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
@@ -21,11 +27,17 @@ bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 size = 12
 font_data = ExtResource( 3 )
 
+[sub_resource type="StyleBoxFlat" id=11]
+bg_color = Color( 1, 0, 0, 1 )
+
 [sub_resource type="StyleBoxFlat" id=6]
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [sub_resource type="DynamicFont" id=7]
 font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=12]
+bg_color = Color( 1, 0, 0, 1 )
 
 [sub_resource type="StyleBoxFlat" id=8]
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
@@ -49,6 +61,7 @@ margin_top = 201.0
 margin_right = 1026.0
 margin_bottom = 264.0
 custom_fonts/font = SubResource( 1 )
+custom_styles/pressed = SubResource( 9 )
 custom_styles/normal = SubResource( 2 )
 text = "Estereotipar é ser mal educado com alguém pela sua aparência física."
 __meta__ = {
@@ -61,6 +74,7 @@ margin_top = 297.0
 margin_right = 1031.0
 margin_bottom = 361.0
 custom_fonts/font = SubResource( 3 )
+custom_styles/pressed = SubResource( 10 )
 custom_styles/normal = SubResource( 4 )
 text = "Estereótipo é um padrão estabelecido pelo senso comum."
 __meta__ = {
@@ -72,6 +86,7 @@ margin_top = 398.0
 margin_right = 1025.0
 margin_bottom = 462.0
 custom_fonts/font = SubResource( 5 )
+custom_styles/pressed = SubResource( 11 )
 custom_styles/normal = SubResource( 6 )
 text = "Estereótipo é a crença de que uma pessoa é ruim pelas suas características físicas."
 __meta__ = {
@@ -84,6 +99,7 @@ margin_top = 493.0
 margin_right = 1031.0
 margin_bottom = 549.0
 custom_fonts/font = SubResource( 7 )
+custom_styles/pressed = SubResource( 12 )
 custom_styles/normal = SubResource( 8 )
 text = "Estereotipar é falar mal pelas costas. "
 __meta__ = {

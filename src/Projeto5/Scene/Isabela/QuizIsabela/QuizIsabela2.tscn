@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Scene/Isabela/ImagesIsabela/perguntaisabela2.png" type="Texture" id=1]
 [ext_resource path="res://Scene/Isabela/QuizIsabela/QuizIsabela2.gd" type="Script" id=2]
@@ -7,11 +7,17 @@
 [sub_resource type="DynamicFont" id=1]
 font_data = ExtResource( 3 )
 
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 0, 1, 0.156863, 1 )
+
 [sub_resource type="StyleBoxFlat" id=2]
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [sub_resource type="DynamicFont" id=3]
 font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=10]
+bg_color = Color( 1, 0, 0, 1 )
 
 [sub_resource type="StyleBoxFlat" id=6]
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
@@ -19,11 +25,17 @@ bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 [sub_resource type="DynamicFont" id=4]
 font_data = ExtResource( 3 )
 
+[sub_resource type="StyleBoxFlat" id=11]
+bg_color = Color( 1, 0, 0, 1 )
+
 [sub_resource type="StyleBoxFlat" id=7]
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [sub_resource type="DynamicFont" id=5]
 font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=12]
+bg_color = Color( 1, 0, 0, 1 )
 
 [sub_resource type="StyleBoxFlat" id=8]
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
@@ -51,6 +63,7 @@ anchor_bottom = 0.5
 margin_top = 7.0
 margin_bottom = 52.0
 custom_fonts/font = SubResource( 1 )
+custom_styles/pressed = SubResource( 9 )
 custom_styles/normal = SubResource( 2 )
 text = " Denúnciar para o RH."
 __meta__ = {
@@ -64,6 +77,7 @@ anchor_bottom = 0.5
 margin_top = 77.0
 margin_bottom = 122.0
 custom_fonts/font = SubResource( 3 )
+custom_styles/pressed = SubResource( 10 )
 custom_styles/normal = SubResource( 6 )
 text = " Manter em segredo."
 __meta__ = {
@@ -77,6 +91,7 @@ anchor_bottom = 1.0
 margin_top = -150.0
 margin_bottom = -102.0
 custom_fonts/font = SubResource( 4 )
+custom_styles/pressed = SubResource( 11 )
 custom_styles/normal = SubResource( 7 )
 text = " Ignorar e seguir sem reação."
 __meta__ = {
@@ -90,6 +105,7 @@ anchor_bottom = 1.0
 margin_top = -80.0
 margin_bottom = -28.0
 custom_fonts/font = SubResource( 5 )
+custom_styles/pressed = SubResource( 12 )
 custom_styles/normal = SubResource( 8 )
 text = " Ter empatia com a pessoa."
 __meta__ = {
