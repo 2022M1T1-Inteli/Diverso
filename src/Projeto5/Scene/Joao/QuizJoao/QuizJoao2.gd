@@ -17,4 +17,4 @@ func _ready() -> void:
 
 
 func _on_opcao2_pressed() -> void:
-	get_tree().change_scene("res://Scene/Joao/FeedbackJoao/FeedbackJoao2.tscn") # Replace with function body.
+	Transition.fade_into("res://Scene/Joao/FeedbackJoao/FeedbackJoao2.tscn") # Replace with function body.
