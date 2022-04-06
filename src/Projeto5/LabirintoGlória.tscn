@@ -157,25 +157,25 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
-"loop": true,
-"name": "Up",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
 "loop": true,
 "name": "Down",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 10 ), ExtResource( 8 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 9 ), ExtResource( 4 ) ],
+"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
 "loop": true,
-"name": "Run",
+"name": "Up",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 6 ) ],
 "loop": true,
 "name": "Idle",
 "speed": 12.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 10 ), ExtResource( 8 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 9 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "Run",
+"speed": 20.0
 } ]
 
 [sub_resource type="CapsuleShape2D" id=2]
@@ -910,7 +910,7 @@ position = Vector2( 2855, 2735 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 3
+frame = 7
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -918,6 +918,7 @@ position = Vector2( 2954, 2737 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
+frame = 4
 playing = true
 flip_h = true
 
@@ -926,7 +927,7 @@ position = Vector2( 2507, 2840 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 4
+frame = 8
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -934,7 +935,7 @@ position = Vector2( 2560, 2776 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 3
+frame = 7
 playing = true
 flip_h = true
 
@@ -945,7 +946,7 @@ position = Vector2( 2600, 2833 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 6
+frame = 1
 playing = true
 flip_h = true
 
@@ -1654,6 +1655,8 @@ texture = ExtResource( 133 )
 [node name="LogoLager" type="Sprite" parent="."]
 position = Vector2( 2542, 2735 )
 scale = Vector2( 2.4375, 2.4375 )
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 147 )
 
 [node name="PlacaRecepçAo-removebg-preview" type="Sprite" parent="."]
@@ -1664,56 +1667,71 @@ texture = ExtResource( 150 )
 position = Vector2( 820, 17 )
 scale = Vector2( 0.339333, 0.339333 )
 z_index = 3
+z_as_relative = false
 texture = ExtResource( 150 )
 
 [node name="PlacaBanheiro-removebg-preview" type="Sprite" parent="PlacaRecepçAo-removebg-preview2"]
 position = Vector2( 807.466, 3029.47 )
 scale = Vector2( 1.03659, 1.03659 )
 z_index = 3
+z_as_relative = false
 texture = ExtResource( 152 )
 
 [node name="Rh-removebg-preview" type="Sprite" parent="PlacaRecepçAo-removebg-preview2/PlacaBanheiro-removebg-preview"]
 position = Vector2( -1108.74, -2.84277 )
 z_index = 3
+z_as_relative = false
 texture = ExtResource( 151 )
 
 [node name="PlacaCopaE-removebg-preview" type="Sprite" parent="."]
 position = Vector2( 415, 2706 )
 scale = Vector2( 0.364333, 0.364333 )
 z_index = 3
+z_as_relative = false
 texture = ExtResource( 153 )
 
 [node name="PlacaCopaE-removebg-preview" type="Sprite" parent="PlacaCopaE-removebg-preview"]
 position = Vector2( 4117.11, -1229.64 )
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 153 )
 
 [node name="PlacaLager-removebg-preview" type="Sprite" parent="."]
 position = Vector2( 2116, 2259 )
 scale = Vector2( 0.357167, 0.357167 )
 z_index = 3
+z_as_relative = false
 texture = ExtResource( 154 )
 
 [node name="PlacaCopaE-removebg-preview" type="Sprite" parent="PlacaLager-removebg-preview"]
 position = Vector2( 2046.66, 179.187 )
+z_index = 3
 texture = ExtResource( 153 )
 
 [node name="PlacaLager-removebg-preview" type="Sprite" parent="PlacaLager-removebg-preview/PlacaCopaE-removebg-preview"]
 position = Vector2( -2491.83, -3575.36 )
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 154 )
 
 [node name="PlacaLager-removebg-preview" type="Sprite" parent="PlacaLager-removebg-preview/PlacaCopaE-removebg-preview/PlacaLager-removebg-preview"]
 position = Vector2( -621.558, 4653.29 )
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 154 )
 
 [node name="ArmarioCopa" type="Sprite" parent="."]
 position = Vector2( 333, 2050 )
 scale = Vector2( 1.9375, 1.9375 )
-z_index = 12
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 136 )
 
 [node name="Armario" type="Sprite" parent="ArmarioCopa"]
 position = Vector2( 103.447, 6.84277 )
 scale = Vector2( 0.234294, 0.234294 )
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 137 )
 
 [node name="Machine" type="Sprite" parent="ArmarioCopa"]
@@ -1724,6 +1742,8 @@ texture = ExtResource( 134 )
 [node name="Bancada" type="Sprite" parent="ArmarioCopa"]
 position = Vector2( 78.9677, 78.4516 )
 scale = Vector2( 0.62977, 0.629769 )
+z_index = 9
+z_as_relative = false
 texture = ExtResource( 138 )
 
 [node name="Bancada" type="Sprite" parent="ArmarioCopa/Bancada"]
