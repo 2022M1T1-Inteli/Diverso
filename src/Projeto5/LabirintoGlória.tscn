@@ -157,14 +157,14 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
-"loop": true,
-"name": "Down",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
 "loop": true,
 "name": "Up",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
+"loop": true,
+"name": "Down",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 6 ) ],
@@ -580,15 +580,15 @@ height = 28.0
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
-"loop": false,
-"name": "Fechar",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
 "loop": false,
 "name": "Abrir",
 "speed": 30.0
+}, {
+"frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
+"loop": false,
+"name": "Fechar",
+"speed": 20.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=11]
@@ -898,7 +898,7 @@ shape = SubResource( 6 )
 [node name="Sprite" type="Sprite" parent="NPC\'s/Segurança/StaticBody2D"]
 position = Vector2( 1.6245, -1.37278 )
 scale = Vector2( 0.121877, 0.114113 )
-z_index = 6
+z_index = 3
 texture = ExtResource( 93 )
 flip_h = true
 
@@ -910,7 +910,7 @@ position = Vector2( 2855, 2735 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 7
+frame = 8
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -918,7 +918,7 @@ position = Vector2( 2954, 2737 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 4
+frame = 5
 playing = true
 flip_h = true
 
@@ -927,7 +927,6 @@ position = Vector2( 2507, 2840 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 8
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -935,7 +934,7 @@ position = Vector2( 2560, 2776 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 7
+frame = 8
 playing = true
 flip_h = true
 
@@ -946,7 +945,7 @@ position = Vector2( 2600, 2833 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 1
+frame = 2
 playing = true
 flip_h = true
 

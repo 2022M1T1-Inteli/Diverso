@@ -110,14 +110,14 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 19 ), ExtResource( 26 ), ExtResource( 15 ), ExtResource( 10 ), ExtResource( 20 ), ExtResource( 27 ), ExtResource( 29 ), ExtResource( 24 ) ],
-"loop": true,
-"name": "Down",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 21 ), ExtResource( 17 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 18 ), ExtResource( 28 ), ExtResource( 2 ), ExtResource( 6 ) ],
 "loop": true,
 "name": "Up",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 19 ), ExtResource( 26 ), ExtResource( 15 ), ExtResource( 10 ), ExtResource( 20 ), ExtResource( 27 ), ExtResource( 29 ), ExtResource( 24 ) ],
+"loop": true,
+"name": "Down",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 7 ) ],
@@ -491,15 +491,15 @@ extents = Vector2( 29.5, 7.5 )
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
-"loop": false,
-"name": "Fechar",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
 "loop": false,
 "name": "Abrir",
 "speed": 30.0
+}, {
+"frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
+"loop": false,
+"name": "Fechar",
+"speed": 20.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=11]
@@ -730,7 +730,6 @@ shape = SubResource( 6 )
 position = Vector2( 1.6245, -1.37278 )
 scale = Vector2( 0.121877, 0.114113 )
 z_index = 3
-z_as_relative = false
 texture = ExtResource( 93 )
 flip_h = true
 
