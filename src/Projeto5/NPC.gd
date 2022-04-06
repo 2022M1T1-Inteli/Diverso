@@ -7,7 +7,7 @@ func _ready():
 	connect("body_exited", self, '_on_NPC_body_exited')
 
 func _on_NPC_body_entered(body):
-	if body.name == "Jogador":
+	if body.name == "Jogador" and (Globalpos.npc1 or Globalpos.npc6):
 		active = true
 
 func _process(delta):
@@ -16,7 +16,7 @@ func _process(delta):
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
 		if event.is_action_pressed("ui_accept") and active:
-			if Globalpos.npc6 == false:
+			if Globalpos.npc1 and Globalpos.npc6==false:
 				get_tree().paused = true
 				var dialog = Dialogic.start('timeline1')
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
