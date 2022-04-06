@@ -1,4 +1,4 @@
-[gd_scene load_steps=165 format=2]
+[gd_scene load_steps=166 format=2]
 
 [ext_resource path="res://Imagens personagem/Lucas/cb95adfa0c174235b7daed3e1c81dbcdT81fygRaNdxOykk5-9.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Lucas/Lucas_baixo (1).png" type="Texture" id=2]
@@ -111,6 +111,7 @@
 [ext_resource path="res://Imagens random/npc pansexual/l0_sprite_2.png" type="Texture" id=116]
 [ext_resource path="res://Imagens random/npc pansexual/l0_sprite_3.png" type="Texture" id=117]
 [ext_resource path="res://mesa chefe.png" type="Texture" id=118]
+[ext_resource path="res://mesa-chefe.png" type="Texture" id=119]
 [ext_resource path="res://pause.tscn" type="PackedScene" id=120]
 [ext_resource path="res://songs/489035__michael-db__game-music-01.wav" type="AudioStream" id=121]
 [ext_resource path="res://decoração parede.png" type="Texture" id=127]
@@ -139,6 +140,11 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
+"frames": [ ExtResource( 21 ) ],
+"loop": true,
+"name": "Idle",
+"speed": 12.0
+}, {
 "frames": [ ExtResource( 2 ), ExtResource( 4 ), ExtResource( 3 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 10 ), ExtResource( 15 ), ExtResource( 17 ) ],
 "loop": true,
 "name": "Down",
@@ -148,11 +154,6 @@ animations = [ {
 "loop": true,
 "name": "Up",
 "speed": 20.0
-}, {
-"frames": [ ExtResource( 21 ) ],
-"loop": true,
-"name": "Idle",
-"speed": 12.0
 }, {
 "frames": [ ExtResource( 21 ), ExtResource( 29 ), ExtResource( 24 ), ExtResource( 26 ), ExtResource( 30 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 25 ), ExtResource( 20 ), ExtResource( 1 ) ],
 "loop": true,
@@ -376,7 +377,7 @@ tracks/9/keys = {
 }
 
 [sub_resource type="CircleShape2D" id=4]
-radius = 48.0104
+radius = 84.006
 
 [sub_resource type="CapsuleShape2D" id=6]
 radius = 12.0
@@ -425,7 +426,7 @@ radius = 26.0
 height = 0.0
 
 [sub_resource type="RectangleShape2D" id=48]
-extents = Vector2( 170.5, 20.5 )
+extents = Vector2( 170.5, 14.25 )
 
 [sub_resource type="RectangleShape2D" id=47]
 extents = Vector2( 22.5, 6.5 )
@@ -821,7 +822,6 @@ position = Vector2( 2853, 2733 )
 z_index = 5
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 3
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -829,6 +829,7 @@ position = Vector2( 2953, 2734 )
 z_index = 5
 frames = SubResource( 29 )
 animation = "Pansexual"
+frame = 6
 playing = true
 flip_h = true
 
@@ -837,7 +838,7 @@ position = Vector2( 2578, 2845 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 4
+frame = 1
 playing = true
 flip_h = true
 
@@ -846,7 +847,6 @@ position = Vector2( 2616, 2748 )
 z_index = 5
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 3
 playing = true
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Lager"]
@@ -922,7 +922,7 @@ position = Vector2( 2210, -35 )
 shape = SubResource( 31 )
 
 [node name="CollisionShape  banehiro2" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( 495, 1655.5 )
+position = Vector2( 491, 1632 )
 shape = SubResource( 48 )
 
 [node name="CollisionShape  banehiro3" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
@@ -931,6 +931,10 @@ shape = SubResource( 47 )
 
 [node name="CollisionShape  banehiro4" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
 position = Vector2( 2254, -42 )
+shape = SubResource( 31 )
+
+[node name="CollisionShape  pia4" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 2039.12, -49.0952 )
 shape = SubResource( 31 )
 
 [node name="CollisionShape  pia3" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
@@ -1099,7 +1103,6 @@ tile_data = PoolIntArray( -1572848, 0, 0, -1572847, 0, 0, -1572846, 0, 0, -15728
 position = Vector2( 2531, 2736 )
 scale = Vector2( 2.78125, 2.78125 )
 z_index = 5
-z_as_relative = false
 texture = ExtResource( 146 )
 
 [node name="Plantinha" type="Sprite" parent="Parede/chao cinza claro"]
@@ -1114,7 +1117,6 @@ texture = ExtResource( 148 )
 position = Vector2( 2210, 1042 )
 scale = Vector2( 0.325, 0.325 )
 z_index = 2
-z_as_relative = false
 texture = ExtResource( 85 )
 
 [node name="PlacaLager-removebg-preview" type="Sprite" parent="Parede/PlacaLager-removebg-preview"]
@@ -1416,21 +1418,18 @@ texture = ExtResource( 133 )
 position = Vector2( 906, 24 )
 scale = Vector2( 0.388167, 0.404136 )
 z_index = 3
-z_as_relative = false
 texture = ExtResource( 133 )
 
 [node name="PlacaCopaE-removebg-preview" type="Sprite" parent="."]
 position = Vector2( 1573, 2706 )
 scale = Vector2( 0.277, 0.277 )
 z_index = 3
-z_as_relative = false
 texture = ExtResource( 44 )
 
 [node name="PlacaLager-removebg-preview" type="Sprite" parent="."]
 position = Vector2( 417, 2709 )
 scale = Vector2( 0.339667, 0.339667 )
 z_index = 3
-z_as_relative = false
 texture = ExtResource( 85 )
 
 [node name="Plantinhas-parede" type="Sprite" parent="."]
@@ -1489,10 +1488,8 @@ z_as_relative = false
 texture = ExtResource( 151 )
 
 [node name="Bancada" type="Sprite" parent="ArmarioCopa"]
-position = Vector2( 137.381, 115.594 )
+position = Vector2( 135.565, 121.04 )
 scale = Vector2( 0.535672, 0.535672 )
-z_index = 9
-z_as_relative = false
 texture = ExtResource( 136 )
 
 [node name="Bancada" type="Sprite" parent="ArmarioCopa/Bancada"]
@@ -1503,8 +1500,6 @@ texture = ExtResource( 136 )
 [node name="Armario" type="Sprite" parent="ArmarioCopa/Bancada/Bancada"]
 position = Vector2( 142.355, -207.883 )
 scale = Vector2( 0.438048, 0.438048 )
-z_index = 4
-z_as_relative = false
 texture = ExtResource( 137 )
 
 [node name="Microondas" type="Sprite" parent="ArmarioCopa/Bancada/Bancada/Armario"]
@@ -1533,6 +1528,10 @@ texture = ExtResource( 148 )
 [node name="Plantinha" type="Sprite" parent="Plantinha"]
 position = Vector2( 151.895, -0.684204 )
 texture = ExtResource( 148 )
+
+[node name="Mesa-chefe" type="Sprite" parent="."]
+position = Vector2( 1004, -149 )
+texture = ExtResource( 119 )
 
 [node name="MesaChefe" type="Sprite" parent="."]
 position = Vector2( 1142, -368 )
