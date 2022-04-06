@@ -17,9 +17,9 @@ func _ready() -> void:
 
 
 func _on_opcao1_pressed() -> void:
-	get_tree().change_scene("res://Scene/Gloria/FeedbackGloria/FeedbackGloria1.tscn") # Replace with function body.
+	Transition.fade_into("res://Scene/Gloria/FeedbackGloria/FeedbackGloria1.tscn") # Replace with function body.
 
 
 func _on_opcao4_pressed() -> void:
 	Globalpos.Objetivo = "Vá para o Copa"
-	get_tree().change_scene("res://LabirintoGlória.tscn") # Replace with function body.
+	Transition.fade_into("res://LabirintoGlória.tscn") # Replace with function body.
