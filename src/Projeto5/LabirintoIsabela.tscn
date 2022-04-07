@@ -1,4 +1,4 @@
-[gd_scene load_steps=123 format=2]
+[gd_scene load_steps=124 format=2]
 
 [ext_resource path="res://Imagens personagem/Isabela/Isa_baixo (1).png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Isabela/Isa_baixo (3).png" type="Texture" id=2]
@@ -73,6 +73,7 @@
 [ext_resource path="res://carro2.gd" type="Script" id=71]
 [ext_resource path="res://carro_azul.png" type="Texture" id=72]
 [ext_resource path="res://songs/489035__michael-db__game-music-01.wav" type="AudioStream" id=73]
+[ext_resource path="res://Telaobjetivo.tscn" type="PackedScene" id=74]
 [ext_resource path="res://rh (2).png" type="Texture" id=84]
 [ext_resource path="res://recepcao.png" type="Texture" id=85]
 [ext_resource path="res://PLACA_COPA_E-removebg-preview.png" type="Texture" id=91]
@@ -459,15 +460,15 @@ extents = Vector2( 176.75, 20 )
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
-"loop": false,
-"name": "Abrir",
-"speed": 30.0
-}, {
 "frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
 "loop": false,
 "name": "Fechar",
 "speed": 20.0
+}, {
+"frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
+"loop": false,
+"name": "Abrir",
+"speed": 30.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=11]
@@ -1413,6 +1414,8 @@ position = Vector2( -307.805, 0 )
 texture = ExtResource( 46 )
 
 [node name="CanvasLayer" parent="." instance=ExtResource( 41 )]
+
+[node name="CanvasLayer2" parent="." instance=ExtResource( 74 )]
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 73 )

@@ -35,6 +35,8 @@ func _input(event):
 
 func unpause(timeline_timeline1):
 	get_tree().paused = false
+	Globalpos.Objetivo = "Vá para a sala de Reunião"
+	
 
 
 func _on_NPC_body_exited(body):

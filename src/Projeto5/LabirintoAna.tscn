@@ -10,6 +10,7 @@
 [ext_resource path="res://Imagens personagem/Ana/faf6371d2edf4d6afc8ead13f161cd84EIj4hrAyeART7VEL-2.png" type="Texture" id=8]
 [ext_resource path="res://Imagens personagem/Ana/faf6371d2edf4d6afc8ead13f161cd84EIj4hrAyeART7VEL-5.png" type="Texture" id=9]
 [ext_resource path="res://Imagens personagem/Ana/Ana_baixo (4).png" type="Texture" id=10]
+[ext_resource path="res://Telaobjetivo.tscn" type="PackedScene" id=11]
 [ext_resource path="res://rua.jpg" type="Texture" id=12]
 [ext_resource path="res://paredeforaI.png" type="Texture" id=13]
 [ext_resource path="res://grama_chao.png" type="Texture" id=14]
@@ -356,10 +357,6 @@ height = 0.0
 [sub_resource type="RectangleShape2D" id=35]
 extents = Vector2( 138.091, 10 )
 
-[sub_resource type="CapsuleShape2D" id=31]
-radius = 53.0
-height = 0.0
-
 [sub_resource type="RectangleShape2D" id=56]
 extents = Vector2( 195.75, 19.5 )
 
@@ -491,15 +488,15 @@ extents = Vector2( 29.5, 7.5 )
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
-"loop": false,
-"name": "Abrir",
-"speed": 30.0
-}, {
 "frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
 "loop": false,
 "name": "Fechar",
 "speed": 20.0
+}, {
+"frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
+"loop": false,
+"name": "Abrir",
+"speed": 30.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=11]
@@ -598,7 +595,7 @@ z_index = 3
 texture = ExtResource( 41 )
 
 [node name="NPC3" type="Area2D" parent="NPC\'s"]
-position = Vector2( 1785, 601 )
+position = Vector2( 1775, 616 )
 script = ExtResource( 95 )
 __meta__ = {
 "_edit_group_": true
@@ -788,10 +785,6 @@ texture = ExtResource( 50 )
 [node name="StaticBody2D" type="StaticBody2D" parent="Figurante"]
 z_index = 10
 
-[node name="CollisionShape lager5" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( 1621, 133 )
-shape = SubResource( 31 )
-
 [node name="CollisionShape lager8" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
 position = Vector2( 471, 1645.5 )
 shape = SubResource( 56 )
@@ -800,10 +793,6 @@ shape = SubResource( 56 )
 position = Vector2( 1796, 1337 )
 rotation = 0.527089
 shape = SubResource( 57 )
-
-[node name="CollisionShape lager3" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( 1618, 69 )
-shape = SubResource( 31 )
 
 [node name="CollisionShape lager7" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
 position = Vector2( 359, 1349 )
@@ -816,10 +805,6 @@ shape = SubResource( 47 )
 [node name="CollisionShape  banehiro" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
 position = Vector2( 953, -1049.5 )
 shape = SubResource( 51 )
-
-[node name="CollisionShape  banehiro2" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( 1687, -44.0952 )
-shape = SubResource( 31 )
 
 [node name="CollisionShape  banehiro3" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
 position = Vector2( 1756, -14 )
@@ -1592,6 +1577,8 @@ z_as_relative = false
 texture = ExtResource( 37 )
 
 [node name="CanvasLayer" parent="." instance=ExtResource( 73 )]
+
+[node name="CanvasLayer2" parent="." instance=ExtResource( 11 )]
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 74 )
