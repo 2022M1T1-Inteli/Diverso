@@ -11,10 +11,24 @@
 			"text": "- Olá, tudo bem? Tive um problema com um homem na porta..."
 		},
 		{
+			"action": "join",
+			"character": "character-1647262996.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
 			"character": "character-1647262996.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Ah, entendi. Vou comunicar que está tudo bem."
+			"text": "- Ah, perdão. Vou comunicar que está tudo bem."
 		},
 		{
 			"character": "character-1648056573.json",
@@ -50,7 +64,7 @@
 			"character": "character-1647262996.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Nem todas as pessoas tiveram as mesmas oportunidades, não há como ter competição mercadológica justa nesses casos."
+			"text": "- Nem todas as pessoas tiveram as mesmas oportunidades. Não há como ter competição mercadológica justa nesses casos."
 		},
 		{
 			"character": "character-1647262996.json",

@@ -46,7 +46,7 @@
 			"character": "character-1647966059.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Ah com certeza! Hahaha, e seu nome seria qual Dr. Diretor Financeiro?"
+			"text": "- Ah com certeza! Hahaha, e seu nome seria qual Doutor Diretor Financeiro?"
 		},
 		{
 			"character": "character-1648056573.json",
@@ -58,7 +58,7 @@
 			"character": "character-1647966059.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Meu Deus, mil desculpas Dr. João. Fui informado que o Sr. chegaria só às 10h. Pode se dirigir à recepção para mostrarem sua sala."
+			"text": "- João? Meu Deus, mil desculpas doutor João. Fui informado que o senhor chegaria só às 10h. Pode se dirigir à recepção para mostrarem sua sala."
 		},
 		{
 			"action": "leaveall",

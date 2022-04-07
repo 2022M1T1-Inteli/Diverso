@@ -5,6 +5,20 @@
 			"set_theme": "default-theme.cfg"
 		},
 		{
+			"action": "join",
+			"character": "character-1647539097.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
 			"character": "character-1647539097.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -14,7 +28,7 @@
 			"character": "character-1648056573.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Mas a secretária já me autorizou"
+			"text": "- Mas a secretária já me autorizou."
 		},
 		{
 			"character": "character-1647539097.json",
@@ -44,7 +58,7 @@
 			"character": "character-1647539097.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Perdão sr, não vou poder liberá-lo."
+			"text": "- Perdão senhor, não vou poder liberá-lo."
 		},
 		{
 			"character": "character-1648056573.json",
@@ -56,7 +70,7 @@
 			"character": "character-1647539097.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Certo. Mas caso não, eu te levarei para fora."
+			"text": "- Certo. Mas caso não, eu te acompanharei à saída."
 		},
 		{
 			"action": "leaveall",

@@ -28,7 +28,7 @@
 			"character": "character-1645148309.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Sim, muito prazer em te conhecer"
+			"text": "- Sim, muito prazer em te conhecer."
 		},
 		{
 			"character": "character-1647539097.json",
@@ -40,7 +40,7 @@
 			"character": "character-1645148309.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Pode sim, se eu souber responder"
+			"text": "- Pode sim, se eu souber responder..."
 		},
 		{
 			"character": "character-1647539097.json",
@@ -70,7 +70,7 @@
 			"character": "character-1647539097.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Nossa agora sim entendi! Muito obrigado pela sua disposição em me ensinar, nunca tinha parado pra pensar assim antes!"
+			"text": "- Nossa, agora sim, entendi! Muito obrigado pela sua disposição em me ensinar, nunca tinha parado pra pensar assim antes!"
 		},
 		{
 			"action": "leaveall",

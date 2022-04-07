@@ -5,6 +5,12 @@
 			"set_theme": "default-theme.cfg"
 		},
 		{
+			"character": "character-1648056573.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Nossa, finalmente achei outra pessoa preta."
+		},
+		{
 			"action": "join",
 			"character": "character-1645147809.json",
 			"event_id": "dialogic_002",
@@ -17,12 +23,6 @@
 				"3": false,
 				"4": false
 			}
-		},
-		{
-			"character": "character-1648056573.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "- Nossa, finalmente achei outra pessoa preta."
 		},
 		{
 			"character": "character-1645147809.json",

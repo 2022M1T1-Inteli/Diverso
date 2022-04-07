@@ -64,7 +64,7 @@
 			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Eu deveria conversar mais com as pessoas do grupo LAGER, para cada vez mais aprender sobre o tema."
+			"text": "- Eu deveria conversar mais com as pessoas do grupo LAGER para cada vez mais aprender sobre o tema."
 		},
 		{
 			"character": "character-1645148309.json",
@@ -76,7 +76,7 @@
 			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Sim, eu não sei explicar muito bem sobre eles, mas eles tem uma sala aqui no escritório, lá eles podem te explicar melhor sobre."
+			"text": "- Sim, eu não sei explicar muito bem sobre eles, mas eles tem uma sala aqui no escritório, lá eles podem te falar melhor sobre."
 		},
 		{
 			"action": "leaveall",
