@@ -1,15 +1,11 @@
-[gd_scene load_steps=20 format=2]
+[gd_scene load_steps=16 format=2]
 
-[ext_resource path="res://scripts/question/Imagens Tela final antonio/sprite_trofeuETARIO3.png" type="Texture" id=1]
 [ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Tela Final.gd" type="Script" id=3]
-[ext_resource path="res://scripts/question/Imagens Tela final antonio/sprite_trofeuETARIO0.png" type="Texture" id=4]
-[ext_resource path="res://scripts/question/Imagens Tela final antonio/sprite_trofeuETARIO2.png" type="Texture" id=5]
-[ext_resource path="res://scripts/question/Imagens Tela final antonio/sprite_trofeuETARIO1.png" type="Texture" id=6]
 
 [sub_resource type="SpriteFrames" id=13]
 animations = [ {
-"frames": [ ExtResource( 4 ), ExtResource( 6 ), ExtResource( 5 ), ExtResource( 1 ) ],
+"frames": [ null, null, null, null ],
 "loop": true,
 "name": "default",
 "speed": 5.0

@@ -1,0 +1,117 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://Scene/Lucas/QuizLucas/QuizLucas3.gd" type="Script" id=1]
+[ext_resource path="res://Scene/Lucas/ImagesLucas/perguntalucas3.png" type="Texture" id=2]
+[ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 1, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=10]
+bg_color = Color( 1, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
+
+[sub_resource type="DynamicFont" id=5]
+font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=11]
+bg_color = Color( 0.00784314, 1, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
+
+[sub_resource type="DynamicFont" id=7]
+font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=12]
+bg_color = Color( 1, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=8]
+bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 1030.0
+margin_bottom = 601.0
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="opcao1" type="Button" parent="."]
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_top = 10.0
+margin_bottom = 58.0
+custom_fonts/font = SubResource( 1 )
+custom_styles/pressed = SubResource( 9 )
+custom_styles/normal = SubResource( 2 )
+text = "Chamar um amigo ou conhecido de “viado”."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="opcao2" type="Button" parent="."]
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_top = 86.0
+margin_bottom = 133.0
+custom_fonts/font = SubResource( 3 )
+custom_styles/pressed = SubResource( 10 )
+custom_styles/normal = SubResource( 4 )
+text = "Ser mal-educado ou inconveniente somente com pessoas LGBTQIA+."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="opcao3" type="Button" parent="."]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -145.0
+margin_bottom = -100.0
+custom_fonts/font = SubResource( 5 )
+custom_styles/pressed = SubResource( 11 )
+custom_styles/normal = SubResource( 6 )
+text = "Ser atacado por pessoas nas ruas com falas homofóbicas."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="opcao4" type="Button" parent="."]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -80.0
+margin_bottom = -38.0
+custom_fonts/font = SubResource( 7 )
+custom_styles/pressed = SubResource( 12 )
+custom_styles/normal = SubResource( 8 )
+text = "Ignorar todos e todas no ambiente de trabalho."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="opcao1" to="." method="_on_opcao1_pressed"]
+[connection signal="pressed" from="opcao2" to="." method="_on_opcao2_pressed"]
+[connection signal="pressed" from="opcao4" to="." method="_on_opcao4_pressed"]
