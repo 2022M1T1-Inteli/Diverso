@@ -22,11 +22,11 @@ func _input(event):
 			dialog.connect('timeline_end', self, 'unpause')
 			add_child(dialog)
 			Globalpos.npc5 = true
+			Globalpos.npc2 = false
 
 func unpause(timeline_timeline1):
 	get_tree().paused = false
 	Globalpos.Objetivo = "Vá para a sala Lager"
-	get_tree().change_scene("res://Scene/Gloria/QuizGloria/QuizGloria3.tscn")
 
 
 

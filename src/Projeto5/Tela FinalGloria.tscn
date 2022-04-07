@@ -55,7 +55,7 @@ __meta__ = {
 position = Vector2( 511.375, 302 )
 scale = Vector2( 1.00464, 0.778646 )
 frames = SubResource( 13 )
-frame = 2
+frame = 3
 playing = true
 
 [node name="Quit" type="Button" parent="."]

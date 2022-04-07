@@ -1,0 +1,43 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1647262576.cfg"
+		},
+		{
+			"action": "join",
+			"character": "character-1649352150.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1649352150.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Travesti é uma pessoa que não se identifica com o gênero biológico e se veste e se comporta como pessoas de outro sexo."
+		},
+		{
+			"character": "character-1649352150.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " Já transsexual é a pessoa que, por se sentir pertencente ao outro gênero, pode manifestar o desejo de fazer uma cirurgia no seu corpo para mudar de sexo, o que não acontece com as travestis."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1649353984.json",
+		"name": "Dixieg2"
+	}
+}
