@@ -1,11 +1,15 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=20 format=2]
 
+[ext_resource path="res://Imagens telas finais/sprite_trofeuETARIO2.png" type="Texture" id=1]
 [ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Tela Final.gd" type="Script" id=3]
+[ext_resource path="res://Imagens telas finais/sprite_trofeuETARIO3.png" type="Texture" id=4]
+[ext_resource path="res://Imagens telas finais/sprite_trofeuETARIO0.png" type="Texture" id=5]
+[ext_resource path="res://Imagens telas finais/sprite_trofeuETARIO1.png" type="Texture" id=6]
 
 [sub_resource type="SpriteFrames" id=13]
 animations = [ {
-"frames": [ null, null, null, null ],
+"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 1 ), ExtResource( 4 ) ],
 "loop": true,
 "name": "default",
 "speed": 5.0
@@ -51,7 +55,6 @@ __meta__ = {
 position = Vector2( 516, 299 )
 scale = Vector2( 1, 0.786458 )
 frames = SubResource( 13 )
-frame = 1
 playing = true
 
 [node name="Quit" type="Button" parent="."]

@@ -17,4 +17,4 @@ func _ready() -> void:
 
 
 func _on_opcao2_pressed() -> void:
-	Transition.fade_into("res://LabirintoAna.tscn")# Replace with function body.
+	Transition.fade_into("res://Tela FinalAna.tscn")# Replace with function body.

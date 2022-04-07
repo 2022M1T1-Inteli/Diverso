@@ -21,4 +21,4 @@ func _on_opcao2_pressed() -> void:
 
 
 func _on_opcao4_pressed() -> void:
-	 Transition.fade_into("res://LabirintoIsabela.tscn")# Replace with function body.
+	 Transition.fade_into("res://Tela FinalIsabela.tscn")# Replace with function body.

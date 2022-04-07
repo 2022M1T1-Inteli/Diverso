@@ -26,7 +26,7 @@ func _input(event):
 
 func unpause(timeline_timeline1):
 	get_tree().paused = false
-	Transition.fade_into("res://Scene/QuizzIsabela3.tscn")
+	Transition.fade_into("res://Scene/Isabela/QuizIsabela/QuizIsabela3.gd")
 
 func _on_NPC_body_exited(body):
 	if body.name == "Jogador":

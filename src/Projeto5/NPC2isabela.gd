@@ -23,7 +23,7 @@ func _input(event):
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
 				Globalpos.npc2=true
-				Transition.fade_into("res://Scene/QuizzIsabela1.tscn")
+				Transition.fade_into("res://Scene/Isabela/QuizIsabela/QuizIsabela1.tscn")
 		if Globalpos.npc3:
 			if event.is_action_pressed("ui_accept") and active:
 				get_tree().paused = true
@@ -31,7 +31,7 @@ func _input(event):
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 				dialog.connect('timeline_end', self, 'unpause')
 				add_child(dialog)
-				Transition.fade_into("res://Scene/QuizzIsabela5.tscn")
+				Transition.fade_into("res://Scene/Isabela/QuizIsabela/QuizIsabela5.tscn")
 
 func unpause(timeline_timeline1):
 	get_tree().paused = false

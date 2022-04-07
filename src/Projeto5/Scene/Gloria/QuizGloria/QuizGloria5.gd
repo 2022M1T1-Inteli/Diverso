@@ -15,10 +15,5 @@ func _ready() -> void:
 #func _process(delta: float) -> void:
 #	pass
 
-
-func _on_opcao3_pressed() -> void:
-	Transition.fade_into("") # Replace with function body.
-
-
-func _on_opcao1_pressed():
-	Transition.fade_into("res://Tela FinalLucas.tscn")
+func _on_opcao3_pressed():
+	Transition.fade_into("res://Tela FinalGloria.tscn")
