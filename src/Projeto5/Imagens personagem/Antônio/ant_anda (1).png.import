@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/8263b552b1c14546b770026d62b26730znTyaUhZHoSXCIre-4.png-f535d514135bdaef33f9c3aa54016ff5.stex"
+path="res://.import/ant_anda (1).png-07d23d8b43bbd54dcd6350f1a111079b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Imagens personagem/Antônio/8263b552b1c14546b770026d62b26730znTyaUhZHoSXCIre-4.png"
-dest_files=[ "res://.import/8263b552b1c14546b770026d62b26730znTyaUhZHoSXCIre-4.png-f535d514135bdaef33f9c3aa54016ff5.stex" ]
+source_file="res://Imagens personagem/Antônio/ant_anda (1).png"
+dest_files=[ "res://.import/ant_anda (1).png-07d23d8b43bbd54dcd6350f1a111079b.stex" ]
 
 [params]
 

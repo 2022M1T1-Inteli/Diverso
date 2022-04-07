@@ -1,31 +1,31 @@
 [gd_scene load_steps=134 format=2]
 
 [ext_resource path="res://Imagens personagem/Antônio/Anto_baixo (8).png" type="Texture" id=1]
-[ext_resource path="res://Imagens personagem/Antônio/8263b552b1c14546b770026d62b26730znTyaUhZHoSXCIre-1.png" type="Texture" id=2]
-[ext_resource path="res://Imagens personagem/Antônio/8263b552b1c14546b770026d62b26730znTyaUhZHoSXCIre-5.png" type="Texture" id=3]
+[ext_resource path="res://Imagens personagem/Antônio/ant_anda (2).png" type="Texture" id=2]
+[ext_resource path="res://Imagens personagem/Antônio/ant_anda (1).png" type="Texture" id=3]
 [ext_resource path="res://Imagens personagem/Antônio/Anto_cima (4).png" type="Texture" id=4]
 [ext_resource path="res://Imagens personagem/Antônio/Anto_baixo (3).png" type="Texture" id=5]
-[ext_resource path="res://Imagens personagem/Antônio/8263b552b1c14546b770026d62b26730znTyaUhZHoSXCIre-4.png" type="Texture" id=6]
+[ext_resource path="res://Imagens personagem/Antônio/ant_anda (3).png" type="Texture" id=6]
 [ext_resource path="res://Imagens personagem/Antônio/Anto_cima (5).png" type="Texture" id=7]
-[ext_resource path="res://Imagens personagem/Antônio/8263b552b1c14546b770026d62b26730znTyaUhZHoSXCIre-3.png" type="Texture" id=8]
-[ext_resource path="res://Imagens personagem/Antônio/8263b552b1c14546b770026d62b26730znTyaUhZHoSXCIre-7.png" type="Texture" id=9]
+[ext_resource path="res://Imagens personagem/Antônio/ant_anda (7).png" type="Texture" id=8]
+[ext_resource path="res://Imagens personagem/Antônio/ant_anda (9).png" type="Texture" id=9]
 [ext_resource path="res://Imagens personagem/Antônio/Anto_baixo (2).png" type="Texture" id=10]
 [ext_resource path="res://Tile maps/chão_fora.tres" type="TileSet" id=11]
 [ext_resource path="res://rua.jpg" type="Texture" id=12]
 [ext_resource path="res://paredeforaI.png" type="Texture" id=13]
 [ext_resource path="res://grama_chao.png" type="Texture" id=14]
 [ext_resource path="res://Imagens personagem/Antônio/Anto_baixo (4).png" type="Texture" id=15]
-[ext_resource path="res://Imagens personagem/Antônio/8263b552b1c14546b770026d62b26730znTyaUhZHoSXCIre-0.png" type="Texture" id=16]
+[ext_resource path="res://Imagens personagem/Antônio/ant_anda (4).png" type="Texture" id=16]
 [ext_resource path="res://Imagens personagem/Antônio/Anto_cima (6).png" type="Texture" id=17]
 [ext_resource path="res://Imagens personagem/Antônio/Anto_cima (8).png" type="Texture" id=18]
 [ext_resource path="res://Imagens personagem/Antônio/Anto_baixo (6).png" type="Texture" id=19]
-[ext_resource path="res://Imagens personagem/Antônio/8263b552b1c14546b770026d62b26730znTyaUhZHoSXCIre-6.png" type="Texture" id=20]
-[ext_resource path="res://Imagens personagem/Antônio/8263b552b1c14546b770026d62b26730znTyaUhZHoSXCIre-9.png" type="Texture" id=21]
+[ext_resource path="res://Imagens personagem/Antônio/ant_anda (5).png" type="Texture" id=20]
+[ext_resource path="res://Imagens personagem/Antônio/ant_anda (8).png" type="Texture" id=21]
 [ext_resource path="res://Imagens personagem/Antônio/Anto_baixo (5).png" type="Texture" id=22]
-[ext_resource path="res://Imagens personagem/Antônio/8263b552b1c14546b770026d62b26730znTyaUhZHoSXCIre-2.png" type="Texture" id=23]
+[ext_resource path="res://Imagens personagem/Antônio/ant_anda (6).png" type="Texture" id=23]
 [ext_resource path="res://Imagens personagem/Antônio/Anto_cima (1).png" type="Texture" id=24]
 [ext_resource path="res://Imagens personagem/Antônio/Anto_baixo (1).png" type="Texture" id=25]
-[ext_resource path="res://Imagens personagem/Antônio/8263b552b1c14546b770026d62b26730znTyaUhZHoSXCIre-8.png" type="Texture" id=26]
+[ext_resource path="res://Imagens personagem/Antônio/ant_anda (10).png" type="Texture" id=26]
 [ext_resource path="res://Imagens personagem/Antônio/Anto_cima (3).png" type="Texture" id=27]
 [ext_resource path="res://Imagens personagem/Antônio/Anto_cima (2).png" type="Texture" id=28]
 [ext_resource path="res://Imagens personagem/Antônio/Anto_cima (7).png" type="Texture" id=29]
@@ -125,12 +125,12 @@ animations = [ {
 "name": "Down",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 16 ) ],
+"frames": [ ExtResource( 3 ) ],
 "loop": true,
 "name": "Idle",
 "speed": 12.0
 }, {
-"frames": [ ExtResource( 16 ), ExtResource( 2 ), ExtResource( 23 ), ExtResource( 8 ), ExtResource( 6 ), ExtResource( 3 ), ExtResource( 20 ), ExtResource( 9 ), ExtResource( 26 ), ExtResource( 21 ) ],
+"frames": [ ExtResource( 3 ), ExtResource( 2 ), ExtResource( 6 ), ExtResource( 16 ), ExtResource( 20 ), ExtResource( 23 ), ExtResource( 8 ), ExtResource( 21 ), ExtResource( 9 ), ExtResource( 26 ) ],
 "loop": true,
 "name": "Run",
 "speed": 20.0
@@ -519,7 +519,6 @@ z_index = 4
 z_as_relative = false
 frames = SubResource( 1 )
 animation = "Run"
-frame = 1
 centered = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Jogador"]
