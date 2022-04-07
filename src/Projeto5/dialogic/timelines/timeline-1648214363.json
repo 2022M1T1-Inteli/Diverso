@@ -1,13 +1,31 @@
 {
 	"events": [
 		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		},
+		{
+			"action": "join",
+			"character": "character-1645147809.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
 			"character": "character-1648056573.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Nossa, finalmente achei outra pessoa preta."
 		},
 		{
-			"character": "",
+			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Você é o novo contratado?"
@@ -19,7 +37,7 @@
 			"text": " - Sim, sou o novo diretor financeiro."
 		},
 		{
-			"character": "",
+			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Nossa, que demais! Muito bom ter pessoas pretas em cargos de destaque."
@@ -31,22 +49,27 @@
 			"text": "- Sim, porém desde que cheguei venho sofrendo discriminação."
 		},
 		{
-			"character": "",
+			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Ah, nós temos um grupo para causas raciais aqui na empresa, eles podem te ajudar em relação a isso."
 		},
 		{
-			"character": "character-1648056573.json",
+			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Ah, que legal!! Onde posso encontrá-los?"
 		},
 		{
-			"character": "",
+			"character": "character-1645147809.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Eles ficam na sala Bock."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1645147809.json",
+			"event_id": "dialogic_003"
 		},
 		{
 			"character": "",

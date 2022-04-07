@@ -7,6 +7,20 @@
 			"text": "- Bom dia a todos. Marquei essa reunião para discutirmos a situação de uma funcionária que foi assediada pelo seu superior."
 		},
 		{
+			"action": "join",
+			"character": "character-1647539097.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
 			"character": "character-1647539097.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -37,7 +51,12 @@
 			"text": "- Até agora você não percebeu que ninguém vai te escutar? Você pode até ser uma mulher em cargo alto, mas não merece estar aqui, só ganhou o cargo por ter que completar a cota da empresa."
 		},
 		{
+			"action": "leaveall",
 			"character": "character-1647539097.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Discussão encerrada. Volte à Weiss."

@@ -7,7 +7,21 @@
 			"text": "- Bom dia, tudo bem? É meu primeiro dia de trabalho, sabe onde vou primeiro?"
 		},
 		{
-			"character": "",
+			"action": "join",
+			"character": "character-1647966059.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647966059.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Claro, é só ir seguindo pelas placas até a recepção e lá vão te informar melhor."
@@ -19,7 +33,7 @@
 			"text": "- Pode me passar as direções para lá? Não consigo ler."
 		},
 		{
-			"character": "",
+			"character": "character-1647966059.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Você é cega?"
@@ -31,7 +45,7 @@
 			"text": "- Cega não, tenho 70% da visão comprometida. Pessoas cegas têm a visão total comprometida."
 		},
 		{
-			"character": "",
+			"character": "character-1647966059.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Entendi... Não sei se ajuda, mas é a primeira sala à esquerda."
@@ -41,6 +55,11 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Obrigada."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1647966059.json",
+			"event_id": "dialogic_003"
 		},
 		{
 			"character": "",

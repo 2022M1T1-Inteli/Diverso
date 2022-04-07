@@ -85,15 +85,15 @@
 			"text": "- Isso pode ser um problema... Na sala do RH eles podem conversar melhor com você."
 		},
 		{
-			"custom_slot": "",
-			"event_id": "dialogic_026",
-			"use_default_slot": true
+			"action": "leaveall",
+			"character": "character-1645147809.json",
+			"event_id": "dialogic_003"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Vá para o RH"
+			"text": "Vá para o RH."
 		},
 		{
 			"event_id": "dialogic_022",

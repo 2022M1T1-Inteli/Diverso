@@ -1,6 +1,20 @@
 {
 	"events": [
 		{
+			"action": "join",
+			"character": "character-1647262996.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
 			"character": "character-1648412164.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -31,7 +45,12 @@
 			"text": "- Irei marcar uma reunião com os outros diretores para tomarmos a medida correta."
 		},
 		{
+			"action": "leaveall",
 			"character": "character-1647262996.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Vá para a sala de reunião."

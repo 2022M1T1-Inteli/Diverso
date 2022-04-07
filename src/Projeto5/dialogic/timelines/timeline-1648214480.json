@@ -5,7 +5,21 @@
 			"set_theme": "default-theme.cfg"
 		},
 		{
-			"character": "",
+			"action": "join",
+			"character": "character-1647966059.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647966059.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Bem-vindo ao nosso grupo de apoio à comunidade preta. Aconteceu alguma coisa no seu primeiro dia?"
@@ -17,7 +31,7 @@
 			"text": "- Os problemas que nós passamos diariamente sobre preconceito e desconfiança."
 		},
 		{
-			"character": "",
+			"character": "character-1647966059.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Isso não deveria acontecer! Por isso estamos aqui para te ajudar com qualquer situação como essa."
@@ -29,7 +43,7 @@
 			"text": "- Mas como?"
 		},
 		{
-			"character": "",
+			"character": "character-1647966059.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Aqui na AMBEV temos grupos que representam minorias e transformam nossa empresa. "
@@ -41,7 +55,7 @@
 			"text": "-  Que bom que tenho uma comunidade que me entende, é horrível se sentir excluído e discriminado no trabalho…"
 		},
 		{
-			"character": "",
+			"character": "character-1647966059.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Agora você não está mais sozinho, sempre que precisar é só vir aqui na sala BOCK que resolveremos! Assim construímos um ambiente com respeito e sem preconceito."

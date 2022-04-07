@@ -67,10 +67,15 @@
 			"text": " - Sinto muito, mas eu vou usar esse banheiro, é meu direito. "
 		},
 		{
+			"action": "leaveall",
+			"character": "character-1647538617.json",
+			"event_id": "dialogic_003"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Vá para a Copa."
+			"text": "Vá para a Copa."
 		},
 		{
 			"event_id": "dialogic_022",

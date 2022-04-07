@@ -1,6 +1,20 @@
 {
 	"events": [
 		{
+			"action": "join",
+			"character": "character-1648214213.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
 			"character": "character-1648214213.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -59,6 +73,23 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Não, estou conseguindo. Mas muito obrigada por perguntar!"
+		},
+		{
+			"character": "character-1648214213.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Obrigado pelas dicas!"
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1648214213.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Siga à sala IPA."
 		},
 		{
 			"event_id": "dialogic_022",

@@ -1,6 +1,20 @@
 {
 	"events": [
 		{
+			"action": "join",
+			"character": "character-1645147809.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
 			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -83,6 +97,11 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Eu sou seu chefe, não venha mais com esse tipo de roupa para a empresa! Agora vá fazer o que seu trabalho manda."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1648412143.json",
+			"event_id": "dialogic_003"
 		},
 		{
 			"character": "",

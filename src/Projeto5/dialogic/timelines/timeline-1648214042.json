@@ -5,10 +5,28 @@
 			"set_theme": "default-theme.cfg"
 		},
 		{
-			"character": "character-1648214213.json",
+			"character": "character-1648056573.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "-  Como você já chegou assumindo um cargo de liderança na empresa?"
+			"text": "- Olá, tudo bem? Tive um problema com um homem na porta..."
+		},
+		{
+			"character": "character-1647262996.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Ah, entendi. Vou comunicar que está tudo bem."
+		},
+		{
+			"character": "character-1648056573.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Obrigado."
+		},
+		{
+			"character": "character-1647262996.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "-  Mas bem, como você já chegou assumindo um cargo de liderança na empresa?"
 		},
 		{
 			"character": "character-1648056573.json",
@@ -17,7 +35,7 @@
 			"text": "- Porque eu sou capacitado para o cargo."
 		},
 		{
-			"character": "character-1648214213.json",
+			"character": "character-1647262996.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": " - Isso é injusto com os funcionários que estão na empresa a mais tempo."
@@ -29,16 +47,27 @@
 			"text": "- Justiça é tratar as pessoas com equidade."
 		},
 		{
-			"character": "character-1648056573.json",
+			"character": "character-1647262996.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Nem todas as pessoas tiveram as mesmas oportunidades, não há como ter competição mercadológica justa nesses casos."
 		},
 		{
-			"character": "character-1648214213.json",
+			"character": "character-1647262996.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Faz sentido até..."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1647262996.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Conheça o restante da empresa."
 		},
 		{
 			"event_id": "dialogic_022",

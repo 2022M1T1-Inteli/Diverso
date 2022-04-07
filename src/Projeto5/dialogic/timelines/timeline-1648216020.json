@@ -7,6 +7,20 @@
 			"text": "- Olá, tudo bem? Ouvi algumas pessoas dizendo que aqui tem grupos de apoio às minorias, mas não encontrei nenhum para pessoas da melhor idade."
 		},
 		{
+			"action": "join",
+			"character": "character-1648056573.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
 			"character": "character-1648056573.json",
 			"event_id": "dialogic_001",
 			"portrait": "",

@@ -31,10 +31,15 @@
 			"text": "- Obrigada pela ajuda com meu nome."
 		},
 		{
+			"action": "leaveall",
+			"character": "character-1647262996.json",
+			"event_id": "dialogic_003"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Vá para a recepção"
+			"text": "Vá para a recepção."
 		},
 		{
 			"event_id": "dialogic_022",

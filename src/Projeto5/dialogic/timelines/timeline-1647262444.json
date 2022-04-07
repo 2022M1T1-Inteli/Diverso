@@ -67,6 +67,11 @@
 			"text": "- Eu estava precisando ir ao banheiro mesmo, com licença."
 		},
 		{
+			"action": "leaveall",
+			"character": "character-1647262996.json",
+			"event_id": "dialogic_003"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",

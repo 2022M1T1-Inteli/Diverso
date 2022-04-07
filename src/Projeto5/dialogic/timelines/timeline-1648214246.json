@@ -5,7 +5,7 @@
 			"set_theme": "default-theme.cfg"
 		},
 		{
-			"character": "",
+			"character": "character-1647539097.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Com licença, a entrada nesta sala só é permitida para pessoas autorizadas."
@@ -17,7 +17,7 @@
 			"text": "- Mas a secretária já me autorizou"
 		},
 		{
-			"character": "",
+			"character": "character-1647539097.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- É porque essa sala já está reservada para alguém importante. Você não me parece um funcionário importante."
@@ -29,10 +29,10 @@
 			"text": "- Você está me estereotipando por conta da minha cor."
 		},
 		{
-			"character": "",
+			"character": "character-1647539097.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "- Longe disso  senhor, eu não sou preconceituoso."
+			"text": "- Longe disso senhor, eu não sou preconceituoso."
 		},
 		{
 			"character": "character-1648056573.json",
@@ -41,16 +41,33 @@
 			"text": "- Mas estereótipo e preconceito são coisas diferentes. Não quero causar nenhuma situação indelicada, só peço que libere a minha entrada. "
 		},
 		{
-			"character": "",
+			"character": "character-1647539097.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Perdão sr, não vou poder liberá-lo."
 		},
 		{
+			"character": "character-1648056573.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Nesse caso, deixe-me entrar, a atendente deve me reconhecer."
+		},
+		{
+			"character": "character-1647539097.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Certo. Mas caso não, eu te levarei para fora."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1647539097.json",
+			"event_id": "dialogic_003"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Encontre outro jeito de entrar"
+			"text": "Fale com a atendente."
 		},
 		{
 			"event_id": "dialogic_022",

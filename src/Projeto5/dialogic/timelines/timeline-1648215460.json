@@ -1,6 +1,20 @@
 {
 	"events": [
 		{
+			"action": "join",
+			"character": "character-1647262996.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
 			"character": "character-1647262996.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -65,6 +79,17 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- E minhas capacidades para realizar o meu trabalho, que são gerenciar as operações da empresa e as pessoas, não têm relação alguma com o quanto enxergo. "
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1647262996.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Continue tentando."
 		},
 		{
 			"event_id": "dialogic_022",

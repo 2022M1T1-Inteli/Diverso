@@ -7,19 +7,33 @@
 			"text": "- Bom dia! É meu primeiro dia no trabalho, me disseram para vir aqui primeiro."
 		},
 		{
+			"action": "join",
+			"character": "character-1647539097.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
 			"character": "character-1647539097.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Primeiro dia? O Sr. tem certeza? "
 		},
 		{
-			"character": "character-1647539097.json",
+			"character": "character-1648412186.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Sim, fui contratado há dois dias."
 		},
 		{
-			"character": "",
+			"character": "character-1647539097.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Nunca vi nenhum novo contratado com mais de 60 anos."
@@ -53,6 +67,17 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Sei que não foi, mas preste mais atenção com o que fala. Com licença, agora irei até minha sala."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1647539097.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vá para a sala 1."
 		},
 		{
 			"event_id": "dialogic_022",

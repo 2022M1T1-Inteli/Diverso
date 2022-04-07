@@ -1,6 +1,20 @@
 {
 	"events": [
 		{
+			"action": "join",
+			"character": "character-1647966059.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
 			"character": "character-1647966059.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -37,7 +51,12 @@
 			"text": "- Muito obrigado!"
 		},
 		{
+			"action": "leaveall",
 			"character": "character-1647966059.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Dirija-se a recepção."

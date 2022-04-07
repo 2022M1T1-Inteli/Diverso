@@ -79,10 +79,15 @@
 			"text": "- Sim, eu não sei explicar muito bem sobre eles, mas eles tem uma sala aqui no escritório, lá eles podem te explicar melhor sobre."
 		},
 		{
+			"action": "leaveall",
+			"character": "character-1645147809.json",
+			"event_id": "dialogic_003"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Vá para sala LAGER"
+			"text": "Vá para sala LAGER."
 		},
 		{
 			"event_id": "dialogic_022",

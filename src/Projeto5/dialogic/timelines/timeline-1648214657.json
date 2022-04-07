@@ -1,6 +1,20 @@
 {
 	"events": [
 		{
+			"action": "join",
+			"character": "character-1648412143.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
 			"character": "character-1648412143.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -53,6 +67,17 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "- Ok, obrigado."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1647262996.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Junte-se ao grupo."
 		},
 		{
 			"event_id": "dialogic_022",
