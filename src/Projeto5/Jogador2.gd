@@ -13,6 +13,7 @@ func _physics_process(delta):
 		motion.x = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left")
 		motion.y = Input.get_action_strength("ui_down") - Input.get_action_strength("ui_up")
 		motion = motion.normalized()
+		#movimentação do personagem principal pelos eixos x e y 
 		
 		if Input.is_action_pressed("ui_right"):
 			$AnimatedSprite.play("Run")
@@ -33,7 +34,7 @@ func _physics_process(delta):
 			velocity = Vector2.ZERO
 
 		var actualPosition = get_position() #Pegar a posição do personagem e salvar
-		Globalpos.Position = Vector2(actualPosition) #Utilizar a variável global para salvar pegar a posição em outros scripts
+		Globalpos.position = Vector2(actualPosition) #Utilizar a variável global para salvar pegar a posição em outros scripts
 		move_and_slide(velocity)
 
 
