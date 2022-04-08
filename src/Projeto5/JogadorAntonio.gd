@@ -4,7 +4,7 @@ var SPEED = 300
 var velocity = Vector2.ZERO
 
 func _ready():
-		set_position(Globalpos.Position)
+		set_position(Globalpos.position)
 		if Globalpos.a==false:
 			$AnimationPlayer.play("Chegada")
 

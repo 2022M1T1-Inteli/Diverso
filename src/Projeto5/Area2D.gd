@@ -7,12 +7,12 @@ func _ready():
 	set_process(true)
 	set_process_input(true)
 	
-	connect("body_entered", self, "entrou")
-	connect("body_exited", self, "saiu")
+	connect("body_entered", self, "enter")
+	connect("body_exited", self, "exit")
 	
 	
 func _process(delta):
-	if open and not opened:
+	if open and not opened:	
 		open()
 
 	if not open and opened==true:
@@ -26,7 +26,7 @@ func enter(event):
 
 func exit(event):
 	if event.get_name() == "Jogador":
-		opened=false
+		open=false
 
 
 func open():
