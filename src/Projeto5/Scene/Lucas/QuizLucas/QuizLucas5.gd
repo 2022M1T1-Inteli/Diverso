@@ -17,7 +17,7 @@ func _ready() -> void:
 
 
 func _on_opcao3_pressed() -> void:
-	Transition.fade_into("") # Replace with function body.
+	Transition.fade_into("res://Scene/Lucas/FeedbackLucas/FeedbackLucas5.tscn") # Replace with function body.
 
 
 func _on_opcao1_pressed():

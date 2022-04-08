@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/feedbacklucas3b.png-a15b8bbb07958653735283fb2040fda2.stex"
+path="res://.import/feedbacklucas3b.png-6916eb54025e4019f7a17b14ba046b85.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scene/Lucas/FeedbackLucas/feedbacklucas3b.png"
-dest_files=[ "res://.import/feedbacklucas3b.png-a15b8bbb07958653735283fb2040fda2.stex" ]
+source_file="res://Scene/Lucas/ImagesLucas/feedbacklucas3b.png"
+dest_files=[ "res://.import/feedbacklucas3b.png-6916eb54025e4019f7a17b14ba046b85.stex" ]
 
 [params]
 

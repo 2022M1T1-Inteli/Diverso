@@ -121,6 +121,11 @@ animations = [ {
 "name": "Up",
 "speed": 20.0
 }, {
+"frames": [ ExtResource( 25 ), ExtResource( 10 ), ExtResource( 5 ), ExtResource( 15 ), ExtResource( 22 ), ExtResource( 19 ), ExtResource( 30 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "Down",
+"speed": 20.0
+}, {
 "frames": [ ExtResource( 3 ) ],
 "loop": true,
 "name": "Idle",
@@ -129,11 +134,6 @@ animations = [ {
 "frames": [ ExtResource( 3 ), ExtResource( 2 ), ExtResource( 6 ), ExtResource( 16 ), ExtResource( 20 ), ExtResource( 23 ), ExtResource( 8 ), ExtResource( 21 ), ExtResource( 9 ), ExtResource( 26 ) ],
 "loop": true,
 "name": "Run",
-"speed": 20.0
-}, {
-"frames": [ ExtResource( 25 ), ExtResource( 10 ), ExtResource( 5 ), ExtResource( 15 ), ExtResource( 22 ), ExtResource( 19 ), ExtResource( 30 ), ExtResource( 1 ) ],
-"loop": true,
-"name": "Down",
 "speed": 20.0
 } ]
 

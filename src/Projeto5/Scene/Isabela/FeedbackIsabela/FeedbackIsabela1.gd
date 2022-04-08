@@ -17,4 +17,4 @@ func _ready() -> void:
 
 
 func _on_voltar_pressed() -> void:
-	get_tree().change_scene("res://Scene/Isabela/QuizIsabela/QuizIsabela1.tscn") # Replace with function body.
+	Transition.fade_into("res://Scene/Isabela/QuizIsabela/QuizIsabela1.tscn") # Replace with function body.

@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Scene/Joao/FeedbackJoao/FeedbackJoao2.gd" type="Script" id=1]
+[ext_resource path="res://Scene/Joao/ImagesJoao/feedbackjoao2.png" type="Texture" id=2]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -10,12 +11,13 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Label" type="Label" parent="."]
-margin_left = 445.0
-margin_top = 265.0
-margin_right = 574.0
-margin_bottom = 279.0
-text = "feddback pergunta 2"
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="voltar" type="Button" parent="."]
 margin_left = 77.0

@@ -21,8 +21,8 @@ func _on_opcao4_pressed() -> void:
 
 
 func _on_opcao1_pressed():
-	pass # Replace with function body.
+	Transition.fade_into("res://Scene/Lucas/FeedbackLucas/FeedbackLucas3a.tscn") # Replace with function body.
 
 
 func _on_opcao2_pressed():
-	pass # Replace with function body.
+	Transition.fade_into("res://Scene/Lucas/FeedbackLucas/FeedbackLucas3b.tscn") # Replace with function body.

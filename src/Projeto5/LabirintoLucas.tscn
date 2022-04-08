@@ -10,6 +10,7 @@
 [ext_resource path="res://Imagens personagem/Lucas/Lucas_cima (3).png" type="Texture" id=8]
 [ext_resource path="res://Imagens personagem/Lucas/Lucas_cima (4).png" type="Texture" id=9]
 [ext_resource path="res://Imagens personagem/Lucas/Lucas_baixo (6).png" type="Texture" id=10]
+[ext_resource path="res://Telaobjetivo.tscn" type="PackedScene" id=11]
 [ext_resource path="res://rua.jpg" type="Texture" id=12]
 [ext_resource path="res://paredeforaI.png" type="Texture" id=13]
 [ext_resource path="res://grama_chao.png" type="Texture" id=14]
@@ -427,9 +428,6 @@ extents = Vector2( 170.5, 19.5 )
 [sub_resource type="RectangleShape2D" id=47]
 extents = Vector2( 22.5, 6.5 )
 
-[sub_resource type="CircleShape2D" id=49]
-radius = 19.0
-
 [sub_resource type="RectangleShape2D" id=50]
 extents = Vector2( 197.75, 36.75 )
 
@@ -818,7 +816,7 @@ position = Vector2( 2853, 2733 )
 z_index = 5
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 6
+frame = 2
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -826,7 +824,7 @@ position = Vector2( 2953, 2734 )
 z_index = 5
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 3
+frame = 8
 playing = true
 flip_h = true
 
@@ -835,7 +833,7 @@ position = Vector2( 2578, 2845 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 7
+frame = 3
 playing = true
 flip_h = true
 
@@ -844,7 +842,7 @@ position = Vector2( 2616, 2748 )
 z_index = 5
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 6
+frame = 2
 playing = true
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Lager"]
@@ -915,10 +913,6 @@ shape = SubResource( 31 )
 position = Vector2( 2753, 2089 )
 shape = SubResource( 31 )
 
-[node name="CollisionShape  banehiro" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( 2210, -35 )
-shape = SubResource( 31 )
-
 [node name="CollisionShape  banehiro2" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
 position = Vector2( 491, 1667.5 )
 shape = SubResource( 48 )
@@ -926,18 +920,6 @@ shape = SubResource( 48 )
 [node name="CollisionShape  banehiro3" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
 position = Vector2( 1630, -67 )
 shape = SubResource( 47 )
-
-[node name="CollisionShape  banehiro4" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( 2254, -42 )
-shape = SubResource( 31 )
-
-[node name="CollisionShape  pia4" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( 2039.12, -49.0952 )
-shape = SubResource( 31 )
-
-[node name="CollisionShape  pia3" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( 1653, 55 )
-shape = SubResource( 49 )
 
 [node name="CollisionShape  pia2" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
 position = Vector2( 342, 1355 )
@@ -1535,5 +1517,7 @@ shape = SubResource( 46 )
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 121 )
 autoplay = true
+
+[node name="CanvasLayer2" parent="." instance=ExtResource( 11 )]
 
 [connection signal="animation_finished" from="Jogador/AnimationPlayer" to="Jogador" method="_on_AnimationPlayer_animation_finished"]

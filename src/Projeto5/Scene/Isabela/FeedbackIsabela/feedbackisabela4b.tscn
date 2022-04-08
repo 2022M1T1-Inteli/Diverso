@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://Scene/Gloria/FeedbackGloria/FeedbackGloria2.gd" type="Script" id=1]
-[ext_resource path="res://Scene/Gloria/ImagesGloria/feedbackgloria2.png" type="Texture" id=2]
+[ext_resource path="res://Scene/Isabela/FeedbackIsabela/feedbackisabela4b.gd" type="Script" id=1]
+[ext_resource path="res://Scene/Isabela/ImagesIsabela/feedbackisabela4b.png" type="Texture" id=2]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -12,16 +12,16 @@ __meta__ = {
 }
 
 [node name="TextureRect" type="TextureRect" parent="."]
-margin_right = 1037.0
-margin_bottom = 604.0
+margin_right = 40.0
+margin_bottom = 40.0
 texture = ExtResource( 2 )
 
 [node name="voltar" type="Button" parent="."]
 margin_left = 47.0
-margin_top = 558.0
-margin_right = 96.0
-margin_bottom = 578.0
-text = "Voltar"
+margin_top = 524.0
+margin_right = 114.0
+margin_bottom = 560.0
+text = "voltar"
 __meta__ = {
 "_edit_use_anchors_": false
 }

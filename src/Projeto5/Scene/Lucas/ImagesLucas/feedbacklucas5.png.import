@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/feedbackanotonio5.png-65ae125a3246a25a477d7130f1794361.stex"
+path="res://.import/feedbacklucas5.png-a95509a64e921c760debf590f18aeb4a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scene/Lucas/QuizLucas/feedbackanotonio5.png"
-dest_files=[ "res://.import/feedbackanotonio5.png-65ae125a3246a25a477d7130f1794361.stex" ]
+source_file="res://Scene/Lucas/ImagesLucas/feedbacklucas5.png"
+dest_files=[ "res://.import/feedbacklucas5.png-a95509a64e921c760debf590f18aeb4a.stex" ]
 
 [params]
 
