@@ -17,4 +17,4 @@ func _ready() -> void:
 
 
 func _on_opcao4_pressed() -> void:
-	Transition.fade_into("res://LabirintoAntonio.tscn") # Replace with function body.
+	Transition.fade_into("res://LabirintoAntônio.tscn") # Replace with function body.

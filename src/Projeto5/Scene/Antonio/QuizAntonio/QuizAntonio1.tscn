@@ -114,4 +114,5 @@ __meta__ = {
 }
 
 [connection signal="pressed" from="opcao1" to="." method="_on_opcao1_pressed"]
+[connection signal="pressed" from="opcao3" to="." method="_on_opcao3_pressed"]
 [connection signal="pressed" from="opcao4" to="." method="_on_opcao4_pressed"]

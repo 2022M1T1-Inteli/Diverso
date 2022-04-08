@@ -17,7 +17,7 @@ func _ready() -> void:
 
 
 func _on_opcao1_pressed() -> void:
-	Transition.fade_into("res://Scene/Antonio/FeedbackAntonio/Feedback3.tscn")
+	Transition.fade_into("res://Scene/Antonio/FeedbackAntonio/Feedback1.tscn")
 
 
 func _on_opcao3_pressed() -> void:
