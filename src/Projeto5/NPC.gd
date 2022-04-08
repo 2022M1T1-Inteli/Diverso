@@ -36,9 +36,9 @@ func unpause(timeline_timeline1):
 	get_tree().paused = false
 	#direcionando o jogador para o quiz
 	if Globalpos.npc6 == false:
-		Globalpos.Objetivo = "Vá para o RH"
+		Globalpos.objective = "Vá para o RH"
 	if Globalpos.npc6:
-		Globalpos.Objetivo = "Vá para a sala Lager"
+		Globalpos.objective = "Vá para a sala Lager"
 		Transition.fade_into("res://Scene/Gloria/QuizGloria/QuizGloria4.tscn")
 
 func _on_NPC_body_exited(body):
