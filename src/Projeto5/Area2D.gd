@@ -1,7 +1,7 @@
 extends Area2D
 
-var pode_abrir=false
-var aberta=false
+var open=false
+var opened=false
 
 func _ready():
 	set_process(true)
@@ -12,30 +12,28 @@ func _ready():
 	
 	
 func _process(delta):
-	if pode_abrir and not aberta:
-		abrir()
+	if open and not opened:
+		open()
 
-	if not pode_abrir and aberta==true:
-		fechar()
+	if not open and opened==true:
+		close()
 
 
-func entrou(event):
+func enter(event):
 	if event.get_name() == "Jogador":
-		print(event.get_name())
-		pode_abrir=true
+		open=true
 
 
-func saiu(event):
+func exit(event):
 	if event.get_name() == "Jogador":
-		print(event.get_name())
-		pode_abrir=false
+		opened=false
 
 
-func abrir():
+func open():
 	$AnimatedSprite.play("Abrir")
-	aberta = true
+	opened = true
 
 
-func fechar():
+func close():
 	$AnimatedSprite.play("Fechar")
-	aberta = false
+	opened = false

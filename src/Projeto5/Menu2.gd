@@ -8,13 +8,9 @@ func _ready():
 func _on_Quit_pressed():
 	get_tree().quit()
 
-
 func _on_Start_pressed():
 	Transition.fade_into("res://SelecaoPersonagem.tscn") #transição de fade entre cenas
 	
-	
-
-
 
 func _on_Tutorial_pressed():
 	Transition.fade_into("res://tutorial.tscn")
