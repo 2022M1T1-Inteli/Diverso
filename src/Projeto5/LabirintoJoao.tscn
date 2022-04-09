@@ -1,4 +1,4 @@
-[gd_scene load_steps=140 format=2]
+[gd_scene load_steps=134 format=2]
 
 [ext_resource path="res://Imagens personagem/João/fa69623c94d34071d0493f489e8c244dNkPpvMCJNLzCY2ao-1.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/João/fa69623c94d34071d0493f489e8c244dNkPpvMCJNLzCY2ao-0.png" type="Texture" id=2]
@@ -74,13 +74,11 @@
 [ext_resource path="res://cenario/decoracao/plantinha.png" type="Texture" id=119]
 [ext_resource path="res://cenario/chao/grama.tres" type="TileSet" id=120]
 [ext_resource path="res://cenario/parede/parede_fora.tres" type="TileSet" id=122]
-[ext_resource path="res://machine.png" type="Texture" id=123]
 [ext_resource path="res://cenario/placas/banheiro-.png" type="Texture" id=124]
 [ext_resource path="res://cenario/parede weiss.png" type="Texture" id=125]
 [ext_resource path="res://cenario/decoracao/plantinhas-parede.png" type="Texture" id=126]
 [ext_resource path="res://cenario/decoracao/privada  banheiro.tres" type="TileSet" id=127]
 [ext_resource path="res://cenario/placas/sala.png" type="Texture" id=128]
-[ext_resource path="res://lucas_andando_costas (1) (1).png" type="Texture" id=129]
 [ext_resource path="res://Imagens random/—Pngtree—hand painted red exclamation mark_3127414.png" type="Texture" id=130]
 [ext_resource path="res://Portas/porta.pixel-7.png" type="Texture" id=131]
 [ext_resource path="res://cenario/decoracao/mesinha-loiro.png" type="Texture" id=132]
@@ -95,36 +93,25 @@
 [ext_resource path="res://NPC/scripts npc/NPC2joao.gd" type="Script" id=143]
 [ext_resource path="res://cenario/chao/chao gelo.png" type="Texture" id=144]
 [ext_resource path="res://cenario/decoracao/prateleira-secretaria.png" type="Texture" id=145]
-[ext_resource path="res://parede-secretaria.png" type="Texture" id=146]
-[ext_resource path="res://parede.png" type="Texture" id=147]
 [ext_resource path="res://cenario/chao/chao porcelana 2.png" type="Texture" id=148]
 [ext_resource path="res://cenario/parede/parede bock (1) (1).png" type="Texture" id=149]
 [ext_resource path="res://cenario/chao/chao cinza.png" type="Texture" id=151]
 [ext_resource path="res://cenario/decoracao/decoração parede.png" type="Texture" id=152]
 [ext_resource path="res://cenario/chao/chao cinza claro.png" type="Texture" id=153]
 [ext_resource path="res://cenario/decoracao copa/armario.png" type="Texture" id=154]
-[ext_resource path="res://sofá-frente.png" type="Texture" id=155]
 [ext_resource path="res://cenario/decoracao/Quadro.png" type="Texture" id=156]
 [ext_resource path="res://cenario/decoracao/entrada.png" type="Texture" id=157]
 [ext_resource path="res://cenario/decoracao/entrada 3.png" type="Texture" id=158]
 [ext_resource path="res://cenario/decoracao/entrada 2.png" type="Texture" id=160]
 [ext_resource path="res://cenario/decoracao/mesa-chefe.png" type="Texture" id=161]
-[ext_resource path="res://sofa 4.png" type="Texture" id=163]
 [ext_resource path="res://cenario/placas/PLACA_SALA1-removebg-preview.png" type="Texture" id=164]
 [ext_resource path="res://cenario/placas/PLACA_RECEPÇÃO_D-removebg-preview.png" type="Texture" id=165]
-
-
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
 "frames": [ ExtResource( 21 ), ExtResource( 25 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 113 ), ExtResource( 108 ), ExtResource( 109 ), ExtResource( 110 ) ],
 "loop": true,
 "name": "Up",
-"speed": 20.0
-}, {
-"frames": [ ExtResource( 24 ), ExtResource( 111 ), ExtResource( 112 ), ExtResource( 106 ), ExtResource( 26 ), ExtResource( 13 ), ExtResource( 11 ), ExtResource( 107 ) ],
-"loop": true,
-"name": "Down",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 2 ) ],
@@ -135,6 +122,11 @@ animations = [ {
 "frames": [ ExtResource( 2 ), ExtResource( 1 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 104 ), ExtResource( 88 ), ExtResource( 8 ), ExtResource( 105 ) ],
 "loop": true,
 "name": "Run",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 24 ), ExtResource( 111 ), ExtResource( 112 ), ExtResource( 106 ), ExtResource( 26 ), ExtResource( 13 ), ExtResource( 11 ), ExtResource( 107 ) ],
+"loop": true,
+"name": "Down",
 "speed": 20.0
 } ]
 
@@ -421,7 +413,6 @@ extents = Vector2( 231.438, 25.75 )
 
 [sub_resource type="TileSet" id=43]
 0/name = "parede.png 0"
-0/texture = ExtResource( 147 )
 0/tex_offset = Vector2( 0, 0 )
 0/modulate = Color( 1, 1, 1, 1 )
 0/region = Rect2( 40, 22, 41, 86 )
@@ -519,15 +510,15 @@ extents = Vector2( 231.438, 25.75 )
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 97 ), ExtResource( 98 ), ExtResource( 99 ), ExtResource( 89 ), ExtResource( 137 ), ExtResource( 133 ), ExtResource( 134 ), ExtResource( 131 ), ExtResource( 96 ), ExtResource( 95 ), ExtResource( 94 ), ExtResource( 90 ), ExtResource( 93 ), ExtResource( 92 ), ExtResource( 91 ) ],
-"loop": false,
-"name": "Fechar",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 91 ), ExtResource( 92 ), ExtResource( 93 ), ExtResource( 90 ), ExtResource( 94 ), ExtResource( 95 ), ExtResource( 96 ), ExtResource( 131 ), ExtResource( 134 ), ExtResource( 133 ), ExtResource( 137 ), ExtResource( 89 ), ExtResource( 99 ), ExtResource( 98 ), ExtResource( 97 ) ],
 "loop": false,
 "name": "Abrir",
 "speed": 30.0
+}, {
+"frames": [ ExtResource( 97 ), ExtResource( 98 ), ExtResource( 99 ), ExtResource( 89 ), ExtResource( 137 ), ExtResource( 133 ), ExtResource( 134 ), ExtResource( 131 ), ExtResource( 96 ), ExtResource( 95 ), ExtResource( 94 ), ExtResource( 90 ), ExtResource( 93 ), ExtResource( 92 ), ExtResource( 91 ) ],
+"loop": false,
+"name": "Fechar",
+"speed": 20.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=11]
@@ -860,7 +851,6 @@ z_index = 1
 position = Vector2( -124, -201 )
 scale = Vector2( 1.375, 1.28125 )
 z_index = 12
-texture = ExtResource( 129 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Figurante/Sprite"]
 position = Vector2( 4.36364, 57.7561 )
@@ -934,7 +924,6 @@ texture = ExtResource( 132 )
 position = Vector2( 1228, -325 )
 scale = Vector2( 1.375, 1.28125 )
 z_index = 12
-texture = ExtResource( 129 )
 
 [node name="Sprite4" type="Sprite" parent="Figurante"]
 position = Vector2( 1155, -326 )
@@ -1288,7 +1277,6 @@ shape = SubResource( 11 )
 [node name="Parede-secretaria" type="Sprite" parent="Portas"]
 position = Vector2( 43, 725 )
 scale = Vector2( 0.231, 0.231 )
-texture = ExtResource( 146 )
 offset = Vector2( -95.2381, 30.3035 )
 
 [node name="Cenário" type="Node" parent="."]
@@ -1564,7 +1552,6 @@ texture = ExtResource( 19 )
 [node name="Machine" type="Sprite" parent="ArmarioCopa/Armario/Microondas/Microondas"]
 position = Vector2( 216.967, 0 )
 scale = Vector2( 2.72507, 2.72507 )
-texture = ExtResource( 123 )
 
 [node name="Bancada" type="Sprite" parent="ArmarioCopa/Armario/Microondas/Microondas/Machine"]
 position = Vector2( -141.45, 155.849 )
@@ -1602,19 +1589,15 @@ texture = ExtResource( 126 )
 
 [node name="Sofá-frente" type="Sprite" parent="."]
 position = Vector2( 2292, 1901 )
-texture = ExtResource( 155 )
 
 [node name="Sofá-frente2" type="Sprite" parent="."]
 position = Vector2( 1841, 1997 )
-texture = ExtResource( 155 )
 
 [node name="Sofá-frente3" type="Sprite" parent="."]
 position = Vector2( 2118, 1500 )
-texture = ExtResource( 155 )
 
 [node name="Sofa4" type="Sprite" parent="."]
 position = Vector2( 2152, 1784 )
-texture = ExtResource( 163 )
 
 [node name="PlacaBock-removebg-preview" type="Sprite" parent="."]
 position = Vector2( 786, 13 )
