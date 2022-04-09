@@ -12,14 +12,12 @@
 [ext_resource path="res://Imagens random/l0_sprite_sky7.png" type="Texture" id=10]
 [ext_resource path="res://Imagens random/l0_sprite_sky9.png" type="Texture" id=11]
 [ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=12]
-[ext_resource path="res://Imagens random/image-removebg-preview (18).png" type="Texture" id=13]
-[ext_resource path="res://Imagens random/image-removebg-preview (17).png" type="Texture" id=14]
-[ext_resource path="res://Imagens random/image-removebg-preview (12).png" type="Texture" id=15]
-[ext_resource path="res://Imagens random/image-removebg-preview (19).png" type="Texture" id=16]
-[ext_resource path="res://Imagens random/image-removebg-preview (10).png" type="Texture" id=17]
-[ext_resource path="res://Imagens random/image-removebg-preview (11).png" type="Texture" id=18]
-
-
+[ext_resource path="res://botaogloria.png" type="Texture" id=13]
+[ext_resource path="res://botaojoao.png" type="Texture" id=14]
+[ext_resource path="res://botaoisabela.png" type="Texture" id=15]
+[ext_resource path="res://botaoantonio.png" type="Texture" id=16]
+[ext_resource path="res://botaolucas.png" type="Texture" id=17]
+[ext_resource path="res://botaoana.png" type="Texture" id=18]
 
 [sub_resource type="Theme" id=1]
 
@@ -84,13 +82,12 @@ __meta__ = {
 }
 
 [node name="Gloria" type="Button" parent="."]
-margin_left = 19.0
-margin_top = 221.0
-margin_right = 480.0
-margin_bottom = 783.0
+margin_left = 69.0
+margin_top = 242.0
+margin_right = 426.0
+margin_bottom = 622.0
 rect_scale = Vector2( 0.3, 0.3 )
 theme = SubResource( 6 )
-icon = ExtResource( 18 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -103,14 +100,16 @@ margin_bottom = 683.667
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 7 )
 text = "GLÓRIA"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Button2" type="Button" parent="."]
-margin_left = 176.0
-margin_top = 221.0
-margin_right = 322.0
-margin_bottom = 412.0
+margin_left = 222.0
+margin_top = 237.0
+margin_right = 346.0
+margin_bottom = 380.0
 rect_scale = Vector2( 0.9, 0.9 )
-icon = ExtResource( 15 )
 expand_icon = true
 __meta__ = {
 "_edit_use_anchors_": false
@@ -124,14 +123,16 @@ margin_bottom = 231.333
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 8 )
 text = "LUCAS"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Button3" type="Button" parent="."]
-margin_left = 334.0
-margin_top = 223.0
-margin_right = 781.0
-margin_bottom = 802.0
+margin_left = 374.0
+margin_top = 237.0
+margin_right = 751.0
+margin_bottom = 654.0
 rect_scale = Vector2( 0.3, 0.3 )
-icon = ExtResource( 17 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -150,12 +151,11 @@ __meta__ = {
 }
 
 [node name="Button4" type="Button" parent="."]
-margin_left = 496.0
-margin_top = 221.0
-margin_right = 976.0
-margin_bottom = 761.0
+margin_left = 534.0
+margin_top = 232.0
+margin_right = 850.0
+margin_bottom = 611.0
 rect_scale = Vector2( 0.33, 0.33 )
-icon = ExtResource( 14 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -170,12 +170,11 @@ custom_fonts/font = SubResource( 10 )
 text = "ISABELA"
 
 [node name="Button5" type="Button" parent="."]
-margin_left = 682.0
-margin_top = 221.0
-margin_right = 1094.0
-margin_bottom = 851.0
+margin_left = 688.0
+margin_top = 233.0
+margin_right = 1031.0
+margin_bottom = 681.0
 rect_scale = Vector2( 0.3, 0.29 )
-icon = ExtResource( 13 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -193,12 +192,11 @@ __meta__ = {
 }
 
 [node name="Button6" type="Button" parent="."]
-margin_left = 829.0
-margin_top = 218.0
-margin_right = 1312.0
-margin_bottom = 754.0
+margin_left = 838.0
+margin_top = 235.0
+margin_right = 1124.0
+margin_bottom = 603.0
 rect_scale = Vector2( 0.36, 0.35 )
-icon = ExtResource( 16 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -220,9 +218,44 @@ position = Vector2( -27, -17 )
 scale = Vector2( 1.25, 1.25 )
 z_index = -1
 frames = SubResource( 2 )
-frame = 5
+frame = 7
 playing = true
 centered = false
+
+[node name="Botaogloria" type="Sprite" parent="AnimatedSprite"]
+position = Vector2( 118.4, 256 )
+scale = Vector2( 0.191852, 0.224044 )
+z_index = 10
+texture = ExtResource( 13 )
+
+[node name="Botaolucas" type="Sprite" parent="AnimatedSprite/Botaogloria"]
+position = Vector2( 657.153, -2.35125 )
+scale = Vector2( 1, 0.998549 )
+texture = ExtResource( 17 )
+
+[node name="Botaoantonio" type="Sprite" parent="AnimatedSprite/Botaogloria/Botaolucas"]
+position = Vector2( 629.695, 3.13959 )
+scale = Vector2( 0.994915, 1 )
+texture = ExtResource( 16 )
+
+[node name="Botaoisabela" type="Sprite" parent="AnimatedSprite/Botaogloria/Botaolucas/Botaoantonio"]
+position = Vector2( 643.952, -3.13965 )
+scale = Vector2( 1, 1.02616 )
+z_index = 10
+z_as_relative = false
+texture = ExtResource( 15 )
+
+[node name="Botaojoao" type="Sprite" parent="AnimatedSprite"]
+position = Vector2( 612, 256.8 )
+scale = Vector2( 0.180741, 0.231574 )
+z_index = 10
+texture = ExtResource( 14 )
+
+[node name="Botaoana" type="Sprite" parent="AnimatedSprite"]
+position = Vector2( 732.4, 256.8 )
+scale = Vector2( 0.18, 0.229807 )
+z_index = 10
+texture = ExtResource( 18 )
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
 margin_left = 257.0
