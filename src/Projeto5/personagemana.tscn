@@ -1,0 +1,59 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://personagemana.gd" type="Script" id=1]
+[ext_resource path="res://DIVERSO/botao voltar.png" type="Texture" id=2]
+[ext_resource path="res://DESCRIÇÃO ANA.png" type="Texture" id=3]
+[ext_resource path="res://botao jogar.png" type="Texture" id=4]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = -5.0
+margin_top = -2.0
+margin_right = 1020.0
+margin_bottom = 597.0
+texture = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BotaoJogar" type="Sprite" parent="TextureRect"]
+position = Vector2( 918.125, 547.5 )
+scale = Vector2( 1.07902, 1.23611 )
+z_index = 2
+texture = ExtResource( 4 )
+
+[node name="continuar" type="Button" parent="."]
+margin_left = 851.0
+margin_top = 528.0
+margin_right = 984.0
+margin_bottom = 575.0
+text = "Continuar"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="voltar" type="Button" parent="."]
+margin_left = 25.0
+margin_top = 524.0
+margin_right = 167.0
+margin_bottom = 577.0
+text = "Voltar"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BotaoVoltar" type="Sprite" parent="."]
+position = Vector2( 102.5, 546 )
+scale = Vector2( 1.10363, 1.25 )
+texture = ExtResource( 2 )
+
+[connection signal="pressed" from="continuar" to="." method="_on_continuar_pressed"]
+[connection signal="pressed" from="voltar" to="." method="_on_voltar_pressed"]

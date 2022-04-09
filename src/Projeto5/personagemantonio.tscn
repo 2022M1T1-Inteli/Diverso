@@ -1,0 +1,70 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://personagemantonio.gd" type="Script" id=1]
+[ext_resource path="res://DESCRIÇÃO ANTONIO.png" type="Texture" id=2]
+[ext_resource path="res://botao jogar.png" type="Texture" id=3]
+[ext_resource path="res://DIVERSO/botao voltar.png" type="Texture" id=4]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_top = 2.0
+margin_right = 1027.0
+margin_bottom = 600.0
+texture = ExtResource( 2 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="continuar" type="Button" parent="."]
+margin_left = 853.0
+margin_top = 531.0
+margin_right = 984.0
+margin_bottom = 575.0
+text = "Continuar"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="voltar" type="Button" parent="."]
+margin_left = 35.0
+margin_top = 529.0
+margin_right = 167.0
+margin_bottom = 577.0
+text = "Voltar"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect3" type="TextureRect" parent="."]
+margin_left = 533.0
+margin_top = 94.0
+margin_right = 927.0
+margin_bottom = 494.0
+
+[node name="DescricaoAntonio" type="Sprite" parent="."]
+position = Vector2( 672, 288 )
+scale = Vector2( 0.425926, 0.425926 )
+
+[node name="BotaoJogar" type="Sprite" parent="."]
+position = Vector2( 917, 547.75 )
+scale = Vector2( 1.08031, 1.14583 )
+z_index = 3
+z_as_relative = false
+texture = ExtResource( 3 )
+
+[node name="BotaoVoltar" type="Sprite" parent="."]
+position = Vector2( 113, 543 )
+scale = Vector2( 1.10104, 1.16667 )
+z_as_relative = false
+texture = ExtResource( 4 )
+
+[connection signal="pressed" from="continuar" to="." method="_on_continuar_pressed"]
+[connection signal="pressed" from="voltar" to="." method="_on_voltar_pressed"]

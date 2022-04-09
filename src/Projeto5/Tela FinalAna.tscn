@@ -1,0 +1,106 @@
+[gd_scene load_steps=20 format=2]
+
+[ext_resource path="res://Imagens telas finais/Anasprite_2.png" type="Texture" id=1]
+[ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Tela Final.gd" type="Script" id=3]
+[ext_resource path="res://Imagens telas finais/Anasprite_3.png" type="Texture" id=4]
+[ext_resource path="res://Imagens telas finais/Anasprite_1.png" type="Texture" id=5]
+[ext_resource path="res://Imagens telas finais/Anasprite_0.png" type="Texture" id=6]
+
+
+
+[sub_resource type="SpriteFrames" id=13]
+animations = [ {
+"frames": [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 1 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="DynamicFont" id=1]
+size = 18
+font_data = ExtResource( 2 )
+
+[sub_resource type="StyleBoxEmpty" id=2]
+
+[sub_resource type="StyleBoxEmpty" id=3]
+
+[sub_resource type="StyleBoxEmpty" id=4]
+
+[sub_resource type="StyleBoxEmpty" id=5]
+
+[sub_resource type="StyleBoxEmpty" id=6]
+
+[sub_resource type="DynamicFont" id=7]
+size = 18
+font_data = ExtResource( 2 )
+
+[sub_resource type="StyleBoxEmpty" id=8]
+
+[sub_resource type="StyleBoxEmpty" id=9]
+
+[sub_resource type="StyleBoxEmpty" id=10]
+
+[sub_resource type="StyleBoxEmpty" id=11]
+
+[sub_resource type="StyleBoxEmpty" id=12]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 512.5, 300 )
+scale = Vector2( 1.00488, 0.778646 )
+frames = SubResource( 13 )
+frame = 2
+playing = true
+
+[node name="Quit" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = 256.0
+margin_top = -165.0
+margin_right = 520.0
+margin_bottom = -115.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+text = "Sair do jogo"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SelecionarPersonagem" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -495.0
+margin_top = 137.0
+margin_right = -117.0
+margin_bottom = 187.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 7 )
+custom_styles/hover = SubResource( 8 )
+custom_styles/pressed = SubResource( 9 )
+custom_styles/focus = SubResource( 10 )
+custom_styles/disabled = SubResource( 11 )
+custom_styles/normal = SubResource( 12 )
+text = "Seleção de personagem"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]
+[connection signal="pressed" from="SelecionarPersonagem" to="." method="_on_SelecionarPersonagem_pressed"]
