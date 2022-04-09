@@ -16,9 +16,9 @@ func _ready() -> void:
 
 
 func _on_voltar_pressed() -> void:
-	get_tree().change_scene("res://SelecaoPersonagem.tscn") # Replace with function body.
+	get_tree().change_scene("res://Scene/outrascenas/SelecaoPersonagem.tscn") # Replace with function body.
 
 
 func _on_continuar_pressed() -> void:
-	Transition.fade_into("res://LabirintoAna.tscn") #transição de fade entre cenas
+	Transition.fade_into("res://Scene/Ana/LabirintoAna.tscn") #transição de fade entre cenas
 #	get_tree().change_scene("res://Labirinto.tscn") # Replace with function body. # esse código era o usado anteriormente resolvemos deixar apenas inativo

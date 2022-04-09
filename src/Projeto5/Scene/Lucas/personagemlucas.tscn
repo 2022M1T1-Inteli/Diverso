@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Scene/Lucas/personagemlucas.gd" type="Script" id=1]
 [ext_resource path="res://Scene/Lucas/DESCRIÇÃO LUCAS.png" type="Texture" id=2]
+[ext_resource path="res://Scene/Ana/botao voltar.png" type="Texture" id=3]
+[ext_resource path="res://Scene/Ana/botao jogar.png" type="Texture" id=4]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -51,6 +53,16 @@ margin_bottom = 494.0
 [node name="DescricaoLucas" type="Sprite" parent="TextureRect3"]
 position = Vector2( 162, 200 )
 scale = Vector2( 0.442593, 0.435185 )
+
+[node name="BotaoJogar" type="Sprite" parent="."]
+position = Vector2( 919.5, 544 )
+scale = Vector2( 1.07254, 1.22222 )
+texture = ExtResource( 4 )
+
+[node name="BotaoVoltar" type="Sprite" parent="."]
+position = Vector2( 101.5, 542.5 )
+scale = Vector2( 1.0829, 1.23611 )
+texture = ExtResource( 3 )
 
 [connection signal="pressed" from="continuar" to="." method="_on_continuar_pressed"]
 [connection signal="pressed" from="voltar" to="." method="_on_voltar_pressed"]

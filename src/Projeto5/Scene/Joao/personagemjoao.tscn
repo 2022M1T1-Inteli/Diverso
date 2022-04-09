@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Scene/Joao/DESCRIÇÃO JOAO.png" type="Texture" id=1]
 [ext_resource path="res://Scene/Joao/personagemjoao.gd" type="Script" id=2]
+[ext_resource path="res://Scene/Ana/botao voltar.png" type="Texture" id=3]
+[ext_resource path="res://Scene/Ana/botao jogar.png" type="Texture" id=4]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -51,6 +53,16 @@ margin_bottom = 494.0
 [node name="DescricaoJoao" type="Sprite" parent="TextureRect3"]
 position = Vector2( 176, 205 )
 scale = Vector2( 0.437037, 0.437037 )
+
+[node name="BotaoJogar" type="Sprite" parent="."]
+position = Vector2( 916, 543 )
+scale = Vector2( 1.06995, 1.22222 )
+texture = ExtResource( 4 )
+
+[node name="BotaoVoltar" type="Sprite" parent="."]
+position = Vector2( 100.625, 544.125 )
+scale = Vector2( 1.06088, 1.25347 )
+texture = ExtResource( 3 )
 
 [connection signal="pressed" from="continuar" to="." method="_on_continuar_pressed"]
 [connection signal="pressed" from="voltar" to="." method="_on_voltar_pressed"]

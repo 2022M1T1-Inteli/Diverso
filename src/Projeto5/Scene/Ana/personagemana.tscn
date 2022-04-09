@@ -1,12 +1,9 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Scene/Ana/personagemana.gd" type="Script" id=1]
+[ext_resource path="res://Scene/Ana/botao voltar.png" type="Texture" id=2]
 [ext_resource path="res://Scene/Ana/DESCRIÇÃO ANA.png" type="Texture" id=3]
-[ext_resource path="res://Scene/outras cenas/PressStart2P.ttf" type="DynamicFontData" id=4]
-
-[sub_resource type="DynamicFont" id=1]
-size = 19
-font_data = ExtResource( 4 )
+[ext_resource path="res://Scene/Ana/botao jogar.png" type="Texture" id=4]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -27,23 +24,15 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Label" type="Label" parent="TextureRect"]
-margin_left = 384.0
-margin_top = 46.0
-margin_right = 705.0
-margin_bottom = 98.0
-custom_colors/font_color = Color( 1, 1, 1, 1 )
-custom_fonts/font = SubResource( 1 )
-text = "ANA"
-align = 1
-valign = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
+[node name="BotaoJogar" type="Sprite" parent="TextureRect"]
+position = Vector2( 918.125, 547.5 )
+scale = Vector2( 1.07902, 1.23611 )
+z_index = 2
+texture = ExtResource( 4 )
 
 [node name="continuar" type="Button" parent="."]
-margin_left = 845.0
-margin_top = 529.0
+margin_left = 851.0
+margin_top = 528.0
 margin_right = 984.0
 margin_bottom = 575.0
 text = "Continuar"
@@ -60,6 +49,11 @@ text = "Voltar"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="BotaoVoltar" type="Sprite" parent="."]
+position = Vector2( 102.5, 546 )
+scale = Vector2( 1.10363, 1.25 )
+texture = ExtResource( 2 )
 
 [connection signal="pressed" from="continuar" to="." method="_on_continuar_pressed"]
 [connection signal="pressed" from="voltar" to="." method="_on_voltar_pressed"]
