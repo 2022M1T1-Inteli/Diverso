@@ -2,7 +2,8 @@
 
 [ext_resource path="res://Scene/Lucas/QuizLucas/QuizLucas2.gd" type="Script" id=1]
 [ext_resource path="res://Scene/Lucas/ImagesLucas/perguntalucas2.png" type="Texture" id=2]
-[ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://Scene/outras cenas/PressStart2P.ttf" type="DynamicFontData" id=3]
+
 
 [sub_resource type="DynamicFont" id=1]
 font_data = ExtResource( 3 )

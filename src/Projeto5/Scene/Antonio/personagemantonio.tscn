@@ -1,0 +1,55 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scene/Antonio/personagemantonio.gd" type="Script" id=1]
+[ext_resource path="res://Scene/Antonio/DESCRIÇÃO ANTONIO.png" type="Texture" id=2]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_top = 2.0
+margin_right = 1027.0
+margin_bottom = 600.0
+texture = ExtResource( 2 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="continuar" type="Button" parent="."]
+margin_left = 845.0
+margin_top = 529.0
+margin_right = 984.0
+margin_bottom = 575.0
+text = "Continuar"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="voltar" type="Button" parent="."]
+margin_left = 25.0
+margin_top = 524.0
+margin_right = 167.0
+margin_bottom = 577.0
+text = "Voltar"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect3" type="TextureRect" parent="."]
+margin_left = 533.0
+margin_top = 94.0
+margin_right = 927.0
+margin_bottom = 494.0
+
+[node name="DescricaoAntonio" type="Sprite" parent="."]
+position = Vector2( 672, 288 )
+scale = Vector2( 0.425926, 0.425926 )
+
+[connection signal="pressed" from="continuar" to="." method="_on_continuar_pressed"]
+[connection signal="pressed" from="voltar" to="." method="_on_voltar_pressed"]

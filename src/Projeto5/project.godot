@@ -51,13 +51,13 @@ _global_script_class_icons={
 [application]
 
 config/name="Projeto5"
-run/main_scene="res://Menu2.tscn"
-boot_splash/image="res://Cena gatilho.png"
+run/main_scene="res://Scene/outras cenas/Menu2.tscn"
+boot_splash/image="res://Scene/outras cenas/Cena gatilho.png"
 
 [autoload]
 
-Transition="*res://Transition.tscn"
-Globalpos="*res://Globalpos.gd"
+Transition="*res://Scene/outras cenas/Transition.tscn"
+Globalpos="*res://Scene/outras cenas/Globalpos.gd"
 
 [editor_plugins]
 
@@ -85,4 +85,4 @@ common/enable_pause_aware_picking=true
 quality/driver/driver_name="GLES2"
 vram_compression/import_etc=true
 vram_compression/import_etc2=false
-environment/default_environment="res://default_env.tres"
+environment/default_environment="res://Scene/outras cenas/default_env.tres"
