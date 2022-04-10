@@ -16,11 +16,11 @@ func _ready() -> void:
 #	pass
 
 
-func _on_opcao4_pressed() -> void:
+func _on_opcao1_pressed() -> void:
 	Transition.fade_into("res://LabirintoLucas.tscn") # Replace with function body.
 
 
-func _on_opcao1_pressed():
+func _on_opcao4_pressed():
 	Transition.fade_into("res://Scene/Lucas/FeedbackLucas/FeedbackLucas3a.tscn") # Replace with function body.
 
 

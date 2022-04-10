@@ -2,8 +2,7 @@
 
 [ext_resource path="res://Scene/Isabela/ImagesIsabela/perguntaisabela1.png" type="Texture" id=1]
 [ext_resource path="res://Scene/Isabela/QuizIsabela/QuizIsabela1.gd" type="Script" id=2]
-[ext_resource path="res://Scene/outras cenas/PressStart2P.ttf" type="DynamicFontData" id=3]
-
+[ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=3]
 
 [sub_resource type="DynamicFont" id=1]
 font_data = ExtResource( 3 )
@@ -80,7 +79,7 @@ margin_bottom = 133.0
 custom_fonts/font = SubResource( 3 )
 custom_styles/pressed = SubResource( 10 )
 custom_styles/normal = SubResource( 4 )
-text = " Promover Igualdade entre os gêneros"
+text = " Promover Igualdade entre os gêneros."
 __meta__ = {
 "_edit_use_anchors_": false
 }

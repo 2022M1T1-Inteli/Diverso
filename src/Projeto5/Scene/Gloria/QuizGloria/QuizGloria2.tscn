@@ -2,10 +2,10 @@
 
 [ext_resource path="res://Scene/Gloria/ImagesGloria/perguntagloria2.png" type="Texture" id=1]
 [ext_resource path="res://Scene/Gloria/QuizGloria/QuizGloria2.gd" type="Script" id=2]
-[ext_resource path="res://Scene/outras cenas/PressStart2P.ttf" type="DynamicFontData" id=3]
-
+[ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=3]
 
 [sub_resource type="DynamicFont" id=4]
+size = 15
 font_data = ExtResource( 3 )
 
 [sub_resource type="StyleBoxFlat" id=1]
@@ -15,6 +15,7 @@ bg_color = Color( 1, 0, 0, 1 )
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [sub_resource type="DynamicFont" id=6]
+size = 15
 font_data = ExtResource( 3 )
 
 [sub_resource type="StyleBoxFlat" id=12]
@@ -24,6 +25,7 @@ bg_color = Color( 1, 0, 0, 1 )
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [sub_resource type="DynamicFont" id=8]
+size = 15
 font_data = ExtResource( 3 )
 
 [sub_resource type="StyleBoxFlat" id=2]
@@ -33,7 +35,7 @@ bg_color = Color( 1, 0, 0, 1 )
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [sub_resource type="DynamicFont" id=10]
-size = 13
+size = 12
 font_data = ExtResource( 3 )
 
 [sub_resource type="StyleBoxFlat" id=3]

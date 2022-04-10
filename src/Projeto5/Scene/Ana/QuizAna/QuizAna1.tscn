@@ -2,8 +2,7 @@
 
 [ext_resource path="res://Scene/Ana/ImagesAna/perguntaana1.png" type="Texture" id=1]
 [ext_resource path="res://Scene/Ana/QuizAna/QuizAna1.gd" type="Script" id=2]
-[ext_resource path="res://Scene/outras cenas/PressStart2P.ttf" type="DynamicFontData" id=3]
-
+[ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=3]
 
 [sub_resource type="DynamicFont" id=1]
 outline_color = Color( 0.768627, 0.596078, 0.596078, 1 )

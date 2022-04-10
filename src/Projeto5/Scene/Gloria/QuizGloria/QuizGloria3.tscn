@@ -2,8 +2,7 @@
 
 [ext_resource path="res://Scene/Gloria/ImagesGloria/perguntagloria3.png" type="Texture" id=1]
 [ext_resource path="res://Scene/Gloria/QuizGloria/QuizGloria3.gd" type="Script" id=2]
-[ext_resource path="res://Scene/outras cenas/PressStart2P.ttf" type="DynamicFontData" id=3]
-
+[ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=3]
 
 [sub_resource type="CanvasItemMaterial" id=9]
 
