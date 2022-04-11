@@ -32,49 +32,30 @@ Nosso projeto é uma ferramenta de ensino para os funcionários da <a href="http
 ## 🛠 Estrutura de pastas
 
 - 📂 _Projeto5
-   - 📂 _[apresentações](apresentações/)__
-      - 📄 Arquivos das apresentações do projeto
-   - 📂 _[documentos](documentos/)__
-     - 📄 Arquivos de documentos do projeto
-   - 📂 _[executáveis](executáveis/)__
-      - 📄 Local onde estão os executáveis do jogo
-   - 📂 _[imagens](imagens/)__
-      - 📄 Imagens do projeto
-   - 📂 _[músicas](músicas/)__
+   - 📂 _[músicas](https://github.com/2022M1T1/Projeto5/tree/main/Musicas)__
       - 📄 Músicas utilizadas no projeto
+   - 📂 _[apresentações](https://github.com/2022M1T1/Projeto5/tree/main/apresenta%C3%A7%C3%B5es)__
+      - 📄 Arquivos das apresentações do projeto
+   - 📂 _[documentos](https://github.com/2022M1T1/Projeto5/tree/main/documentos)__
+     - 📄 Arquivos de documentos do projeto
+   - 📂 _[executáveis](https://github.com/2022M1T1/Projeto5/tree/main/execut%C3%A1veis)__
+      - 📄 Local onde estão os executáveis do jogo
+   - 📂 _[imagens](https://github.com/2022M1T1/Projeto5/tree/main/imagens)__
+      - 📄 Imagens do projeto
    - 📂 _[src](src/)__ | Projetos
-      - 📂 __[Projeto5](src/Projeto5)__ | 
-        - 📂 _[cenários](src/Projeto5/cenários)__
-        - 📂 _[scenes](src/Projeto5/scenes)__
-            - 📂 _[Ana](src/Projeto5/scenes/Ana)__
-              - 📂 _[FeedbackAna](src/Projeto5/scenes/Ana)__
-              - 📂 _[ImagensAna](src/Projeto5/scenes/Ana)__
-              - 📂 _[QuizAna](src/Projeto5/scenes/Ana)__
-            - 📂 _[Antonio](src/Projeto5/scenes/Antonio)__
-              - 📂 _[FeedbackAntonio](src/Projeto5/scenes/Antonio)__
-              - 📂 _[ImagensAntonio](src/Projeto5/scenes/Antonio)__
-              - 📂 _[QuizAntonio](src/Projeto5/scenes/Antonio)__
-            - 📂 _[Gloria](src/Projeto5/scenes/Gloria)__
-              - 📂 _[FeedbackGloria](src/Projeto5/scenes/Gloria)__
-              - 📂 _[ImagensGloria](src/Projeto5/scenes/Gloria)__
-              - 📂 _[QuizGloria](src/Projeto5/scenes/Gloria)__
-            - 📂 _[Isabela](src/Projeto5/scenes/Isabela)__
-              - 📂 _[FeedbackIsabela](src/Projeto5/scenes/Isabela)__
-              - 📂 _[ImagensIsabela](src/Projeto5/scenes/Isabela)__
-              - 📂 _[QuizIsabela](src/Projeto5/scenes/Isabela)__
-            - 📂 _[Joao](src/Projeto5/scenes/Joao)__
-              - 📂 _[FeedbackJoao](src/Projeto5/scenes/Joao)__
-              - 📂 _[ImagensJoao](src/Projeto5/scenes/Joao)__
-              - 📂 _[QuizJoao](src/Projeto5/scenes/Joao)__
-            - 📂 _[Lucas](src/Projeto5/scenes/Lucas)__
-              - 📂 _[FeedbackLucas](src/Projeto5/scenes/Lucas)__
-              - 📂 _[ImagensLucas](src/Projeto5/scenes/Lucas)__
-              - 📂 _[QuizLucas](src/Projeto5/scenes/Lucas)__
-            - 📂 _[outras cenas](src/Projeto5/scenes/outras cenas)__
-            - 📂 _[outrascenas](src/Projeto5/scenes/outras cenas)__
-        - 📂 _[DIVERSO](src/Projeto5/diverso)__
+      - 📂 __[Projeto5](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5)__ | 
+        - 📂 _[DIVERSO](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/DIVERSO)__
           - 📄 Arquivo ZIP do projeto.
- - 📄 _[README.md](README.md)
+        - 📂 _[Scene](src/Projeto5/scenes)__
+            - 📂 _[Ana](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/Ana)_
+            - 📂 _[Antonio](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/Antonio)__
+            - 📂 _[Gloria](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/Gloria)__
+            - 📂 _[Isabela](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/Isabela)__
+            - 📂 _[Joao](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/Joao)__
+            - 📂 _[Lucas](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/Lucas)__
+            - 📂 _[outras cenas](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/outras%20cenas)__
+            - 📂 _[outrascenas](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/outrascenas)__
+ - 📄 _[README.md](https://github.com/2022M1T1/Projeto5/blob/main/README.md)
 
 
 ## 🛠 Instalação
