@@ -1,0 +1,33 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1649352150.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1649352150.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- O desejo de se manter ativo e agregar valor às empresas com sua experiência possibilita que um profissional da terceira idade não sinta interesse em se retirar do mercado, quando se sentem aptas a desempenhar um bom trabalho — um ganho para as empresas ao aproveitar a experiência desses profissionais."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1649680446.json",
+		"name": "Dixiea"
+	}
+}

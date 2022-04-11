@@ -1,4 +1,4 @@
-[gd_scene load_steps=128 format=2]
+[gd_scene load_steps=131 format=2]
 
 [ext_resource path="res://Imagens personagem/Antônio/Anto_baixo (8).png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Antônio/ant_anda (2).png" type="Texture" id=2]
@@ -35,9 +35,11 @@
 [ext_resource path="res://cenario/parede/paredebcima.tres" type="TileSet" id=33]
 [ext_resource path="res://cenario/parede/Parede_lado.tres" type="TileSet" id=34]
 [ext_resource path="res://cenario/parede/paredebbaixo.tres" type="TileSet" id=35]
+[ext_resource path="res://Imagens personagem/estrela.png" type="Texture" id=36]
 [ext_resource path="res://NPC/sprites npc/npc 3.png" type="Texture" id=37]
 [ext_resource path="res://cenario/chao/grama.tres" type="TileSet" id=38]
 [ext_resource path="res://cenario/parede/parede_fora.tres" type="TileSet" id=39]
+[ext_resource path="res://Dixieant.gd" type="Script" id=40]
 [ext_resource path="res://NPC/sprites npc/npc castanho (1).png" type="Texture" id=41]
 [ext_resource path="res://NPC/scripts npc/NPC1antonio.gd" type="Script" id=42]
 [ext_resource path="res://cenario/decoracao/privada  banheiro.tres" type="TileSet" id=43]
@@ -113,11 +115,6 @@ animations = [ {
 "name": "Up",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 25 ), ExtResource( 10 ), ExtResource( 5 ), ExtResource( 15 ), ExtResource( 22 ), ExtResource( 19 ), ExtResource( 30 ), ExtResource( 1 ) ],
-"loop": true,
-"name": "Down",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 3 ) ],
 "loop": true,
 "name": "Idle",
@@ -126,6 +123,11 @@ animations = [ {
 "frames": [ ExtResource( 3 ), ExtResource( 2 ), ExtResource( 6 ), ExtResource( 16 ), ExtResource( 20 ), ExtResource( 23 ), ExtResource( 8 ), ExtResource( 21 ), ExtResource( 9 ), ExtResource( 26 ) ],
 "loop": true,
 "name": "Run",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 25 ), ExtResource( 10 ), ExtResource( 5 ), ExtResource( 15 ), ExtResource( 22 ), ExtResource( 19 ), ExtResource( 30 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "Down",
 "speed": 20.0
 } ]
 
@@ -344,6 +346,9 @@ tracks/9/keys = {
 "values": [ true ]
 }
 
+[sub_resource type="CircleShape2D" id=47]
+radius = 131.095
+
 [sub_resource type="CircleShape2D" id=4]
 radius = 84.006
 
@@ -468,15 +473,15 @@ extents = Vector2( 53.0001, 10 )
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
-"loop": false,
-"name": "Fechar",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
 "loop": false,
 "name": "Abrir",
 "speed": 30.0
+}, {
+"frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
+"loop": false,
+"name": "Fechar",
+"speed": 20.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=11]
@@ -526,6 +531,28 @@ playback_process_mode = 0
 anims/Chegada = SubResource( 37 )
 anims/RESET = SubResource( 38 )
 
+[node name="Dixieant" type="Area2D" parent="."]
+position = Vector2( 1784, 1132 )
+script = ExtResource( 40 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Dixieant"]
+shape = SubResource( 47 )
+
+[node name="estrelaant" type="Sprite" parent="Dixieant"]
+position = Vector2( 9, -14 )
+scale = Vector2( 0.739583, 0.739583 )
+z_index = 2
+texture = ExtResource( 36 )
+
+[node name="Pointda" type="Sprite" parent="Dixieant"]
+position = Vector2( -13, -105 )
+scale = Vector2( 0.0839896, 0.0803011 )
+z_index = 5
+texture = ExtResource( 48 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 388.718, 201.424, 381.33, 797.767 )
+
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
@@ -544,15 +571,6 @@ __meta__ = {
 position = Vector2( 8, 1 )
 z_index = 10
 shape = SubResource( 4 )
-
-[node name="Point" type="Sprite" parent="NPC\'s/NPC"]
-position = Vector2( -19, -97 )
-scale = Vector2( 0.0839896, 0.0803011 )
-z_index = 5
-texture = ExtResource( 48 )
-centered = false
-region_enabled = true
-region_rect = Rect2( 388.718, 201.424, 381.33, 797.767 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="NPC\'s/NPC"]
 
@@ -630,6 +648,15 @@ region_rect = Rect2( 9.95958, 1.53343, 70.9794, 52.4054 )
 position = Vector2( -0.416687, -13.6393 )
 shape = SubResource( 25 )
 
+[node name="Point" type="Sprite" parent="NPC\'s/NPC"]
+position = Vector2( -20, -98 )
+scale = Vector2( 0.0839896, 0.0803011 )
+z_index = 5
+texture = ExtResource( 48 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 388.718, 201.424, 381.33, 797.767 )
+
 [node name="NPC2" type="Area2D" parent="NPC\'s"]
 position = Vector2( 792, 1122 )
 script = ExtResource( 94 )
@@ -700,9 +727,6 @@ flip_h = true
 [node name="NPC4" type="Area2D" parent="NPC\'s"]
 position = Vector2( 1751, 735 )
 script = ExtResource( 97 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC4"]
 position = Vector2( 8, 1 )
