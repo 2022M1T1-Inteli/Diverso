@@ -5,7 +5,7 @@
 [ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=3]
 
 [sub_resource type="DynamicFont" id=1]
-size = 14
+size = 12
 font_data = ExtResource( 3 )
 
 [sub_resource type="StyleBoxFlat" id=9]
@@ -15,7 +15,7 @@ bg_color = Color( 0, 1, 0.0313726, 1 )
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [sub_resource type="DynamicFont" id=3]
-size = 14
+size = 12
 font_data = ExtResource( 3 )
 
 [sub_resource type="StyleBoxFlat" id=10]
@@ -25,7 +25,7 @@ bg_color = Color( 1, 0, 0, 1 )
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [sub_resource type="DynamicFont" id=5]
-size = 10
+size = 12
 font_data = ExtResource( 3 )
 
 [sub_resource type="StyleBoxFlat" id=11]
@@ -35,7 +35,7 @@ bg_color = Color( 1, 0, 0, 1 )
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [sub_resource type="DynamicFont" id=7]
-size = 13
+size = 12
 font_data = ExtResource( 3 )
 
 [sub_resource type="StyleBoxFlat" id=12]
@@ -94,7 +94,7 @@ margin_bottom = -114.0
 custom_fonts/font = SubResource( 5 )
 custom_styles/pressed = SubResource( 11 )
 custom_styles/normal = SubResource( 6 )
-text = " Preconceito sofrido por pessoas por conta da idade, sobretudo, em relação aos indivíduos mais velhos."
+text = " Preconceito sofrido por pessoas pela idade, em relação aos indivíduos mais velhos."
 
 [node name="opcao4" type="Button" parent="."]
 anchor_top = 1.0
