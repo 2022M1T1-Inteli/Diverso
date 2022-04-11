@@ -23,38 +23,59 @@
   Game by Zé Developers</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>
 </p>
 
-
-💡 Nós desenvolvemos um jogo para o curso de D&I da empresa AMBEV, de forma que os jogadores se sintam engajados a aprender e se desenvolverem nossa criação.
+💡 O jogo é dividido em jornadas, com 6 personagens disponíveis e cada um com um tema e um labirinto diferente, com quizes para testar o conhecimento adquirido durante a jornada escolhida. 
+💡 As jornadas se dividem em: Trans, LGBT, Etária, Feminina, Racial e PcD.
 <br><br>
+Nosso projeto é uma ferramenta de ensino para os funcionários da <a href="https://www.ambev.com.br/">ambev</a> sobre diversidade e inclusão.
+
 
 ## 🛠 Estrutura de pastas
 
--Raiz<br>
-|<br>
-|-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|GDD.docx ou Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
-|-->imagens<br>
-|-->src<br>
-|readme.md<br>
+- 📂 _Projeto5
+   - 📂 _[apresentações](apresentações/)__
+      - 📄 Arquivos das apresentações do projeto
+   - 📂 _[documentos](documentos/)__
+     - 📄 Arquivos de documentos do projeto
+   - 📂 _[executáveis](executáveis/)__
+      - 📄 Local onde estão os executáveis do jogo
+   - 📂 _[imagens](imagens/)__
+      - 📄 Imagens do projeto
+   - 📂 _[músicas](músicas/)__
+      - 📄 Músicas utilizadas no projeto
+   - 📂 _[src](src/)__ | Projetos
+      - 📂 __[Projeto5](src/Projeto5)__ | 
+        - 📂 _[cenários](src/Projeto5/cenários)__
+        - 📂 _[scenes](src/Projeto5/scenes)__
+            - 📂 _[Ana](src/Projeto5/scenes/Ana)__
+              - 📂 _[FeedbackAna](src/Projeto5/scenes/Ana)__
+              - 📂 _[ImagensAna](src/Projeto5/scenes/Ana)__
+              - 📂 _[QuizAna](src/Projeto5/scenes/Ana)__
+            - 📂 _[Antonio](src/Projeto5/scenes/Antonio)__
+              - 📂 _[FeedbackAntonio](src/Projeto5/scenes/Antonio)__
+              - 📂 _[ImagensAntonio](src/Projeto5/scenes/Antonio)__
+              - 📂 _[QuizAntonio](src/Projeto5/scenes/Antonio)__
+            - 📂 _[Gloria](src/Projeto5/scenes/Gloria)__
+              - 📂 _[FeedbackGloria](src/Projeto5/scenes/Gloria)__
+              - 📂 _[ImagensGloria](src/Projeto5/scenes/Gloria)__
+              - 📂 _[QuizGloria](src/Projeto5/scenes/Gloria)__
+            - 📂 _[Isabela](src/Projeto5/scenes/Isabela)__
+              - 📂 _[FeedbackIsabela](src/Projeto5/scenes/Isabela)__
+              - 📂 _[ImagensIsabela](src/Projeto5/scenes/Isabela)__
+              - 📂 _[QuizIsabela](src/Projeto5/scenes/Isabela)__
+            - 📂 _[Joao](src/Projeto5/scenes/Joao)__
+              - 📂 _[FeedbackJoao](src/Projeto5/scenes/Joao)__
+              - 📂 _[ImagensJoao](src/Projeto5/scenes/Joao)__
+              - 📂 _[QuizJoao](src/Projeto5/scenes/Joao)__
+            - 📂 _[Lucas](src/Projeto5/scenes/Lucas)__
+              - 📂 _[FeedbackLucas](src/Projeto5/scenes/Lucas)__
+              - 📂 _[ImagensLucas](src/Projeto5/scenes/Lucas)__
+              - 📂 _[QuizLucas](src/Projeto5/scenes/Lucas)__
+            - 📂 _[outras cenas](src/Projeto5/scenes/outras cenas)__
+            - 📂 _[outrascenas](src/Projeto5/scenes/outras cenas)__
+        - 📂 _[DIVERSO](src/Projeto5/diverso)__
+          - 📄 Arquivo ZIP do projeto.
+ - 📄 _[README.md](README.md)
 
-A pasta raiz contem dois arquivos que devem ser alterados:
-
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
-
-Há também 4 pastas que seguem da seguinte forma:
-
-<b>documentos</b>: Aqui estarão todos os documentos do projeto, mas principalmente o <b>GDD (Game Design Document)/Documentação do Sistema</b>. Há uma pasta <b>antigos</b> onde estarão todas as versões antigas da documentação.
-
-<b>executáveis</b>: Aqui estarão todos os executáveis do jogo, prontos para rodar. Há no mínimo 3 pastas, uma para binários <b>Windows</b>, uma para binários <b>android</b> e uma para a <b>Web/HTML</b>
-
-<b>imagens</b>: Algumas imagens do jogo/sistema e logos prontos para serem utilizados e visualizados.
-
-<b>src</b>: Nesta pasta irá todo o código fonte do jogo/sistema, pronto para para ser baixado e modificado.
 
 ## 🛠 Instalação
 
