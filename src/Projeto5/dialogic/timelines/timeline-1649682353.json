@@ -1,0 +1,33 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1649352150.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1649352150.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- Homofobia é o medo, preconceito, repugnância ou ódio a homossexuais (pessoas que se sentem sexualmente atraídas pelo mesmo sexo)."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1649682353.json",
+		"name": "Dixiel"
+	}
+}
