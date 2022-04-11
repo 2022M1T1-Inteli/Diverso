@@ -146,14 +146,14 @@ animations = [ {
 "name": "Idle",
 "speed": 12.0
 }, {
-"frames": [ ExtResource( 21 ), ExtResource( 29 ), ExtResource( 24 ), ExtResource( 26 ), ExtResource( 30 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 25 ), ExtResource( 20 ), ExtResource( 1 ) ],
-"loop": true,
-"name": "Run",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 2 ), ExtResource( 4 ), ExtResource( 3 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 10 ), ExtResource( 15 ), ExtResource( 17 ) ],
 "loop": true,
 "name": "Down",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 29 ), ExtResource( 24 ), ExtResource( 26 ), ExtResource( 30 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 25 ), ExtResource( 20 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "Run",
 "speed": 20.0
 } ]
 
@@ -843,7 +843,6 @@ position = Vector2( 2853, 2733 )
 z_index = 5
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 4
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -851,7 +850,7 @@ position = Vector2( 2953, 2734 )
 z_index = 5
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 1
+frame = 6
 playing = true
 flip_h = true
 
@@ -860,7 +859,7 @@ position = Vector2( 2578, 2845 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 5
+frame = 1
 playing = true
 flip_h = true
 
@@ -869,7 +868,6 @@ position = Vector2( 2616, 2748 )
 z_index = 5
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 4
 playing = true
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Lager"]
