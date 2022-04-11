@@ -95,16 +95,15 @@ Através da cópia/clone/ download do repositório, altere os dados do readme.md
 
 ## 💻 Configuração para Desenvolvimento
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
 Para abrir este projeto você necessita das seguintes ferramentas:
 
--<a href="https://godotengine.org/download">GODOT</a>
+- <a href="https://godotengine.org/download">GODOT</a>
 
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
+1. Baixe o projeto.
+2. Abra o Godot Engine.
+3. Selecione a opção "Importar" para importar um projeto.
+4. Selecione o arquivo `Diverso` localizado em `src/Projeto5/` da pasta raiz do projeto.
+5. Agora o godot irá importar o jogo e você poderá ter acesso a todo projeto!
 ```
 
 ## 🗃 Histórico de lançamentos
@@ -132,8 +131,6 @@ A cada atualização os detalhes devem ser lançados aqui.
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/coppolaemilio/dialogic>
-2. 
-3. 
-4. 
-5. Música retirada de: https://uppbeat.io/browse/music/sunny-beats </a> Clear Sky - Hartzmann
+1. <https://github.com/coppolaemilio/dialogic> 
+2. Música retirada de: https://freesound.org/people/Michael-DB/sounds/489035/ </a> Game-Music-01 by Michael-DB
+3. Música retirada de: https://uppbeat.io/browse/music/sunny-beats </a> Clear Sky - Hartzmann
