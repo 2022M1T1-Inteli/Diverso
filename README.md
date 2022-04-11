@@ -42,7 +42,7 @@ Nosso projeto é uma ferramenta de ensino para os funcionários da <a href="http
       - 📄 Local onde estão os executáveis do jogo
    - 📂 _[imagens](https://github.com/2022M1T1/Projeto5/tree/main/imagens)
       - 📄 Imagens do projeto
-   - 📂 _[src](src/)__ | Projetos
+   - 📂 _[src](https://github.com/2022M1T1/Projeto5/tree/main/src)__ | Projetos
       - 📂 __[Projeto5](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5)
         - 📂 _[DIVERSO](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/DIVERSO)
           - 📄 Arquivo ZIP do projeto.
