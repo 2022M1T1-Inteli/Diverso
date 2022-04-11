@@ -12,7 +12,11 @@
 
 ## Descrição
 
-📜 Nosso projeto tem a premissa de tornar o aprendizado sobre Diversidade e Inclusão dinâmico.
+
+📜 Projeto de educação gameficada, desenvolvido por alunos do Instituto de Tecnologia e Liderança, durante o projeto do primeiro módulo em parceria com a empresa <a href="https://www.ambev.com.br/">Ambev</a>.
+
+
+📜 Nosso projeto tem a premissa de tornar o aprendizado sobre Diversidade e Inclusão dinâmico e efetivo.
 <br><br>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/99190423/155331567-9624d5e4-2cad-4633-a980-c5e86e533802.png" alt="DiverSo" border="0">
@@ -20,7 +24,7 @@
 </p>
 
 
-💡 Nós desenvolvemos um jogo para o curso de D&I da empresa AMBEV, de forma que os jogadores se sintam engajados a aprender e se desenvolverem de nossa criação.
+💡 Nós desenvolvemos um jogo para o curso de D&I da empresa AMBEV, de forma que os jogadores se sintam engajados a aprender e se desenvolverem nossa criação.
 <br><br>
 
 ## 🛠 Estrutura de pastas
