@@ -19,7 +19,7 @@
 📜 Nosso projeto tem a premissa de tornar o aprendizado sobre Diversidade e Inclusão dinâmico e efetivo.
 <br><br>
 <p align="center">
-<img src="2022M1T1/Projeto5/main/imagens/tela-inicial.png" alt="DiverSo" border="0">
+<img src="https://raw.githubusercontent.com/2022M1T1/Projeto5/main/imagens/tela-inicial.png" alt="DiverSo" border="0">
   Game by Zé Developers</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>
 </p>
 
