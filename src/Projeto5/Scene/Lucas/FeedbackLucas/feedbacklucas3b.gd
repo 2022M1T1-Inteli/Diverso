@@ -17,4 +17,4 @@ func _ready() -> void:
 
 
 func _on_voltar_pressed() -> void:
-	Transition.fade_into("res://Scene/Lucas/QuizLucas/QuizLucas5.tscn") # Replace with function body.
+	Transition.fade_into("res://Scene/Lucas/QuizLucas/QuizLucas3.tscn") # Replace with function body.
