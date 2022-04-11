@@ -7,7 +7,7 @@ func _ready():
 	connect("body_exited", self, '_on_Dixie_body_exited')
 
 func _on_Dixie_body_entered(body):
-	if body.name == "Jogador":
+	if body.name == "Jogador" and Globalpos.npc2 and Globalpos.star or (Globalpos.npc5 and Globalpos.star==false):
 		active = true
 
 func _on_Dixie_body_exited(body):
@@ -15,6 +15,8 @@ func _on_Dixie_body_exited(body):
 		active = false
 
 func _process(delta): 
+	$Pointd.visible=active
+	$Pointd2.visible=active
 	if Globalpos.npc2==false or Globalpos.star==false:
 		$Estrelag.visible = false
 	elif Globalpos.npc2 and Globalpos.star:
