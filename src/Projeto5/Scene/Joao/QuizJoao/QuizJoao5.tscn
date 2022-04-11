@@ -5,7 +5,7 @@
 [ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=3]
 
 [sub_resource type="DynamicFont" id=1]
-size = 11
+size = 12
 font_data = ExtResource( 3 )
 
 [sub_resource type="StyleBoxFlat" id=9]
@@ -15,7 +15,7 @@ bg_color = Color( 0.0196078, 1, 0, 1 )
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [sub_resource type="DynamicFont" id=3]
-size = 14
+size = 12
 font_data = ExtResource( 3 )
 
 [sub_resource type="StyleBoxFlat" id=10]
@@ -25,7 +25,7 @@ bg_color = Color( 1, 0, 0, 1 )
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [sub_resource type="DynamicFont" id=5]
-size = 14
+size = 12
 font_data = ExtResource( 3 )
 
 [sub_resource type="StyleBoxFlat" id=11]
@@ -68,7 +68,7 @@ margin_bottom = 275.0
 custom_fonts/font = SubResource( 1 )
 custom_styles/pressed = SubResource( 9 )
 custom_styles/normal = SubResource( 2 )
-text = "É importante criar uma base cultural forte e um ambiente mais promissor às pessoas diversas. "
+text = "É importante criar uma base cultural forte e um ambiente promissor à diversidade "
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -88,7 +88,7 @@ __meta__ = {
 
 [node name="opcao3" type="Button" parent="."]
 margin_top = 391.0
-margin_right = 1023.0
+margin_right = 1025.0
 margin_bottom = 437.0
 custom_fonts/font = SubResource( 5 )
 custom_styles/pressed = SubResource( 11 )

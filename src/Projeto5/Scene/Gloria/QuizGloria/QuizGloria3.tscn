@@ -7,6 +7,7 @@
 [sub_resource type="CanvasItemMaterial" id=9]
 
 [sub_resource type="DynamicFont" id=1]
+size = 12
 font_data = ExtResource( 3 )
 
 [sub_resource type="StyleBoxFlat" id=10]
@@ -16,6 +17,7 @@ bg_color = Color( 1, 0, 0, 1 )
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [sub_resource type="DynamicFont" id=3]
+size = 12
 font_data = ExtResource( 3 )
 
 [sub_resource type="StyleBoxFlat" id=11]
@@ -25,6 +27,7 @@ bg_color = Color( 0, 1, 0.113725, 1 )
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [sub_resource type="DynamicFont" id=5]
+size = 12
 font_data = ExtResource( 3 )
 
 [sub_resource type="StyleBoxFlat" id=12]
@@ -34,6 +37,7 @@ bg_color = Color( 1, 0, 0, 1 )
 bg_color = Color( 0.141176, 0.117647, 0.372549, 1 )
 
 [sub_resource type="DynamicFont" id=7]
+size = 12
 font_data = ExtResource( 3 )
 
 [sub_resource type="StyleBoxFlat" id=13]
