@@ -17,4 +17,4 @@ func _ready() -> void:
 
 
 func _on_voltar_pressed() -> void:
-	get_tree().change_scene("res://Scene/Antonio/QuizAntonio/QuizAntonio3.tscn") # Replace with function body.
+	get_tree().change_scene("res://Scene/Antonio/QuizAntonio/QuizAntonio1.tscn") # Replace with function body.

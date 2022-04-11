@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Scene/Ana/FeedbackAna/FeedbackAna4.gd" type="Script" id=1]
-[ext_resource path="res://Scene/Ana/ImagesAna/perguntaana2.png" type="Texture" id=2]
+[ext_resource path="res://Scene/Ana/ImagesAna/FEEDBACK 4 ANA.png" type="Texture" id=2]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
