@@ -15,6 +15,10 @@
 			}
 		},
 		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		},
+		{
 			"character": "character-1647966059.json",
 			"event_id": "dialogic_001",
 			"portrait": "",

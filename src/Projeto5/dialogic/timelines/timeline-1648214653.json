@@ -1,6 +1,10 @@
 {
 	"events": [
 		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		},
+		{
 			"action": "join",
 			"character": "character-1647966059.json",
 			"event_id": "dialogic_002",
