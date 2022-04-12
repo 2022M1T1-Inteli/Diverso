@@ -3,6 +3,8 @@
 [ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Control.gd" type="Script" id=2]
 
+
+
 [sub_resource type="DynamicFont" id=1]
 font_data = ExtResource( 1 )
 
