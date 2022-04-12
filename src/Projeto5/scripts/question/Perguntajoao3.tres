@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/question/recursos/res_question.gd" type="Script" id=1]
+[ext_resource path="res://scripts/question/Imagens(perguntas e respostas)/perguntaJ3.1.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+question_hud = ""
+type = 1
+question_image = ExtResource( 2 )
+options = [ "Estereotipar é ser mal educado com alguém pela sua aparência física.", "Estereótipo é um padrão estabelecido pelo senso comum.", "Estereótipo é uma atitude negativa baseada na crença de que ela tem as características negativas.", "Estereotipar é falar mal pelas costas." ]
+correct = "Estereótipo é um padrão estabelecido pelo senso comum."
