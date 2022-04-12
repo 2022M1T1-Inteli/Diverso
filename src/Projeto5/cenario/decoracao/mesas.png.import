@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mesa-chefe.png-a3ed208229b0e95736d904213ce007ea.stex"
+path="res://.import/mesas.png-810de72c971ba45cf90eb41c7a3eab8e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://cenario/decoracao/mesa-chefe.png"
-dest_files=[ "res://.import/mesa-chefe.png-a3ed208229b0e95736d904213ce007ea.stex" ]
+source_file="res://cenario/decoracao/mesas.png"
+dest_files=[ "res://.import/mesas.png-810de72c971ba45cf90eb41c7a3eab8e.stex" ]
 
 [params]
 
