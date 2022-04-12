@@ -58,10 +58,6 @@ run/main_scene="res://SplashInicial.tscn"
 Transition="*res://Transition.tscn"
 Globalpos="*res://Globalpos.gd"
 
-[display]
-
-window/size/fullscreen=true
-
 [editor_plugins]
 
 enabled=PoolStringArray( "res://addons/dialogic/plugin.cfg" )

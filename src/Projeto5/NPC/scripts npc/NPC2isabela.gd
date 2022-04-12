@@ -24,7 +24,7 @@ func _input(event):
 				add_child(dialog)
 				Globalpos.npc2=true
 				Transition.fade_into("res://Scene/Isabela/QuizIsabela/QuizIsabela1.tscn")
-		if Globalpos.npc3:
+		if Globalpos.npc4:
 			if event.is_action_pressed("ui_accept") and active:
 				get_tree().paused = true
 				var dialog = Dialogic.start('Isabela4')

@@ -18,5 +18,4 @@ func _ready() -> void:
 
 func _on_opcao3_pressed() -> void:
 	Transition.fade_into("res://LabirintoIsabela.tscn") # Replace with function body.
-	Globalpos.star=true
-	Globalpos.npc2=false
+	Globalpos.npc3=false
