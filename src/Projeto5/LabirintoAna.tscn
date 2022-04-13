@@ -129,11 +129,6 @@ animations = [ {
 "name": "Up",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 19 ), ExtResource( 26 ), ExtResource( 15 ), ExtResource( 10 ), ExtResource( 20 ), ExtResource( 27 ), ExtResource( 29 ), ExtResource( 24 ) ],
-"loop": true,
-"name": "Down",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 7 ) ],
 "loop": true,
 "name": "Idle",
@@ -142,6 +137,11 @@ animations = [ {
 "frames": [ ExtResource( 7 ), ExtResource( 25 ), ExtResource( 8 ), ExtResource( 3 ), ExtResource( 16 ), ExtResource( 9 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 1 ), ExtResource( 30 ) ],
 "loop": true,
 "name": "Run",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 19 ), ExtResource( 26 ), ExtResource( 15 ), ExtResource( 10 ), ExtResource( 20 ), ExtResource( 27 ), ExtResource( 29 ), ExtResource( 24 ) ],
+"loop": true,
+"name": "Down",
 "speed": 20.0
 } ]
 
@@ -489,15 +489,15 @@ extents = Vector2( 35.5, 11.5 )
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
-"loop": false,
-"name": "Fechar",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 57 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ) ],
 "loop": false,
 "name": "Abrir",
 "speed": 30.0
+}, {
+"frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 51 ), ExtResource( 49 ), ExtResource( 63 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 58 ) ],
+"loop": false,
+"name": "Fechar",
+"speed": 20.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=11]
@@ -552,7 +552,6 @@ anims/Chegada = SubResource( 37 )
 anims/RESET = SubResource( 38 )
 
 [node name="Fade(4)" type="Sprite" parent="Jogador"]
-visible = false
 position = Vector2( 29, 29 )
 z_index = 650
 texture = ExtResource( 36 )
