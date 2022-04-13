@@ -1,4 +1,4 @@
-[gd_scene load_steps=155 format=2]
+[gd_scene load_steps=160 format=2]
 
 [ext_resource path="res://Imagens personagem/Ana/faf6371d2edf4d6afc8ead13f161cd84EIj4hrAyeART7VEL-8.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Ana/Ana_cima (7).png" type="Texture" id=2]
@@ -376,7 +376,7 @@ radius = 12.0
 height = 0.0
 
 [sub_resource type="RectangleShape2D" id=35]
-extents = Vector2( 138.091, 10 )
+extents = Vector2( 168, 23.0244 )
 
 [sub_resource type="RectangleShape2D" id=56]
 extents = Vector2( 195.75, 19.5 )
@@ -385,7 +385,7 @@ extents = Vector2( 195.75, 19.5 )
 extents = Vector2( 225.438, 38.75 )
 
 [sub_resource type="RectangleShape2D" id=47]
-extents = Vector2( 12.5, 37.5 )
+extents = Vector2( 25.5, 95 )
 
 [sub_resource type="RectangleShape2D" id=51]
 extents = Vector2( 33.5, 11.5 )
@@ -398,6 +398,21 @@ extents = Vector2( 36, 11 )
 
 [sub_resource type="RectangleShape2D" id=53]
 extents = Vector2( 35.5, 11.5 )
+
+[sub_resource type="RectangleShape2D" id=57]
+extents = Vector2( 49, 32.25 )
+
+[sub_resource type="RectangleShape2D" id=58]
+extents = Vector2( 31, 46.5 )
+
+[sub_resource type="RectangleShape2D" id=59]
+extents = Vector2( 33.75, 9.75 )
+
+[sub_resource type="RectangleShape2D" id=60]
+extents = Vector2( 19, 18 )
+
+[sub_resource type="CapsuleShape2D" id=61]
+height = 34.0
 
 [sub_resource type="TileSet" id=32]
 0/name = "parede lager.png 0"
@@ -772,7 +787,23 @@ z_index = 12
 position = Vector2( 813.091, 839.805 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Figurante/Sprite/StaticBody2D"]
-position = Vector2( 114.909, -58.5366 )
+position = Vector2( -411.227, -151.805 )
+scale = Vector2( 1, 1 )
+shape = SubResource( 35 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Figurante/Sprite/StaticBody2D"]
+position = Vector2( -469.818, -227.122 )
+scale = Vector2( 1, 1 )
+shape = SubResource( 35 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Figurante/Sprite/StaticBody2D"]
+position = Vector2( -585.455, -299.707 )
+scale = Vector2( 1, 1 )
+shape = SubResource( 35 )
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Figurante/Sprite/StaticBody2D"]
+position = Vector2( -651.636, -381.659 )
+scale = Vector2( 1, 1 )
 shape = SubResource( 35 )
 
 [node name="Sprite3" type="Sprite" parent="Figurante"]
@@ -792,7 +823,7 @@ position = Vector2( 359, 1349 )
 shape = SubResource( 55 )
 
 [node name="CollisionShape mesa2" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( 2046, 67 )
+position = Vector2( 2001.5, 62 )
 shape = SubResource( 47 )
 
 [node name="CollisionShape  banehiro" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
@@ -810,6 +841,26 @@ shape = SubResource( 52 )
 [node name="CollisionShape  pia2" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
 position = Vector2( 1043, -1050.5 )
 shape = SubResource( 53 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 1316, -1098.25 )
+shape = SubResource( 57 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 125, 1493.5 )
+shape = SubResource( 58 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 1134.25, -1052 )
+shape = SubResource( 59 )
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 1632, -53 )
+shape = SubResource( 60 )
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 1950, -6 )
+shape = SubResource( 61 )
 
 [node name="Parede" type="Node" parent="."]
 
@@ -1207,76 +1258,77 @@ texture = ExtResource( 75 )
 position = Vector2( 118.029, 1.19604 )
 texture = ExtResource( 75 )
 
-[node name="MáquinaJogo" type="Sprite" parent="Cenário/Bebedouro/Sprite3/Máquina-café/Máquina-café"]
-position = Vector2( -641.547, -299.062 )
-scale = Vector2( 0.554347, 0.554347 )
+[node name="MesaRecep" type="Sprite" parent="Cenário/Bebedouro/Sprite3"]
+position = Vector2( 468.127, 18.1622 )
+scale = Vector2( 0.609108, 0.609108 )
+texture = ExtResource( 92 )
+
+[node name="MáquinaJogo" type="Sprite" parent="Cenário/Bebedouro/Sprite3"]
+position = Vector2( -123.87, -188.108 )
+scale = Vector2( 0.199194, 0.199194 )
 z_index = 5
 z_as_relative = false
 texture = ExtResource( 86 )
 flip_h = true
 
-[node name="MesaRecep" type="Sprite" parent="Cenário/Bebedouro/Sprite3/Máquina-café/Máquina-café/MáquinaJogo"]
-position = Vector2( 1696.46, 183.425 )
-scale = Vector2( 2.50324, 2.50324 )
+[node name="MesaRecep2" type="Sprite" parent="Cenário/Bebedouro/Sprite3"]
+position = Vector2( 413.933, -102.486 )
+scale = Vector2( 0.609108, 0.609108 )
 texture = ExtResource( 92 )
 
-[node name="MesaRecep" type="Sprite" parent="Cenário/Bebedouro/Sprite3/Máquina-café/Máquina-café/MáquinaJogo/MesaRecep"]
-position = Vector2( 80.2546, 0 )
-texture = ExtResource( 92 )
-
-[node name="MesaRecep2" type="Sprite" parent="Cenário/Bebedouro/Sprite3/Máquina-café/Máquina-café/MáquinaJogo/MesaRecep"]
+[node name="MesaRecep2" type="Sprite" parent="Cenário/Bebedouro/Sprite3/MesaRecep2"]
 position = Vector2( -80.2546, 0 )
 texture = ExtResource( 92 )
 
-[node name="MesaRecep" type="Sprite" parent="Cenário/Bebedouro/Sprite3/Máquina-café/Máquina-café/MáquinaJogo/MesaRecep/MesaRecep2"]
-position = Vector2( 163.939, 56.0338 )
+[node name="MesaRecep" type="Sprite" parent="Cenário/Bebedouro/Sprite3/MesaRecep2/MesaRecep2"]
+position = Vector2( 167.531, 3.19469 )
 texture = ExtResource( 92 )
 
-[node name="MesaRecep" type="Sprite" parent="Cenário/Bebedouro/Sprite3/Máquina-café/Máquina-café/MáquinaJogo/MesaRecep/MesaRecep2/MesaRecep"]
+[node name="MesaRecep" type="Sprite" parent="Cenário/Bebedouro/Sprite3/MesaRecep2/MesaRecep2/MesaRecep"]
 position = Vector2( 0.685913, 67.2406 )
 texture = ExtResource( 92 )
 
-[node name="MesaRecep" type="Sprite" parent="Cenário/Bebedouro/Sprite3/Máquina-café/Máquina-café/MáquinaJogo/MesaRecep/MesaRecep2/MesaRecep/MesaRecep"]
+[node name="MesaRecep" type="Sprite" parent="Cenário/Bebedouro/Sprite3/MesaRecep2/MesaRecep2/MesaRecep/MesaRecep"]
 position = Vector2( 2.0578, 64.6543 )
 texture = ExtResource( 92 )
 
-[node name="Papeis" type="Sprite" parent="Cenário/Bebedouro/Sprite3/Máquina-café/Máquina-café/MáquinaJogo/MesaRecep/MesaRecep2/MesaRecep/MesaRecep/MesaRecep"]
+[node name="Papeis" type="Sprite" parent="Cenário/Bebedouro/Sprite3/MesaRecep2/MesaRecep2/MesaRecep/MesaRecep/MesaRecep"]
 position = Vector2( -244.193, -246.549 )
 scale = Vector2( 0.202281, 0.202281 )
 texture = ExtResource( 79 )
 
-[node name="PrivadaNormal" type="Sprite" parent="Cenário/Bebedouro/Sprite3/Máquina-café/Máquina-café/MáquinaJogo/MesaRecep/MesaRecep2/MesaRecep/MesaRecep/MesaRecep/Papeis"]
-position = Vector2( 2499.17, 1606.66 )
+[node name="PrivadaNormal" type="Sprite" parent="Cenário/Bebedouro/Sprite3/MesaRecep2/MesaRecep2/MesaRecep/MesaRecep/MesaRecep/Papeis"]
+position = Vector2( 2659.77, 2009.29 )
 scale = Vector2( 0.747826, 0.747826 )
 texture = ExtResource( 89 )
 
-[node name="Privada" type="Sprite" parent="Cenário/Bebedouro/Sprite3/Máquina-café/Máquina-café/MáquinaJogo/MesaRecep/MesaRecep2/MesaRecep/MesaRecep/MesaRecep/Papeis/PrivadaNormal"]
+[node name="Privada" type="Sprite" parent="Cenário/Bebedouro/Sprite3/MesaRecep2/MesaRecep2/MesaRecep/MesaRecep/MesaRecep/Papeis/PrivadaNormal"]
 position = Vector2( -226.725, -17.0981 )
 scale = Vector2( 1.77422, 1.77422 )
 texture = ExtResource( 52 )
 
-[node name="Plantinha" type="Sprite" parent="Cenário/Bebedouro/Sprite3/Máquina-café/Máquina-café/MáquinaJogo/MesaRecep/MesaRecep2/MesaRecep/MesaRecep/MesaRecep/Papeis/PrivadaNormal/Privada"]
+[node name="Plantinha" type="Sprite" parent="Cenário/Bebedouro/Sprite3/MesaRecep2/MesaRecep2/MesaRecep/MesaRecep/MesaRecep/Papeis/PrivadaNormal/Privada"]
 position = Vector2( 153.345, 305.138 )
 scale = Vector2( 3.34136, 3.34136 )
 texture = ExtResource( 156 )
 
-[node name="Mesas" type="Sprite" parent="Cenário/Bebedouro/Sprite3/Máquina-café/Máquina-café/MáquinaJogo/MesaRecep/MesaRecep2/MesaRecep/MesaRecep/MesaRecep/Papeis/PrivadaNormal/Privada/Plantinha"]
-position = Vector2( -892.62, -2603.14 )
+[node name="Mesas" type="Sprite" parent="Cenário/Bebedouro/Sprite3/MesaRecep2/MesaRecep2/MesaRecep/MesaRecep/MesaRecep/Papeis/PrivadaNormal/Privada/Plantinha"]
+position = Vector2( -1012.05, -3169.96 )
 scale = Vector2( 0.275324, 0.275324 )
 texture = ExtResource( 88 )
 
-[node name="Mesas2" type="Sprite" parent="Cenário/Bebedouro/Sprite3/Máquina-café/Máquina-café/MáquinaJogo/MesaRecep/MesaRecep2/MesaRecep/MesaRecep/MesaRecep/Papeis/PrivadaNormal/Privada/Plantinha"]
-position = Vector2( -731.229, -2603.14 )
+[node name="Mesas2" type="Sprite" parent="Cenário/Bebedouro/Sprite3/MesaRecep2/MesaRecep2/MesaRecep/MesaRecep/MesaRecep/Papeis/PrivadaNormal/Privada/Plantinha"]
+position = Vector2( -852.369, -3171.15 )
 scale = Vector2( 0.275324, 0.275324 )
 texture = ExtResource( 88 )
 
-[node name="Mesas3" type="Sprite" parent="Cenário/Bebedouro/Sprite3/Máquina-café/Máquina-café/MáquinaJogo/MesaRecep/MesaRecep2/MesaRecep/MesaRecep/MesaRecep/Papeis/PrivadaNormal/Privada/Plantinha"]
-position = Vector2( -572.133, -2604.1 )
+[node name="Mesas3" type="Sprite" parent="Cenário/Bebedouro/Sprite3/MesaRecep2/MesaRecep2/MesaRecep/MesaRecep/MesaRecep/Papeis/PrivadaNormal/Privada/Plantinha"]
+position = Vector2( -693.629, -3172.33 )
 scale = Vector2( 0.275324, 0.275324 )
 texture = ExtResource( 88 )
 
-[node name="Mesas4" type="Sprite" parent="Cenário/Bebedouro/Sprite3/Máquina-café/Máquina-café/MáquinaJogo/MesaRecep/MesaRecep2/MesaRecep/MesaRecep/MesaRecep/Papeis/PrivadaNormal/Privada/Plantinha"]
-position = Vector2( -411.508, -2604.1 )
+[node name="Mesas4" type="Sprite" parent="Cenário/Bebedouro/Sprite3/MesaRecep2/MesaRecep2/MesaRecep/MesaRecep/MesaRecep/Papeis/PrivadaNormal/Privada/Plantinha"]
+position = Vector2( -534.89, -3173.52 )
 scale = Vector2( 0.275324, 0.275324 )
 texture = ExtResource( 88 )
 
@@ -1744,9 +1796,9 @@ position = Vector2( 1508, 2036 )
 texture = ExtResource( 81 )
 
 [node name="Prateleira-secretaria2" type="Sprite" parent="."]
-position = Vector2( 1438, -440 )
+position = Vector2( 1428, -444 )
 scale = Vector2( 0.305001, 0.305001 )
-z_index = 5
+z_index = 4
 z_as_relative = false
 texture = ExtResource( 84 )
 

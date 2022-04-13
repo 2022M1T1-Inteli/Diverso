@@ -1,4 +1,4 @@
-[gd_scene load_steps=243 format=2]
+[gd_scene load_steps=246 format=2]
 
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-5.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-6.png" type="Texture" id=2]
@@ -214,14 +214,14 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
-"loop": true,
-"name": "Down",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
 "loop": true,
 "name": "Up",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
+"loop": true,
+"name": "Down",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 6 ) ],
@@ -510,6 +510,15 @@ extents = Vector2( 138.091, 10 )
 radius = 8.0
 height = 28.0
 
+[sub_resource type="RectangleShape2D" id=51]
+extents = Vector2( 16.25, 28.5 )
+
+[sub_resource type="RectangleShape2D" id=52]
+extents = Vector2( 59.75, 21.75 )
+
+[sub_resource type="RectangleShape2D" id=53]
+extents = Vector2( 40, 11.25 )
+
 [sub_resource type="TileSet" id=32]
 0/name = "parede lager.png 0"
 0/texture = ExtResource( 132 )
@@ -658,7 +667,7 @@ extents = Vector2( 72.5, 65.375 )
 extents = Vector2( 27.5, 60 )
 
 [sub_resource type="RectangleShape2D" id=36]
-extents = Vector2( 629.463, 68.2357 )
+extents = Vector2( 1103.72, 272.941 )
 
 [sub_resource type="SpriteFrames" id=47]
 animations = [ {
@@ -968,14 +977,6 @@ centered = false
 region_enabled = true
 region_rect = Rect2( 388.718, 201.424, 381.33, 797.767 )
 
-[node name="MáquinaJogo" type="Sprite" parent="NPC\'s/NPC4/Point"]
-position = Vector2( -1916.9, 660.016 )
-scale = Vector2( 4.12808, 4.12808 )
-z_index = 5
-z_as_relative = false
-texture = ExtResource( 162 )
-flip_h = true
-
 [node name="StaticBody2D" type="StaticBody2D" parent="NPC\'s/NPC4"]
 position = Vector2( 6, -101 )
 
@@ -1059,7 +1060,7 @@ position = Vector2( 2855, 2735 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 7
+frame = 5
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -1067,7 +1068,7 @@ position = Vector2( 2954, 2737 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 4
+frame = 2
 playing = true
 flip_h = true
 
@@ -1076,7 +1077,7 @@ position = Vector2( 2507, 2840 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 8
+frame = 6
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -1084,7 +1085,7 @@ position = Vector2( 2560, 2776 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 7
+frame = 5
 playing = true
 flip_h = true
 
@@ -1095,8 +1096,16 @@ position = Vector2( 2600, 2833 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 1
+frame = 8
 playing = true
+flip_h = true
+
+[node name="MáquinaJogo" type="Sprite" parent="Lager"]
+position = Vector2( 221, 2136 )
+scale = Vector2( 0.327866, 0.313467 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 162 )
 flip_h = true
 
 [node name="Figurante" type="Node2D" parent="."]
@@ -1173,6 +1182,30 @@ shape = SubResource( 31 )
 [node name="CollisionShape  pia" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
 position = Vector2( 1871, -52 )
 shape = SubResource( 31 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 112.75, 1477.5 )
+shape = SubResource( 51 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 1302.25, -1117.75 )
+shape = SubResource( 52 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 3, 143.75 )
+shape = SubResource( 53 )
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 6, 205 )
+shape = SubResource( 53 )
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 1, 274 )
+shape = SubResource( 53 )
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 2, 321 )
+shape = SubResource( 53 )
 
 [node name="Parede" type="Node" parent="."]
 
@@ -1920,7 +1953,7 @@ position = Vector2( 509, 1951 )
 scale = Vector2( 0.231944, 0.2125 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2( 4.31128, 2.35352 )
+position = Vector2( -120.719, 207.059 )
 scale = Vector2( 0.999999, 1 )
 shape = SubResource( 36 )
 
@@ -2315,7 +2348,7 @@ scale = Vector2( 20.0013, 19.3694 )
 texture = ExtResource( 210 )
 
 [node name="Sofá(2)" type="Sprite" parent="Node/AnimatedSprite4/On-ambev2/Ambev-tapete"]
-position = Vector2( -19.009, 236.772 )
+position = Vector2( -14.2583, 236.773 )
 scale = Vector2( 0.382769, 0.382769 )
 texture = ExtResource( 209 )
 

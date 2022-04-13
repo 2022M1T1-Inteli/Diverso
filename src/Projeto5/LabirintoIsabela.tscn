@@ -1,4 +1,4 @@
-[gd_scene load_steps=177 format=2]
+[gd_scene load_steps=180 format=2]
 
 [ext_resource path="res://Imagens personagem/Isabela/Isa_baixo (1).png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Isabela/Isa_baixo (3).png" type="Texture" id=2]
@@ -154,14 +154,14 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 1 ), ExtResource( 6 ), ExtResource( 2 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
-"loop": true,
-"name": "Down",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 21 ), ExtResource( 5 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 28 ), ExtResource( 22 ) ],
 "loop": true,
 "name": "Up",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 1 ), ExtResource( 6 ), ExtResource( 2 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "Down",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 25 ) ],
@@ -410,8 +410,17 @@ height = 6.8124
 [sub_resource type="RectangleShape2D" id=44]
 extents = Vector2( 218.5, 25.5 )
 
+[sub_resource type="RectangleShape2D" id=51]
+extents = Vector2( 82, 40 )
+
 [sub_resource type="RectangleShape2D" id=45]
 extents = Vector2( 176.75, 18.25 )
+
+[sub_resource type="RectangleShape2D" id=52]
+extents = Vector2( 19.5, 30.75 )
+
+[sub_resource type="CapsuleShape2D" id=53]
+radius = 19.0
 
 [sub_resource type="TileSet" id=32]
 0/name = "parede lager.png 0"
@@ -839,8 +848,8 @@ position = Vector2( 339, 1382 )
 shape = SubResource( 44 )
 
 [node name="CollisionShape lager3" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( 1676, -891 )
-shape = SubResource( 31 )
+position = Vector2( 1281, -1096 )
+shape = SubResource( 51 )
 
 [node name="CollisionShape lager7" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
 position = Vector2( 2118, -913 )
@@ -881,6 +890,26 @@ shape = SubResource( 31 )
 [node name="CollisionShape  pia" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
 position = Vector2( 2117.25, -1120 )
 shape = SubResource( 31 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 110.5, 1453.25 )
+shape = SubResource( 52 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 1829, 2030 )
+shape = SubResource( 53 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 1904, 1964 )
+shape = SubResource( 53 )
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 2206, 2122 )
+shape = SubResource( 53 )
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 1982, 1961 )
+shape = SubResource( 53 )
 
 [node name="Parede" type="Node" parent="."]
 
@@ -1710,8 +1739,8 @@ z_index = 5
 texture = ExtResource( 52 )
 
 [node name="MáquinaJogo" type="Sprite" parent="."]
-position = Vector2( 218, 2135 )
-scale = Vector2( 0.383047, 0.383047 )
+position = Vector2( 219, 2115 )
+scale = Vector2( 0.315987, 0.315987 )
 z_index = 5
 z_as_relative = false
 texture = ExtResource( 53 )
@@ -1765,6 +1794,39 @@ scale = Vector2( 2.51231, 2.51231 )
 texture = ExtResource( 95 )
 
 [node name="Preteleira2" type="Sprite" parent="Diretor1/Diretor4/Diretor5/Diretor3/Papeis"]
+position = Vector2( -557.762, -120.751 )
+scale = Vector2( 2.51231, 2.51231 )
+texture = ExtResource( 95 )
+
+[node name="Diretor5" type="Sprite" parent="Diretor1"]
+position = Vector2( 641.666, -8.33594 )
+z_index = 4
+z_as_relative = false
+texture = ExtResource( 83 )
+flip_h = true
+
+[node name="Diretor5" type="Sprite" parent="Diretor1/Diretor5"]
+position = Vector2( -1283.33, 558.332 )
+texture = ExtResource( 93 )
+
+[node name="Diretor3" type="Sprite" parent="Diretor1/Diretor5/Diretor5"]
+position = Vector2( 3150, 766.669 )
+z_index = 6
+z_as_relative = false
+texture = ExtResource( 80 )
+flip_h = true
+
+[node name="Papeis" type="Sprite" parent="Diretor1/Diretor5/Diretor5/Diretor3"]
+position = Vector2( 1875, -1775 )
+scale = Vector2( 1.44924, 1.44924 )
+texture = ExtResource( 77 )
+
+[node name="Preteleira" type="Sprite" parent="Diretor1/Diretor5/Diretor5/Diretor3/Papeis"]
+position = Vector2( -342.641, -122.627 )
+scale = Vector2( 2.51231, 2.51231 )
+texture = ExtResource( 95 )
+
+[node name="Preteleira2" type="Sprite" parent="Diretor1/Diretor5/Diretor5/Diretor3/Papeis"]
 position = Vector2( -557.762, -120.751 )
 scale = Vector2( 2.51231, 2.51231 )
 texture = ExtResource( 95 )
