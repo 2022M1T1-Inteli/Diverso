@@ -172,20 +172,20 @@ animations = [ {
 "name": "Up",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 25 ), ExtResource( 10 ), ExtResource( 5 ), ExtResource( 15 ), ExtResource( 22 ), ExtResource( 19 ), ExtResource( 30 ), ExtResource( 1 ) ],
+"frames": [ ExtResource( 3 ) ],
 "loop": true,
-"name": "Down",
-"speed": 20.0
+"name": "Idle",
+"speed": 12.0
 }, {
 "frames": [ ExtResource( 3 ), ExtResource( 2 ), ExtResource( 6 ), ExtResource( 16 ), ExtResource( 20 ), ExtResource( 23 ), ExtResource( 8 ), ExtResource( 21 ), ExtResource( 9 ), ExtResource( 26 ) ],
 "loop": true,
 "name": "Run",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 3 ) ],
+"frames": [ ExtResource( 25 ), ExtResource( 10 ), ExtResource( 5 ), ExtResource( 15 ), ExtResource( 22 ), ExtResource( 19 ), ExtResource( 30 ), ExtResource( 1 ) ],
 "loop": true,
-"name": "Idle",
-"speed": 12.0
+"name": "Down",
+"speed": 20.0
 } ]
 
 [sub_resource type="CapsuleShape2D" id=2]
@@ -417,7 +417,7 @@ height = 0.0
 extents = Vector2( 32.9167, 22.1639 )
 
 [sub_resource type="RectangleShape2D" id=35]
-extents = Vector2( 11.2273, 72.5854 )
+extents = Vector2( 37.9772, 58.9269 )
 
 [sub_resource type="RectangleShape2D" id=55]
 
@@ -708,35 +708,8 @@ shape = SubResource( 6 )
 [node name="Sprite" type="Sprite" parent="NPC\'s/NPC"]
 position = Vector2( 2, 2 )
 scale = Vector2( 0.35, 0.35 )
-z_index = 5
+z_index = 3
 texture = ExtResource( 41 )
-
-[node name="StaticBody2D2" type="StaticBody2D" parent="NPC\'s/NPC"]
-position = Vector2( 13, 26 )
-scale = Vector2( 1.2, 1.17308 )
-z_index = -1
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC/StaticBody2D2"]
-position = Vector2( -0.416687, -13.6393 )
-shape = SubResource( 25 )
-
-[node name="StaticBody2D3" type="StaticBody2D" parent="NPC\'s/NPC"]
-position = Vector2( 14, 77 )
-scale = Vector2( 1.2, 1.17308 )
-z_index = -1
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC/StaticBody2D3"]
-position = Vector2( -0.416687, -13.6393 )
-shape = SubResource( 25 )
-
-[node name="StaticBody2D4" type="StaticBody2D" parent="NPC\'s/NPC"]
-position = Vector2( 14, 130 )
-scale = Vector2( 1.2, 1.17308 )
-z_index = -1
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC/StaticBody2D4"]
-position = Vector2( -0.416565, -4.26231 )
-shape = SubResource( 25 )
 
 [node name="StaticBody2D5" type="StaticBody2D" parent="NPC\'s/NPC"]
 position = Vector2( 12, -35 )
@@ -864,7 +837,6 @@ texture = ExtResource( 79 )
 position = Vector2( 52, 14 )
 scale = Vector2( 0.747799, 0.948235 )
 z_index = 4
-z_as_relative = false
 texture = ExtResource( 79 )
 
 [node name="NPC5" type="Area2D" parent="NPC\'s"]
@@ -937,7 +909,8 @@ flip_h = true
 [node name="Mesa" type="Sprite" parent="NPC\'s"]
 position = Vector2( 1206, -440 )
 scale = Vector2( 1.2, 1.17308 )
-z_index = 7
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 92 )
 flip_h = true
 region_enabled = true
@@ -946,7 +919,8 @@ region_rect = Rect2( 9.95958, 1.53343, 70.9794, 52.4054 )
 [node name="Mesa2" type="Sprite" parent="NPC\'s"]
 position = Vector2( 1114, -439 )
 scale = Vector2( 1.2, 1.17308 )
-z_index = 5
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 92 )
 flip_h = true
 region_enabled = true
@@ -955,7 +929,8 @@ region_rect = Rect2( 9.95958, 1.53343, 70.9794, 52.4054 )
 [node name="Mesa3" type="Sprite" parent="NPC\'s"]
 position = Vector2( 1297, -440 )
 scale = Vector2( 1.2, 1.17308 )
-z_index = 7
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 92 )
 flip_h = true
 region_enabled = true
@@ -964,7 +939,8 @@ region_rect = Rect2( 9.95958, 1.53343, 70.9794, 52.4054 )
 [node name="Mesa4" type="Sprite" parent="NPC\'s"]
 position = Vector2( 1026, -439 )
 scale = Vector2( 1.2, 1.17308 )
-z_index = 7
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 92 )
 flip_h = true
 region_enabled = true
@@ -987,7 +963,8 @@ z_index = 10
 [node name="StaticBody2D" type="StaticBody2D" parent="Figurante/Sprite"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Figurante/Sprite/StaticBody2D"]
-position = Vector2( 522.909, -434.732 )
+position = Vector2( 496.159, -445.268 )
+scale = Vector2( 1, 1 )
 shape = SubResource( 35 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Figurante/Sprite/StaticBody2D"]
@@ -1014,7 +991,7 @@ position = Vector2( 2847, 2092 )
 shape = SubResource( 31 )
 
 [node name="CollisionShape mesa2" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( 466, 1657.63 )
+position = Vector2( 469, 1621 )
 shape = SubResource( 45 )
 
 [node name="Máquina-café" type="Sprite" parent="Figurante/StaticBody2D/CollisionShape mesa2"]
@@ -1038,6 +1015,8 @@ shape = SubResource( 46 )
 [node name="Máquina-café" type="Sprite" parent="Figurante/StaticBody2D/CollisionShape  pia4"]
 position = Vector2( 187, -39 )
 scale = Vector2( 0.683422, 0.683422 )
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 99 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
@@ -1063,6 +1042,7 @@ shape = SubResource( 59 )
 
 [node name="CollisionShape2D6" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
 position = Vector2( 1311.5, -1114.5 )
+z_index = -6
 shape = SubResource( 60 )
 
 [node name="CollisionShape2D7" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
@@ -1083,7 +1063,7 @@ tile_data = PoolIntArray( -1048546, 0, 0, -1048545, 0, 0, -1048544, 0, 0, -10485
 [node name="ArmarioCopa" type="Sprite" parent="Parede/parede cima"]
 position = Vector2( 327, 2035 )
 scale = Vector2( 1.62109, 1.62109 )
-z_index = 4
+z_index = 2
 z_as_relative = false
 texture = ExtResource( 78 )
 
@@ -1095,7 +1075,7 @@ texture = ExtResource( 138 )
 [node name="Bancada" type="Sprite" parent="Parede/parede cima/ArmarioCopa"]
 position = Vector2( 125.224, 111.037 )
 scale = Vector2( 0.629224, 0.629224 )
-z_index = 9
+z_index = 2
 z_as_relative = false
 texture = ExtResource( 74 )
 
@@ -1106,7 +1086,7 @@ z_index = -1
 texture = ExtResource( 74 )
 
 [node name="Microondas2" type="Sprite" parent="Parede/parede cima/ArmarioCopa"]
-position = Vector2( 124.608, -9.86963 )
+position = Vector2( 123.991, -11.1035 )
 scale = Vector2( 0.25737, 0.25737 )
 texture = ExtResource( 138 )
 
@@ -1232,7 +1212,7 @@ tile_data = PoolIntArray( 131073, 0, 0, 131074, 0, 0, 131075, 0, 0, 131076, 0, 0
 [node name="MáquinaJogo" type="Sprite" parent="Parede/Grama/chao tatil 2"]
 position = Vector2( 216, 2097 )
 scale = Vector2( 0.302575, 0.302575 )
-z_index = 5
+z_index = 2
 z_as_relative = false
 texture = ExtResource( 105 )
 flip_h = true
@@ -1314,7 +1294,7 @@ flip_h = true
 [node name="Prateleira-secretaria" type="Sprite" parent="Parede"]
 position = Vector2( 1413.38, -456.41 )
 scale = Vector2( 0.2705, 0.2705 )
-z_index = 4
+z_index = 2
 z_as_relative = false
 texture = ExtResource( 83 )
 
@@ -1689,6 +1669,7 @@ z_index = -1
 [node name="retrato" type="Sprite" parent="Cenário/Quadros"]
 position = Vector2( 1399, -471 )
 scale = Vector2( 1.1875, 1.16667 )
+z_index = -6
 texture = ExtResource( 70 )
 region_enabled = true
 region_rect = Rect2( 383.475, -0.231703, 16.6826, 15.491 )
@@ -1801,10 +1782,6 @@ scale = Vector2( 0.231944, 0.2125 )
 position = Vector2( 4.31128, 2.35352 )
 scale = Vector2( 0.999999, 1 )
 shape = SubResource( 36 )
-
-[node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="StaticBody2D"]
-position = Vector2( 194.012, -207.059 )
-polygon = PoolVector2Array( 258.683, 969.412, 353.534, 903.529, 465.63, 969.412, 487.187, 847.059, 525.989, 865.882, 525.989, 978.823, 521.678, 992.941, 181.078, 992.941, 172.456, 870.588, 228.503, 847.059, 237.126, 945.882 )
 
 [node name="Armario-sup" type="Sprite" parent="."]
 position = Vector2( 587, 1951 )
@@ -1928,7 +1905,7 @@ texture = ExtResource( 53 )
 [node name="DecoraçãoCulture" type="Sprite" parent="."]
 position = Vector2( 1855, 586 )
 scale = Vector2( 0.450413, 0.450413 )
-z_index = 4
+z_index = 3
 z_as_relative = false
 texture = ExtResource( 50 )
 
@@ -1943,14 +1920,14 @@ texture = ExtResource( 11 )
 [node name="ArmárioMadeira" type="Sprite" parent="."]
 position = Vector2( 546, 2068 )
 scale = Vector2( 1.16529, 1.16529 )
-z_index = 6
+z_index = 3
 z_as_relative = false
 texture = ExtResource( 89 )
 
 [node name="Geladeira" type="Sprite" parent="."]
 position = Vector2( 644, 2021 )
 scale = Vector2( 0.454167, 0.454167 )
-z_index = 4
+z_index = 3
 z_as_relative = false
 texture = ExtResource( 75 )
 
@@ -1969,7 +1946,7 @@ texture = ExtResource( 53 )
 [node name="QuadroAna" type="Sprite" parent="."]
 position = Vector2( 576, 2691 )
 scale = Vector2( 0.0530774, 0.0530774 )
-z_index = 4
+z_index = 3
 z_as_relative = false
 texture = ExtResource( 108 )
 
