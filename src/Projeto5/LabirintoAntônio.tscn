@@ -1,4 +1,4 @@
-[gd_scene load_steps=142 format=2]
+[gd_scene load_steps=145 format=2]
 
 [ext_resource path="res://Imagens personagem/Antônio/Anto_baixo (8).png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Antônio/ant_anda (2).png" type="Texture" id=2]
@@ -104,6 +104,9 @@
 [ext_resource path="res://CHAO TATIL 1.png" type="Texture" id=102]
 [ext_resource path="res://cenario/decoracao/maquina-lanches (1).png" type="Texture" id=103]
 [ext_resource path="res://mesas.png" type="Texture" id=104]
+[ext_resource path="res://máquina jogo.png" type="Texture" id=105]
+[ext_resource path="res://cenario/decoracao/papeis.png" type="Texture" id=106]
+[ext_resource path="res://cenario/decoracao/decoração parede.png" type="Texture" id=107]
 [ext_resource path="res://cenario/placas/Placa banh fem.png" type="Texture" id=129]
 [ext_resource path="res://cenario/parede/parede lager.png" type="Texture" id=132]
 [ext_resource path="res://cenario/decoracao copa/lixeira.png" type="Texture" id=135]
@@ -1100,6 +1103,32 @@ cell_size = Vector2( 32, 32 )
 format = 1
 tile_data = PoolIntArray( 131073, 0, 0, 131074, 0, 0, 131075, 0, 0, 131076, 0, 0, 131077, 0, 0, 131078, 0, 0, 131079, 0, 0, 131080, 0, 0, 131081, 0, 0, 131082, 0, 0, 131083, 0, 0, 131084, 0, 0, 131085, 0, 0, 131086, 0, 0, 131087, 0, 0, 131088, 0, 0, 131089, 0, 0, 131090, 0, 0, 131091, 0, 0, 131092, 0, 0, 131093, 0, 0, 131094, 0, 0, 131095, 0, 0, 131096, 0, 0, 131097, 0, 0, 131098, 0, 0, 131099, 0, 0, 131100, 0, 0, 131101, 0, 0, 131102, 0, 0, 131103, 0, 0, 131104, 0, 0, 131105, 0, 0, 131106, 0, 0, 131107, 0, 0, 131108, 0, 0, 131109, 0, 0, 131110, 0, 0, 131111, 0, 0, 131112, 0, 0, 131113, 0, 0, 131114, 0, 0, 131115, 0, 0, 131116, 0, 0, 2228235, 0, 0, 2228236, 0, 0, 2228237, 0, 0, 2228238, 0, 0, 2228239, 0, 0, 2228240, 0, 0, 2228241, 0, 0, 2228242, 0, 0, 2228243, 0, 0, 2228244, 0, 0, 2228245, 0, 0, 2228251, 0, 0, 2228252, 0, 0, 2228253, 0, 0, 2228254, 0, 0, 2228255, 0, 0, 2228256, 0, 0, 2228257, 0, 0, 2228258, 0, 0, 2228259, 0, 0, 2228260, 0, 0, 2228261, 0, 0, 2228262, 0, 0, 2228263, 0, 0, 2228264, 0, 0, 2228265, 0, 0, 2228266, 0, 0, 2228267, 0, 0, 2228268, 0, 0, 2228269, 0, 0, 2228270, 0, 0, 2228271, 0, 0, 2228272, 0, 0, 2228273, 0, 0, 2228274, 0, 0, 2228275, 0, 0, 2228276, 0, 0, 2228277, 0, 0, 2228278, 0, 0, 2228279, 0, 0, 2228280, 0, 0, 2228281, 0, 0, 2228282, 0, 0, 2228283, 0, 0, 2228284, 0, 0, 2228285, 0, 0, 2228286, 0, 0, 2228287, 0, 0, 2228288, 0, 0, 2228289, 0, 0, 2228290, 0, 0, 2228291, 0, 0, 2228292, 0, 0, 2228293, 0, 0, 2228294, 0, 0, 2228295, 0, 0, 2228296, 0, 0, 2228297, 0, 0, 2228298, 0, 0, 2228299, 0, 0, 2228300, 0, 0, 2228301, 0, 0, 2228302, 0, 0, 2228303, 0, 0, 2228304, 0, 0, 2228305, 0, 0, 2228306, 0, 0, 2228307, 0, 0, 2228308, 0, 0, 2228309, 0, 0, 2228310, 0, 0, 2228311, 0, 0, 2228312, 0, 0, 2228313, 0, 0, 2228314, 0, 0, 2228315, 0, 0, 2228316, 0, 0, 2228317, 0, 0, 2228318, 0, 0, 3276821, 0, 0, 3276822, 0, 0, 3276823, 0, 0, 3276824, 0, 0, 3276825, 0, 0, 3276826, 0, 0, 3407922, 0, 0, 3407923, 0, 0, 3407924, 0, 0, 3407925, 0, 0, 3407926, 0, 0, 3407927, 0, 0, 3407928, 0, 0, 3407929, 0, 0, 3407930, 0, 0, 3407931, 0, 0, 3407932, 0, 0, 3407933, 0, 0, 3407934, 0, 0, 3407935, 0, 0, 3407936, 0, 0, 3407937, 0, 0, 3407938, 0, 0, 3407939, 0, 0, 3407940, 0, 0, 3407941, 0, 0, 3407942, 0, 0, 4128793, 0, 0, 4128794, 0, 0, 4784187, 0, 0, 4784188, 0, 0, 4784189, 0, 0, 4784190, 0, 0, 4784191, 0, 0, 4784192, 0, 0, 4784193, 0, 0, 4784194, 0, 0, 4784195, 0, 0, 4784196, 0, 0, 4784197, 0, 0, 4784198, 0, 0, 4784199, 0, 0, 4915271, 0, 0, 4915272, 0, 0, 4915273, 0, 0, 4915274, 0, 0, 4915275, 0, 0, 4915276, 0, 0, 4915277, 0, 0, 4915278, 0, 0, 4915279, 0, 0, 4915280, 0, 0, 4915281, 0, 0, 4915282, 0, 0, 4915283, 0, 0, 4915284, 0, 0, 4915285, 0, 0, 4915286, 0, 0, 4915287, 0, 0, 4915288, 0, 0, 4915289, 0, 0, 4915290, 0, 0, 4915291, 0, 0, 4915292, 0, 0, 4915293, 0, 0, 4915294, 0, 0, 5636103, 0, 0, 5636104, 0, 0, 5636105, 0, 0, 5636106, 0, 0, 5636107, 0, 0, 5636108, 0, 0, 5636109, 0, 0, 5636110, 0, 0, 5636111, 0, 0, 5636112, 0, 0, 5636113, 0, 0, 5636114, 0, 0, 5636115, 0, 0, 5636116, 0, 0, 5636117, 0, 0, 5636118, 0, 0, 5636119, 0, 0, 5636120, 0, 0, 5636121, 0, 0, 5636122, 0, 0, 5636123, 0, 0, 5636124, 0, 0, 5636125, 0, 0, 5636126, 0, 0, 5636127, 0, 0, 5636128, 0, 0, 5636129, 0, 0, 5636130, 0, 0, 5636131, 0, 0, 5636132, 0, 0, 5636133, 0, 0, 5636134, 0, 0, 5636135, 0, 0, 5636136, 0, 0, 5636137, 0, 0, 5636138, 0, 0, 5636139, 0, 0, 5636140, 0, 0, 5636141, 0, 0, 5636142, 0, 0, 5636143, 0, 0, 5636144, 0, 0, 5636145, 0, 0, 5636146, 0, 0, 5636147, 0, 0, 5636148, 0, 0, 5636149, 0, 0, 5636150, 0, 0, 5636151, 0, 0, 5636152, 0, 0, 5636153, 0, 0, 5636154, 0, 0, 5636155, 0, 0 )
 
+[node name="MáquinaJogo" type="Sprite" parent="Parede/Grama/chao tatil 2"]
+position = Vector2( 216, 2097 )
+scale = Vector2( 0.302575, 0.302575 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 105 )
+flip_h = true
+
+[node name="Máquina-café" type="Sprite" parent="Parede/Grama/chao tatil 2/MáquinaJogo"]
+position = Vector2( 6421.55, -1008.01 )
+scale = Vector2( 2.04754, 2.04754 )
+texture = ExtResource( 99 )
+
+[node name="Máquina-café" type="Sprite" parent="Parede/Grama/chao tatil 2/MáquinaJogo/Máquina-café"]
+position = Vector2( -135.586, 1.61401 )
+texture = ExtResource( 99 )
+
+[node name="Maquina-lanches(1)" type="Sprite" parent="Parede/Grama/chao tatil 2/MáquinaJogo/Máquina-café/Máquina-café"]
+position = Vector2( -248.574, 45.1954 )
+scale = Vector2( 0.68851, 0.68851 )
+texture = ExtResource( 103 )
+
+[node name="Maquina-lanches(1)" type="Sprite" parent="Parede/Grama/chao tatil 2/MáquinaJogo/Máquina-café/Máquina-café/Maquina-lanches(1)"]
+position = Vector2( -171.138, -2.34424 )
+texture = ExtResource( 103 )
+
 [node name="chao rosa" type="TileMap" parent="Parede"]
 z_index = -2
 tile_set = SubResource( 40 )
@@ -1221,6 +1250,85 @@ flip_h = true
 position = Vector2( 1175.42, 113.98 )
 texture = ExtResource( 46 )
 flip_h = true
+
+[node name="Mesas6" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas"]
+position = Vector2( -694.567, 1032.95 )
+texture = ExtResource( 104 )
+
+[node name="Mesa-lateral(2)" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
+position = Vector2( 1175.42, -416.74 )
+texture = ExtResource( 46 )
+flip_h = true
+
+[node name="Mesa-lateral(2)2" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
+position = Vector2( 1175.42, 113.98 )
+texture = ExtResource( 46 )
+flip_h = true
+
+[node name="Mesas" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
+position = Vector2( -3.55859, 274.281 )
+texture = ExtResource( 104 )
+
+[node name="Mesas2" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
+position = Vector2( 3.56519, 537.861 )
+texture = ExtResource( 104 )
+
+[node name="Mesas3" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
+position = Vector2( 7.1272, 812.126 )
+texture = ExtResource( 104 )
+
+[node name="Mesas4" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
+position = Vector2( 10.689, 1082.83 )
+texture = ExtResource( 104 )
+
+[node name="Mesas5" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
+position = Vector2( 10.689, 1346.41 )
+texture = ExtResource( 104 )
+
+[node name="Mesas6" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
+position = Vector2( 7.1272, 1649.17 )
+texture = ExtResource( 104 )
+
+[node name="DecoraçãoParede" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6/Mesas6"]
+position = Vector2( -876.224, 463.045 )
+scale = Vector2( 1.67034, 1.67034 )
+z_index = 4
+texture = ExtResource( 107 )
+
+[node name="Papeis" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6/Mesas6/DecoraçãoParede"]
+position = Vector2( 110.887, -6.39697 )
+scale = Vector2( 0.365831, 0.365831 )
+texture = ExtResource( 106 )
+
+[node name="Sofa-secretaria" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6/Mesas6/DecoraçãoParede/Papeis"]
+position = Vector2( -2949.49, 1550.52 )
+scale = Vector2( 1.45596, 1.45596 )
+texture = ExtResource( 82 )
+
+[node name="Sofa-secretaria2" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6/Mesas6/DecoraçãoParede/Papeis"]
+position = Vector2( -2110.11, 1544.69 )
+scale = Vector2( 1.45596, 1.45596 )
+texture = ExtResource( 82 )
+
+[node name="Mesas7" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
+position = Vector2( 1870, 3700.82 )
+texture = ExtResource( 104 )
+
+[node name="Mesas8" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
+position = Vector2( 1218.17, 3707.94 )
+texture = ExtResource( 104 )
+
+[node name="Mesas10" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
+position = Vector2( -103.291, 3707.94 )
+texture = ExtResource( 104 )
+
+[node name="Mesas11" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
+position = Vector2( -751.555, 3707.94 )
+texture = ExtResource( 104 )
+
+[node name="Mesas9" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
+position = Vector2( 548.534, 3704.38 )
+texture = ExtResource( 104 )
 
 [node name="chao tatil 1" type="TileMap" parent="Parede"]
 z_index = 1
@@ -1387,6 +1495,22 @@ region_rect = Rect2( -0.703896, 64.1815, 16.9229, 48.7182 )
 position = Vector2( 107.472, 9.10556 )
 scale = Vector2( 0.316106, 0.316106 )
 texture = ExtResource( 103 )
+
+[node name="Sprite2" type="Sprite" parent="Cenário/Bebedouro"]
+position = Vector2( 1780, 1830 )
+scale = Vector2( 1.65625, 1.31787 )
+z_index = 7
+texture = ExtResource( 70 )
+region_enabled = true
+region_rect = Rect2( -0.703896, 64.1815, 16.9229, 48.7182 )
+
+[node name="Sprite3" type="Sprite" parent="Cenário/Bebedouro"]
+position = Vector2( 1729, 1831 )
+scale = Vector2( 1.65625, 1.31787 )
+z_index = 7
+texture = ExtResource( 70 )
+region_enabled = true
+region_rect = Rect2( -0.703896, 64.1815, 16.9229, 48.7182 )
 
 [node name="Quadros" type="Node2D" parent="Cenário"]
 z_index = -1
