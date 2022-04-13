@@ -1,4 +1,4 @@
-[gd_scene load_steps=181 format=2]
+[gd_scene load_steps=180 format=2]
 
 [ext_resource path="res://Imagens personagem/Isabela/Isa_baixo (1).png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Isabela/Isa_baixo (3).png" type="Texture" id=2]
@@ -154,14 +154,14 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 1 ), ExtResource( 6 ), ExtResource( 2 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
-"loop": true,
-"name": "Down",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 21 ), ExtResource( 5 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 28 ), ExtResource( 22 ) ],
 "loop": true,
 "name": "Up",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 1 ), ExtResource( 6 ), ExtResource( 2 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "Down",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 25 ), ExtResource( 3 ), ExtResource( 20 ), ExtResource( 15 ), ExtResource( 27 ), ExtResource( 4 ), ExtResource( 10 ), ExtResource( 26 ) ],
@@ -422,9 +422,6 @@ extents = Vector2( 19.5, 30.75 )
 [sub_resource type="CapsuleShape2D" id=53]
 radius = 19.0
 
-[sub_resource type="RectangleShape2D" id=54]
-extents = Vector2( 201.5, 57 )
-
 [sub_resource type="TileSet" id=32]
 0/name = "parede lager.png 0"
 0/texture = ExtResource( 132 )
@@ -668,8 +665,7 @@ texture = ExtResource( 36 )
 
 [node name="NPC" type="Area2D" parent="NPC\'s"]
 position = Vector2( 1058, -386 )
-z_index = 3
-z_as_relative = false
+z_index = 12
 script = ExtResource( 97 )
 __meta__ = {
 "_edit_group_": true
@@ -915,10 +911,6 @@ shape = SubResource( 53 )
 position = Vector2( 1982, 1961 )
 shape = SubResource( 53 )
 
-[node name="CollisionShape2D6" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( 2059.5, 2039 )
-shape = SubResource( 54 )
-
 [node name="Parede" type="Node" parent="."]
 
 [node name="parede cima" type="TileMap" parent="Parede"]
@@ -931,8 +923,7 @@ format = 1
 tile_data = PoolIntArray( -1048546, 0, 0, -1048545, 0, 0, -1048544, 0, 0, -1048543, 0, 0, -1048542, 0, 0, -1048541, 0, 0, -1048540, 0, 0, -1048539, 0, 0, -1048538, 0, 0, -1048537, 0, 0, -1048536, 0, 0, -1048535, 0, 0, -1048534, 0, 0, -1048533, 0, 0, -1048532, 0, 0, -1048531, 0, 0, -65536, 0, 0, -65535, 0, 0, -65534, 0, 0, -65533, 0, 0, -65532, 0, 0, -65531, 0, 0, -65530, 0, 0, -65529, 0, 0, -65528, 0, 0, -65527, 0, 0, -65526, 0, 0, -65525, 0, 0, -65524, 0, 0, -65523, 0, 0, -65522, 0, 0, -65521, 0, 0, -65520, 0, 0, -65519, 0, 0, -65518, 0, 0, -65517, 0, 0, -65516, 0, 0, -65515, 0, 0, -65514, 0, 0, -65513, 0, 0, -65512, 0, 0, -65511, 0, 0, -65510, 0, 0, -65509, 0, 0, -65508, 0, 0, -65507, 0, 0, -65506, 0, 0, -65505, 0, 0, -65504, 0, 0, -65503, 0, 0, -65502, 0, 0, -65501, 0, 0, -65500, 0, 0, -65499, 0, 0, -65498, 0, 0, -65497, 0, 0, -65496, 0, 0, -65495, 0, 0, -65490, 0, 0, -65489, 0, 0, -65488, 0, 0, -65487, 0, 0, -65486, 0, 0, -65485, 0, 0, -65484, 0, 0, -65483, 0, 0, -65482, 0, 0, -65481, 0, 0, 196625, 1, 0, 196626, 1, 0, 196627, 1, 0, 196628, 1, 0, 1114168, 0, 0, 1114169, 0, 0, 1114170, 0, 0, 1114171, 0, 0, 1114172, 0, 0, 1114173, 0, 0, 1114174, 0, 0, 1114175, 0, 0, 1114176, 0, 0, 1114177, 0, 0, 1114178, 0, 0, 1114179, 0, 0, 1114180, 0, 0, 1114181, 0, 0, 1114182, 0, 0, 1114183, 0, 0, 1114184, 0, 0, 1114185, 0, 0, 1114186, 0, 0, 1114187, 0, 0, 1114188, 0, 0, 1114189, 0, 0, 1114190, 0, 0, 1114191, 0, 0, 1114192, 0, 0, 1114193, 0, 0, 1114194, 0, 0, 1114195, 0, 0, 1114196, 0, 0, 1114197, 0, 0, 1114198, 0, 0, 1114199, 0, 0, 1114200, 0, 0, 1114201, 0, 0, 1114202, 0, 0, 1114203, 0, 0, 1114204, 0, 0, 1114205, 0, 0, 1114206, 0, 0, 1114207, 0, 0, 1114208, 0, 0, 1114209, 0, 0, 1441793, 0, 0, 1441794, 0, 0, 1441795, 0, 0, 1441796, 0, 0, 1441797, 0, 0, 1441798, 0, 0, 1441799, 0, 0, 1441800, 0, 0, 1441801, 0, 0, 1441802, 0, 0, 1441803, 0, 0, 1441804, 0, 0, 2031617, 0, 0, 2031618, 0, 0, 2031619, 0, 0, 2031620, 0, 0, 2031625, 0, 0, 2031626, 0, 0, 2031627, 0, 0, 2031628, 0, 0, 2031629, 0, 0, 2031630, 0, 0, 2031631, 0, 0, 2031632, 0, 0, 2031633, 0, 0, 2031634, 0, 0, 2031635, 0, 0, 2031636, 0, 0, 2031637, 0, 0, 2031638, 0, 0, 2031639, 0, 0, 2031640, 0, 0, 2031648, 0, 0, 2031649, 0, 0, 2031650, 0, 0, 2031651, 0, 0, 2031652, 0, 0, 2031653, 0, 0, 2031654, 0, 0, 2031655, 0, 0, 2031656, 0, 0, 2031657, 0, 0, 2031658, 0, 0, 2031659, 0, 0, 2031660, 0, 0, 2031661, 0, 0, 2031662, 0, 0, 2031663, 0, 0, 2031664, 0, 0, 2031665, 0, 0, 2031666, 0, 0, 2031667, 0, 0, 2031668, 0, 0, 2031669, 0, 0, 2031670, 0, 0, 2031671, 0, 0, 2031672, 0, 0, 2031673, 0, 0, 2031674, 0, 0, 2031675, 0, 0, 2031676, 0, 0, 2031677, 0, 0, 2031678, 0, 0, 2031679, 0, 0, 2031680, 0, 0, 2031681, 0, 0, 2031682, 0, 0, 2031683, 0, 0, 2031684, 0, 0, 2031685, 0, 0, 2031686, 0, 0, 2031687, 0, 0, 2031688, 0, 0, 2031689, 0, 0, 2031690, 0, 0, 2031691, 0, 0, 2031692, 0, 0, 2031693, 0, 0, 2031694, 0, 0, 2031695, 0, 0, 2031696, 0, 0, 2031697, 0, 0, 2031698, 0, 0, 2031699, 0, 0, 2031700, 0, 0, 2031701, 0, 0, 2031702, 0, 0, 2031703, 0, 0, 2031704, 0, 0, 2031705, 0, 0, 2031706, 0, 0, 2031707, 0, 0, 2031708, 0, 0, 2424879, 0, 0, 2424884, 0, 0, 2555903, 1, 0, 2490368, 1, 0, 2490369, 1, 0, 2490370, 1, 0, 2490371, 1, 0, 2490372, 1, 0, 2490373, 1, 0, 2490374, 1, 0, 2490375, 1, 0, 2490376, 1, 0, 2490377, 1, 0, 2490378, 1, 0, 2490379, 1, 0, 2490380, 1, 0, 2490381, 1, 0, 2490382, 1, 0, 2490383, 1, 0, 2490384, 1, 0, 2490385, 1, 0, 2490386, 1, 0, 2490387, 1, 0, 2490388, 1, 0, 2490389, 1, 0, 2490390, 1, 0, 3211316, 0, 0, 3211317, 0, 0, 3211318, 0, 0, 3211319, 0, 0, 3211320, 0, 0, 3211321, 0, 0, 3211322, 0, 0, 3211323, 0, 0, 3211324, 0, 0, 3211325, 0, 0, 3211326, 0, 0, 3211327, 0, 0, 3211328, 0, 0, 3211329, 0, 0, 3211330, 0, 0, 3211331, 0, 0, 3211332, 0, 0, 3211333, 0, 0, 3211334, 0, 0, 3211335, 0, 0, 3211336, 0, 0, 3211337, 0, 0, 3211338, 0, 0, 3932165, 0, 0, 3932166, 0, 0, 3932167, 0, 0, 3932168, 0, 0, 3932169, 0, 0, 3932170, 0, 0, 3932171, 0, 0, 3932172, 0, 0, 3932173, 0, 0, 3932174, 0, 0, 3932175, 0, 0, 3932176, 0, 0, 3932177, 0, 0, 3932178, 0, 0, 3932179, 0, 0, 3932180, 0, 0, 3932181, 0, 0, 3932182, 0, 0, 3932183, 0, 0, 3932184, 0, 0, 4325407, 0, 0, 4653131, 0, 0, 4653132, 0, 0, 4653133, 0, 0, 4653134, 0, 0, 4653135, 0, 0, 4653136, 0, 0, 4653137, 0, 0, 4653138, 0, 0, 4653139, 0, 0, 4653140, 0, 0, 4653141, 0, 0, 4653142, 0, 0, 4653143, 0, 0, 4653144, 0, 0, 4653145, 0, 0, 4653146, 0, 0, 4849688, 0, 0, 5111863, 0, 0, 5111864, 0, 0, 5111865, 0, 0, 5111866, 0, 0, 5111867, 0, 0, 5111868, 0, 0, 5111869, 0, 0, 5111870, 0, 0, 5111871, 0, 0, 5111872, 0, 0, 5111873, 0, 0, 5111874, 0, 0, 5111875, 0, 0, 5111876, 0, 0, 5111877, 0, 0, 5111878, 0, 0, 5111879, 0, 0, 5111880, 0, 0, 5111881, 0, 0, 5111882, 0, 0, 5111883, 0, 0, 5111884, 0, 0, 5111885, 0, 0, 5111886, 0, 0, 5111887, 0, 0, 5111888, 0, 0, 5439498, 0, 0, 5439499, 0, 0, 5439500, 0, 0, 5439501, 0, 0, 5439502, 0, 0, 5439503, 0, 0, 5439504, 0, 0, 5439505, 0, 0, 5439506, 0, 0, 5439507, 0, 0, 5439508, 0, 0, 5439509, 0, 0, 5439510, 0, 0, 5439511, 0, 0, 5439512, 0, 0, 5439513, 0, 0, 5439514, 0, 0, 5439515, 0, 0, 5439516, 0, 0, 5439517, 0, 0, 5439518, 0, 0, 5439519, 0, 0, 5439520, 0, 0, 5439521, 0, 0, 5439522, 0, 0, 5439523, 0, 0, 5439524, 0, 0, 5439525, 0, 0, 5439526, 0, 0, 5439527, 0, 0, 5439528, 0, 0, 5439529, 0, 0, 5439530, 0, 0, 5439531, 0, 0, 5439532, 0, 0, 5439533, 0, 0, 5439534, 0, 0, 5439535, 0, 0, 5439536, 0, 0, 5439537, 0, 0, 5439538, 0, 0, 5439539, 0, 0, 5439540, 0, 0, 5439541, 0, 0, 5439542, 0, 0, 5439543, 0, 0 )
 
 [node name="parede baixo" type="TileMap" parent="Parede"]
-z_index = 10
-z_as_relative = false
+z_index = 5
 tile_set = ExtResource( 35 )
 cell_size = Vector2( 32, 32 )
 show_collision = true
@@ -1316,11 +1307,7 @@ position = Vector2( 63.5, -0.5 )
 shape = SubResource( 11 )
 
 [node name="Porta2" type="Area2D" parent="Portas"]
-<<<<<<< Updated upstream
 position = Vector2( 1344, -191 )
-=======
-position = Vector2( 1344, -192 )
->>>>>>> Stashed changes
 z_index = 1
 script = ExtResource( 67 )
 __meta__ = {
@@ -1339,7 +1326,7 @@ position = Vector2( 56, -6 )
 shape = SubResource( 11 )
 
 [node name="Porta3" type="Area2D" parent="Portas"]
-position = Vector2( 833, 160 )
+position = Vector2( 832, 128 )
 z_index = 1
 script = ExtResource( 67 )
 __meta__ = {
@@ -1673,14 +1660,14 @@ texture = ExtResource( 127 )
 [node name="ArmarioCopa" type="Sprite" parent="."]
 position = Vector2( 328, 2047 )
 scale = Vector2( 1.79688, 1.79688 )
-z_index = 3
+z_index = 4
 z_as_relative = false
 texture = ExtResource( 150 )
 
 [node name="Armario" type="Sprite" parent="ArmarioCopa"]
 position = Vector2( 102.956, 8.3479 )
 scale = Vector2( 0.227584, 0.227584 )
-z_index = 3
+z_index = 4
 z_as_relative = false
 texture = ExtResource( 137 )
 
@@ -1701,8 +1688,7 @@ texture = ExtResource( 30 )
 
 [node name="Bancada" type="Sprite" parent="ArmarioCopa/Armario/Microondas/Microondas/Bancada"]
 position = Vector2( -193.949, 0 )
-z_index = 9
-z_as_relative = false
+z_index = -1
 texture = ExtResource( 30 )
 
 [node name="DecoraçãoParede" type="Sprite" parent="."]
@@ -1732,14 +1718,10 @@ texture = ExtResource( 136 )
 [node name="Plantinha" type="Sprite" parent="DecoraçãoParede/DecoraçãoCulture/DecoraçãoDream/DecoraçãoPeople"]
 position = Vector2( 826.075, 547.685 )
 scale = Vector2( 3.78919, 3.78919 )
-z_index = 3
-z_as_relative = false
 texture = ExtResource( 46 )
 
 [node name="Plantinha" type="Sprite" parent="DecoraçãoParede/DecoraçãoCulture/DecoraçãoDream/DecoraçãoPeople/Plantinha"]
 position = Vector2( -307.805, 0 )
-z_index = 3
-z_as_relative = false
 texture = ExtResource( 46 )
 
 [node name="CanvasLayer" parent="." instance=ExtResource( 41 )]
@@ -1753,27 +1735,26 @@ autoplay = true
 [node name="Geladeira" type="Sprite" parent="."]
 position = Vector2( 623, 2034 )
 scale = Vector2( 0.466666, 0.466666 )
-z_index = 3
-z_as_relative = false
+z_index = 5
 texture = ExtResource( 52 )
 
 [node name="MáquinaJogo" type="Sprite" parent="."]
 position = Vector2( 219, 2115 )
 scale = Vector2( 0.315987, 0.315987 )
-z_index = 3
+z_index = 5
 z_as_relative = false
 texture = ExtResource( 53 )
 flip_h = true
 
 [node name="MesaChefesIsabela" type="Sprite" parent="."]
 position = Vector2( 2052, 2696 )
-z_index = 3
+z_index = 5
 z_as_relative = false
 texture = ExtResource( 81 )
 
 [node name="MesaChefesIsabela2" type="Sprite" parent="."]
 position = Vector2( 2257, 2696 )
-z_index = 3
+z_index = 5
 z_as_relative = false
 texture = ExtResource( 81 )
 
@@ -1853,38 +1834,27 @@ texture = ExtResource( 95 )
 [node name="QuadroLucas" type="Sprite" parent="."]
 position = Vector2( 760, 2689 )
 scale = Vector2( 0.0579317, 0.0579317 )
-z_index = 3
-z_as_relative = false
+z_index = 4
 texture = ExtResource( 87 )
 
 [node name="QuadroJoao" type="Sprite" parent="QuadroLucas"]
 position = Vector2( 1467.24, 0.00390625 )
-z_index = 3
-z_as_relative = false
 texture = ExtResource( 86 )
 
 [node name="QuadroIsabela" type="Sprite" parent="QuadroLucas/QuadroJoao"]
 position = Vector2( 1346.41, 0 )
-z_index = 3
-z_as_relative = false
 texture = ExtResource( 89 )
 
 [node name="QuadroGloria" type="Sprite" parent="QuadroLucas/QuadroJoao/QuadroIsabela"]
 position = Vector2( 1398.2, -17.2617 )
-z_index = 3
-z_as_relative = false
 texture = ExtResource( 88 )
 
 [node name="QuadroAntonio" type="Sprite" parent="QuadroLucas/QuadroJoao/QuadroIsabela/QuadroGloria"]
 position = Vector2( 1294.63, 0 )
-z_index = 3
-z_as_relative = false
 texture = ExtResource( 96 )
 
 [node name="QuadroAna" type="Sprite" parent="QuadroLucas/QuadroJoao/QuadroIsabela/QuadroGloria"]
 position = Vector2( 2779.14, 0 )
-z_index = 3
-z_as_relative = false
 texture = ExtResource( 79 )
 
 [node name="CenárioEscritório" type="Sprite" parent="."]
@@ -1936,8 +1906,6 @@ region_rect = Rect2( 160, 69.788, 34, 44 )
 [node name="Prateleira-secretaria" type="Sprite" parent="CenárioEscritório6"]
 position = Vector2( -686.477, -3680.1 )
 scale = Vector2( 0.677428, 0.677428 )
-z_index = 3
-z_as_relative = false
 texture = ExtResource( 98 )
 
 [node name="Node" type="Node" parent="."]
