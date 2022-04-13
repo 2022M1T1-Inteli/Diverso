@@ -1,4 +1,4 @@
-[gd_scene load_steps=147 format=2]
+[gd_scene load_steps=155 format=2]
 
 [ext_resource path="res://Imagens personagem/Ana/faf6371d2edf4d6afc8ead13f161cd84EIj4hrAyeART7VEL-8.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Ana/Ana_cima (7).png" type="Texture" id=2]
@@ -39,7 +39,7 @@
 [ext_resource path="res://cenario/placas/PLACA_RECEPÇAO-removebg-preview.png" type="Texture" id=37]
 [ext_resource path="res://cenario/chao/grama.tres" type="TileSet" id=38]
 [ext_resource path="res://cenario/parede/parede_fora.tres" type="TileSet" id=39]
-[ext_resource path="res://cenario/decoracao/sofá-lado.png" type="Texture" id=40]
+[ext_resource path="res://NPC_Andando/sofá (2).png" type="Texture" id=40]
 [ext_resource path="res://NPC/sprites npc/npc 2.png" type="Texture" id=41]
 [ext_resource path="res://cenario/parede/parede ipa.png" type="Texture" id=42]
 [ext_resource path="res://cenario/decoracao/privada  banheiro.tres" type="TileSet" id=43]
@@ -89,12 +89,20 @@
 [ext_resource path="res://cenario/decoracao/maquina-lanches (1).png" type="Texture" id=87]
 [ext_resource path="res://mesas.png" type="Texture" id=88]
 [ext_resource path="res://cenario/decoracao/privada normal.png" type="Texture" id=89]
+[ext_resource path="res://quadro ana.png" type="Texture" id=90]
 [ext_resource path="res://cenario/placas/copa-.png" type="Texture" id=91]
 [ext_resource path="res://cenario/decoracao/mesa_recep.png" type="Texture" id=92]
 [ext_resource path="res://NPC/sprites npc/Segurança NPC.png" type="Texture" id=93]
 [ext_resource path="res://NPC/scripts npc/NPC2ana.gd" type="Script" id=94]
 [ext_resource path="res://NPC/scripts npc/NPC3ana.gd" type="Script" id=95]
+[ext_resource path="res://quadro joao.png" type="Texture" id=96]
 [ext_resource path="res://NPC/scripts npc/NPC4ana.gd" type="Script" id=97]
+[ext_resource path="res://quadro lucas.png" type="Texture" id=98]
+[ext_resource path="res://quadro gloria.png" type="Texture" id=99]
+[ext_resource path="res://quadro isabela.png" type="Texture" id=100]
+[ext_resource path="res://quadro antonio.png" type="Texture" id=101]
+[ext_resource path="res://NPC_Andando/ambev-tapete.png" type="Texture" id=102]
+[ext_resource path="res://NPC_Andando/on-ambev.png" type="Texture" id=103]
 [ext_resource path="res://cenario/decoracao copa/armario copa.png" type="Texture" id=127]
 [ext_resource path="res://cenario/placas/Placa banh fem.png" type="Texture" id=129]
 [ext_resource path="res://cenario/decoracao/decoração culture.png" type="Texture" id=130]
@@ -124,14 +132,14 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 21 ), ExtResource( 17 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 18 ), ExtResource( 28 ), ExtResource( 2 ), ExtResource( 6 ) ],
-"loop": true,
-"name": "Up",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 19 ), ExtResource( 26 ), ExtResource( 15 ), ExtResource( 10 ), ExtResource( 20 ), ExtResource( 27 ), ExtResource( 29 ), ExtResource( 24 ) ],
 "loop": true,
 "name": "Down",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 17 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 18 ), ExtResource( 28 ), ExtResource( 2 ), ExtResource( 6 ) ],
+"loop": true,
+"name": "Up",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 7 ) ],
@@ -1367,12 +1375,6 @@ scale = Vector2( 0.274733, 0.274733 )
 z_index = 2
 texture = ExtResource( 85 )
 
-[node name="Sala" type="Sprite" parent="seta"]
-position = Vector2( 382, 2703 )
-scale = Vector2( 0.268135, 0.268135 )
-z_index = 2
-texture = ExtResource( 45 )
-
 [node name="Copa-" type="Sprite" parent="seta"]
 position = Vector2( 1735, 2702 )
 scale = Vector2( 0.264462, 0.264462 )
@@ -1660,10 +1662,6 @@ texture = ExtResource( 136 )
 position = Vector2( 234.611, 0.000244141 )
 texture = ExtResource( 131 )
 
-[node name="Sofá-lado" type="Sprite" parent="."]
-position = Vector2( 1181, 2005 )
-texture = ExtResource( 40 )
-
 [node name="Sofa-secretaria" type="Sprite" parent="."]
 position = Vector2( 1368, 1215 )
 scale = Vector2( 0.29075, 0.29075 )
@@ -1742,13 +1740,6 @@ z_index = 7
 z_as_relative = false
 texture = ExtResource( 81 )
 
-[node name="Arcondicionado2" type="Sprite" parent="."]
-position = Vector2( 1884, 1330 )
-scale = Vector2( 0.319247, 0.319247 )
-z_index = 7
-z_as_relative = false
-texture = ExtResource( 81 )
-
 [node name="Arcondicionado3" type="Sprite" parent="."]
 position = Vector2( 1508, 2036 )
 texture = ExtResource( 81 )
@@ -1798,5 +1789,85 @@ z_index = 1
 z_as_relative = false
 texture = ExtResource( 53 )
 flip_h = true
+
+[node name="QuadroAna" type="Sprite" parent="."]
+position = Vector2( 669, 2691 )
+scale = Vector2( 0.0542313, 0.0542313 )
+z_index = 4
+z_as_relative = false
+texture = ExtResource( 90 )
+
+[node name="QuadroAntonio" type="Sprite" parent="QuadroAna"]
+position = Vector2( 1327.65, -18.4414 )
+texture = ExtResource( 101 )
+
+[node name="QuadroGloria" type="Sprite" parent="QuadroAna/QuadroAntonio"]
+position = Vector2( 1493.6, -18.4375 )
+texture = ExtResource( 99 )
+
+[node name="QuadroIsabela" type="Sprite" parent="QuadroAna/QuadroAntonio/QuadroGloria"]
+position = Vector2( 1438.28, 18.4375 )
+texture = ExtResource( 100 )
+
+[node name="QuadroJoao" type="Sprite" parent="QuadroAna/QuadroAntonio/QuadroGloria/QuadroIsabela"]
+position = Vector2( 1493.6, -18.4375 )
+texture = ExtResource( 96 )
+
+[node name="QuadroLucas" type="Sprite" parent="QuadroAna/QuadroAntonio/QuadroGloria/QuadroIsabela/QuadroJoao"]
+position = Vector2( 1512.04, -18.4414 )
+texture = ExtResource( 98 )
+
+[node name="On-ambev" type="Sprite" parent="."]
+position = Vector2( 1867, 1474 )
+scale = Vector2( 0.0455555, 0.0455555 )
+z_index = 6
+texture = ExtResource( 103 )
+offset = Vector2( -2129.27, -5509.76 )
+
+[node name="On-ambev2" type="Sprite" parent="."]
+position = Vector2( 2903, 1473 )
+scale = Vector2( 0.0455555, 0.0455555 )
+z_index = 6
+texture = ExtResource( 103 )
+offset = Vector2( -2129.27, -5509.76 )
+
+[node name="Ambev-tapete" type="Sprite" parent="On-ambev2"]
+position = Vector2( -23026.9, -5487.81 )
+scale = Vector2( 15.2221, 15.2221 )
+texture = ExtResource( 102 )
+
+[node name="Sofá(2)" type="Sprite" parent="On-ambev2/Ambev-tapete"]
+position = Vector2( -24.5149, 214.867 )
+scale = Vector2( 0.456111, 0.456111 )
+texture = ExtResource( 40 )
+
+[node name="ArmárioColorido2" type="Sprite" parent="."]
+position = Vector2( 2157, 1263 )
+scale = Vector2( 1.18595, 1.18595 )
+z_index = 7
+z_as_relative = false
+texture = ExtResource( 155 )
+
+[node name="ArmárioColorido4" type="Sprite" parent="."]
+position = Vector2( 2329, 1263 )
+scale = Vector2( 1.18595, 1.18595 )
+z_index = 7
+z_as_relative = false
+texture = ExtResource( 155 )
+
+[node name="Máquina-café" type="Sprite" parent="ArmárioColorido4"]
+position = Vector2( 410.641, -35.4147 )
+scale = Vector2( 0.766156, 0.766156 )
+texture = ExtResource( 75 )
+
+[node name="Maquina-lanches(1)" type="Sprite" parent="ArmárioColorido4/Máquina-café"]
+position = Vector2( -242.124, 46.2239 )
+scale = Vector2( 0.682785, 0.682785 )
+texture = ExtResource( 87 )
+
+[node name="Maquina-lanches(1)2" type="Sprite" parent="ArmárioColorido4/Máquina-café"]
+position = Vector2( -343.376, 46.2238 )
+scale = Vector2( 0.682785, 0.682785 )
+texture = ExtResource( 87 )
 
 [connection signal="animation_finished" from="Jogador/AnimationPlayer" to="Jogador" method="_on_AnimationPlayer_animation_finished"]

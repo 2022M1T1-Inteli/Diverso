@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/npc_andandod (3).png-feb33af43d4df429fd27b88abaeaccce.stex"
+path="res://.import/ambev-tapete.png-98e5a5adcedbca92c449d002366088c2.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://NPC_Andando/npc_andandod (3).png"
-dest_files=[ "res://.import/npc_andandod (3).png-feb33af43d4df429fd27b88abaeaccce.stex" ]
+source_file="res://NPC_Andando/ambev-tapete.png"
+dest_files=[ "res://.import/ambev-tapete.png-98e5a5adcedbca92c449d002366088c2.stex" ]
 
 [params]
 
@@ -31,5 +31,5 @@ process/invert_color=false
 process/normal_map_invert_y=false
 stream=false
 size_limit=0
-detect_3d=false
+detect_3d=true
 svg/scale=1.0

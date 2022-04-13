@@ -1,4 +1,4 @@
-[gd_scene load_steps=194 format=2]
+[gd_scene load_steps=243 format=2]
 
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-5.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Glória/9e7f19088fd54cb5b49029a1e695c7ebRNqP7eRorSClfy61-6.png" type="Texture" id=2]
@@ -166,17 +166,62 @@
 [ext_resource path="res://cenario/decoracao/papeis.png" type="Texture" id=164]
 [ext_resource path="res://cenario/decoracao/entrada 2.png" type="Texture" id=165]
 [ext_resource path="res://cenario/decoracao/decoração parede.png" type="Texture" id=166]
+[ext_resource path="res://quadro ana.png" type="Texture" id=167]
+[ext_resource path="res://quadro joao.png" type="Texture" id=168]
+[ext_resource path="res://quadro lucas.png" type="Texture" id=169]
+[ext_resource path="res://quadro gloria.png" type="Texture" id=170]
+[ext_resource path="res://quadro isabela.png" type="Texture" id=171]
+[ext_resource path="res://quadro antonio.png" type="Texture" id=172]
+[ext_resource path="res://NPC_Andando/npc_andandob (3).png" type="Texture" id=173]
+[ext_resource path="res://NPC_Andando/npc_andandob (2).png" type="Texture" id=174]
+[ext_resource path="res://NPC_Andando/npc_andandob (5).png" type="Texture" id=175]
+[ext_resource path="res://NPC_Andando/npc_andandob (7).png" type="Texture" id=176]
+[ext_resource path="res://NPC_Andando/npc_andandob (8).png" type="Texture" id=177]
+[ext_resource path="res://NPC_Andando/npc_andandob (10).png" type="Texture" id=178]
+[ext_resource path="res://NPC_Andando/npc_andandob (9).png" type="Texture" id=179]
+[ext_resource path="res://NPC_Andando/npc_andandob (4).png" type="Texture" id=180]
+[ext_resource path="res://NPC_Andando/npc_andandob (6).png" type="Texture" id=181]
+[ext_resource path="res://NPC_Andando/npc_andandob (1).png" type="Texture" id=182]
+[ext_resource path="res://NPC_Andando/npc_andandoe (8).png" type="Texture" id=183]
+[ext_resource path="res://NPC_Andando/npc_andandod (2).png" type="Texture" id=184]
+[ext_resource path="res://NPC_Andando/npc_andandod (3).png" type="Texture" id=185]
+[ext_resource path="res://NPC_Andando/npc_andandod (8).png" type="Texture" id=186]
+[ext_resource path="res://NPC_Andando/npc_andandod (4).png" type="Texture" id=187]
+[ext_resource path="res://NPC_Andando/npc_andandoe (6).png" type="Texture" id=188]
+[ext_resource path="res://NPC_Andando/npc_andandod (1).png" type="Texture" id=189]
+[ext_resource path="res://NPC_Andando/npc_andandod (6).png" type="Texture" id=190]
+[ext_resource path="res://NPC_Andando/npc_andandoe (4).png" type="Texture" id=191]
+[ext_resource path="res://NPC_Andando/npc_andandod (7).png" type="Texture" id=192]
+[ext_resource path="res://NPC_Andando/npc_andandoe (2).png" type="Texture" id=193]
+[ext_resource path="res://NPC_Andando/npc_andandod (5).png" type="Texture" id=194]
+[ext_resource path="res://NPC_Andando/npc_andandoe (3).png" type="Texture" id=195]
+[ext_resource path="res://NPC_Andando/npc_andandoe (7).png" type="Texture" id=196]
+[ext_resource path="res://NPC_Andando/npc_andandoe (5).png" type="Texture" id=197]
+[ext_resource path="res://NPC_Andando/npc_andandoe (1).png" type="Texture" id=198]
+[ext_resource path="res://NPC_Andando/npc_andandof (6).png" type="Texture" id=199]
+[ext_resource path="res://NPC_Andando/npc_andandof (1).png" type="Texture" id=200]
+[ext_resource path="res://NPC_Andando/npc_andandof (7).png" type="Texture" id=201]
+[ext_resource path="res://NPC_Andando/npc_andandof (4).png" type="Texture" id=202]
+[ext_resource path="res://NPC_Andando/npc_andandof (5).png" type="Texture" id=203]
+[ext_resource path="res://NPC_Andando/npc_andandof (2).png" type="Texture" id=204]
+[ext_resource path="res://NPC_Andando/npc_andandof (9).png" type="Texture" id=205]
+[ext_resource path="res://NPC_Andando/npc_andandof (3).png" type="Texture" id=206]
+[ext_resource path="res://NPC_Andando/npc_andandof (8).png" type="Texture" id=207]
+[ext_resource path="res://cenario/decoracao/armário colorido.png" type="Texture" id=208]
+[ext_resource path="res://NPC_Andando/sofá (2).png" type="Texture" id=209]
+[ext_resource path="res://NPC_Andando/ambev-tapete.png" type="Texture" id=210]
+[ext_resource path="res://NPC_Andando/on-ambev.png" type="Texture" id=211]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
-"loop": true,
-"name": "Up",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 29 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 27 ) ],
 "loop": true,
 "name": "Down",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
+"loop": true,
+"name": "Up",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 6 ) ],
@@ -615,6 +660,38 @@ extents = Vector2( 27.5, 60 )
 [sub_resource type="RectangleShape2D" id=36]
 extents = Vector2( 629.463, 68.2357 )
 
+[sub_resource type="SpriteFrames" id=47]
+animations = [ {
+"frames": [ ExtResource( 182 ), ExtResource( 174 ), ExtResource( 173 ), ExtResource( 180 ), ExtResource( 175 ), ExtResource( 181 ), ExtResource( 176 ), ExtResource( 177 ), ExtResource( 179 ), ExtResource( 178 ) ],
+"loop": true,
+"name": "andando ",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=48]
+animations = [ {
+"frames": [ ExtResource( 189 ), ExtResource( 184 ), ExtResource( 185 ), ExtResource( 187 ), ExtResource( 194 ), ExtResource( 190 ), ExtResource( 192 ), ExtResource( 186 ) ],
+"loop": true,
+"name": "andando",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=49]
+animations = [ {
+"frames": [ ExtResource( 198 ), ExtResource( 193 ), ExtResource( 195 ), ExtResource( 191 ), ExtResource( 197 ), ExtResource( 188 ), ExtResource( 196 ), ExtResource( 183 ) ],
+"loop": true,
+"name": "andando",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=50]
+animations = [ {
+"frames": [ ExtResource( 200 ), ExtResource( 204 ), ExtResource( 206 ), ExtResource( 202 ), ExtResource( 203 ), ExtResource( 199 ), ExtResource( 201 ), ExtResource( 207 ), ExtResource( 205 ) ],
+"loop": true,
+"name": "andando",
+"speed": 5.0
+} ]
+
 [node name="Labirinto" type="Node2D"]
 __meta__ = {
 "_edit_horizontal_guides_": [ -182.0 ]
@@ -835,7 +912,8 @@ shape = SubResource( 6 )
 [node name="Sprite" type="Sprite" parent="NPC\'s/NPC2"]
 position = Vector2( -4, 3 )
 scale = Vector2( 0.96875, 0.9375 )
-z_index = 3
+z_index = 6
+z_as_relative = false
 texture = ExtResource( 41 )
 
 [node name="NPC3" type="Area2D" parent="NPC\'s"]
@@ -981,7 +1059,7 @@ position = Vector2( 2855, 2735 )
 z_index = 2
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 5
+frame = 7
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -989,7 +1067,7 @@ position = Vector2( 2954, 2737 )
 z_index = 2
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 2
+frame = 4
 playing = true
 flip_h = true
 
@@ -998,7 +1076,7 @@ position = Vector2( 2507, 2840 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 6
+frame = 8
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -1006,7 +1084,7 @@ position = Vector2( 2560, 2776 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 5
+frame = 7
 playing = true
 flip_h = true
 
@@ -1017,7 +1095,7 @@ position = Vector2( 2600, 2833 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 8
+frame = 1
 playing = true
 flip_h = true
 
@@ -2016,7 +2094,7 @@ texture = ExtResource( 160 )
 [node name="DecoraçãoCulture" type="Sprite" parent="."]
 position = Vector2( 118, 750 )
 scale = Vector2( 0.524793, 0.524793 )
-z_index = 5
+z_index = 3
 z_as_relative = false
 texture = ExtResource( 133 )
 
@@ -2082,5 +2160,188 @@ scale = Vector2( 0.824571, 0.824571 )
 z_index = 5
 z_as_relative = false
 texture = ExtResource( 159 )
+
+[node name="QuadroAna" type="Sprite" parent="."]
+position = Vector2( 841, 2687 )
+scale = Vector2( 0.0465391, 0.0465391 )
+z_index = 4
+z_as_relative = false
+texture = ExtResource( 167 )
+
+[node name="QuadroAntonio" type="Sprite" parent="QuadroAna"]
+position = Vector2( 1418.16, -0.0078125 )
+texture = ExtResource( 172 )
+
+[node name="QuadroGloria" type="Sprite" parent="QuadroAna/QuadroAntonio"]
+position = Vector2( 1590.06, 0 )
+texture = ExtResource( 170 )
+
+[node name="QuadroIsabela" type="Sprite" parent="QuadroAna/QuadroAntonio/QuadroGloria"]
+position = Vector2( 1504.11, 0 )
+texture = ExtResource( 171 )
+
+[node name="QuadroJoao" type="Sprite" parent="QuadroAna/QuadroAntonio/QuadroGloria/QuadroIsabela"]
+position = Vector2( 1568.57, -42.9727 )
+texture = ExtResource( 168 )
+
+[node name="QuadroLucas" type="Sprite" parent="QuadroAna/QuadroAntonio/QuadroGloria/QuadroIsabela/QuadroJoao"]
+position = Vector2( 1676.01, 0.00390625 )
+texture = ExtResource( 169 )
+
+[node name="CenárioEscritório" type="Sprite" parent="."]
+position = Vector2( 1791, 1854 )
+z_index = 5
+texture = ExtResource( 70 )
+region_enabled = true
+region_rect = Rect2( 223, 64.788, 65, 44 )
+
+[node name="CenárioEscritório3" type="Sprite" parent="."]
+position = Vector2( 1851, 1854 )
+z_index = 5
+texture = ExtResource( 70 )
+region_enabled = true
+region_rect = Rect2( 223, 64.788, 65, 44 )
+
+[node name="CenárioEscritório2" type="Sprite" parent="."]
+position = Vector2( 1866, 1816 )
+scale = Vector2( 0.742424, 0.742424 )
+z_index = 7
+z_as_relative = false
+texture = ExtResource( 70 )
+region_enabled = true
+region_rect = Rect2( 159, 70.788, 33, 40 )
+
+[node name="CenárioEscritório4" type="Sprite" parent="."]
+position = Vector2( 1833, 1816 )
+scale = Vector2( 0.742424, 0.742424 )
+z_index = 7
+z_as_relative = false
+texture = ExtResource( 70 )
+region_enabled = true
+region_rect = Rect2( 159, 70.788, 33, 40 )
+
+[node name="CenárioEscritório5" type="Sprite" parent="."]
+position = Vector2( 1801, 1817 )
+scale = Vector2( 0.742424, 0.742424 )
+z_index = 7
+z_as_relative = false
+texture = ExtResource( 70 )
+region_enabled = true
+region_rect = Rect2( 159, 70.788, 33, 40 )
+
+[node name="CenárioEscritório6" type="Sprite" parent="."]
+position = Vector2( 1773, 1816 )
+scale = Vector2( 0.742424, 0.742424 )
+z_index = 7
+z_as_relative = false
+texture = ExtResource( 70 )
+region_enabled = true
+region_rect = Rect2( 159, 70.788, 33, 40 )
+
+[node name="MesaRecep" type="Sprite" parent="."]
+position = Vector2( 95, 941 )
+scale = Vector2( 1.4375, 1.4375 )
+z_index = 7
+z_as_relative = false
+texture = ExtResource( 92 )
+flip_h = true
+
+[node name="MesaRecep2" type="Sprite" parent="."]
+position = Vector2( 96, 991 )
+scale = Vector2( 1.4375, 1.4375 )
+z_index = 6
+texture = ExtResource( 92 )
+flip_h = true
+
+[node name="MesaRecep3" type="Sprite" parent="."]
+position = Vector2( 97, 871 )
+scale = Vector2( 1.4375, 1.4375 )
+z_index = 3
+texture = ExtResource( 92 )
+flip_h = true
+
+[node name="MesaRecep4" type="Sprite" parent="."]
+position = Vector2( 100, 814 )
+scale = Vector2( 1.4375, 1.4375 )
+z_index = 4
+texture = ExtResource( 92 )
+flip_h = true
+
+[node name="Node" type="Node" parent="."]
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Node"]
+position = Vector2( 1696, 1640 )
+z_index = 5
+z_as_relative = false
+frames = SubResource( 47 )
+animation = "andando "
+speed_scale = 5.0
+
+[node name="AnimatedSprite2" type="AnimatedSprite" parent="Node"]
+position = Vector2( 1704, 2585 )
+frames = SubResource( 48 )
+animation = "andando"
+speed_scale = 5.0
+flip_h = true
+
+[node name="AnimatedSprite3" type="AnimatedSprite" parent="Node"]
+position = Vector2( 1085, 964 )
+frames = SubResource( 49 )
+animation = "andando"
+speed_scale = 5.0
+
+[node name="AnimatedSprite4" type="AnimatedSprite" parent="Node"]
+position = Vector2( 2853, 1303 )
+z_index = 5
+z_as_relative = false
+frames = SubResource( 50 )
+animation = "andando"
+speed_scale = 5.0
+flip_h = true
+
+[node name="On-ambev" type="Sprite" parent="Node/AnimatedSprite4"]
+position = Vector2( -1059, -81 )
+scale = Vector2( 0.0420833, 0.0420833 )
+texture = ExtResource( 211 )
+
+[node name="On-ambev2" type="Sprite" parent="Node/AnimatedSprite4"]
+position = Vector2( -28, -80 )
+scale = Vector2( 0.0420833, 0.0420833 )
+texture = ExtResource( 211 )
+
+[node name="Ambev-tapete" type="Sprite" parent="Node/AnimatedSprite4/On-ambev2"]
+position = Vector2( -22978.2, -855.445 )
+scale = Vector2( 20.0013, 19.3694 )
+texture = ExtResource( 210 )
+
+[node name="Sofá(2)" type="Sprite" parent="Node/AnimatedSprite4/On-ambev2/Ambev-tapete"]
+position = Vector2( -19.009, 236.772 )
+scale = Vector2( 0.382769, 0.382769 )
+texture = ExtResource( 209 )
+
+[node name="ArmárioColorido" type="Sprite" parent="Node/AnimatedSprite4/On-ambev2/Ambev-tapete/Sofá(2)"]
+position = Vector2( 769.746, -384.608 )
+scale = Vector2( 3.83751, 3.83751 )
+texture = ExtResource( 208 )
+
+[node name="ArmárioColorido2" type="Sprite" parent="Node/AnimatedSprite4/On-ambev2/Ambev-tapete/Sofá(2)"]
+position = Vector2( 1322.22, -384.608 )
+scale = Vector2( 3.83751, 3.83751 )
+texture = ExtResource( 208 )
+
+[node name="Maquina-lanches(1)" type="Sprite" parent="Node/AnimatedSprite4/On-ambev2/Ambev-tapete/Sofá(2)/ArmárioColorido2"]
+position = Vector2( 109.998, -7.51685 )
+scale = Vector2( 0.430064, 0.430064 )
+texture = ExtResource( 52 )
+
+[node name="Maquina-lanches(1)2" type="Sprite" parent="Node/AnimatedSprite4/On-ambev2/Ambev-tapete/Sofá(2)/ArmárioColorido2"]
+position = Vector2( 172.277, -8.35193 )
+scale = Vector2( 0.430064, 0.430064 )
+texture = ExtResource( 52 )
+
+[node name="Máquina-café" type="Sprite" parent="Node/AnimatedSprite4/On-ambev2/Ambev-tapete/Sofá(2)/ArmárioColorido2/Maquina-lanches(1)2"]
+position = Vector2( 340.403, -67.9708 )
+scale = Vector2( 1.50031, 1.50031 )
+texture = ExtResource( 46 )
 
 [connection signal="animation_finished" from="Jogador/AnimationPlayer" to="Jogador" method="_on_AnimationPlayer_animation_finished"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=145 format=2]
+[gd_scene load_steps=194 format=2]
 
 [ext_resource path="res://Imagens personagem/Antônio/Anto_baixo (8).png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Antônio/ant_anda (2).png" type="Texture" id=2]
@@ -107,10 +107,39 @@
 [ext_resource path="res://máquina jogo.png" type="Texture" id=105]
 [ext_resource path="res://cenario/decoracao/papeis.png" type="Texture" id=106]
 [ext_resource path="res://cenario/decoracao/decoração parede.png" type="Texture" id=107]
+[ext_resource path="res://quadro ana.png" type="Texture" id=108]
+[ext_resource path="res://quadro joao.png" type="Texture" id=109]
+[ext_resource path="res://quadro lucas.png" type="Texture" id=110]
+[ext_resource path="res://quadro gloria.png" type="Texture" id=111]
+[ext_resource path="res://quadro isabela.png" type="Texture" id=112]
+[ext_resource path="res://quadro antonio.png" type="Texture" id=113]
+[ext_resource path="res://cenario/decoracao/preteleira.png" type="Texture" id=114]
+[ext_resource path="res://NPC_Andando/npc_andandob (3).png" type="Texture" id=115]
+[ext_resource path="res://NPC_Andando/npc_andandob (2).png" type="Texture" id=116]
+[ext_resource path="res://NPC_Andando/npc_andandob (5).png" type="Texture" id=117]
+[ext_resource path="res://NPC_Andando/npc_andandob (7).png" type="Texture" id=118]
+[ext_resource path="res://NPC_Andando/npc_andandob (8).png" type="Texture" id=119]
+[ext_resource path="res://NPC_Andando/npc_andandob (10).png" type="Texture" id=120]
+[ext_resource path="res://NPC_Andando/npc_andandob (9).png" type="Texture" id=121]
+[ext_resource path="res://NPC_Andando/npc_andandob (4).png" type="Texture" id=122]
+[ext_resource path="res://NPC_Andando/npc_andandob (6).png" type="Texture" id=123]
+[ext_resource path="res://NPC_Andando/npc_andandob (1).png" type="Texture" id=124]
+[ext_resource path="res://NPC_Andando/npc_andandoe (8).png" type="Texture" id=125]
+[ext_resource path="res://NPC_Andando/npc_andandoc (5).png" type="Texture" id=126]
+[ext_resource path="res://NPC_Andando/npc_andandod (2).png" type="Texture" id=127]
+[ext_resource path="res://NPC_Andando/npc_andandod (3).png" type="Texture" id=128]
 [ext_resource path="res://cenario/placas/Placa banh fem.png" type="Texture" id=129]
+[ext_resource path="res://NPC_Andando/npc_andandoc (1).png" type="Texture" id=130]
+[ext_resource path="res://NPC_Andando/npc_andandod (8).png" type="Texture" id=131]
 [ext_resource path="res://cenario/parede/parede lager.png" type="Texture" id=132]
+[ext_resource path="res://NPC_Andando/npc_andandod (4).png" type="Texture" id=133]
+[ext_resource path="res://NPC_Andando/npc_andandoc (6).png" type="Texture" id=134]
 [ext_resource path="res://cenario/decoracao copa/lixeira.png" type="Texture" id=135]
+[ext_resource path="res://NPC_Andando/npc_andandoe (6).png" type="Texture" id=136]
+[ext_resource path="res://NPC_Andando/npc_andandoc (4).png" type="Texture" id=137]
 [ext_resource path="res://cenario/decoracao copa/microondas.png" type="Texture" id=138]
+[ext_resource path="res://NPC_Andando/npc_andandod (1).png" type="Texture" id=139]
+[ext_resource path="res://NPC_Andando/npc_andandod (6).png" type="Texture" id=140]
 [ext_resource path="res://cenario/chao/chao cinza claro.png" type="Texture" id=141]
 [ext_resource path="res://NPC/sprites npc/NPC COPA.png" type="Texture" id=142]
 [ext_resource path="res://cenario/chao/chao branco.png" type="Texture" id=143]
@@ -119,17 +148,33 @@
 [ext_resource path="res://cenario/chao/chao madeira 2.png" type="Texture" id=146]
 [ext_resource path="res://cenario/chao/chao madeira 1.png" type="Texture" id=147]
 [ext_resource path="res://cenario/placas/PLACA_SALA_1_E-removebg-preview.png" type="Texture" id=148]
+[ext_resource path="res://NPC_Andando/npc_andandoc (3).png" type="Texture" id=149]
+[ext_resource path="res://NPC_Andando/npc_andandoe (4).png" type="Texture" id=150]
+[ext_resource path="res://NPC_Andando/npc_andandoc (8).png" type="Texture" id=151]
+[ext_resource path="res://NPC_Andando/npc_andandoc (2).png" type="Texture" id=152]
+[ext_resource path="res://NPC_Andando/npc_andandoc (7).png" type="Texture" id=153]
+[ext_resource path="res://NPC_Andando/npc_andandod (7).png" type="Texture" id=154]
+[ext_resource path="res://NPC_Andando/npc_andandoe (2).png" type="Texture" id=155]
+[ext_resource path="res://NPC_Andando/npc_andandod (5).png" type="Texture" id=156]
+[ext_resource path="res://NPC_Andando/npc_andandoe (3).png" type="Texture" id=157]
+[ext_resource path="res://NPC_Andando/npc_andandoe (7).png" type="Texture" id=158]
+[ext_resource path="res://NPC_Andando/npc_andandoe (5).png" type="Texture" id=159]
+[ext_resource path="res://NPC_Andando/npc_andandoe (1).png" type="Texture" id=160]
+[ext_resource path="res://cenario/decoracao/armário colorido.png" type="Texture" id=161]
+[ext_resource path="res://NPC_Andando/sofá (2).png" type="Texture" id=162]
+[ext_resource path="res://NPC_Andando/ambev-tapete.png" type="Texture" id=163]
+[ext_resource path="res://NPC_Andando/on-ambev.png" type="Texture" id=164]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 24 ), ExtResource( 28 ), ExtResource( 27 ), ExtResource( 4 ), ExtResource( 7 ), ExtResource( 17 ), ExtResource( 29 ), ExtResource( 18 ) ],
-"loop": true,
-"name": "Up",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 25 ), ExtResource( 10 ), ExtResource( 5 ), ExtResource( 15 ), ExtResource( 22 ), ExtResource( 19 ), ExtResource( 30 ), ExtResource( 1 ) ],
 "loop": true,
 "name": "Down",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 24 ), ExtResource( 28 ), ExtResource( 27 ), ExtResource( 4 ), ExtResource( 7 ), ExtResource( 17 ), ExtResource( 29 ), ExtResource( 18 ) ],
+"loop": true,
+"name": "Up",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 3 ) ],
@@ -522,6 +567,38 @@ extents = Vector2( 27.5, 60 )
 
 [sub_resource type="RectangleShape2D" id=36]
 extents = Vector2( 629.463, 68.2357 )
+
+[sub_resource type="SpriteFrames" id=51]
+animations = [ {
+"frames": [ ExtResource( 124 ), ExtResource( 116 ), ExtResource( 115 ), ExtResource( 122 ), ExtResource( 117 ), ExtResource( 123 ), ExtResource( 118 ), ExtResource( 119 ), ExtResource( 121 ), ExtResource( 120 ) ],
+"loop": true,
+"name": "andando",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=52]
+animations = [ {
+"frames": [ ExtResource( 130 ), ExtResource( 152 ), ExtResource( 149 ), ExtResource( 137 ), ExtResource( 126 ), ExtResource( 134 ), ExtResource( 153 ), ExtResource( 151 ) ],
+"loop": true,
+"name": "andando",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=53]
+animations = [ {
+"frames": [ ExtResource( 139 ), ExtResource( 127 ), ExtResource( 128 ), ExtResource( 133 ), ExtResource( 156 ), ExtResource( 140 ), ExtResource( 154 ), ExtResource( 131 ) ],
+"loop": true,
+"name": "andando",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=54]
+animations = [ {
+"frames": [ ExtResource( 160 ), ExtResource( 155 ), ExtResource( 157 ), ExtResource( 150 ), ExtResource( 159 ), ExtResource( 136 ), ExtResource( 158 ), ExtResource( 125 ) ],
+"loop": true,
+"name": "andando",
+"speed": 5.0
+} ]
 
 [node name="Labirinto" type="Node2D"]
 __meta__ = {
@@ -1186,8 +1263,8 @@ texture = ExtResource( 46 )
 flip_h = true
 
 [node name="Prateleira-secretaria" type="Sprite" parent="Parede"]
-position = Vector2( 1408, -462 )
-scale = Vector2( 0.249, 0.249 )
+position = Vector2( 1413.38, -456.41 )
+scale = Vector2( 0.2705, 0.2705 )
 z_index = 4
 z_as_relative = false
 texture = ExtResource( 83 )
@@ -1265,6 +1342,11 @@ position = Vector2( 1175.42, 113.98 )
 texture = ExtResource( 46 )
 flip_h = true
 
+[node name="Mesa-lateral(2)4" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
+position = Vector2( 3251.05, 597.458 )
+texture = ExtResource( 46 )
+flip_h = true
+
 [node name="Mesas" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
 position = Vector2( -3.55859, 274.281 )
 texture = ExtResource( 104 )
@@ -1289,45 +1371,85 @@ texture = ExtResource( 104 )
 position = Vector2( 7.1272, 1649.17 )
 texture = ExtResource( 104 )
 
-[node name="DecoraçãoParede" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6/Mesas6"]
-position = Vector2( -876.224, 463.045 )
-scale = Vector2( 1.67034, 1.67034 )
-z_index = 4
-texture = ExtResource( 107 )
-
-[node name="Papeis" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6/Mesas6/DecoraçãoParede"]
-position = Vector2( 110.887, -6.39697 )
-scale = Vector2( 0.365831, 0.365831 )
-texture = ExtResource( 106 )
-
-[node name="Sofa-secretaria" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6/Mesas6/DecoraçãoParede/Papeis"]
-position = Vector2( -2949.49, 1550.52 )
-scale = Vector2( 1.45596, 1.45596 )
-texture = ExtResource( 82 )
-
-[node name="Sofa-secretaria2" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6/Mesas6/DecoraçãoParede/Papeis"]
-position = Vector2( -2110.11, 1544.69 )
-scale = Vector2( 1.45596, 1.45596 )
-texture = ExtResource( 82 )
-
-[node name="Mesas7" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
-position = Vector2( 1870, 3700.82 )
+[node name="Mesas2" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2"]
+position = Vector2( 167.893, 5659.67 )
 texture = ExtResource( 104 )
 
-[node name="Mesas8" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
-position = Vector2( 1218.17, 3707.94 )
+[node name="Mesas" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas2"]
+position = Vector2( 719.5, -0.000488281 )
 texture = ExtResource( 104 )
 
-[node name="Mesas10" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
-position = Vector2( -103.291, 3707.94 )
+[node name="Mesas" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas2/Mesas"]
+position = Vector2( -708.814, 238.646 )
 texture = ExtResource( 104 )
 
-[node name="Mesas11" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
-position = Vector2( -751.555, 3707.94 )
+[node name="Mesas2" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas2/Mesas"]
+position = Vector2( 3.56201, 242.208 )
 texture = ExtResource( 104 )
 
-[node name="Mesas9" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas/Mesas/Mesas6"]
-position = Vector2( 548.534, 3704.38 )
+[node name="Mesas3" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas2/Mesas"]
+position = Vector2( -698.128, 505.787 )
+texture = ExtResource( 104 )
+
+[node name="Mesas4" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas2/Mesas"]
+position = Vector2( -694.567, 772.928 )
+texture = ExtResource( 104 )
+
+[node name="Mesas5" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas2/Mesas"]
+position = Vector2( -694.567, 1032.95 )
+texture = ExtResource( 104 )
+
+[node name="Mesa-lateral(2)" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas2/Mesas/Mesas5"]
+position = Vector2( 1175.42, -416.74 )
+texture = ExtResource( 46 )
+flip_h = true
+
+[node name="Mesa-lateral(2)2" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas2/Mesas/Mesas5"]
+position = Vector2( 1175.42, 113.98 )
+texture = ExtResource( 46 )
+flip_h = true
+
+[node name="Mesas6" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas2/Mesas"]
+position = Vector2( -694.567, 1032.95 )
+texture = ExtResource( 104 )
+
+[node name="Mesa-lateral(2)" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas2/Mesas/Mesas6"]
+position = Vector2( 1175.42, -416.74 )
+texture = ExtResource( 46 )
+flip_h = true
+
+[node name="Mesa-lateral(2)2" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas2/Mesas/Mesas6"]
+position = Vector2( 1175.42, 113.98 )
+texture = ExtResource( 46 )
+flip_h = true
+
+[node name="Mesa-lateral(2)4" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas2/Mesas/Mesas6"]
+position = Vector2( 3250.57, 1649.09 )
+texture = ExtResource( 46 )
+flip_h = true
+
+[node name="Mesas" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas2/Mesas/Mesas6"]
+position = Vector2( -3.55859, 274.281 )
+texture = ExtResource( 104 )
+
+[node name="Mesas2" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas2/Mesas/Mesas6"]
+position = Vector2( 3.56519, 537.861 )
+texture = ExtResource( 104 )
+
+[node name="Mesas3" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas2/Mesas/Mesas6"]
+position = Vector2( 7.1272, 812.126 )
+texture = ExtResource( 104 )
+
+[node name="Mesas4" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas2/Mesas/Mesas6"]
+position = Vector2( 10.689, 1082.83 )
+texture = ExtResource( 104 )
+
+[node name="Mesas5" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas2/Mesas/Mesas6"]
+position = Vector2( 10.689, 1346.41 )
+texture = ExtResource( 104 )
+
+[node name="Mesas6" type="Sprite" parent="Parede/Prateleira-secretaria/Entrada2/Mesas2/Mesas/Mesas6"]
+position = Vector2( 7.1272, 1649.17 )
 texture = ExtResource( 104 )
 
 [node name="chao tatil 1" type="TileMap" parent="Parede"]
@@ -1794,5 +1916,155 @@ texture = ExtResource( 101 )
 position = Vector2( -665.197, -1769.48 )
 scale = Vector2( 1.40563, 1.76405 )
 texture = ExtResource( 53 )
+
+[node name="QuadroAna" type="Sprite" parent="."]
+position = Vector2( 576, 2691 )
+scale = Vector2( 0.0530774, 0.0530774 )
+z_index = 4
+z_as_relative = false
+texture = ExtResource( 108 )
+
+[node name="QuadroAntonio" type="Sprite" parent="QuadroAna"]
+position = Vector2( 1601.43, 0 )
+texture = ExtResource( 113 )
+
+[node name="QuadroGloria" type="Sprite" parent="QuadroAna/QuadroAntonio"]
+position = Vector2( 1676.8, -18.8398 )
+texture = ExtResource( 111 )
+
+[node name="QuadroIsabela" type="Sprite" parent="QuadroAna/QuadroAntonio/QuadroGloria"]
+position = Vector2( 1733.31, 0 )
+texture = ExtResource( 112 )
+
+[node name="QuadroJoao" type="Sprite" parent="QuadroAna/QuadroAntonio/QuadroGloria/QuadroIsabela"]
+position = Vector2( 1582.6, -18.8398 )
+texture = ExtResource( 109 )
+
+[node name="QuadroLucas" type="Sprite" parent="QuadroAna/QuadroAntonio/QuadroGloria/QuadroIsabela/QuadroJoao"]
+position = Vector2( 1695.64, 0 )
+texture = ExtResource( 110 )
+
+[node name="DecoraçãoParede" type="Sprite" parent="."]
+position = Vector2( 922, 2180 )
+z_index = 7
+z_as_relative = false
+texture = ExtResource( 107 )
+
+[node name="Papeis" type="Sprite" parent="DecoraçãoParede"]
+position = Vector2( -836, -1438 )
+scale = Vector2( 0.14416, 0.14416 )
+texture = ExtResource( 106 )
+
+[node name="Preteleira" type="Sprite" parent="DecoraçãoParede/Papeis"]
+position = Vector2( 2129.58, -90.1775 )
+scale = Vector2( 2.88806, 2.88806 )
+texture = ExtResource( 114 )
+
+[node name="Preteleira2" type="Sprite" parent="DecoraçãoParede/Papeis"]
+position = Vector2( 1879.85, -90.1775 )
+scale = Vector2( 2.88806, 2.88806 )
+texture = ExtResource( 114 )
+
+[node name="Arcondicionado" type="Sprite" parent="DecoraçãoParede/Papeis/Preteleira2"]
+position = Vector2( 499.589, 4323.37 )
+scale = Vector2( 0.855454, 0.855454 )
+texture = ExtResource( 101 )
+
+[node name="Arcondicionado2" type="Sprite" parent="DecoraçãoParede/Papeis/Preteleira2"]
+position = Vector2( 2829.4, 1520.38 )
+texture = ExtResource( 101 )
+
+[node name="Sofa-secretaria" type="Sprite" parent="DecoraçãoParede/Papeis/Preteleira2/Arcondicionado2"]
+position = Vector2( -2533.97, 2550.79 )
+scale = Vector2( 0.744991, 0.744991 )
+texture = ExtResource( 82 )
+
+[node name="Sofa-secretaria" type="Sprite" parent="DecoraçãoParede/Papeis/Preteleira2/Arcondicionado2/Sofa-secretaria"]
+position = Vector2( 677.045, 3.22314 )
+texture = ExtResource( 82 )
+
+[node name="Plantinha" type="Sprite" parent="DecoraçãoParede/Papeis/Preteleira2/Arcondicionado2/Sofa-secretaria/Sofa-secretaria"]
+position = Vector2( -338.523, 96.7207 )
+scale = Vector2( 4.03403, 4.03403 )
+texture = ExtResource( 53 )
+
+[node name="Node" type="Node" parent="."]
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Node"]
+position = Vector2( 431, 2555 )
+frames = SubResource( 51 )
+animation = "andando"
+speed_scale = 5.0
+
+[node name="Sofá(2)" type="Sprite" parent="Node/AnimatedSprite"]
+position = Vector2( 1436, -1153 )
+scale = Vector2( 0.381649, 0.381649 )
+z_index = 7
+texture = ExtResource( 162 )
+
+[node name="Ambev-tapete" type="Sprite" parent="Node/AnimatedSprite/Sofá(2)"]
+position = Vector2( -52.4043, -560.725 )
+scale = Vector2( 2.33993, 2.33993 )
+z_as_relative = false
+texture = ExtResource( 163 )
+
+[node name="On-ambev" type="Sprite" parent="Node/AnimatedSprite/Sofá(2)/Ambev-tapete"]
+position = Vector2( -82.8633, 34.7129 )
+scale = Vector2( 0.0545687, 0.0545687 )
+z_index = 7
+texture = ExtResource( 164 )
+
+[node name="On-ambev2" type="Sprite" parent="Node/AnimatedSprite/Sofá(2)/Ambev-tapete"]
+position = Vector2( 1083.95, 35.832 )
+scale = Vector2( 0.0545687, 0.0545687 )
+z_index = 7
+texture = ExtResource( 164 )
+
+[node name="ArmárioColorido" type="Sprite" parent="Node/AnimatedSprite/Sofá(2)/Ambev-tapete/On-ambev2"]
+position = Vector2( -13276.8, 779.799 )
+scale = Vector2( 19.291, 19.291 )
+texture = ExtResource( 161 )
+
+[node name="ArmárioColorido2" type="Sprite" parent="Node/AnimatedSprite/Sofá(2)/Ambev-tapete/On-ambev2"]
+position = Vector2( -10486, 779.799 )
+scale = Vector2( 19.291, 19.291 )
+texture = ExtResource( 161 )
+
+[node name="Máquina-café" type="Sprite" parent="Node/AnimatedSprite/Sofá(2)/Ambev-tapete/On-ambev2/ArmárioColorido2"]
+position = Vector2( 560.589, -40.4219 )
+scale = Vector2( 0.922719, 0.922719 )
+texture = ExtResource( 99 )
+
+[node name="Maquina-lanches(1)2" type="Sprite" parent="Node/AnimatedSprite/Sofá(2)/Ambev-tapete/On-ambev2/ArmárioColorido2"]
+position = Vector2( 258.488, 0 )
+scale = Vector2( 0.618815, 0.618815 )
+texture = ExtResource( 103 )
+
+[node name="Maquina-lanches(1)3" type="Sprite" parent="Node/AnimatedSprite/Sofá(2)/Ambev-tapete/On-ambev2/ArmárioColorido2"]
+position = Vector2( 349.97, 0 )
+scale = Vector2( 0.618815, 0.618815 )
+texture = ExtResource( 103 )
+
+[node name="AnimatedSprite2" type="AnimatedSprite" parent="Node"]
+position = Vector2( 2016, 1908 )
+frames = SubResource( 52 )
+animation = "andando"
+speed_scale = 5.0
+flip_h = true
+
+[node name="AnimatedSprite3" type="AnimatedSprite" parent="Node"]
+position = Vector2( 1878, 1055 )
+z_index = 5
+z_as_relative = false
+frames = SubResource( 53 )
+animation = "andando"
+speed_scale = 5.0
+
+[node name="AnimatedSprite4" type="AnimatedSprite" parent="Node"]
+position = Vector2( 1972, 2814 )
+frames = SubResource( 54 )
+animation = "andando"
+speed_scale = 5.0
+flip_h = true
 
 [connection signal="animation_finished" from="Jogador/AnimationPlayer" to="Jogador" method="_on_AnimationPlayer_animation_finished"]
