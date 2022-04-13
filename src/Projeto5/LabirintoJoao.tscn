@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 [gd_scene load_steps=205 format=2]
+=======
+[gd_scene load_steps=211 format=2]
+>>>>>>> Stashed changes
 
 [ext_resource path="res://Imagens personagem/João/fa69623c94d34071d0493f489e8c244dNkPpvMCJNLzCY2ao-1.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/João/fa69623c94d34071d0493f489e8c244dNkPpvMCJNLzCY2ao-0.png" type="Texture" id=2]
@@ -168,17 +172,21 @@
 [ext_resource path="res://NPC_Andando/sofá (2).png" type="Texture" id=166]
 [ext_resource path="res://NPC_Andando/ambev-tapete.png" type="Texture" id=167]
 [ext_resource path="res://NPC_Andando/on-ambev.png" type="Texture" id=168]
+[ext_resource path="res://npc bock (1).png" type="Texture" id=169]
+[ext_resource path="res://npc bock (2).png" type="Texture" id=170]
+[ext_resource path="res://NPC/sprites npc/npc banheiro.png" type="Texture" id=171]
+[ext_resource path="res://NPC/sprites npc/NPC COPA.png" type="Texture" id=172]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 21 ), ExtResource( 25 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 113 ), ExtResource( 108 ), ExtResource( 109 ), ExtResource( 110 ) ],
-"loop": true,
-"name": "Up",
-"speed": 20.0
-}, {
 "frames": [ ExtResource( 24 ), ExtResource( 111 ), ExtResource( 112 ), ExtResource( 106 ), ExtResource( 26 ), ExtResource( 13 ), ExtResource( 11 ), ExtResource( 107 ) ],
 "loop": true,
 "name": "Down",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 25 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 113 ), ExtResource( 108 ), ExtResource( 109 ), ExtResource( 110 ) ],
+"loop": true,
+"name": "Up",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 2 ), ExtResource( 1 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 104 ), ExtResource( 88 ), ExtResource( 8 ), ExtResource( 105 ) ],
@@ -409,11 +417,19 @@ extents = Vector2( 253.5, 21.875 )
 [sub_resource type="RectangleShape2D" id=53]
 extents = Vector2( 231.438, 27.6875 )
 
+<<<<<<< Updated upstream
 [sub_resource type="RectangleShape2D" id=63]
 extents = Vector2( 45.5, 13 )
+=======
+[sub_resource type="CapsuleShape2D" id=63]
+
+[sub_resource type="CapsuleShape2D" id=64]
+
+[sub_resource type="CapsuleShape2D" id=65]
+>>>>>>> Stashed changes
 
 [sub_resource type="RectangleShape2D" id=60]
-extents = Vector2( 35.75, 13 )
+extents = Vector2( 27.2969, 13 )
 
 [sub_resource type="RectangleShape2D" id=61]
 extents = Vector2( 69.5, 34 )
@@ -750,6 +766,8 @@ region_rect = Rect2( 9.95958, 1.53343, 70.9794, 52.4054 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC/StaticBody2D3"]
 position = Vector2( -0.416687, -13.6393 )
+z_index = 3
+z_as_relative = false
 shape = SubResource( 25 )
 
 [node name="StaticBody2D4" type="StaticBody2D" parent="NPC\'s/NPC"]
@@ -758,7 +776,8 @@ scale = Vector2( 1.2, 1.17308 )
 z_index = -1
 
 [node name="Mesa" type="Sprite" parent="NPC\'s/NPC/StaticBody2D4"]
-z_index = 7
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 38 )
 flip_h = true
 region_enabled = true
@@ -783,6 +802,8 @@ region_rect = Rect2( 9.95958, 1.53343, 70.9794, 52.4054 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC\'s/NPC/StaticBody2D5"]
 position = Vector2( -0.416687, -13.6393 )
+z_index = 3
+z_as_relative = false
 shape = SubResource( 25 )
 
 [node name="NPC2" type="Area2D" parent="NPC\'s"]
@@ -1073,14 +1094,24 @@ shape = SubResource( 52 )
 [node name="Geladeira" type="Sprite" parent="Figurante/StaticBody2D/CollisionShape  banehiro3"]
 position = Vector2( 208.5, 9.125 )
 scale = Vector2( 0.475, 0.475 )
+<<<<<<< Updated upstream
 z_index = 4
+=======
+z_index = 3
+>>>>>>> Stashed changes
 z_as_relative = false
 texture = ExtResource( 41 )
 
 [node name="MáquinaJogo" type="Sprite" parent="Figurante/StaticBody2D/CollisionShape  banehiro3/Geladeira"]
+<<<<<<< Updated upstream
 position = Vector2( -1010.53, 178.948 )
 scale = Vector2( 0.5, 0.5 )
 z_index = 5
+=======
+position = Vector2( -1004.21, 221.053 )
+scale = Vector2( 0.626497, 0.626497 )
+z_index = 3
+>>>>>>> Stashed changes
 z_as_relative = false
 texture = ExtResource( 42 )
 flip_h = true
@@ -1102,6 +1133,7 @@ position = Vector2( 839.5, -668 )
 shape = SubResource( 63 )
 
 [node name="CollisionShape  pia5" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+<<<<<<< Updated upstream
 position = Vector2( -245, -2551 )
 shape = SubResource( 31 )
 
@@ -1112,21 +1144,33 @@ shape = SubResource( 31 )
 [node name="CollisionShape  pia7" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
 position = Vector2( -174, -2565 )
 shape = SubResource( 31 )
+=======
+position = Vector2( 189, -2740 )
+shape = SubResource( 63 )
+
+[node name="CollisionShape  pia6" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 128, -2727 )
+shape = SubResource( 64 )
+
+[node name="CollisionShape  pia7" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 20, -2629 )
+shape = SubResource( 65 )
+>>>>>>> Stashed changes
 
 [node name="CollisionShape  pia8" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( -953.75, -1592 )
+position = Vector2( -947.297, -1592 )
 shape = SubResource( 60 )
 
 [node name="CollisionShape  pia10" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( -935, -1513 )
+position = Vector2( -944.375, -1513 )
 shape = SubResource( 60 )
 
 [node name="CollisionShape  pia11" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( -937, -1462 )
+position = Vector2( -939.844, -1462 )
 shape = SubResource( 60 )
 
 [node name="CollisionShape  pia12" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( -939, -1409 )
+position = Vector2( -941.688, -1409 )
 shape = SubResource( 60 )
 
 [node name="CollisionShape  pia9" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
@@ -1134,7 +1178,7 @@ position = Vector2( -689.5, -1652 )
 shape = SubResource( 61 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
-position = Vector2( -819, -270.5 )
+position = Vector2( -810, -246 )
 shape = SubResource( 62 )
 
 [node name="Parede" type="Node" parent="."]
@@ -1149,7 +1193,12 @@ format = 1
 tile_data = PoolIntArray( -1048545, 0, 0, -1048544, 0, 0, -1048543, 0, 0, -1048542, 0, 0, -1048541, 0, 0, -1048540, 0, 0, -1048539, 0, 0, -1048538, 0, 0, -1048537, 0, 0, -1048536, 0, 0, -1048535, 0, 0, -1048534, 0, 0, -1048533, 0, 0, -1048532, 0, 0, -1048531, 0, 0, -65536, 0, 0, -65535, 0, 0, -65534, 0, 0, -65533, 0, 0, -65532, 0, 0, -65531, 0, 0, -65530, 0, 0, -65529, 0, 0, -65528, 0, 0, -65527, 0, 0, -65526, 0, 0, -65525, 0, 0, -65524, 0, 0, -65523, 0, 0, -65522, 0, 0, -65521, 0, 0, -65520, 0, 0, -65519, 0, 0, -65518, 0, 0, -65517, 0, 0, -65516, 0, 0, -65515, 0, 0, -65514, 0, 0, -65513, 0, 0, -65512, 0, 0, -65511, 0, 0, -65510, 0, 0, -65509, 0, 0, -65508, 0, 0, -65507, 0, 0, -65506, 0, 0, -65505, 0, 0, -65504, 0, 0, -65503, 0, 0, -65502, 0, 0, -65501, 0, 0, -65500, 0, 0, -65499, 0, 0, -65498, 0, 0, -65497, 0, 0, -65496, 0, 0, -65495, 0, 0, 1376257, 0, 0, 1376258, 0, 0, 1376259, 0, 0, 1376260, 0, 0, 1376261, 0, 0, 1376262, 0, 0, 1376263, 0, 0, 1376264, 0, 0, 1376265, 0, 0, 1376266, 0, 0, 1376267, 0, 0, 1376268, 0, 0, 2031617, 0, 0, 2031618, 0, 0, 2031619, 0, 0, 2031620, 0, 0, 2031625, 0, 0, 2031626, 0, 0, 2031627, 0, 0, 2031628, 0, 0, 2031629, 0, 0, 2031630, 0, 0, 2031631, 0, 0, 2031632, 0, 0, 2031633, 0, 0, 2031634, 0, 0, 2031635, 0, 0, 2031636, 0, 0, 2031637, 0, 0, 2031638, 0, 0, 2031639, 0, 0, 2031648, 0, 0, 2031649, 0, 0, 2031650, 0, 0, 2031651, 0, 0, 2031652, 0, 0, 2031653, 0, 0, 2031654, 0, 0, 2031655, 0, 0, 2031656, 0, 0, 2031657, 0, 0, 2031658, 0, 0, 2031659, 0, 0, 2031660, 0, 0, 2031661, 0, 0, 2031662, 0, 0, 2031663, 0, 0, 2031664, 0, 0, 2031665, 0, 0, 2031666, 0, 0, 2031667, 0, 0, 2031668, 0, 0, 2031669, 0, 0, 2031670, 0, 0, 2031671, 0, 0, 2031672, 0, 0, 2031673, 0, 0, 2031674, 0, 0, 2031675, 0, 0, 2031676, 0, 0, 2031677, 0, 0, 2031678, 0, 0, 2031679, 0, 0, 2031680, 0, 0, 2031681, 0, 0, 2031682, 0, 0, 2031683, 0, 0, 2031684, 0, 0, 2031685, 0, 0, 2031686, 0, 0, 2031687, 0, 0, 2031688, 0, 0, 2031689, 0, 0, 2031690, 0, 0, 2031691, 0, 0, 2031692, 0, 0, 2031693, 0, 0, 2031694, 0, 0, 2031695, 0, 0, 2031696, 0, 0, 2031697, 0, 0, 2031698, 0, 0, 2031699, 0, 0, 2031700, 0, 0, 2031701, 0, 0, 2031702, 0, 0, 2031703, 0, 0, 2031704, 0, 0, 2031705, 0, 0, 2031706, 0, 0, 2031707, 0, 0, 2031708, 0, 0, 2031709, 0, 0, 2031710, 0, 0, 2031711, 0, 0, 2031712, 0, 0, 2031713, 0, 0, 2490368, 1, 0, 2490369, 1, 0, 2490370, 1, 0, 2490371, 1, 0, 2490372, 1, 0, 2490373, 1, 0, 2490374, 1, 0, 2490375, 1, 0, 2490376, 1, 0, 2490377, 1, 0, 2490378, 1, 0, 2490379, 1, 0, 2490380, 1, 0, 2490381, 1, 0, 2490382, 1, 0, 2490383, 1, 0, 2490384, 1, 0, 2490385, 1, 0, 2490386, 1, 0, 2490387, 1, 0, 2490388, 1, 0, 2490389, 1, 0, 2490390, 1, 0, 3211316, 0, 0, 3211317, 0, 0, 3211318, 0, 0, 3211319, 0, 0, 3211320, 0, 0, 3211321, 0, 0, 3211322, 0, 0, 3211323, 0, 0, 3211324, 0, 0, 3211325, 0, 0, 3211326, 0, 0, 3211327, 0, 0, 3211328, 0, 0, 3211329, 0, 0, 3211330, 0, 0, 3211331, 0, 0, 3211332, 0, 0, 3211333, 0, 0, 3211334, 0, 0, 3211335, 0, 0, 3211336, 0, 0, 3211337, 0, 0, 3932165, 0, 0, 3932166, 0, 0, 3932167, 0, 0, 3932168, 0, 0, 3932169, 0, 0, 3932170, 0, 0, 3932171, 0, 0, 3932172, 0, 0, 3932173, 0, 0, 3932174, 0, 0, 3932175, 0, 0, 3932176, 0, 0, 3932177, 0, 0, 3932178, 0, 0, 3932179, 0, 0, 3932180, 0, 0, 3932181, 0, 0, 3932182, 0, 0, 3932183, 0, 0, 3932184, 0, 0, 4325407, 0, 0, 4522039, 0, 0, 4522040, 0, 0, 4522041, 0, 0, 4522042, 0, 0, 4522043, 0, 0, 4522044, 0, 0, 4522045, 0, 0, 4522046, 0, 0, 4522047, 0, 0, 4522048, 0, 0, 4522049, 0, 0, 4522050, 0, 0, 4522051, 0, 0, 4522052, 0, 0, 4522053, 0, 0, 4522054, 0, 0, 4522055, 0, 0, 4522056, 0, 0, 4522057, 0, 0, 4522058, 0, 0, 4522059, 0, 0, 4522060, 0, 0, 4522061, 0, 0, 4522062, 0, 0, 4522063, 0, 0, 4522064, 0, 0, 4522065, 0, 0, 4522066, 0, 0, 4522067, 0, 0, 4522068, 0, 0, 4522069, 0, 0, 4522070, 0, 0, 4522071, 0, 0, 4522072, 0, 0, 4522073, 0, 0, 5439493, 536870912, 0, 5439494, 536870912, 0, 5439495, 536870912, 0, 5439496, 536870912, 0, 5439497, 536870912, 0, 5439498, 536870912, 0, 5439499, 536870912, 0, 5439500, 536870912, 0, 5439501, 536870912, 0, 5439502, 536870912, 0, 5439503, 0, 0, 5439504, 0, 0, 5439505, 0, 0, 5439506, 0, 0, 5439507, 0, 0, 5439508, 0, 0, 5439509, 0, 0, 5439510, 0, 0, 5439511, 0, 0, 5439512, 0, 0, 5439513, 0, 0, 5439514, 0, 0, 5439515, 0, 0, 5439516, 0, 0, 5439517, 0, 0, 5439518, 0, 0, 5439519, 0, 0, 5439520, 0, 0, 5439521, 0, 0, 5439522, 0, 0, 5439523, 0, 0, 5439524, 0, 0, 5439525, 0, 0, 5439526, 0, 0, 5439527, 0, 0, 5439528, 0, 0, 5439529, 0, 0, 5439530, 0, 0, 5439531, 0, 0, 5439532, 0, 0, 5439533, 0, 0, 5439534, 0, 0, 5439535, 0, 0, 5439536, 0, 0, 5439537, 0, 0, 5439538, 0, 0, 5439539, 0, 0, 5439540, 0, 0, 5439541, 0, 0, 5439542, 0, 0, 5439564, 0, 0, 5439565, 0, 0, 5439566, 0, 0, 5439567, 0, 0, 5439568, 0, 0, 5439574, 0, 0, 5439575, 0, 0, 5439576, 0, 0, 5439577, 0, 0, 5439578, 0, 0, 5439580, 0, 0, 5439582, 0, 0, 5439584, 0, 0, 5439585, 0, 0 )
 
 [node name="parede baixo" type="TileMap" parent="Parede"]
+<<<<<<< Updated upstream
 z_index = 7
+=======
+z_index = 10
+z_as_relative = false
+>>>>>>> Stashed changes
 tile_set = ExtResource( 115 )
 cell_size = Vector2( 32, 32 )
 show_collision = true
@@ -1527,7 +1576,7 @@ position = Vector2( 56, -6 )
 shape = SubResource( 11 )
 
 [node name="Porta3" type="Area2D" parent="Portas"]
-position = Vector2( 831, 127 )
+position = Vector2( 832, 160 )
 z_index = 1
 script = ExtResource( 100 )
 __meta__ = {
@@ -1546,7 +1595,7 @@ position = Vector2( 64, 28.75 )
 shape = SubResource( 11 )
 
 [node name="Porta4" type="Area2D" parent="Portas"]
-position = Vector2( 1535, 1558.25 )
+position = Vector2( 1535, 1568 )
 z_index = 1
 script = ExtResource( 100 )
 __meta__ = {
@@ -1792,6 +1841,8 @@ texture = ExtResource( 20 )
 [node name="ArmárioMadeira" type="Sprite" parent="seta/Microondas2"]
 position = Vector2( 39.2386, 129.257 )
 scale = Vector2( 3.05789, 3.05789 )
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 43 )
 
 [node name="PlacaBanhFem" type="Sprite" parent="."]
@@ -1847,7 +1898,7 @@ texture = ExtResource( 149 )
 [node name="ArmarioCopa" type="Sprite" parent="."]
 position = Vector2( 345, 2044 )
 scale = Vector2( 1.84375, 1.84375 )
-z_index = 4
+z_index = 3
 z_as_relative = false
 texture = ExtResource( 17 )
 
@@ -1911,28 +1962,38 @@ stream = ExtResource( 34 )
 [node name="QuadroAna" type="Sprite" parent="."]
 position = Vector2( 1605, 1023 )
 scale = Vector2( 0.0515385, 0.0515385 )
-z_index = 4
+z_index = 3
 z_as_relative = false
 texture = ExtResource( 48 )
 
 [node name="QuadroAntonio" type="Sprite" parent="QuadroAna"]
 position = Vector2( 1494.03, -0.00390625 )
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 53 )
 
 [node name="QuadroGloria" type="Sprite" parent="QuadroAna/QuadroAntonio"]
 position = Vector2( 1513.43, -19.3945 )
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 51 )
 
 [node name="QuadroIsabela" type="Sprite" parent="QuadroAna/QuadroAntonio/QuadroGloria"]
 position = Vector2( 1494.03, -19.4063 )
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 52 )
 
 [node name="QuadroJoao" type="Sprite" parent="QuadroAna/QuadroAntonio/QuadroGloria/QuadroIsabela"]
 position = Vector2( 1474.63, 19.4023 )
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 49 )
 
 [node name="QuadroLucas" type="Sprite" parent="QuadroAna/QuadroAntonio/QuadroGloria/QuadroIsabela/QuadroJoao"]
 position = Vector2( 1532.83, 0 )
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 50 )
 
 [node name="Papeis" type="Sprite" parent="."]
@@ -2020,6 +2081,8 @@ flip_h = true
 
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="Node"]
 position = Vector2( 69, 1144 )
+z_index = 3
+z_as_relative = false
 frames = SubResource( 56 )
 animation = "andando"
 speed_scale = 5.0
@@ -2088,5 +2151,27 @@ texture = ExtResource( 45 )
 position = Vector2( -344.831, 52.285 )
 scale = Vector2( 0.708878, 0.708878 )
 texture = ExtResource( 45 )
+
+[node name="NpcBock(1)" type="Sprite" parent="."]
+position = Vector2( 1054, -440 )
+scale = Vector2( 0.958333, 0.958333 )
+z_index = 5
+texture = ExtResource( 169 )
+
+[node name="NpcBock(2)" type="Sprite" parent="NpcBock(1)"]
+position = Vector2( 175.304, 76.174 )
+scale = Vector2( 0.945652, 0.945652 )
+texture = ExtResource( 170 )
+flip_h = true
+
+[node name="NpcBanheiro" type="Sprite" parent="NpcBock(1)/NpcBock(2)"]
+position = Vector2( -109.241, -75.0345 )
+texture = ExtResource( 171 )
+flip_h = true
+
+[node name="NpcCopa" type="Sprite" parent="NpcBock(1)/NpcBock(2)/NpcBanheiro"]
+position = Vector2( 38.6206, 82.7587 )
+scale = Vector2( 0.343869, 0.343869 )
+texture = ExtResource( 172 )
 
 [connection signal="animation_finished" from="Jogador/AnimationPlayer" to="Jogador" method="_on_AnimationPlayer_animation_finished"]
