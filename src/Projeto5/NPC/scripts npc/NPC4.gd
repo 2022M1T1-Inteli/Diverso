@@ -26,7 +26,7 @@ func _input(event):
 
 func unpause(timeline_timeline1):
 	get_tree().paused = false
-	Globalpos.objective = "Vá para a sala Lager"
+	Globalpos.objective = "Vá para o RH"
 
 
 
