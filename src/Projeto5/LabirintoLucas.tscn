@@ -1,4 +1,4 @@
-[gd_scene load_steps=222 format=2]
+[gd_scene load_steps=223 format=2]
 
 [ext_resource path="res://Imagens personagem/Lucas/cb95adfa0c174235b7daed3e1c81dbcdT81fygRaNdxOykk5-9.png" type="Texture" id=1]
 [ext_resource path="res://Imagens personagem/Lucas/Lucas_baixo (1).png" type="Texture" id=2]
@@ -496,6 +496,9 @@ extents = Vector2( 17.875, 26.25 )
 [sub_resource type="RectangleShape2D" id=59]
 extents = Vector2( 25.75, 68.5 )
 
+[sub_resource type="RectangleShape2D" id=60]
+extents = Vector2( 28, 34.5 )
+
 [sub_resource type="TileSet" id=32]
 0/name = "parede lager.png 0"
 0/texture = ExtResource( 132 )
@@ -931,6 +934,7 @@ position = Vector2( 2853, 2733 )
 z_index = 5
 frames = SubResource( 28 )
 animation = "Genero Flúido"
+frame = 2
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -938,7 +942,7 @@ position = Vector2( 2953, 2734 )
 z_index = 5
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 6
+frame = 8
 playing = true
 flip_h = true
 
@@ -947,7 +951,7 @@ position = Vector2( 2578, 2845 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 1
+frame = 3
 playing = true
 flip_h = true
 
@@ -956,6 +960,7 @@ position = Vector2( 2616, 2748 )
 z_index = 5
 frames = SubResource( 26 )
 animation = "Bissexual"
+frame = 2
 playing = true
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Lager"]
@@ -1023,6 +1028,10 @@ shape = SubResource( 58 )
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
 position = Vector2( 1035, -1020.5 )
 shape = SubResource( 59 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Figurante/StaticBody2D"]
+position = Vector2( 1704, -51.5 )
+shape = SubResource( 60 )
 
 [node name="Parede" type="Node" parent="."]
 
@@ -1176,7 +1185,7 @@ tile_data = PoolIntArray( -1572848, 0, 0, -1572847, 0, 0, -1572846, 0, 0, -15728
 [node name="LogoLager" type="Sprite" parent="Parede/chao cinza claro"]
 position = Vector2( 2531, 2736 )
 scale = Vector2( 2.78125, 2.78125 )
-z_index = 5
+z_index = 3
 z_as_relative = false
 texture = ExtResource( 146 )
 
@@ -1608,6 +1617,7 @@ texture = ExtResource( 149 )
 position = Vector2( 1778, 553 )
 scale = Vector2( 0.292838, 0.292838 )
 z_index = 3
+z_as_relative = false
 texture = ExtResource( 149 )
 
 [node name="DecoraçãoParede" type="Sprite" parent="Plantinhas-parede3"]
@@ -1639,42 +1649,47 @@ texture = ExtResource( 150 )
 [node name="ArmarioCopa" type="Sprite" parent="."]
 position = Vector2( 326.125, 2027.13 )
 scale = Vector2( 1.49804, 1.49804 )
-z_index = 4
+z_index = 3
 z_as_relative = false
 texture = ExtResource( 151 )
 
 [node name="Bancada" type="Sprite" parent="ArmarioCopa"]
 position = Vector2( 168.804, 114.73 )
 scale = Vector2( 0.535672, 0.535672 )
-z_index = 9
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 136 )
 
 [node name="Bancada" type="Sprite" parent="ArmarioCopa/Bancada"]
 position = Vector2( -194.325, -0.000244141 )
-z_index = -1
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 136 )
 
 [node name="ArmárioMadeira" type="Sprite" parent="ArmarioCopa"]
 position = Vector2( 142.828, 19.3665 )
 scale = Vector2( 0.786527, 0.786527 )
-z_index = 5
+z_index = 3
 z_as_relative = false
 texture = ExtResource( 50 )
 
 [node name="Plantinha" type="Sprite" parent="."]
 position = Vector2( 786, 195 )
 scale = Vector2( 1.46154, 1.46154 )
-z_index = 7
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 148 )
 
 [node name="Plantinha" type="Sprite" parent="Plantinha"]
 position = Vector2( 138.21, -1.36844 )
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 148 )
 
 [node name="MesaChefe" type="Sprite" parent="."]
 position = Vector2( 1142, -368 )
 scale = Vector2( 0.765882, 0.765882 )
-z_index = 7
+z_index = 3
 z_as_relative = false
 texture = ExtResource( 118 )
 
@@ -1703,27 +1718,27 @@ texture = ExtResource( 149 )
 [node name="Frigde" type="Sprite" parent="."]
 position = Vector2( 636, 2012 )
 scale = Vector2( 0.414583, 0.414583 )
-z_index = 5
+z_index = 3
 z_as_relative = false
 texture = ExtResource( 52 )
 
 [node name="Papeis" type="Sprite" parent="."]
 position = Vector2( 1041, -455 )
 scale = Vector2( 0.255062, 0.255062 )
-z_index = 4
+z_index = 3
 texture = ExtResource( 53 )
 
 [node name="Máquina-café" type="Sprite" parent="."]
 position = Vector2( 798, 1981 )
 scale = Vector2( 0.707147, 0.707147 )
-z_index = 4
+z_index = 3
 z_as_relative = false
 texture = ExtResource( 124 )
 
 [node name="Máquina-café2" type="Sprite" parent="."]
 position = Vector2( 1886, 570 )
 scale = Vector2( 0.624259, 0.624259 )
-z_index = 4
+z_index = 3
 z_as_relative = false
 texture = ExtResource( 124 )
 
@@ -1856,7 +1871,7 @@ texture = ExtResource( 45 )
 [node name="MáquinaJogo" type="Sprite" parent="."]
 position = Vector2( 219, 2123 )
 scale = Vector2( 0.278433, 0.278433 )
-z_index = 5
+z_index = 3
 z_as_relative = false
 texture = ExtResource( 122 )
 flip_h = true
@@ -1881,24 +1896,32 @@ texture = ExtResource( 119 )
 [node name="QuadroLucas" type="Sprite" parent="."]
 position = Vector2( 759, 2691 )
 scale = Vector2( 0.0546266, 0.0546266 )
-z_index = 5
+z_index = 3
 z_as_relative = false
 texture = ExtResource( 130 )
 
 [node name="QuadroJoao" type="Sprite" parent="QuadroLucas"]
 position = Vector2( 1556.02, -0.00390625 )
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 128 )
 
 [node name="QuadroIsabela" type="Sprite" parent="QuadroLucas/QuadroJoao"]
 position = Vector2( 1556.02, -18.3047 )
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 135 )
 
 [node name="QuadroGloria" type="Sprite" parent="QuadroLucas/QuadroJoao/QuadroIsabela"]
 position = Vector2( 1647.55, -18.3086 )
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 134 )
 
 [node name="QuadroAntonio" type="Sprite" parent="QuadroLucas/QuadroJoao/QuadroIsabela/QuadroGloria"]
 position = Vector2( 1629.24, -18.3008 )
+z_index = 3
+z_as_relative = false
 texture = ExtResource( 137 )
 
 [node name="QuadroAna" type="Sprite" parent="QuadroLucas/QuadroJoao/QuadroIsabela/QuadroGloria/QuadroAntonio"]
@@ -1912,7 +1935,7 @@ position = Vector2( 1060, 1063 )
 z_index = 3
 frames = SubResource( 54 )
 animation = "andando"
-frame = 4
+frame = 6
 speed_scale = 4.0
 playing = true
 
