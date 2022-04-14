@@ -1,5 +1,5 @@
 extends KinematicBody2D
-var SPEED = 700
+var SPEED = 150
 #150
 var velocity = Vector2.ZERO
 

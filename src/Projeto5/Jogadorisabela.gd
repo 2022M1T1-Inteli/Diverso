@@ -1,5 +1,5 @@
 extends KinematicBody2D
-var SPEED = 800
+var SPEED = 300
 var velocity = Vector2.ZERO
 
 func _ready():
