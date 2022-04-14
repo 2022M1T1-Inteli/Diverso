@@ -21,5 +21,5 @@ func _on_opcao1_pressed() -> void:
 
 
 func _on_opcao4_pressed() -> void:
-	Globalpos.objective = "Vá para o Copa"
+	Globalpos.objective = "Vá para a Copa"
 	Transition.fade_into("res://LabirintoGlória.tscn") # Replace with function body.

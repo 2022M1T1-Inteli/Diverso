@@ -23,6 +23,7 @@ func _input(event):
 			add_child(dialog)
 			Globalpos.npc5 = true
 			Globalpos.npc2 = false
+			Transition.fade_into("res://Scene/Gloria/QuizGloria/QuizGloria3.tscn")
 
 func unpause(timeline_timeline1):
 	get_tree().paused = false

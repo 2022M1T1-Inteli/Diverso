@@ -760,11 +760,6 @@ z_index = 1
 texture = ExtResource( 156 )
 flip_h = true
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Dixieg/Dixie"]
-position = Vector2( -490, 1043 )
-z_index = 30
-shape = SubResource( 46 )
-
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Dixieg/Dixie"]
 z_index = 30
 shape = SubResource( 46 )
@@ -777,23 +772,6 @@ texture = ExtResource( 48 )
 centered = false
 region_enabled = true
 region_rect = Rect2( 388.718, 201.424, 381.33, 797.767 )
-
-[node name="Pointd2" type="Sprite" parent="Dixieg/Dixie"]
-position = Vector2( -509, 947 )
-scale = Vector2( 0.0839896, 0.0803011 )
-z_index = 5
-texture = ExtResource( 48 )
-centered = false
-region_enabled = true
-region_rect = Rect2( 388.718, 201.424, 381.33, 797.767 )
-
-[node name="Estrela2g" type="Sprite" parent="Dixieg/Dixie"]
-position = Vector2( -529, 1000 )
-scale = Vector2( 0.770833, 0.770833 )
-z_index = 1
-texture = ExtResource( 156 )
-centered = false
-flip_h = true
 
 [node name="NPC\'s" type="Node2D" parent="."]
 
@@ -1063,7 +1041,7 @@ position = Vector2( 2855, 2735 )
 z_index = 3
 frames = SubResource( 28 )
 animation = "Genero Flúido"
-frame = 4
+frame = 1
 playing = true
 
 [node name="Pansexual" type="AnimatedSprite" parent="Lager"]
@@ -1071,7 +1049,7 @@ position = Vector2( 2954, 2737 )
 z_index = 3
 frames = SubResource( 29 )
 animation = "Pansexual"
-frame = 1
+frame = 7
 playing = true
 flip_h = true
 
@@ -1080,7 +1058,7 @@ position = Vector2( 2507, 2840 )
 z_index = 2
 frames = SubResource( 30 )
 animation = "Queer"
-frame = 5
+frame = 2
 playing = true
 
 [node name="Bissexual" type="AnimatedSprite" parent="Lager"]
@@ -1088,7 +1066,7 @@ position = Vector2( 2560, 2776 )
 z_index = 2
 frames = SubResource( 26 )
 animation = "Bissexual"
-frame = 4
+frame = 1
 playing = true
 flip_h = true
 
@@ -1099,7 +1077,7 @@ position = Vector2( 2600, 2833 )
 z_index = 2
 frames = SubResource( 33 )
 animation = "Lucas"
-frame = 7
+frame = 4
 playing = true
 flip_h = true
 
