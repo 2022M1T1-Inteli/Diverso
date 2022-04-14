@@ -22,6 +22,7 @@ func _on_quit_pressed():
 	Globalpos.npc6=false
 	Globalpos.npc7=false
 	Globalpos.star=true
+	Globalpos.objective=""
 	get_tree().change_scene("res://SelecaoPersonagem.tscn")
 
 

@@ -14,3 +14,4 @@ func _on_SelecionarPersonagem_pressed() -> void:
 	Globalpos.npc6=false
 	Globalpos.npc7=false
 	Globalpos.star=true
+	Globalpos.objective=""
