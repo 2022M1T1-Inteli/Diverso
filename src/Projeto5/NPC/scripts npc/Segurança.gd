@@ -22,7 +22,7 @@ func _input(event):
 			dialog.connect('timeline_end', self, 'unpause')
 			add_child(dialog)
 			Globalpos.npc1=true
-			Globalpos.objective = "Vá para a rececpção"
+			Globalpos.objective = "Vá para a recepção"
 
 func unpause(timeline_timeline1):
 	get_tree().paused = false
