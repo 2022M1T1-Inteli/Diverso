@@ -8,14 +8,20 @@
 
 ## Zé Developers
 
-## Integrantes: Daniel Cunha</a>, Gabriel Yin</a>, Julia Togni</a>, Mike Mouadeb</a>, Sophia Dias</a>, Vitor Zeferino</a>
+## Integrantes: 
+- Daniel Cunha</a>, 
+- Gabriel Yin</a>, 
+- Julia Togni</a>, 
+- Mike Mouadeb</a>, 
+- Sophia Dias</a>, 
+- Vitor Zeferino</a>
 
 ## Professores Orientadores: 
-<a href="http://lattes.cnpq.br/2716416791407528" target="_blank" rel="noopener noreferrer"> Flavio Marques Azevedo </a>, 
-<a href="http://lattes.cnpq.br/9324969584977927" target="_blank" rel="noopener noreferrer"> Laíza Ribeiro </a>, 
-<a href="http://lattes.cnpq.br/2951162577564329" target="_blank" rel="noopener noreferrer"> Pedro Teberga</a>, 
-<a href="http://lattes.cnpq.br/2327073767433655" target="_blank" rel="noopener noreferrer"> Ricardo Missori </a>,
-<a href="http://lattes.cnpq.br/3254174044411983" target="_blank" rel="noopener noreferrer"> Victor Bruno Alexander Rosetti de Quiroz </a>
+- <a href="http://lattes.cnpq.br/2716416791407528" target="_blank" rel="noopener noreferrer"> Flavio Marques Azevedo </a> 
+- <a href="http://lattes.cnpq.br/9324969584977927" target="_blank" rel="noopener noreferrer"> Laíza Ribeiro </a>
+- <a href="http://lattes.cnpq.br/2951162577564329" target="_blank" rel="noopener noreferrer"> Pedro Teberga</a>
+- <a href="http://lattes.cnpq.br/2327073767433655" target="_blank" rel="noopener noreferrer"> Ricardo Missori </a>
+- <a href="http://lattes.cnpq.br/3254174044411983" target="_blank" rel="noopener noreferrer"> Victor Bruno Alexander Rosetti de Quiroz </a>
 
 ## Descrição
 
@@ -67,38 +73,25 @@ Nosso projeto é uma ferramenta de ensino para os funcionários da <a href="http
 
 ## 🛠 Instalação
 
-<b>Android:</b>
-
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
 <b>Windows:</b>
 
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
+Não há instalação, apenas executável. Baixe os arquivos disponíveis em https://github.com/2022M1T1/Projeto5/tree/main/execut%C3%A1veis/Windows e execute "Diverso.exe" como qualquer outro programa.
 
-```sh
-Coloque código do prompt de comnando se for necessário
+```
+Observe que é necessário que o arquivo "Diverso.pck" esteja
+no mesmo diretório que "Diverso.exe" para que o jogo inicie
+corretamente.
 ```
 
 <b>HTML:</b>
 
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+Não há instalação! Baixe os arquivos disponíveis em https://github.com/2022M1T1/Projeto5/tree/main/execut%C3%A1veis/Htmlfinal e execute-o como uma página da web (através de algum navegador).
 
-## 📈 Exemplo de uso
-
-Alguns exemplos interessantes e úteis sobre como seu projeto pode ser utilizado.
-
-Adicione blocos de códigos e, se necessário, screenshots.
-
-Este modelo pode ser copiado e utilizado à vontade.
-
-Através da cópia/clone/ download do repositório, altere os dados do readme.md e carregue os arquivos de seu projeto.
+```sh
+Dependendo de suas configurações de firewall, talvez seja necessário
+instaurar um web service como xampp ou wampp para que o jogo rode lo-
+calmente.
+```
 
 ## 💻 Configuração para Desenvolvimento
 
@@ -109,26 +102,9 @@ Para abrir este projeto você necessita das seguintes ferramentas:
 1. Baixe o projeto.
 2. Abra o Godot Engine.
 3. Selecione a opção "Importar" para importar um projeto.
-4. Selecione o arquivo `Diverso` localizado em `src/Projeto5/` da pasta raiz do projeto.
+4. Selecione o arquivo `project.godot` localizado em `src/Projeto5/` da pasta raiz do projeto.
 5. Agora o godot irá importar o jogo e você poderá ter acesso a todo projeto!
-```
 
-## 🗃 Histórico de lançamentos
-
-A cada atualização os detalhes devem ser lançados aqui.
-
-* 0.2.1 - 25/01/2022
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0 - 15/01/2022
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0 - 10/01/2022
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1 - 01/01/2022
-    * Trabalho em andamento
 
 ## 📋 Licença/License
 
@@ -138,6 +114,6 @@ A cada atualização os detalhes devem ser lançados aqui.
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/coppolaemilio/dialogic> 
-2. Música retirada de: https://freesound.org/people/Michael-DB/sounds/489035/ </a> Game-Music-01 by Michael-DB
-3. Música retirada de: https://uppbeat.io/browse/music/sunny-beats </a> Clear Sky - Hartzmann
+1. <https://github.com/coppolaemilio/dialogic>; 
+2. Música retirada de: <https://freesound.org/people/Michael-DB/sounds/489035/> </a> (Game-Music-01 by Michael-DB);
+3. Música retirada de: <https://uppbeat.io/browse/music/sunny-beats> </a> (Clear Sky - Hartzmann).
