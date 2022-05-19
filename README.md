@@ -44,32 +44,48 @@ Nosso projeto é uma ferramenta de ensino para os funcionários da <a href="http
 
 ## 🛠 Estrutura de pastas
 
-- 📂 _Projeto5
-   - 📂 _[músicas](https://github.com/2022M1T1/Projeto5/tree/main/Musicas)
-      - 📄 Músicas utilizadas no projeto
-   - 📂 _[apresentações](https://github.com/2022M1T1/Projeto5/tree/main/apresenta%C3%A7%C3%B5es)
-      - 📄 Arquivos das apresentações do projeto
-   - 📂 _[documentos](https://github.com/2022M1T1/Projeto5/tree/main/documentos)
-     - 📄 Arquivos de documentos do projeto
-   - 📂 _[executáveis](https://github.com/2022M1T1/Projeto5/tree/main/execut%C3%A1veis)
-      - 📄 Local onde estão os executáveis do jogo
-   - 📂 _[imagens](https://github.com/2022M1T1/Projeto5/tree/main/imagens)
-      - 📄 Imagens do projeto
-   - 📂 _[src](https://github.com/2022M1T1/Projeto5/tree/main/src) | Projetos
-      - 📂 __[Projeto5](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5)
-        - 📂 _[DIVERSO](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/DIVERSO)
-          - 📄 Arquivo ZIP do projeto.
-        - 📂 _[Scene](src/Projeto5/scenes)
-            - 📂 _[Ana](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/Ana)
-            - 📂 _[Antonio](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/Antonio)
-            - 📂 _[Gloria](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/Gloria)
-            - 📂 _[Isabela](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/Isabela)
-            - 📂 _[Joao](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/Joao)
-            - 📂 _[Lucas](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/Lucas)
-            - 📂 _[outras cenas](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/outras%20cenas)
-            - 📂 _[outrascenas](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/outrascenas)
- - 📄 _[README.md](https://github.com/2022M1T1/Projeto5/blob/main/README.md)
+-_Projeto5
+   -_[músicas](https://github.com/2022M1T1/Projeto5/tree/main/Musicas)
+      - Músicas utilizadas no projeto
+   -  _[apresentações](https://github.com/2022M1T1/Projeto5/tree/main/apresenta%C3%A7%C3%B5es)
+      -Arquivos das apresentações do projeto
+   -  _[documentos](https://github.com/2022M1T1/Projeto5/tree/main/documentos)
+      - Modelo GDD FINAL.pdf
+   -  _[executáveis](https://github.com/2022M1T1/Projeto5/tree/main/execut%C3%A1veis)
+      - Local onde estão os executáveis do jogo
+   -  _[imagens](https://github.com/2022M1T1/Projeto5/tree/main/imagens)
+      -  Imagens do projeto
+   -  _[src](https://github.com/2022M1T1/Projeto5/tree/main/src) | Projetos
+      -  __[Projeto5](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5)
+        -  _[DIVERSO](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/DIVERSO)
+          -  Arquivo ZIP do projeto.
+        -  _[Scene](src/Projeto5/scenes)
+            -  _[Ana](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/Ana)
+            -  _[Antonio](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/Antonio)
+            - _[Gloria](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/Gloria)
+            - _[Isabela](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/Isabela)
+            -  _[Joao](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/Joao)
+            -  _[Lucas](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/Lucas)
+            -  _[outras cenas](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/outras%20cenas)
+            -  _[outrascenas](https://github.com/2022M1T1/Projeto5/tree/main/src/Projeto5/Scene/outrascenas)
+ -  _[README.md](https://github.com/2022M1T1/Projeto5/blob/main/README.md)
 
+
+<br>
+Músicas<br>
+Apresentações<br>
+  &emsp;|--> 489035__michael-db__game-music-01.wav<br>
+Documentos<br>
+  &emsp;|--> antigos<br>
+  &emsp;Modelo GDD FINAL.pdf<br>
+executáveis<br>
+  &emsp;|--> windows<br>
+  &emsp;|-->HTML<br>
+imagens<br>
+src<br>
+  &emsp;|--> <br>Projeto5<br>
+readme.md<br>
+licença.txt <br>
 
 ## 🛠 Instalação
 
